@@ -5,106 +5,121 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>IAM Pulse — Identity & Access Management Intelligence</title>
   <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔑</text></svg>" />
 </head>
 <body>
 
-  <!-- ── Header ── -->
-  <header class="site-header">
-    <div class="header-inner">
-      <div class="brand">
-        <span class="brand-icon">🔑</span>
-        <div>
-          <h1>IAM Pulse</h1>
-          <p class="brand-sub">Identity &amp; Access Management — Daily Intelligence</p>
+  <!-- ── Masthead ── -->
+  <div class="masthead-bar">
+    <div class="masthead-inner">
+      <div class="masthead-left">
+        <span class="masthead-date" id="masthead-date"></span>
+      </div>
+      <div class="masthead-brand">
+        <div class="brand-lockup">
+          <span class="brand-key">🔑</span>
+          <div>
+            <div class="brand-name">IAM Pulse</div>
+            <div class="brand-tagline">Identity &amp; Access Management Intelligence</div>
+          </div>
         </div>
       </div>
-      <div class="header-meta">
-        <span id="article-count" class="meta-badge">Loading…</span>
-        <span id="last-updated" class="meta-badge">–</span>
-        <input id="search" type="search" placeholder="Search all news…" autocomplete="off" />
+      <div class="masthead-right">
+        <span id="article-count" class="masthead-count"></span>
       </div>
     </div>
-  </header>
+  </div>
 
-  <!-- ── Body ── -->
-  <div class="app-layout">
+  <!-- ── Nav bar ── -->
+  <nav class="nav-bar">
+    <div class="nav-inner">
+      <div class="nav-links">
+        <button class="nav-link active" data-section="all">All</button>
+        <button class="nav-link" data-section="news">News</button>
+        <button class="nav-link" data-section="vendor">Vendor</button>
+        <button class="nav-link" data-section="whitepaper">Research</button>
+        <button class="nav-link" data-section="breach">Breaches</button>
+      </div>
+      <div class="nav-search-wrap">
+        <input id="search" type="search" placeholder="Search…" autocomplete="off" />
+      </div>
+    </div>
+  </nav>
 
-    <!-- Left sidebar: filters -->
-    <aside class="sidebar">
-      <div class="sidebar-section">
-        <h3>Topic</h3>
-        <div id="tag-filters" class="filter-group"></div>
-      </div>
-      <div class="sidebar-section">
-        <h3>Source type</h3>
-        <div id="category-filters" class="filter-group"></div>
-      </div>
-      <div class="sidebar-section">
-        <button id="clear-filters" class="clear-btn">Clear filters</button>
-      </div>
-    </aside>
+  <!-- ── Topic bar ── -->
+  <div class="topic-bar">
+    <div class="topic-bar-inner">
+      <span class="topic-bar-label">Topics:</span>
+      <div id="topic-chips" class="topic-chips"></div>
+      <button id="clear-filters" class="topic-clear" style="display:none">✕ Clear</button>
+    </div>
+  </div>
 
-    <!-- Centre: main content -->
-    <main class="content" id="main-content">
+  <!-- ── Main layout ── -->
+  <div class="page-wrap">
+
+    <!-- Centre content -->
+    <main class="content">
 
       <!-- Priority Headlines -->
-      <section class="section" id="sec-headlines">
-        <div class="section-header">
-          <span class="section-icon">🔥</span>
-          <h2>Priority Headlines</h2>
-          <span class="section-sub">Top stories from the last 48 hours</span>
+      <section class="editorial-section" id="sec-headlines">
+        <div class="section-rule">
+          <span class="section-label">Priority Headlines</span>
         </div>
-        <div id="headlines-list" class="headlines-list"></div>
+
+        <!-- Lead story -->
+        <div id="lead-story" class="lead-story"></div>
+
+        <!-- Secondary headlines grid -->
+        <div id="secondary-stories" class="secondary-grid"></div>
       </section>
 
-      <!-- Two-up row: Whitepapers + Vendor News -->
-      <div class="two-col-row">
-        <section class="section" id="sec-whitepapers">
-          <div class="section-header">
-            <span class="section-icon">📄</span>
-            <h2>Latest Whitepapers &amp; Research</h2>
+      <div class="section-divider"></div>
+
+      <!-- Whitepapers + Vendor side by side -->
+      <div class="two-up">
+
+        <section class="editorial-section two-up-left" id="sec-whitepapers">
+          <div class="section-rule">
+            <span class="section-label">Research &amp; Whitepapers</span>
           </div>
-          <div id="whitepaper-list" class="whitepaper-list"></div>
+          <div id="whitepaper-list" class="wp-list"></div>
         </section>
 
-        <section class="section" id="sec-vendor">
-          <div class="section-header">
-            <span class="section-icon">🏢</span>
-            <h2>Vendor News</h2>
+        <div class="two-up-divider"></div>
+
+        <section class="editorial-section two-up-right" id="sec-vendor">
+          <div class="section-rule">
+            <span class="section-label">Vendor News</span>
           </div>
-          <div id="vendor-grid" class="mini-grid"></div>
+          <div id="vendor-list" class="vendor-list"></div>
         </section>
+
       </div>
 
-      <!-- General IAM News -->
-      <section class="section" id="sec-news">
-        <div class="section-header">
-          <span class="section-icon">📰</span>
-          <h2>IAM News Feed</h2>
+      <div class="section-divider"></div>
+
+      <!-- IAM News Feed -->
+      <section class="editorial-section" id="sec-newsfeed">
+        <div class="section-rule">
+          <span class="section-label">IAM News Feed</span>
           <div id="active-filters" class="active-filters"></div>
         </div>
         <div id="news-grid" class="news-grid">
-          <div class="loading-state">
-            <div class="spinner"></div>
-            <p>Loading…</p>
-          </div>
+          <div class="loading-state"><div class="spinner"></div><span>Loading intelligence…</span></div>
         </div>
         <div id="no-results" class="no-results" style="display:none">
-          No articles match. <a href="#" id="reset-link">Clear filters</a>
+          No articles match your filters. <a href="#" id="reset-link">Clear all</a>
         </div>
       </section>
 
     </main>
 
-    <!-- Right breach band -->
-    <aside class="breach-band" id="breach-band">
-      <div class="breach-band-header">
-        <span>🚨</span>
-        <div>
-          <div class="breach-band-title">Breach Tracker</div>
-          <div class="breach-band-sub">Credential &amp; identity compromises</div>
-        </div>
+    <!-- Right: Breach band -->
+    <aside class="breach-band">
+      <div class="breach-header">
+        <div class="breach-header-rule"></div>
+        <div class="breach-header-title">Breach Tracker</div>
+        <div class="breach-header-sub">Identity &amp; credential compromises</div>
       </div>
       <div id="breach-list" class="breach-list">
         <div class="loading-state"><div class="spinner"></div></div>
@@ -113,17 +128,22 @@
 
   </div>
 
-  <!-- Article modal -->
+  <!-- ── Footer ── -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">IAM Pulse</div>
+      <p>Aggregates publicly available RSS feeds and research publications. Updated daily via GitHub Actions. Not affiliated with any vendor.</p>
+      <p style="margin-top:8px;font-size:11px;opacity:.5">© 2026 IAM Pulse</p>
+    </div>
+  </footer>
+
+  <!-- Modal -->
   <div id="modal-overlay" class="modal-overlay" style="display:none">
     <div class="modal">
       <button class="modal-close" id="modal-close">✕</button>
       <div id="modal-content"></div>
     </div>
   </div>
-
-  <footer class="site-footer">
-    <p>IAM Pulse aggregates publicly available RSS feeds &amp; research sources. Updated daily via GitHub Actions.</p>
-  </footer>
 
   <script src="app.js"></script>
 </body>
