@@ -3,11 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>IAM Pulse — Identity & Access Management News</title>
+  <title>IAM Pulse — Identity & Access Management Intelligence</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔑</text></svg>" />
 </head>
 <body>
+
+  <!-- ── Header ── -->
   <header class="site-header">
     <div class="header-inner">
       <div class="brand">
@@ -20,45 +22,95 @@
       <div class="header-meta">
         <span id="article-count" class="meta-badge">Loading…</span>
         <span id="last-updated" class="meta-badge">–</span>
+        <input id="search" type="search" placeholder="Search all news…" autocomplete="off" />
       </div>
     </div>
   </header>
 
-  <div class="layout">
-    <!-- Sidebar -->
+  <!-- ── Body ── -->
+  <div class="app-layout">
+
+    <!-- Left sidebar: filters -->
     <aside class="sidebar">
       <div class="sidebar-section">
-        <h3>Filter by Topic</h3>
+        <h3>Topic</h3>
         <div id="tag-filters" class="filter-group"></div>
       </div>
       <div class="sidebar-section">
-        <h3>Filter by Source</h3>
+        <h3>Source type</h3>
         <div id="category-filters" class="filter-group"></div>
       </div>
       <div class="sidebar-section">
-        <button id="clear-filters" class="clear-btn">Clear all filters</button>
+        <button id="clear-filters" class="clear-btn">Clear filters</button>
       </div>
     </aside>
 
-    <!-- Main content -->
-    <main class="content">
-      <div class="search-bar">
-        <input id="search" type="search" placeholder="Search IAM news…" autocomplete="off" />
+    <!-- Centre: main content -->
+    <main class="content" id="main-content">
+
+      <!-- Priority Headlines -->
+      <section class="section" id="sec-headlines">
+        <div class="section-header">
+          <span class="section-icon">🔥</span>
+          <h2>Priority Headlines</h2>
+          <span class="section-sub">Top stories from the last 48 hours</span>
+        </div>
+        <div id="headlines-list" class="headlines-list"></div>
+      </section>
+
+      <!-- Two-up row: Whitepapers + Vendor News -->
+      <div class="two-col-row">
+        <section class="section" id="sec-whitepapers">
+          <div class="section-header">
+            <span class="section-icon">📄</span>
+            <h2>Latest Whitepapers &amp; Research</h2>
+          </div>
+          <div id="whitepaper-list" class="whitepaper-list"></div>
+        </section>
+
+        <section class="section" id="sec-vendor">
+          <div class="section-header">
+            <span class="section-icon">🏢</span>
+            <h2>Vendor News</h2>
+          </div>
+          <div id="vendor-grid" class="mini-grid"></div>
+        </section>
       </div>
 
-      <div id="active-filters" class="active-filters"></div>
+      <!-- General IAM News -->
+      <section class="section" id="sec-news">
+        <div class="section-header">
+          <span class="section-icon">📰</span>
+          <h2>IAM News Feed</h2>
+          <div id="active-filters" class="active-filters"></div>
+        </div>
+        <div id="news-grid" class="news-grid">
+          <div class="loading-state">
+            <div class="spinner"></div>
+            <p>Loading…</p>
+          </div>
+        </div>
+        <div id="no-results" class="no-results" style="display:none">
+          No articles match. <a href="#" id="reset-link">Clear filters</a>
+        </div>
+      </section>
 
-      <div id="news-grid" class="news-grid">
-        <div class="loading-state">
-          <div class="spinner"></div>
-          <p>Loading latest IAM intelligence…</p>
+    </main>
+
+    <!-- Right breach band -->
+    <aside class="breach-band" id="breach-band">
+      <div class="breach-band-header">
+        <span>🚨</span>
+        <div>
+          <div class="breach-band-title">Breach Tracker</div>
+          <div class="breach-band-sub">Credential &amp; identity compromises</div>
         </div>
       </div>
-
-      <div id="no-results" class="no-results" style="display:none">
-        <p>No articles match your filters. <a href="#" id="reset-link">Clear filters</a></p>
+      <div id="breach-list" class="breach-list">
+        <div class="loading-state"><div class="spinner"></div></div>
       </div>
-    </main>
+    </aside>
+
   </div>
 
   <!-- Article modal -->
@@ -70,8 +122,7 @@
   </div>
 
   <footer class="site-footer">
-    <p>IAM Pulse aggregates publicly available RSS feeds. Updated daily via GitHub Actions.
-    <a href="https://github.com" target="_blank" rel="noopener">Source on GitHub</a>.</p>
+    <p>IAM Pulse aggregates publicly available RSS feeds &amp; research sources. Updated daily via GitHub Actions.</p>
   </footer>
 
   <script src="app.js"></script>
