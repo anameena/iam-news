@@ -279,6 +279,7 @@ function clearFilters() {
   state.activeSection = 'all';
   state.searchQuery = '';
   document.getElementById('search').value = '';
+  document.getElementById('search-mobile').value = '';
   document.querySelectorAll('.nav-link').forEach(b => b.classList.toggle('active', b.dataset.section === 'all'));
   renderAll();
 }
@@ -329,10 +330,9 @@ document.addEventListener('DOMContentLoaded', () => {
   setMastheadDate();
   loadNews();
 
-  document.getElementById('search').addEventListener('input', e => {
-    state.searchQuery = e.target.value.trim();
-    renderNewsFeed();
-  });
+  const onSearch = e => { state.searchQuery = e.target.value.trim(); renderNewsFeed(); };
+  document.getElementById('search').addEventListener('input', onSearch);
+  document.getElementById('search-mobile').addEventListener('input', onSearch);
 
   document.getElementById('clear-filters').addEventListener('click', clearFilters);
   document.getElementById('reset-link')?.addEventListener('click', e => { e.preventDefault(); clearFilters(); });
