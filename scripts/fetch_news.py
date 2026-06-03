@@ -59,6 +59,32 @@ NEWSAPI_QUERIES = [
     '"identity governance" compliance OR "eIDAS" OR "NIST" identity',
 ]
 
+# ── Trusted domains for NewsAPI (security/tech publications only) ──────────
+# NewsAPI will ONLY return articles from these domains — eliminates general
+# news sites that publish unrelated content containing IAM keywords by chance.
+TRUSTED_DOMAINS = ",".join([
+    # Cybersecurity news
+    "darkreading.com", "bleepingcomputer.com", "thehackernews.com",
+    "securityweek.com", "threatpost.com", "cyberscoop.com",
+    "infosecurity-magazine.com", "scmagazine.com", "krebsonsecurity.com",
+    "helpnetsecurity.com", "securityboulevard.com", "govinfosecurity.com",
+    "bankinfosecurity.com", "csoonline.com", "securityintelligence.com",
+    "thecyberwire.com", "recordedfuture.com", "portswigger.net",
+    # Tech news (IAM-aware)
+    "zdnet.com", "techcrunch.com", "wired.com", "theregister.com",
+    "arstechnica.com", "venturebeat.com", "techrepublic.com",
+    "computerworld.com", "infoworld.com", "itpro.com",
+    # Identity-specific
+    "identityweek.net", "findbiometrics.com",
+    # Vendor blogs / official sources
+    "okta.com", "sec.okta.com", "cyberark.com", "sailpoint.com",
+    "saviynt.com", "beyondtrust.com", "delinea.com", "pingidentity.com",
+    "forgerock.com", "auth0.com", "opal.dev", "veza.com",
+    "permiso.io", "aembit.io", "microsoft.com", "techcommunity.microsoft.com",
+    # Government / standards
+    "cisa.gov", "nist.gov", "ncsc.gov.uk",
+])
+
 # ── Reliable RSS-only sources (verified feeds with clean URLs) ─────────────
 RSS_SOURCES = [
     {"name": "Okta Security Blog",      "url": "https://sec.okta.com/feed",                                                      "category": "Vendor"},
@@ -124,6 +150,7 @@ STRONG_IAM_TERMS = [
 # EXCLUSION terms: articles matching these (without a strong IAM term)
 # are almost certainly NOT about IAM technology.
 EXCLUSION_TERMS = [
+    # Personal / social identity (non-tech)
     "gender identity", "sexual identity", "lgbtq identity",
     "racial identity", "ethnic identity", "cultural identity",
     "national identity", "political identity", "religious identity",
@@ -132,14 +159,34 @@ EXCLUSION_TERMS = [
     "indigenous identity", "tribal identity",
     "identity politics", "identity crisis", "identity formation",
     "identity development", "identity theory", "identity psychology",
+    # Branding / marketing
     "brand identity", "visual identity", "corporate identity design",
-    "brand strategy", "logo design",
+    "brand strategy", "logo design", "rebranding",
+    # Psychology / mental health
     "mental health", "psychology", "psychiatric", "psychologist",
-    "self-esteem", "self-concept", "narcissism",
+    "self-esteem", "self-concept", "narcissism", "therapy",
+    "dissociative identity", "personality disorder",
+    # Genealogy / heritage
     "ancestry", "genealogy", "ancestral", "heritage",
-    "philosophy of identity", "personal essay",
+    "family history", "dna test",
+    # Philosophy
+    "philosophy of identity", "personal essay", "existential",
+    # Politics / government (non-IAM)
     "voter id", "election identity", "immigration identity",
-    "refugee identity", "asylum seeker",
+    "refugee identity", "asylum seeker", "city renamed",
+    "town renamed", "village renamed", "chief minister",
+    "governor", "senator", "parliament", "congress",
+    "political party", "election campaign",
+    # Entertainment / sports / lifestyle
+    "box office", "film festival", "celebrity", "music album",
+    "sports team", "football", "cricket", "olympics",
+    "fashion", "beauty", "lifestyle", "recipe", "travel destination",
+    # Real estate / finance (non-security)
+    "real estate", "housing market", "stock market", "cryptocurrency price",
+    "bitcoin price", "nft",
+    # Health (non-security)
+    "vaccine", "cancer treatment", "clinical trial", "hospital",
+    "medical research", "drug approval",
 ]
 
 # ── Section classification ─────────────────────────────────────────────────
@@ -209,27 +256,39 @@ def clean_html(raw: str) -> str:
 
 def is_iam_relevant(title: str, body: str) -> bool:
     """
-    Two-tier check:
-    1. Reject immediately if the text contains exclusion terms
-       WITHOUT also containing a strong IAM term (avoids psychology,
-       politics, culture articles that mention "identity").
-    2. Require at least one STRONG IAM-specific term — generic words
-       like "identity", "authentication", "access" alone are not enough.
-    """
-    text = (title + " " + body).lower()
+    Three-layer filter:
 
-    # Must have at least one strong IAM-specific term
-    has_strong = any(term in text for term in STRONG_IAM_TERMS)
-    if not has_strong:
+    Layer 1 — TITLE check (strictest gate):
+      The article title must contain at least one strong IAM term.
+      If the headline isn't about IAM, we don't care what the body says.
+      This alone eliminates articles like "Town renamed..." that only
+      contain IAM keywords buried in unrelated body text.
+
+    Layer 2 — EXCLUSION check:
+      Even if the title passes, reject if non-IAM topics dominate.
+
+    Layer 3 — BODY confirmation:
+      The body must also contain at least one strong IAM term
+      (filters out accidental title matches).
+    """
+    title_lower = title.lower()
+    body_lower  = body.lower()
+    full_text   = title_lower + " " + body_lower
+
+    # ── Layer 1: Title must contain a strong IAM term ──────────────────────
+    title_has_strong = any(term in title_lower for term in STRONG_IAM_TERMS)
+    if not title_has_strong:
         return False
 
-    # Reject if exclusion topic dominates (title carries more weight)
-    title_lower = title.lower()
+    # ── Layer 2: Exclusion check on title ─────────────────────────────────
     for excl in EXCLUSION_TERMS:
         if excl in title_lower:
-            return False   # exclusion in headline = almost certainly off-topic
-        if text.count(excl) >= 2:
-            return False   # repeated exclusion term in body = off-topic
+            return False
+
+    # ── Layer 3: Body must also contain at least one strong IAM term ───────
+    body_has_strong = any(term in body_lower for term in STRONG_IAM_TERMS)
+    if not body_has_strong:
+        return False
 
     return True
 
@@ -309,6 +368,7 @@ def fetch_newsapi() -> list[dict]:
             "sortBy":   "publishedAt",
             "language": "en",
             "pageSize": 30,
+            "domains":  TRUSTED_DOMAINS,   # restrict to vetted publications
             "apiKey":   NEWSAPI_KEY,
         }
         try:
