@@ -55,8 +55,22 @@
     </div>
   </div>
 
+  <!-- ── Section page (shown when navigating to a filter/section) ── -->
+  <div id="section-page" class="section-page" style="display:none">
+    <div class="sp-header">
+      <button id="back-btn" class="sp-back">← Back to Home</button>
+      <div class="sp-title-wrap">
+        <h1 id="sp-title"></h1>
+        <span id="sp-count" class="sp-count"></span>
+      </div>
+      <input id="sp-search" type="search" placeholder="Search within section…" autocomplete="off" class="sp-search" />
+    </div>
+    <div id="sp-grid" class="sp-grid"></div>
+    <div id="sp-empty" class="no-results" style="display:none">No articles found. <a href="#/">Back to home</a></div>
+  </div>
+
   <!-- ── Main layout ── -->
-  <div class="page-wrap">
+  <div id="home-page" class="page-wrap">
 
     <!-- Centre content -->
     <main class="content">
@@ -127,7 +141,7 @@
       </div>
     </aside>
 
-  </div>
+  </div><!-- end home-page -->
 
   <!-- ── Footer ── -->
   <footer class="site-footer">

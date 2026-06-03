@@ -1,43 +1,103 @@
 'use strict';
 
+// ── State ──────────────────────────────────────────────────────────────────
 const state = {
   data: null,
-  activeTags: new Set(),
-  activeSection: 'all',
-  searchQuery: '',
+  spSearch: '',   // section-page search
 };
+
+// IDs already displayed in homepage sections (excluded from news feed)
+let shownOnHome = new Set();
 
 // ── Utils ──────────────────────────────────────────────────────────────────
 function formatDate(iso) {
   try {
-    const d = new Date(iso);
-    const now = new Date();
+    const d = new Date(iso), now = new Date();
     const diffH = Math.round((now - d) / 36e5);
-    if (diffH < 1) return 'Just now';
+    if (diffH < 1)  return 'Just now';
     if (diffH < 24) return `${diffH}h ago`;
     if (diffH < 48) return 'Yesterday';
     return d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
   } catch { return ''; }
 }
-
 function esc(s) {
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
-
-function tagsHtml(tags) {
-  return tags.map(t => `<span class="tag" data-tag="${esc(t)}">${esc(t)}</span>`).join('');
+function tagsHtml(tags, clickable = true) {
+  return tags.map(t =>
+    `<span class="tag${clickable ? '' : ''}" data-tag="${esc(t)}">${esc(t)}</span>`
+  ).join('');
+}
+function categoryEmoji(item) {
+  const t = (item.tags || []).join(' ').toLowerCase();
+  if (t.includes('threat') || t.includes('breach'))     return '🚨';
+  if (t.includes('zero trust'))                          return '🛡️';
+  if (t.includes('passwordless') || t.includes('auth')) return '🔐';
+  if (t.includes('pam'))                                 return '🔒';
+  if (t.includes('compliance'))                          return '⚖️';
+  if (t.includes('machine identity') || t.includes('ai identity')) return '🤖';
+  if (t.includes('vendor'))                              return '🏢';
+  return '🔑';
 }
 
 // ── Section helpers ────────────────────────────────────────────────────────
 const isWhitepaper = i => i.section === 'whitepaper';
 const isBreach     = i => i.section === 'breach';
-const isVendor     = i => i.section === 'vendor' || i.category === 'Vendor';
+const isVendor     = i => i.section === 'vendor';
 const isNews       = i => !isWhitepaper(i) && !isBreach(i);
-
-// Section emoji icons for whitepapers
 const wpIcons = ['📄','📊','🔬','📋','📑','🗂️'];
 
-// ── Date in masthead ───────────────────────────────────────────────────────
+// ── Routing ────────────────────────────────────────────────────────────────
+function getRoute() {
+  const hash = window.location.hash.replace(/^#\/?/, '');
+  if (!hash) return { view: 'home' };
+  if (hash.startsWith('section/')) return { view: 'section', value: hash.replace('section/', '') };
+  if (hash.startsWith('tag/'))     return { view: 'tag',     value: decodeURIComponent(hash.replace('tag/', '')) };
+  return { view: 'home' };
+}
+
+function navigate(path) {
+  window.location.hash = path;
+}
+
+// ── Master render (called on hash change) ──────────────────────────────────
+function route() {
+  const r = getRoute();
+  if (!state.data) return;
+  const homePage = document.getElementById('home-page');
+  const sectionPage = document.getElementById('section-page');
+
+  if (r.view === 'home') {
+    homePage.style.display = '';
+    sectionPage.style.display = 'none';
+    window.scrollTo(0, 0);
+  } else {
+    homePage.style.display = 'none';
+    sectionPage.style.display = 'block';
+    state.spSearch = '';
+    document.getElementById('sp-search').value = '';
+    renderSectionPage(r);
+    window.scrollTo(0, 0);
+  }
+  // Keep nav active state in sync
+  document.querySelectorAll('.nav-link').forEach(b => {
+    const matches = r.view === 'section' && b.dataset.section === r.value;
+    b.classList.toggle('active', matches || (r.view === 'home' && b.dataset.section === 'all'));
+  });
+}
+
+// ── Home page rendering ────────────────────────────────────────────────────
+function renderHome() {
+  shownOnHome = new Set();
+  setMastheadDate();
+  renderTopicChips();
+  renderHeadlines();
+  renderWhitepapers();
+  renderVendorNews();
+  renderNewsFeed();
+  renderBreachBand();
+}
+
 function setMastheadDate() {
   const el = document.getElementById('masthead-date');
   if (el) el.textContent = new Date().toLocaleDateString('en-US', {
@@ -45,37 +105,32 @@ function setMastheadDate() {
   });
 }
 
-// ── Render: Priority Headlines ─────────────────────────────────────────────
 function renderHeadlines() {
+  // Top 5 news items (non-breach, non-whitepaper)
   const items = state.data.items.filter(isNews).slice(0, 5);
-  if (!items.length) return;
+  items.forEach(i => shownOnHome.add(i.id));
 
+  if (!items.length) { document.getElementById('lead-story').innerHTML = ''; return; }
   const [lead, ...secondary] = items;
-
-  // Lead story
   const leadCat = (lead.tags[0] || lead.category).toUpperCase();
+
   document.getElementById('lead-story').innerHTML = `
-    <div class="lead-image-block">
-      <div class="lead-image-inner">${getCategoryEmoji(lead)}</div>
-    </div>
+    <div class="lead-image-block"><div class="lead-image-inner">${categoryEmoji(lead)}</div></div>
     <div class="lead-body">
       <div class="lead-category">${esc(leadCat)}</div>
       <div class="lead-title" data-id="${lead.id}">${esc(lead.title)}</div>
       <div class="lead-summary">${esc(lead.summary)}</div>
       <div class="lead-byline">${esc(lead.source)} &nbsp;·&nbsp; ${formatDate(lead.published)}</div>
     </div>`;
-
   document.querySelector('.lead-title')?.addEventListener('click', () => openModal(lead));
 
-  // Secondary stories
-  const secHtml = secondary.slice(0, 4).map(item => `
+  document.getElementById('secondary-stories').innerHTML = secondary.slice(0,4).map(item => `
     <div class="sec-story" data-id="${item.id}">
       <div class="sec-category">${esc((item.tags[0] || item.category).toUpperCase())}</div>
       <div class="sec-title">${esc(item.title)}</div>
       <div class="sec-summary">${esc(item.summary)}</div>
       <div class="sec-meta">${esc(item.source)} · ${formatDate(item.published)}</div>
     </div>`).join('');
-  document.getElementById('secondary-stories').innerHTML = secHtml;
 
   document.querySelectorAll('.sec-story').forEach(el => {
     el.addEventListener('click', () => {
@@ -85,24 +140,13 @@ function renderHeadlines() {
   });
 }
 
-function getCategoryEmoji(item) {
-  const tags = (item.tags || []).join(' ').toLowerCase();
-  if (tags.includes('threat') || tags.includes('breach')) return '🚨';
-  if (tags.includes('zero trust')) return '🛡️';
-  if (tags.includes('passwordless') || tags.includes('authentication')) return '🔐';
-  if (tags.includes('pam')) return '🔒';
-  if (tags.includes('compliance')) return '⚖️';
-  if (tags.includes('vendor')) return '🏢';
-  return '🔑';
-}
-
-// ── Render: Whitepapers ────────────────────────────────────────────────────
 function renderWhitepapers() {
   const items = state.data.items.filter(isWhitepaper).slice(0, 5);
+  items.forEach(i => shownOnHome.add(i.id));
   document.getElementById('whitepaper-list').innerHTML = items.length
-    ? items.map((item, i) => `
+    ? items.map((item, idx) => `
         <div class="wp-item" data-id="${item.id}">
-          <div class="wp-icon-block">${wpIcons[i % wpIcons.length]}</div>
+          <div class="wp-icon-block">${wpIcons[idx % wpIcons.length]}</div>
           <div class="wp-body">
             <div class="wp-source">${esc(item.source)}</div>
             <div class="wp-title">${esc(item.title)}</div>
@@ -110,18 +154,14 @@ function renderWhitepapers() {
           </div>
         </div>`).join('')
     : '<p style="font-size:13px;color:#888;padding:8px 0">No whitepapers found yet.</p>';
-
   document.querySelectorAll('.wp-item').forEach(el => {
-    el.addEventListener('click', () => {
-      const item = state.data.items.find(i => i.id === el.dataset.id);
-      if (item) openModal(item);
-    });
+    el.addEventListener('click', () => openModalById(el.dataset.id));
   });
 }
 
-// ── Render: Vendor News ────────────────────────────────────────────────────
 function renderVendorNews() {
   const items = state.data.items.filter(i => isVendor(i) && !isWhitepaper(i) && !isBreach(i)).slice(0, 5);
+  items.forEach(i => shownOnHome.add(i.id));
   document.getElementById('vendor-list').innerHTML = items.length
     ? items.map(item => `
         <div class="vendor-item" data-id="${item.id}">
@@ -130,161 +170,167 @@ function renderVendorNews() {
           <div class="vendor-summary">${esc(item.summary)}</div>
           <div class="vendor-meta">${formatDate(item.published)}</div>
         </div>`).join('')
-    : '<p style="font-size:13px;color:#888;padding:8px 0">No vendor news found yet.</p>';
-
+    : '<p style="font-size:13px;color:#888;padding:8px 0">No vendor news yet.</p>';
   document.querySelectorAll('.vendor-item').forEach(el => {
-    el.addEventListener('click', () => {
-      const item = state.data.items.find(i => i.id === el.dataset.id);
-      if (item) openModal(item);
-    });
+    el.addEventListener('click', () => openModalById(el.dataset.id));
   });
-}
-
-// ── Render: News feed ──────────────────────────────────────────────────────
-function getFilteredNews() {
-  if (!state.data) return [];
-  let items = state.data.items.filter(isNews);
-
-  if (state.activeSection !== 'all') {
-    items = state.data.items.filter(i => i.section === state.activeSection);
-  }
-  if (state.activeTags.size > 0) {
-    items = items.filter(i => i.tags.some(t => state.activeTags.has(t)));
-  }
-  if (state.searchQuery) {
-    const q = state.searchQuery.toLowerCase();
-    items = items.filter(i =>
-      i.title.toLowerCase().includes(q) ||
-      i.summary.toLowerCase().includes(q) ||
-      i.source.toLowerCase().includes(q) ||
-      i.tags.some(t => t.toLowerCase().includes(q))
-    );
-  }
-  return items;
 }
 
 function renderNewsFeed() {
   const grid = document.getElementById('news-grid');
-  const noResults = document.getElementById('no-results');
-  const items = getFilteredNews();
+  // Exclude anything already shown in headlines / whitepapers / vendor sections
+  const items = state.data.items.filter(isNews).filter(i => !shownOnHome.has(i.id));
+  grid.innerHTML = items.length
+    ? items.map(item => newsCardHtml(item)).join('')
+    : '<div class="loading-state" style="grid-column:1/-1">No more articles.</div>';
+  attachCardClicks(grid);
+}
+
+function renderBreachBand() {
+  const items = state.data.items.filter(isBreach);
+  const list = document.getElementById('breach-list');
+  if (!items.length) {
+    list.innerHTML = '<div style="padding:24px 16px;font-size:12px;color:#5a3030;text-align:center">No breach reports in the last 7 days.</div>';
+    return;
+  }
+  const sevClass = s => ({ critical:'sev-critical', high:'sev-high', medium:'sev-medium' }[s] || 'sev-medium');
+  list.innerHTML = items.map(item => `
+    <div class="breach-item" data-id="${item.id}">
+      <div class="breach-item-top">
+        <div class="breach-title">${esc(item.title)}</div>
+        ${item.severity ? `<div class="breach-sev ${sevClass(item.severity)}"><span class="sev-dot"></span>${item.severity.toUpperCase()}</div>` : ''}
+      </div>
+      <div class="breach-source">${esc(item.source)} · ${formatDate(item.published)}</div>
+      <div class="breach-summary">${esc(item.summary)}</div>
+      ${item.vector ? `<div class="breach-vector">⚡ ${esc(item.vector)}</div>` : ''}
+    </div>`).join('');
+  list.querySelectorAll('.breach-item').forEach(el => {
+    el.addEventListener('click', () => openModalById(el.dataset.id));
+  });
+}
+
+function renderTopicChips() {
+  const chips = Object.entries(state.data.tag_index)
+    .filter(([,ids]) => ids.length > 0)
+    .sort((a,b) => b[1].length - a[1].length)
+    .slice(0, 14);
+  document.getElementById('topic-chips').innerHTML = chips.map(([tag, ids]) => `
+    <button class="topic-chip" data-tag="${esc(tag)}">
+      ${esc(tag)} <span style="opacity:.6">(${ids.length})</span>
+    </button>`).join('');
+  document.querySelectorAll('.topic-chip').forEach(b =>
+    b.addEventListener('click', () => navigate(`tag/${encodeURIComponent(b.dataset.tag)}`))
+  );
+  document.getElementById('clear-filters').style.display = 'none';
+}
+
+// ── Section page rendering ─────────────────────────────────────────────────
+function renderSectionPage(route) {
+  const { view, value } = route;
+  let items = [], title = '', icon = '';
+
+  if (view === 'section') {
+    switch (value) {
+      case 'news':
+        items = state.data.items.filter(isNews);
+        title = 'IAM News'; icon = '📰'; break;
+      case 'vendor':
+        items = state.data.items.filter(i => isVendor(i) && !isBreach(i));
+        title = 'Vendor News'; icon = '🏢'; break;
+      case 'whitepaper':
+        items = state.data.items.filter(isWhitepaper);
+        title = 'Research & Whitepapers'; icon = '📄'; break;
+      case 'breach':
+        items = state.data.items.filter(isBreach);
+        title = 'Breach Tracker'; icon = '🚨'; break;
+      default:
+        items = state.data.items;
+        title = 'All IAM News'; icon = '🔑';
+    }
+  } else if (view === 'tag') {
+    const tagIds = new Set(state.data.tag_index[value] || []);
+    items = state.data.items.filter(i => tagIds.has(i.id));
+    title = value; icon = '🏷️';
+  }
+
+  // Apply section-page search
+  if (state.spSearch) {
+    const q = state.spSearch.toLowerCase();
+    items = items.filter(i =>
+      i.title.toLowerCase().includes(q) ||
+      i.summary.toLowerCase().includes(q) ||
+      i.source.toLowerCase().includes(q)
+    );
+  }
+
+  document.getElementById('sp-title').textContent = `${icon} ${title}`;
+  document.getElementById('sp-count').textContent = `${items.length} article${items.length !== 1 ? 's' : ''}`;
+
+  const grid = document.getElementById('sp-grid');
+  const empty = document.getElementById('sp-empty');
 
   if (!items.length) {
     grid.innerHTML = '';
-    noResults.style.display = 'block';
+    empty.style.display = 'block';
     return;
   }
-  noResults.style.display = 'none';
-  grid.innerHTML = items.map(item => `
+  empty.style.display = 'none';
+
+  // Breach section gets special card treatment
+  if (view === 'section' && value === 'breach') {
+    const sevClass = s => ({ critical:'sev-critical', high:'sev-high', medium:'sev-medium' }[s] || 'sev-medium');
+    const sevColor = s => ({ critical:'#ef4444', high:'#f97316', medium:'#f59e0b' }[s] || '#f59e0b');
+    grid.innerHTML = `<div class="sp-breach-bar" style="grid-column:1/-1"></div>` +
+      items.map(item => `
+        <div class="sp-breach-card" data-id="${item.id}">
+          <div class="sp-breach-sev ${sevClass(item.severity)}" style="color:${sevColor(item.severity)}">
+            <span class="sev-dot" style="background:${sevColor(item.severity)}"></span>
+            ${item.severity ? item.severity.toUpperCase() : 'MEDIUM'}
+          </div>
+          <div class="sp-breach-title">${esc(item.title)}</div>
+          <div class="sp-breach-summary">${esc(item.summary)}</div>
+          ${item.vector ? `<div class="sp-breach-vector">⚡ ${esc(item.vector)}</div>` : ''}
+          <div class="sp-breach-meta">${esc(item.source)} · ${formatDate(item.published)}</div>
+        </div>`).join('');
+    grid.querySelectorAll('.sp-breach-card').forEach(el =>
+      el.addEventListener('click', () => openModalById(el.dataset.id))
+    );
+  } else {
+    grid.innerHTML = items.map(item => newsCardHtml(item)).join('');
+    attachCardClicks(grid);
+  }
+}
+
+// ── Shared card HTML ───────────────────────────────────────────────────────
+function newsCardHtml(item) {
+  return `
     <article class="news-card" data-id="${item.id}">
       <div class="card-category">${esc((item.tags[0] || item.category).toUpperCase())}</div>
       <h3 class="card-title">${esc(item.title)}</h3>
       <p class="card-summary">${esc(item.summary)}</p>
       <div class="card-tags">${tagsHtml(item.tags)}</div>
       <div class="card-meta">${esc(item.source)} · ${formatDate(item.published)}</div>
-    </article>`).join('');
+    </article>`;
+}
 
-  grid.querySelectorAll('.news-card').forEach(card => {
+function attachCardClicks(container) {
+  container.querySelectorAll('.news-card').forEach(card => {
     card.addEventListener('click', e => {
-      if (e.target.classList.contains('tag')) { toggleTag(e.target.dataset.tag); return; }
-      const item = state.data.items.find(i => i.id === card.dataset.id);
-      if (item) openModal(item);
+      if (e.target.classList.contains('tag')) {
+        navigate(`tag/${encodeURIComponent(e.target.dataset.tag)}`);
+        return;
+      }
+      openModalById(card.dataset.id);
     });
   });
-}
-
-// ── Render: Breach band ────────────────────────────────────────────────────
-function renderBreachBand() {
-  const items = state.data.items.filter(isBreach);
-  const list = document.getElementById('breach-list');
-
-  if (!items.length) {
-    list.innerHTML = '<div style="padding:24px 16px;font-size:12px;color:#5a3030;text-align:center">No breach reports in the last 7 days.</div>';
-    return;
-  }
-
-  const sevClass = s => ({ critical:'sev-critical', high:'sev-high', medium:'sev-medium' }[s] || 'sev-medium');
-  const sevLabel = s => (s || 'medium').toUpperCase();
-
-  list.innerHTML = items.map(item => `
-    <div class="breach-item" data-id="${item.id}">
-      <div class="breach-item-top">
-        <div class="breach-title">${esc(item.title)}</div>
-        ${item.severity ? `<div class="breach-sev ${sevClass(item.severity)}"><span class="sev-dot"></span>${sevLabel(item.severity)}</div>` : ''}
-      </div>
-      <div class="breach-source">${esc(item.source)} · ${formatDate(item.published)}</div>
-      <div class="breach-summary">${esc(item.summary)}</div>
-      ${item.vector ? `<div class="breach-vector">⚡ ${esc(item.vector)}</div>` : ''}
-    </div>`).join('');
-
-  list.querySelectorAll('.breach-item').forEach(el => {
-    el.addEventListener('click', () => {
-      const item = state.data.items.find(i => i.id === el.dataset.id);
-      if (item) openModal(item);
-    });
-  });
-}
-
-// ── Render: Topic chips ────────────────────────────────────────────────────
-function renderTopicChips() {
-  const { tag_index } = state.data;
-  const chips = Object.entries(tag_index)
-    .filter(([, ids]) => ids.length > 0)
-    .sort((a, b) => b[1].length - a[1].length)
-    .slice(0, 14);
-
-  document.getElementById('topic-chips').innerHTML = chips.map(([tag, ids]) => `
-    <button class="topic-chip ${state.activeTags.has(tag) ? 'active' : ''}" data-tag="${esc(tag)}">
-      ${esc(tag)} <span style="opacity:.6">(${ids.length})</span>
-    </button>`).join('');
-
-  document.querySelectorAll('.topic-chip').forEach(b =>
-    b.addEventListener('click', () => toggleTag(b.dataset.tag))
-  );
-
-  document.getElementById('clear-filters').style.display =
-    state.activeTags.size > 0 ? 'inline-flex' : 'none';
-}
-
-// ── Render: Active pills in section header ─────────────────────────────────
-function renderPills() {
-  const container = document.getElementById('active-filters');
-  container.innerHTML = [...state.activeTags].map(t => `
-    <span class="active-pill">${esc(t)}<button class="pill-remove" data-tag="${esc(t)}">✕</button></span>`
-  ).join('');
-  container.querySelectorAll('.pill-remove').forEach(b =>
-    b.addEventListener('click', () => toggleTag(b.dataset.tag))
-  );
-}
-
-function renderAll() {
-  renderTopicChips();
-  renderPills();
-  renderHeadlines();
-  renderWhitepapers();
-  renderVendorNews();
-  renderNewsFeed();
-  renderBreachBand();
-}
-
-// ── Filters ────────────────────────────────────────────────────────────────
-function toggleTag(tag) {
-  state.activeTags.has(tag) ? state.activeTags.delete(tag) : state.activeTags.add(tag);
-  renderTopicChips();
-  renderPills();
-  renderNewsFeed();
-}
-
-function clearFilters() {
-  state.activeTags.clear();
-  state.activeSection = 'all';
-  state.searchQuery = '';
-  document.getElementById('search').value = '';
-  document.getElementById('search-mobile').value = '';
-  document.querySelectorAll('.nav-link').forEach(b => b.classList.toggle('active', b.dataset.section === 'all'));
-  renderAll();
 }
 
 // ── Modal ──────────────────────────────────────────────────────────────────
+function openModalById(id) {
+  const item = state.data.items.find(i => i.id === id);
+  if (item) openModal(item);
+}
+
 function openModal(item) {
   document.getElementById('modal-content').innerHTML = `
     <div class="modal-source">${esc(item.source)} · ${esc(item.category)}</div>
@@ -302,55 +348,71 @@ function closeModal() {
   document.body.style.overflow = '';
 }
 
-// ── Load data ──────────────────────────────────────────────────────────────
+// ── Data load ──────────────────────────────────────────────────────────────
 async function loadNews() {
   try {
     const res = await fetch('news.json?t=' + Date.now());
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     state.data = await res.json();
-
     document.getElementById('article-count').textContent = `${state.data.total} stories`;
     const gen = new Date(state.data.generated);
-    const lastUpdated = document.getElementById('last-updated');
-    if (lastUpdated) lastUpdated.textContent = `Updated ${gen.toLocaleDateString('en-US',{month:'short',day:'numeric'})}`;
-
-    renderAll();
+    const upd = document.getElementById('last-updated');
+    if (upd) upd.textContent = `Updated ${gen.toLocaleDateString('en-US',{month:'short',day:'numeric'})} ${gen.toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'})}`;
+    renderHome();
+    route(); // apply any hash already in URL on load
   } catch (err) {
-    document.getElementById('news-grid').innerHTML = `
-      <div class="loading-state" style="grid-column:1/-1;color:#c00">
-        Failed to load news.json — run: <code>python scripts/fetch_news.py</code>
-      </div>`;
-    document.getElementById('breach-list').innerHTML = '';
+    document.getElementById('news-grid').innerHTML =
+      `<div class="loading-state" style="grid-column:1/-1;color:#c00">Failed to load news.json</div>`;
     console.error(err);
   }
 }
 
 // ── Init ───────────────────────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
-  setMastheadDate();
   loadNews();
 
-  const onSearch = e => { state.searchQuery = e.target.value.trim(); renderNewsFeed(); };
-  document.getElementById('search').addEventListener('input', onSearch);
-  document.getElementById('search-mobile').addEventListener('input', onSearch);
-
-  document.getElementById('clear-filters').addEventListener('click', clearFilters);
-  document.getElementById('reset-link')?.addEventListener('click', e => { e.preventDefault(); clearFilters(); });
-
-  // Nav section tabs
+  // Nav section tabs → navigate to section page
   document.querySelectorAll('.nav-link').forEach(btn => {
     btn.addEventListener('click', () => {
-      document.querySelectorAll('.nav-link').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      state.activeSection = btn.dataset.section;
-      renderNewsFeed();
-      document.getElementById('sec-newsfeed').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      const sec = btn.dataset.section;
+      if (sec === 'all') navigate('');
+      else navigate(`section/${sec}`);
     });
   });
 
+  // Desktop search (home page only)
+  document.getElementById('search').addEventListener('input', e => {
+    const q = e.target.value.trim();
+    if (q) navigate(`tag/${encodeURIComponent(q)}`);
+  });
+
+  // Mobile search (home page only)
+  document.getElementById('search-mobile')?.addEventListener('input', e => {
+    const q = e.target.value.trim();
+    if (q) navigate(`tag/${encodeURIComponent(q)}`);
+  });
+
+  // Section page search
+  document.getElementById('sp-search').addEventListener('input', e => {
+    state.spSearch = e.target.value.trim();
+    renderSectionPage(getRoute());
+  });
+
+  // Back button
+  document.getElementById('back-btn').addEventListener('click', () => {
+    history.back();
+  });
+
+  // Clear filters (topic bar)
+  document.getElementById('clear-filters').addEventListener('click', () => navigate(''));
+
+  // Modal
   document.getElementById('modal-close').addEventListener('click', closeModal);
   document.getElementById('modal-overlay').addEventListener('click', e => {
     if (e.target === e.currentTarget) closeModal();
   });
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+  // Router
+  window.addEventListener('hashchange', route);
 });

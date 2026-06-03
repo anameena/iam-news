@@ -645,6 +645,137 @@ img { display: block; max-width: 100%; }
 }
 .modal-link:hover { background: var(--red-dk); color: #fff; text-decoration: none; }
 
+/* ── Section page ── */
+.section-page {
+  max-width: 1380px;
+  margin: 0 auto;
+  padding: 0 20px 48px;
+}
+.sp-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 0 16px;
+  border-bottom: 3px solid var(--black);
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+.sp-back {
+  background: none;
+  border: 1px solid var(--rule);
+  color: var(--mid);
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  padding: 7px 14px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: border-color .15s, color .15s;
+  flex-shrink: 0;
+}
+.sp-back:hover { border-color: var(--red); color: var(--red); }
+.sp-title-wrap { display: flex; align-items: baseline; gap: 10px; flex: 1; min-width: 0; }
+.sp-title-wrap h1 {
+  font-family: var(--font-serif);
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--ink);
+  white-space: nowrap;
+}
+.sp-count {
+  font-size: 12px;
+  color: var(--muted);
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  letter-spacing: .07em;
+  white-space: nowrap;
+}
+.sp-search {
+  padding: 8px 14px;
+  background: var(--white);
+  border: 1px solid var(--rule);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 13px;
+  width: 240px;
+  outline: none;
+  transition: border-color .15s;
+  flex-shrink: 0;
+}
+.sp-search:focus { border-color: var(--red); }
+.sp-search::placeholder { color: var(--muted); }
+.sp-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+}
+.sp-grid .news-card { border-right: 1px solid var(--rule-lt); border-bottom: 1px solid var(--rule-lt); }
+.sp-grid .news-card:nth-child(3n) { border-right: none; }
+
+/* Breach section page — special card style */
+.sp-breach-card {
+  padding: 18px;
+  border-bottom: 1px solid var(--rule-lt);
+  border-right: 1px solid var(--rule-lt);
+  cursor: pointer;
+  background: #fff;
+  transition: background .12s;
+}
+.sp-breach-card:nth-child(3n) { border-right: none; }
+.sp-breach-card:hover { background: #fff5f5; }
+.sp-breach-sev {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  margin-bottom: 6px;
+}
+.sp-breach-title {
+  font-family: var(--font-serif);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: var(--ink);
+  margin-bottom: 6px;
+}
+.sp-breach-card:hover .sp-breach-title { color: var(--red); }
+.sp-breach-summary {
+  font-size: 12px;
+  color: var(--mid);
+  line-height: 1.55;
+  font-weight: 300;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+.sp-breach-vector {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border: 1px solid #fca5a5;
+  background: #fff5f5;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: var(--red);
+}
+.sp-breach-meta { font-size: 10px; color: var(--muted); margin-top: 6px; text-transform: uppercase; letter-spacing: .05em; }
+.sp-breach-bar {
+  display: block;
+  height: 3px;
+  background: var(--red);
+  margin-bottom: 20px;
+}
+
 /* ── Footer ── */
 .site-footer {
   background: var(--black);
@@ -747,6 +878,15 @@ img { display: block; max-width: 100%; }
   .news-grid { grid-template-columns: 1fr; }
   .news-card { border-right: none; padding: 14px 0; }
   .news-card:nth-child(3n) { border-right: none; }
+  /* Section page mobile */
+  .sp-grid { grid-template-columns: 1fr; }
+  .sp-grid .news-card { border-right: none; }
+  .sp-grid .news-card:nth-child(3n) { border-right: none; }
+  .sp-breach-card { border-right: none; }
+  .sp-breach-card:nth-child(3n) { border-right: none; }
+  .sp-header { gap: 10px; }
+  .sp-search { width: 100%; }
+  .sp-title-wrap h1 { font-size: 20px; }
 
   /* Breach band: vertical list (already static) */
   .breach-list { flex-direction: column; padding: 0; overflow-x: unset; }
