@@ -1,63 +1,21 @@
 {
-  "generated": "2026-06-03T10:21:06.086942+00:00",
-  "total": 37,
+  "generated": "2026-06-03T10:32:03.654511+00:00",
+  "total": 6,
   "items": [
     {
-      "id": "7942130b9f93",
-      "title": "EDGE Token Price Drops Nearly 50% Amid Market Manipulation Conce",
-      "url": "https://bitcoinfoundation.org/news/altcoins/edge-token-price-drops-nearly-50-amid-market-manipulation-conce/",
-      "summary": "EDGE token price plunged nearly 50% after edgeX said it was investigating an irregular market move and later denied any hack or exploit. Decentralized crypto... The post EDGE Token Price Drops Nearly 50% Amid Market Manipulation Conce appeared first on Bitcoi…",
-      "source": "Bitcoinfoundation.org",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "IGA",
-        "Threat",
-        "Vendor News",
-        "Vulnerability"
-      ],
-      "published": "2026-06-02T10:15:52+00:00"
-    },
-    {
-      "id": "1310d0a10a44",
-      "title": "Sophos uncovers AI-powered malware lab built for EDR evasion",
-      "url": "https://www.helpnetsecurity.com/2026/06/02/ai-agents-edr-evasion-techniques/",
-      "summary": "A threat actor used AI technologies to build a malware-testing framework for developing and refining endpoint detection and response (EDR) evasion techniques, according to Sophos. The investigation began after an anomalous endpoint in a customer environment t…",
+      "id": "6b4ece36a1b2",
+      "title": "Microsoft Entra pushes passkeys, tightens identity security",
+      "url": "https://www.helpnetsecurity.com/2026/06/02/microsoft-entra-latest-security-updates/",
+      "summary": "Microsoft has released multiple identity and network access capabilities for Entra, its family of identity and network access products that help organizations implement a zero trust security strategy, over the last 30 days. Features reaching general availabil…",
       "source": "Help Net Security",
       "category": "Security News",
-      "section": "news",
-      "tags": [
-        "IGA"
-      ],
-      "published": "2026-06-02T10:13:37+00:00"
-    },
-    {
-      "id": "47bb45a7b5e1",
-      "title": "Fazil Nagar town in Uttar Pradesh to be renamed as Pawagarh: Chief Minister Yogi Adityanath",
-      "url": "https://economictimes.indiatimes.com/news/india/fazil-nagar-town-in-uttar-pradesh-to-be-renamed-as-pawagarh-chief-minister-yogi-adityanath/articleshow/131460401.cms",
-      "summary": "Fazil Nagar town in Uttar Pradesh will be renamed Pawagarh. CM Yogi Adityanath announced the change to honor Jain Tirthankar Lord Mahavir. The new name Pawagarh is inspired by Pawapuri in Bihar, a significant Jain pilgrimage site. This renaming aims to connec…",
-      "source": "The Times of India",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Machine Identity",
-        "Compliance"
-      ],
-      "published": "2026-06-02T09:39:37+00:00"
-    },
-    {
-      "id": "bb039c3bfe16",
-      "title": "Fix AiTM Phishing: Enforcing Passwordless Auth",
-      "url": "https://www.c-sharpcorner.com/article/fix-aitm-phishing-enforcing-passwordless-auth/",
-      "summary": "Fix AiTM Phishing: Enforcing Passwordless Auth",
-      "source": "C-sharpcorner.com",
-      "category": "Security News",
-      "section": "news",
+      "section": "vendor",
       "tags": [
         "Authentication",
-        "Threat"
+        "Zero Trust",
+        "Vendor News"
       ],
-      "published": "2026-06-02T08:53:14+00:00"
+      "published": "2026-06-02T10:27:54+00:00"
     },
     {
       "id": "249f197dafd1",
@@ -73,381 +31,17 @@
       "published": "2026-06-02T06:37:02+00:00"
     },
     {
-      "id": "997164041698",
-      "title": "Building a secure auth code flow setup using AgentCore Gateway with MCP clients",
-      "url": "https://aws.amazon.com/blogs/machine-learning/building-a-secure-auth-code-flow-setup-using-agentcore-gateway-with-mcp-clients/",
-      "summary": "This post demonstrates how to implement Open Authorization (OAuth) Code flow as an inbound authorization mechanism for MCP servers hosted on Amazon Bedrock AgentCore Gateway. By the end of this guide, you will have a production-ready setup where each AI assis…",
-      "source": "Amazon.com",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Standards & Protocols"
-      ],
-      "published": "2026-06-02T03:23:35+00:00"
-    },
-    {
-      "id": "e41a8da9f14a",
-      "title": "OpenAI mandates hardware-backed passkeys for high-risk AI model access",
-      "url": "https://4sysops.com/archives/openai-mandates-hardware-backed-passkeys-for-high-risk-ai-model-access/",
-      "summary": "OpenAI is implementing a new security mandate requiring users of its most advanced models to utilize hardware-backed passkeys. Starting June 1, 2026, participants in the Trusted Access for Cyber program must enable Advanced Account Security to maintain access…",
-      "source": "4sysops.com",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Authentication"
-      ],
-      "published": "2026-06-01T22:22:27+00:00"
-    },
-    {
-      "id": "19ede6b43955",
-      "title": "Okta’s COO says companies are in denial about the hardest part of the AI revolution: redesigning work itself",
-      "url": "https://fortune.com/2026/06/01/oktas-coo-kelleher-companies-in-denial-about-redesigning-work-ai-agents/",
-      "summary": "The transition from workforce to work planning — budgeting for both \"human workers and digital workers,\" is breaking people's brains, Eric Kelleher said.",
-      "source": "Fortune",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "Vendor News"
-      ],
-      "published": "2026-06-01T20:55:53+00:00"
-    },
-    {
-      "id": "711be162d073",
-      "title": "⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More",
-      "url": "https://thehackernews.com/2026/06/weekly-recap-new-linux-flaw-pan-os.html",
-      "summary": "Monday hit like a cron job with anger issues. A busted auth path here, a repo-side faceplant there, some \"patched-ish\" thing already getting chewed on in the wild, and then the usual bonus round: poisoned dev tools, sketchy forum chatter, phishing kits prete…",
+      "id": "93e4aa968942",
+      "title": "Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded",
+      "url": "https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html",
+      "summary": "Password manager Dashlane has disclosed that \"fewer than\" 20 users on the personal subscription plan had their encrypted vaults downloaded following a brute-force attack launched by an unknown party. On May 31, 2026, the company said an \"external\" threat act…",
       "source": "Internet",
       "category": "Security News",
       "section": "news",
       "tags": [
-        "Threat",
-        "Standards & Protocols",
-        "Vulnerability"
-      ],
-      "published": "2026-06-01T13:59:54+00:00"
-    },
-    {
-      "id": "230f5c2c7214",
-      "title": "evidentia-collectors 0.10.7",
-      "url": "https://pypi.org/project/evidentia-collectors/0.10.7/",
-      "summary": "Evidence collection agents for AWS, Databricks, GitHub, Okta, Snowflake, SQL databases, and vendor-risk APIs (Vanta, Drata, BitSight, SecurityScorecard)",
-      "source": "Pypi.org",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "Vendor News"
-      ],
-      "published": "2026-05-31T02:04:16+00:00"
-    },
-    {
-      "id": "6423f03234c4",
-      "title": "Software Stocks Have Best Month Since 2001. Talk of 'SaaSpocalypse' Subsides",
-      "url": "https://slashdot.org/story/26/05/29/2126214/software-stocks-have-best-month-since-2001-talk-of-saaspocalypse-subsides",
-      "summary": "Security company Okta shot up 30% Friday, reported CNBC, while data platform provider Snowflake jumped 50% this week. They see it as part of a larger trend where software stocks \"soared this week,\" signaling \"some companies are navigating their way through…",
-      "source": "Slashdot.org",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "IGA",
-        "Vendor News"
-      ],
-      "published": "2026-05-30T15:34:00+00:00"
-    },
-    {
-      "id": "b0aad2fa2d2c",
-      "title": "pulumi-okta 6.8.0a1780124534",
-      "url": "https://pypi.org/project/pulumi-okta/6.8.0a1780124534/",
-      "summary": "A Pulumi package for creating and managing okta resources.",
-      "source": "Pypi.org",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "Vendor News"
-      ],
-      "published": "2026-05-30T07:13:38+00:00"
-    },
-    {
-      "id": "804509001aac",
-      "title": "Okta (OKTA) Hits 4-Year High as Earnings Soar",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/okta-okta-hits-4-high-062312694.html",
-      "summary": "Okta Inc. (NASDAQ:OKTA) is one of the 10 Stocks With Explosive Returns. Okta saw its share prices climb to a fresh four-year high on Friday, as investor...",
-      "source": "Yahoo Entertainment",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "Vendor News"
-      ],
-      "published": "2026-05-30T06:23:12+00:00"
-    },
-    {
-      "id": "b1654cfddd63",
-      "title": "Okta writes its own license to kill rogue AI agents",
-      "url": "https://www.theregister.com/ai-ml/2026/05/29/okta-writes-its-own-license-to-kill-rogue-ai-agents/5248766",
-      "summary": "CEO Todd McKinnon says customers including ServiceNow want an off switch",
-      "source": "Theregister.com",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "Vendor News",
-        "AI Identity"
-      ],
-      "published": "2026-05-29T21:20:21+00:00"
-    },
-    {
-      "id": "0b3c3a09bf3c",
-      "title": "Software stocks wrap up best month since 2001 as talk of 'SaaSpocalypse' subsides",
-      "url": "https://www.cnbc.com/2026/05/29/software-stocks-wrap-best-month-since-2001-as-talk-of-saaspocalypse-.html",
-      "summary": "Snowflake and Okta both saw record stock pops this week as investors found favor in their AI software strategies.",
-      "source": "CNBC",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "Vendor News"
-      ],
-      "published": "2026-05-29T21:14:04+00:00"
-    },
-    {
-      "id": "df7e1f189d23",
-      "title": "Dutch police disrupts botnet composed of 17 million devices",
-      "url": "https://www.helpnetsecurity.com/2026/05/29/dutch-police-disrupts-botnet-composed-of-17-million-devices/",
-      "summary": "The Dutch National Police and the country’s National Cyber Security Center (NCSC) have taken offline 200 servers controlling a botnet of 17 million devices, the law enforcement agency announced on Thursday. The investigation was launched after the NCSC receiv…",
-      "source": "Help Net Security",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "IGA"
-      ],
-      "published": "2026-05-29T14:26:20+00:00"
-    },
-    {
-      "id": "daf0f5bcd944",
-      "title": "Okta Stock Soars 18% on Strong Q1 Earnings Beat and AI Identity Security Momentum",
-      "url": "https://www.ibtimes.com.au/okta-shares-surge-q1-results-ai-security-demand-1869708",
-      "summary": "Okta Inc. shares rose 18% after reporting strong Q1 results, driven by AI security demand and revenue growth, reinforcing its leadership in identity security.",
-      "source": "Ibtimes.com.au",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "Vendor News"
-      ],
-      "published": "2026-05-29T13:41:58+00:00"
-    },
-    {
-      "id": "214c85c0bd0b",
-      "title": "bibliocommons-mcp-keycloak 1.3.2",
-      "url": "https://pypi.org/project/bibliocommons-mcp-keycloak/1.3.2/",
-      "summary": "MCP server for Keycloak Identity and Access Management",
-      "source": "Pypi.org",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "General IAM"
-      ],
-      "published": "2026-05-29T02:44:09+00:00"
-    },
-    {
-      "id": "b0736fc3d831",
-      "title": "23andMe Sued by California Over Massive 2023 Data Breach",
-      "url": "https://www.cnet.com/tech/services-and-software/23andme-sued-by-california-over-massive-2023-data-breach/",
-      "summary": "Attorney general calls the company's security measures \"lax\" and says the company failed to adequately investigate warnings its systems had been compromised.",
-      "source": "CNET",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "IGA",
         "Threat"
       ],
-      "published": "2026-05-29T02:39:05+00:00"
-    },
-    {
-      "id": "eb2512e303eb",
-      "title": "What did Okta report about agentic AI demand? #tech",
-      "url": "https://alltoc.com/tech/what-did-okta-report-about-agentic-ai-demand",
-      "summary": "Okta’s Q1 results: agentic AI is boosting demand for identity tools Okta reported Q1 revenue of $765M, up 11% year over year and above analysts’ expectations of $752M. Shares rose about 7% after hours, highlighting how investors are reading the results as evi…",
-      "source": "Alltoc.com",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "Vendor News",
-        "AI Identity"
-      ],
-      "published": "2026-05-29T00:01:45+00:00"
-    },
-    {
-      "id": "4d3f7309b087",
-      "title": "California sues 23andMe, alleging it failed to protect user data in 2023 breach",
-      "url": "https://www.kpbs.org/news/science-technology/2026/05/28/california-sues-23andme-alleging-it-failed-to-protect-user-data-in-2023-breach",
-      "summary": "Attorney General Rob Bonta's office said the company failed to implement common security measures and to investigate red flags that, months before the breach, showed that malicious actors were trying to access its systems.",
-      "source": "KPBS",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "IGA",
-        "Threat"
-      ],
-      "published": "2026-05-28T23:36:31+00:00"
-    },
-    {
-      "id": "c0ce7dd254ed",
-      "title": "pulumi-okta 6.8.0a1780007785",
-      "url": "https://pypi.org/project/pulumi-okta/6.8.0a1780007785/",
-      "summary": "A Pulumi package for creating and managing okta resources.",
-      "source": "Pypi.org",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "Vendor News"
-      ],
-      "published": "2026-05-28T22:53:04+00:00"
-    },
-    {
-      "id": "a4291685f794",
-      "title": "Okta tops estimates and raises outlook as SentinelOne slides on weak guidance",
-      "url": "https://siliconangle.com/2026/05/28/okta-tops-estimates-raises-outlook-sentinelone-slides-weak-guidance/",
-      "summary": "Shares in Okta Inc. rose more than 6% in late trading today, while shares in SentinelOne Inc. fell more than 18%, as the two cybersecurity companies reported quarterly results hours apart with sharply different reactions from investors. Okta beat on earnings …",
-      "source": "SiliconANGLE News",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "Vendor News"
-      ],
-      "published": "2026-05-28T22:34:38+00:00"
-    },
-    {
-      "id": "68b780ecc880",
-      "title": "Okta tops first-quarter results on agentic AI demand",
-      "url": "https://www.cnbc.com/2026/05/28/okta-okta-earnings-q1-2027.html",
-      "summary": "CEO Todd McKinnon said Okta is \"playing a long game\" on AI and is allocating more resources to agentic tools.",
-      "source": "CNBC",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "Vendor News",
-        "AI Identity"
-      ],
-      "published": "2026-05-28T20:07:17+00:00"
-    },
-    {
-      "id": "e5c644a3f63c",
-      "title": "VU#780781: Casdoor contains multiple authentication bypass and access management vulnerabilities",
-      "url": "https://kb.cert.org/vuls/id/780781",
-      "summary": "Overview Casdoor versions 2.362.0 and earlier contain several identity and access management vulnerabilities that enable broad authentication bypass and privilege escalation. These flaws relate to Casdoor’s Security Assertion Markup Language (SAML) processing…",
-      "source": "Cert.org",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Authentication",
-        "Standards & Protocols"
-      ],
-      "published": "2026-05-28T16:13:02+00:00"
-    },
-    {
-      "id": "43b914143694",
-      "title": "ethz_iam_webservice 0.16.11",
-      "url": "https://pypi.org/project/ethz-iam-webservice/0.16.11/",
-      "summary": "Manage users, groups and services of the ETH Identity and Access Management system (IAM)",
-      "source": "Pypi.org",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "General IAM"
-      ],
-      "published": "2026-05-28T15:41:56+00:00"
-    },
-    {
-      "id": "076ef50bdc60",
-      "title": "Orchid Security targets AI agent sprawl with new identity governance tools",
-      "url": "https://siliconangle.com/2026/05/28/orchid-security-targets-ai-agent-sprawl-new-identity-governance-tools/",
-      "summary": "Orchid Security Inc. today extended its Identity Control Plane with a set of capabilities aimed at governing artificial intelligence agents, saying existing identity and access management models cannot handle actors that inherit authority from humans and mach…",
-      "source": "SiliconANGLE News",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "IGA",
-        "AI Identity"
-      ],
-      "published": "2026-05-28T13:00:04+00:00"
-    },
-    {
-      "id": "e4724c23ee47",
-      "title": "Plume Security Labs Exposes Hidden Proxy Network Inside SuperBox Streaming Devices that Route Potentially Harmful Traffic over Home Networks",
-      "url": "https://www.prnewswire.com/news-releases/plume-security-labs-exposes-hidden-proxy-network-inside-superbox-streaming-devices-that-route-potentially-harmful-traffic-over-home-networks-302783968.html",
-      "summary": "Investigation reveals media streaming devices sold at major U.S. retailers silently tunnel third-party internet traffic, including potentially stolen credentials and enterprise security bypass operations through subscribers' home broadband connections PALO AL…",
-      "source": "PRNewswire",
-      "category": "Security News",
-      "section": "breach",
-      "tags": [
-        "Breach",
-        "IGA"
-      ],
-      "published": "2026-05-28T12:00:00+00:00",
-      "vector": "Stolen Credentials",
-      "severity": "medium"
-    },
-    {
-      "id": "7ea947962bd6",
-      "title": "Gartner® Names Keeper Security the Second Fastest-Growing Company in the Market Share Analysis: Security Software, Worldwide, 2025",
-      "url": "https://www.prnewswire.com/news-releases/gartner-names-keeper-security-the-second-fastest-growing-company-in-the-market-share-analysis-security-software-worldwide-2025-302784183.html",
-      "summary": "New Gartner® Market Share Analysis report highlights KeeperPAM, KeeperAI and Keeper Forcefield CHICAGO, May 28, 2026 /PRNewswire/ -- Keeper Security, the leading zero-trust and zero-knowledge identity security and Privileged Access Management (PAM) platform, …",
-      "source": "PRNewswire",
-      "category": "Security News",
-      "section": "whitepaper",
-      "tags": [
-        "PAM"
-      ],
-      "published": "2026-05-28T11:00:00+00:00"
-    },
-    {
-      "id": "3492740d178a",
-      "title": "pulumi-okta 6.8.0a1779953412",
-      "url": "https://pypi.org/project/pulumi-okta/6.8.0a1779953412/",
-      "summary": "A Pulumi package for creating and managing okta resources.",
-      "source": "Pypi.org",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "Vendor News"
-      ],
-      "published": "2026-05-28T07:44:14+00:00"
-    },
-    {
-      "id": "65c187500634",
-      "title": "7 features of Red Hat Identity Management you need to know for the modern enterprise",
-      "url": "https://www.redhat.com/en/blog/7-features-red-hat-identity-management-you-need-know-modern-enterprise",
-      "summary": "In the era of hyper-distributed systems where AI agents traverse our networks, and hybrid clouds stretch from the edge to the core, the \"who\" and \"what\" of infrastructure access are more critical than ever. Managing identities across thousands of nodes is a v…",
-      "source": "Redhat.com",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "AI Identity"
-      ],
-      "published": "2026-05-28T00:00:00+00:00"
-    },
-    {
-      "id": "37f7b9a4e9d8",
-      "title": "SE Radio 722: Dwayne McDaniel on the Engineering Challenges of Secrets Management",
-      "url": "https://se-radio.net/2026/05/se-radio-722-dwayne-mcdaniel-on-the-engineering-challenges-of-secrets-management/",
-      "summary": "Dwayne McDaniel, developer advocate at GitGuardian.com, joins host Priyanka Raghavan to talk about the engineering challenges of secrets management. They explore what \"secrets\" really are in modern systems—far beyond passwords—including API keys, tokens, cert…",
-      "source": "Se-radio.net",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Machine Identity"
-      ],
-      "published": "2026-05-27T21:59:00+00:00"
-    },
-    {
-      "id": "22897bfbeb4f",
-      "title": "Bosses blinded by confidence about shadow AI use by workers",
-      "url": "https://www.theregister.com/ai-ml/2026/05/27/bosses-blinded-by-confidence-about-shadow-ai-use-by-workers/5247275",
-      "summary": "More than half of orgs in Okta survey faced an AI-related security incident or near miss last year",
-      "source": "Theregister.com",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "Vendor News"
-      ],
-      "published": "2026-05-27T17:20:00+00:00"
+      "published": "2026-06-02T03:55:25+00:00"
     },
     {
       "id": "4f64c3f90e74",
@@ -477,19 +71,6 @@
       "published": "2026-05-27T13:25:16+00:00"
     },
     {
-      "id": "6b74cc7583bf",
-      "title": "XM Cyber rolls out tools to identify and revoke unused permissions across hybrid environments",
-      "url": "https://siliconangle.com/2026/05/27/xm-cyber-rolls-tools-identify-revoke-unused-permissions-across-hybrid-environments/",
-      "summary": "Continuous exposure management company XM Cyber Inc. today announced an expansion of its platform with new capabilities aimed at helping enterprises enforce least-privilege access across Active Directory, Microsoft Entra and multicloud environments. The compa…",
-      "source": "SiliconANGLE News",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "Vendor News"
-      ],
-      "published": "2026-05-27T13:00:55+00:00"
-    },
-    {
       "id": "6fca0ad823c3",
       "title": "The Credential Crisis: How Stolen Credentials Defeat Modern Security",
       "url": "https://www.securityweek.com/the-credential-crisis-how-stolen-credentials-defeat-modern-security/",
@@ -498,8 +79,8 @@
       "category": "Security News",
       "section": "breach",
       "tags": [
-        "Threat",
-        "Breach"
+        "Breach",
+        "Threat"
       ],
       "published": "2026-05-27T10:30:00+00:00",
       "vector": "Stolen Credentials",
@@ -507,123 +88,35 @@
     }
   ],
   "tag_index": {
-    "IGA": [
-      "7942130b9f93",
-      "1310d0a10a44",
-      "6423f03234c4",
-      "df7e1f189d23",
-      "b0736fc3d831",
-      "4d3f7309b087",
-      "076ef50bdc60",
-      "e4724c23ee47"
+    "Authentication": [
+      "6b4ece36a1b2",
+      "249f197dafd1"
+    ],
+    "Zero Trust": [
+      "6b4ece36a1b2"
+    ],
+    "Vendor News": [
+      "6b4ece36a1b2",
+      "d57d4f85419a"
     ],
     "Threat": [
-      "7942130b9f93",
-      "bb039c3bfe16",
-      "711be162d073",
-      "b0736fc3d831",
-      "4d3f7309b087",
+      "93e4aa968942",
       "4f64c3f90e74",
       "6fca0ad823c3"
     ],
-    "Vendor News": [
-      "7942130b9f93",
-      "19ede6b43955",
-      "230f5c2c7214",
-      "6423f03234c4",
-      "b0aad2fa2d2c",
-      "804509001aac",
-      "b1654cfddd63",
-      "0b3c3a09bf3c",
-      "daf0f5bcd944",
-      "eb2512e303eb",
-      "c0ce7dd254ed",
-      "a4291685f794",
-      "68b780ecc880",
-      "3492740d178a",
-      "22897bfbeb4f",
-      "d57d4f85419a",
-      "6b74cc7583bf"
-    ],
-    "Vulnerability": [
-      "7942130b9f93",
-      "711be162d073"
-    ],
-    "Machine Identity": [
-      "47bb45a7b5e1",
-      "37f7b9a4e9d8"
-    ],
-    "Compliance": [
-      "47bb45a7b5e1"
-    ],
-    "Authentication": [
-      "bb039c3bfe16",
-      "249f197dafd1",
-      "e41a8da9f14a",
-      "e5c644a3f63c"
-    ],
-    "Standards & Protocols": [
-      "997164041698",
-      "711be162d073",
-      "e5c644a3f63c"
-    ],
     "AI Identity": [
-      "b1654cfddd63",
-      "eb2512e303eb",
-      "68b780ecc880",
-      "076ef50bdc60",
-      "65c187500634",
       "d57d4f85419a"
     ],
-    "General IAM": [
-      "214c85c0bd0b",
-      "43b914143694"
-    ],
     "Breach": [
-      "e4724c23ee47",
       "6fca0ad823c3"
-    ],
-    "PAM": [
-      "7ea947962bd6"
     ]
   },
   "category_index": {
     "Security News": [
-      "7942130b9f93",
-      "1310d0a10a44",
-      "47bb45a7b5e1",
-      "bb039c3bfe16",
+      "6b4ece36a1b2",
       "249f197dafd1",
-      "997164041698",
-      "e41a8da9f14a",
-      "19ede6b43955",
-      "711be162d073",
-      "230f5c2c7214",
-      "6423f03234c4",
-      "b0aad2fa2d2c",
-      "804509001aac",
-      "b1654cfddd63",
-      "0b3c3a09bf3c",
-      "df7e1f189d23",
-      "daf0f5bcd944",
-      "214c85c0bd0b",
-      "b0736fc3d831",
-      "eb2512e303eb",
-      "4d3f7309b087",
-      "c0ce7dd254ed",
-      "a4291685f794",
-      "68b780ecc880",
-      "e5c644a3f63c",
-      "43b914143694",
-      "076ef50bdc60",
-      "e4724c23ee47",
-      "7ea947962bd6",
-      "3492740d178a",
-      "65c187500634",
-      "37f7b9a4e9d8",
-      "22897bfbeb4f",
+      "93e4aa968942",
       "d57d4f85419a",
-      "6b74cc7583bf",
       "6fca0ad823c3"
     ],
     "Vendor": [
