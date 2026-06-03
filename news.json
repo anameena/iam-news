@@ -1,203 +1,1761 @@
 {
-  "generated": "2026-06-03T06:00:00+00:00",
-  "total": 24,
+  "generated": "2026-06-03T06:08:28.829308+00:00",
+  "total": 105,
   "items": [
     {
-      "id": "h1a2b3c4d5e6", "title": "Microsoft Entra ID Introduces Continuous Access Evaluation for High-Risk Sessions",
-      "url": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/continuous-access-evaluation/ba-p/1312702",
-      "summary": "Microsoft has expanded Continuous Access Evaluation (CAE) to cover high-risk sign-in sessions, enabling near real-time policy enforcement. The update allows organisations to revoke access tokens within seconds of detecting anomalous behaviour, closing the window attackers exploit between token issuance and expiry.",
-      "source": "Microsoft Identity Blog", "category": "Vendor", "section": "vendor",
-      "tags": ["Zero Trust", "Authentication", "Vendor News"], "published": "2026-06-03T04:30:00+00:00"
+      "id": "b54d676c44c4",
+      "title": "Microsoft Windows Has Become Spyware â Here’s the Evidence",
+      "url": "https://www.naturalnews.com/2026-06-02-microsoft-windows-has-become-spyware-heres-evidence.html",
+      "summary": "Windows PCs Are Spying On Their Users I have spent over two decades investigating corporate surveillance and the erosion of digital privacy. After years of watching Microsoft’s behavior, I believe Windows is no longer simply an operating system but a surveill…",
+      "source": "Naturalnews.com",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "IGA"
+      ],
+      "published": "2026-06-02T06:00:00+00:00"
     },
     {
-      "id": "h2b3c4d5e6f7", "title": "SailPoint Unveils Atlas AI: Autonomous Identity Governance That Writes Its Own Policies",
-      "url": "https://www.sailpoint.com/blog/",
-      "summary": "SailPoint has launched Atlas AI, an autonomous identity governance engine that analyses entitlements across cloud, SaaS, and on-prem systems and auto-generates access policies without manual rule creation. The system can certify 80% of access reviews automatically and escalates anomalous entitlements for human review, cutting certification cycles from weeks to hours.",
-      "source": "SailPoint Blog", "category": "Vendor", "section": "vendor",
-      "tags": ["IGA", "Vendor News", "Access Control"], "published": "2026-06-03T03:00:00+00:00"
+      "id": "a18994a0e8e0",
+      "title": "HiFS 2026: Upgrading Four Major Digital Finance Solutions to Accelerate Financial Institutions Toward Agentic Banking",
+      "url": "https://en.antaranews.com/news/417583/hifs-2026-upgrading-four-major-digital-finance-solutions-to-accelerate-financial-institutions-toward-agentic-banking",
+      "summary": "The Huawei Intelligent Finance Summit (HiFS) 2026 (Global Session), themed \"Hello Fintelligent World: Beyond Digital, Advance to Agentic Banking,\" ...",
+      "source": "Antaranews.com",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "General IAM"
+      ],
+      "published": "2026-06-02T05:57:24+00:00"
     },
     {
-      "id": "h3c4d5e6f7a8", "title": "CyberArk Extends Privileged Access Controls to AI Agents and LLM Workloads",
-      "url": "https://www.cyberark.com/resources/blog/",
-      "summary": "CyberArk has announced native support for securing AI agent identities, extending its Privileged Access Manager to govern LLM-based workloads accessing sensitive enterprise systems. The solution issues short-lived credentials to AI agents, enforces least-privilege access policies per workflow step, and maintains a full audit trail of AI-initiated actions for compliance purposes.",
-      "source": "CyberArk Blog", "category": "Vendor", "section": "vendor",
-      "tags": ["PAM", "AI Identity", "Machine Identity", "Vendor News"], "published": "2026-06-02T14:00:00+00:00"
+      "id": "b4518cf66236",
+      "title": "Activision and Infinity Ward pledge ‘No clowny skins’ in Call of Duty: Modern Warfare 4",
+      "url": "https://www.notebookcheck.net/Activision-and-Infinity-Ward-pledge-No-clowny-skins-in-Call-of-Duty-Modern-Warfare-4.1313121.0.html",
+      "summary": "Activision and Infinity Ward say Call of Duty: Modern Warfare 4 will abandon celebrity cameos, cartoon crossovers, and other “clowny” cosmetics in favor of grounded skins tied to the game’s military narrative, following backlash to recent Black Ops and Warzon…",
+      "source": "Notebookcheck.net",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "General IAM"
+      ],
+      "published": "2026-06-02T05:54:00+00:00"
     },
     {
-      "id": "h4d5e6f7a8b9", "title": "BeyondTrust Patches Critical Remote Code Execution Flaw in Privileged Remote Access",
-      "url": "https://www.beyondtrust.com/blog/entry/",
-      "summary": "BeyondTrust has released an emergency patch for CVE-2026-31892, a critical remote code execution vulnerability in its Privileged Remote Access (PRA) product rated CVSS 9.8. The flaw allows unauthenticated attackers to execute arbitrary code on PRA appliances. CISA has added it to the Known Exploited Vulnerabilities catalog, and federal agencies must patch within 48 hours.",
-      "source": "BeyondTrust Blog", "category": "Vendor", "section": "news",
-      "tags": ["Vulnerability", "Threat", "PAM", "Vendor News"], "published": "2026-06-02T10:00:00+00:00"
+      "id": "cac27bebaf23",
+      "title": "Psychology says older couples who retell the story of how they met aren't just repeating themselves, they are often strengthening shared identity through co-reminiscence",
+      "url": "https://economictimes.indiatimes.com/news/international/us/psychology-says-older-couples-who-retell-the-story-of-how-they-met-arent-just-repeating-themselves-they-are-often-strengthening-shared-identity-through-co-reminiscence/articleshow/131454424.cms",
+      "summary": "Long-term couples often revisit shared memories, not just for nostalgia, but to maintain connection, meaning, and identity. This practice, known as co-reminiscence, strengthens their collective identity and the feeling of 'we-ness'. While repetition of proble…",
+      "source": "The Times of India",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "General IAM"
+      ],
+      "published": "2026-06-02T05:32:20+00:00"
     },
     {
-      "id": "h5e6f7a8b9c0", "title": "Passkey Adoption Surges Past 1 Billion Accounts as Enterprises Retire SMS OTP",
-      "url": "https://fidoalliance.org/fido-alliance-publishes-new-resources-to-accelerate-passkeys/",
-      "summary": "The FIDO Alliance reports passkey adoption has crossed 1 billion accounts globally, driven by expanded platform support from Google and Apple. Enterprises are rapidly deploying passkeys as a replacement for SMS OTP, with phishing resistance and reduced helpdesk load cited as primary motivators.",
-      "source": "FIDO Alliance", "category": "Industry", "section": "news",
-      "tags": ["Passwordless", "Authentication", "Standards & Protocols"], "published": "2026-06-01T14:00:00+00:00"
+      "id": "7b13635a7f58",
+      "title": "Zero trust physical security needs trust decisions at the edge",
+      "url": "https://www.helpnetsecurity.com/2026/06/02/chuck-davis-hikvision-zero-trust-physical-security/",
+      "summary": "In this interview with Help Net Security, Chuck Davis, VP, Global Information Security at Hikvision, explains how zero trust applies to physical security systems like cameras and door controllers. He breaks down how to make trust decisions at the edge without…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Zero Trust"
+      ],
+      "published": "2026-06-02T05:30:53+00:00"
     },
     {
-      "id": "v1nextgen001", "title": "Veza Raises $108M Series D to Scale Identity Security Graph Platform",
-      "url": "https://www.veza.com/blog/",
-      "summary": "Veza, the identity security company built around a graph-based authorisation model, has raised $108M in Series D funding led by Accel. The platform maps human and machine identities to the data and systems they can access across cloud, SaaS, and data infrastructure. The funding will accelerate its non-human identity and AI workload governance capabilities.",
-      "source": "Veza Blog", "category": "Vendor", "section": "vendor",
-      "tags": ["Next-Gen IAM", "Machine Identity", "Access Control", "Vendor News"], "published": "2026-06-02T09:00:00+00:00"
+      "id": "1e896a798ff6",
+      "title": "ASUS Adopts NVIDIA DSX AI Factory Platform to Accelerate Time to First Revenue",
+      "url": "https://www.prnewswire.com/news-releases/asus-adopts-nvidia-dsx-ai-factory-platform-to-accelerate-time-to-first-revenue-302787995.html",
+      "summary": "Delivering a total AI factory solution from blueprint to deployment, accelerating token generation and enterprise AI adoption TAIPEI, June 2, 2026 /PRNewswire/ -- ASUS today announced its latest AI infrastructure solutions showcase at Computex 2026, deliverin…",
+      "source": "PRNewswire",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "General IAM"
+      ],
+      "published": "2026-06-02T05:29:00+00:00"
     },
     {
-      "id": "v2nextgen002", "title": "Opal Security Launches AI Access Governance to Control What AI Agents Can Do",
-      "url": "https://www.opal.dev/blog",
-      "summary": "Opal Security has introduced AI Access Governance, a module that applies just-in-time access controls and approval workflows to AI agent actions. When an AI agent requests access to a sensitive resource — a database, API, or internal tool — Opal intercepts the request, validates it against policy, and routes high-risk requests for human approval in real time.",
-      "source": "Opal Security", "category": "Vendor", "section": "vendor",
-      "tags": ["Next-Gen IAM", "AI Identity", "Access Control", "Vendor News"], "published": "2026-06-01T11:00:00+00:00"
+      "id": "c05cd33bf2b6",
+      "title": "Taarak Mehta Ka Ooltah Chashmah: Babulal's uncanny resemblance to Jameel Jamali creates chaos in Gokuldham society; show to witness a hilarious Dhurandhar-inspired twist",
+      "url": "https://timesofindia.indiatimes.com/tv/news/hindi/taarak-mehta-ka-ooltah-chashmah-babulals-uncanny-resemblance-to-jameel-jamali-creates-chaos-in-gokuldham-society-show-to-witness-a-hilarious-dhurandhar-inspired-twist/articleshow/131455211.cms",
+      "summary": "The vibrant Gokuldham Society stirs with laughter as the arrival of the talented Jameel Jamali gives rise to a side-splitting case of mistaken identity. Babulal, Taarak Mehta's unsuspecting boss, is hilariously confused for Jamali due to their striking simila…",
+      "source": "The Times of India",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Machine Identity"
+      ],
+      "published": "2026-06-02T05:14:23+00:00"
     },
     {
-      "id": "v3nextgen003", "title": "Permiso Detects Identity-Based Attacks Across Cloud Environments Using Behavioural AI",
-      "url": "https://permiso.io/blog/",
-      "summary": "Permiso has expanded its cloud identity threat detection platform with a new behavioural AI engine that establishes per-identity baselines across AWS, Azure, GCP, and SaaS applications. The engine flags lateral movement, unusual API call sequences, and privilege escalation attempts by both human and non-human identities, reducing mean time to detect identity-based attacks by 73%.",
-      "source": "Permiso", "category": "Vendor", "section": "vendor",
-      "tags": ["Next-Gen IAM", "Machine Identity", "Threat", "Vendor News"], "published": "2026-06-01T09:00:00+00:00"
+      "id": "b8f43d55f44b",
+      "title": "Supermicro Collaborates with Arm to Deliver a New Class of Energy-Efficient Rack-Scale Infrastructure for Enterprise Agentic AI",
+      "url": "https://www.prnewswire.com/news-releases/supermicro-collaborates-with-arm-to-deliver-a-new-class-of-energy-efficient-rack-scale-infrastructure-for-enterprise-agentic-ai-302786260.html",
+      "summary": "Arm AGI CPU is designed for maximum efficiency in agentic AI workload orchestration Supermicro rack-scale Arm AGI CPU designs increase agentic AI compute performance density within any power envelope Supermicro's DCBBS capabilities and global manufacturing fo…",
+      "source": "PRNewswire",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "AI Identity"
+      ],
+      "published": "2026-06-02T05:05:00+00:00"
     },
     {
-      "id": "v4nextgen004", "title": "Aembit Launches Workload IAM Platform to Secure Machine-to-Machine Access",
-      "url": "https://aembit.io/blog/",
-      "summary": "Aembit has launched a workload identity and access management platform designed for machine-to-machine communication in modern cloud-native environments. The platform issues short-lived, cryptographically attested credentials to workloads using SPIFFE-compatible identity documents, eliminating static API keys and secrets from CI/CD pipelines and service meshes.",
-      "source": "Aembit", "category": "Vendor", "section": "vendor",
-      "tags": ["Next-Gen IAM", "Machine Identity", "Standards & Protocols", "Vendor News"], "published": "2026-05-31T13:00:00+00:00"
+      "id": "51ae7a591a82",
+      "title": "autourgos-core 1.0.1",
+      "url": "https://pypi.org/project/autourgos-core/1.0.1/",
+      "summary": "Core tool system for the Autourgos agentic AI framework — Tool class, @tool decorator, and schema generation.",
+      "source": "Pypi.org",
+      "category": "Security News",
+      "section": "breach",
+      "tags": [
+        "AI Identity",
+        "Breach",
+        "Threat"
+      ],
+      "published": "2026-06-02T05:02:01+00:00",
+      "vector": null,
+      "severity": "medium"
     },
     {
-      "id": "v5vendor005", "title": "Delinea Adds AI-Powered Privilege Anomaly Detection to Secret Server",
-      "url": "https://delinea.com/blog/",
-      "summary": "Delinea has added an AI-powered anomaly detection engine to Secret Server that monitors privileged session behaviour and flags deviations from established baselines in real time. The update also introduces automated secret rotation for DevOps pipelines and extends PAM controls to Kubernetes workloads, addressing the growing challenge of ephemeral infrastructure credentials.",
-      "source": "Delinea Blog", "category": "Vendor", "section": "vendor",
-      "tags": ["PAM", "AI Identity", "Vendor News"], "published": "2026-05-30T11:00:00+00:00"
+      "id": "aa9501c4201a",
+      "title": "GIGABYTE Expands Its AI TOP Ecosystem for the Next Era of AI Agents",
+      "url": "https://www.prnewswire.com/news-releases/gigabyte-expands-its-ai-top-ecosystem-for-the-next-era-of-ai-agents-302786424.html",
+      "summary": "TAIPEI, June 2, 2026 /PRNewswire/ -- GIGABYTE, the world's leading computer brand, continues to advance its vision of \"Create Your Own AI on Your Own Desk\" with the expansion of the AI TOP ecosystem at COMPUTEX 2026. More than a single product, AI TOP is a pu…",
+      "source": "PRNewswire",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "IGA",
+        "AI Identity"
+      ],
+      "published": "2026-06-02T05:00:00+00:00"
     },
     {
-      "id": "v6vendor006", "title": "Saviynt Expands CPAM to Cover Non-Human Identities and AI Service Accounts",
-      "url": "https://saviynt.com/blog/",
-      "summary": "Saviynt has expanded its Cloud Privileged Access Management (CPAM) module to govern non-human identities including AI service accounts, CI/CD pipeline identities, and cloud function execution roles. The platform now provides full lifecycle management, access certification, and anomaly detection for machine identities, which Saviynt reports now outnumber human identities 40:1 in its customer base.",
-      "source": "Saviynt Blog", "category": "Vendor", "section": "vendor",
-      "tags": ["PAM", "IGA", "Machine Identity", "AI Identity", "Vendor News"], "published": "2026-05-29T10:00:00+00:00"
+      "id": "cc9f7588321a",
+      "title": "AI now a driver of profits and GDP, says Nvidia CEO Jensen Huang",
+      "url": "https://www.thehindubusinessline.com/info-tech/ai-now-a-driver-of-profits-and-gdp-says-nvidia-ceo-jensen-huang/article71051153.ece",
+      "summary": "The Nvidia boss said that the massive demand for AI is driving the investment in compute infra and that AI tokens have become profitable units of revenue",
+      "source": "BusinessLine",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "General IAM"
+      ],
+      "published": "2026-06-02T04:49:16+00:00"
     },
     {
-      "id": "wp1research01", "title": "The State of Identity Security 2026 — IDSA & CrowdStrike Annual Report",
-      "url": "https://www.idsalliance.org/research/state-of-identity-security-2026/",
-      "summary": "The Identity Defined Security Alliance's annual survey of 500 security leaders finds 84% of organisations suffered an identity-related breach in the past year. Non-human accounts now outnumber human accounts 45:1 in the average enterprise. AI agent identities are identified as the fastest-growing unmanaged attack surface, with 71% of respondents lacking visibility into what AI workloads can access.",
-      "source": "IDSA / CrowdStrike", "category": "Research", "section": "whitepaper",
-      "tags": ["Machine Identity", "AI Identity", "Threat", "Access Control"], "published": "2026-06-01T08:00:00+00:00"
+      "id": "70620b42371f",
+      "title": "Intel unveils Xeon 6+ to power agentic AI inference, challenges GPU-centric infrastructure",
+      "url": "https://www.digitimes.com/news/a20260602VL202/intel-xeon-ai-inference-data-center-infrastructure.html",
+      "summary": "Intel is expanding its data center portfolio with new Xeon 6+ processors, Ethernet E835 networking products, and fresh details on its Crescent Island AI accelerator, positioning the CPU as a central control point for the next phase of AI infrastructure.",
+      "source": "Digitimes",
+      "category": "Security News",
+      "section": "breach",
+      "tags": [
+        "AI Identity",
+        "Breach",
+        "Threat",
+        "Vendor News"
+      ],
+      "published": "2026-06-02T04:42:53+00:00",
+      "vector": null,
+      "severity": "medium"
     },
     {
-      "id": "wp2research02", "title": "Gartner Magic Quadrant for Access Management 2026",
-      "url": "https://www.gartner.com/en/documents/access-management-mq-2026",
-      "summary": "Gartner's 2026 Magic Quadrant for Access Management evaluates 16 vendors. Microsoft, Okta, and Ping Identity lead as Leaders. The report notes a market shift toward identity fabric architectures and AI-native policy engines. Vendors lacking non-human identity management are increasingly penalised in evaluation criteria as machine identities dominate enterprise environments.",
-      "source": "Gartner", "category": "Research", "section": "whitepaper",
-      "tags": ["Vendor News", "Access Control", "AI Identity"], "published": "2026-05-28T09:00:00+00:00"
+      "id": "bc844b57752a",
+      "title": "Coforge shares gain over 2% after unveiling agentic AI platform for insurance industry",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/coforge-shares-gain-over-2-after-unveiling-agentic-ai-platform-for-insurance-industry/articleshow/131454733.cms",
+      "summary": "Coforge's stock saw a boost following the launch of its \"Nexa Agentic AI Platform,\" designed to enhance the global insurance industry. This innovative platform integrates AI capabilities over existing systems, aiming to accelerate product launches, improve un…",
+      "source": "The Times of India",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "AI Identity"
+      ],
+      "published": "2026-06-02T04:34:15+00:00"
     },
     {
-      "id": "wp3research03", "title": "Forrester Wave: Privileged Identity Management Q2 2026",
-      "url": "https://www.forrester.com/report/forrester-wave-privileged-identity-management-q2-2026/",
-      "summary": "Forrester's Q2 2026 Wave for Privileged Identity Management evaluates CyberArk, BeyondTrust, Delinea, and seven others. The report identifies cloud-native PAM and secrets management for AI/DevOps pipelines as the fastest-growing evaluation criteria. Non-human identity lifecycle management is now a mandatory capability for Leader classification.",
-      "source": "Forrester", "category": "Research", "section": "whitepaper",
-      "tags": ["PAM", "Machine Identity", "Vendor News"], "published": "2026-05-25T10:00:00+00:00"
+      "id": "2a3c988175c9",
+      "title": "5 Iconic U.S. Destinations Going All-In for America 250",
+      "url": "https://johnnyjet.com/5-iconic-u-s-destinations-going-all-in-for-america-250/",
+      "summary": "This article was produced in partnership with the U.S. Travel Association (USTA). America’s 250th birthday is still weeks away but across the country, cities are already preparing for what could... The post 5 Iconic U.S. Destinations Going All-In for America …",
+      "source": "Johnnyjet.com",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "General IAM"
+      ],
+      "published": "2026-06-02T04:20:47+00:00"
     },
     {
-      "id": "wp4research04", "title": "NIST SP 800-207A: Zero Trust Architecture for Multi-Cloud — Public Draft",
-      "url": "https://csrc.nist.gov/publications/detail/sp/800-207a/draft",
-      "summary": "NIST has published a draft of SP 800-207A extending Zero Trust Architecture guidance to multi-cloud and hybrid deployments. The draft introduces a cloud-agnostic policy decision point model and provides reference architectures for identity-centric zero trust across AWS, Azure, and GCP. Public comment period closes July 15, 2026.",
-      "source": "NIST / CISA", "category": "Government", "section": "whitepaper",
-      "tags": ["Zero Trust", "Compliance", "Access Control"], "published": "2026-05-27T12:00:00+00:00"
+      "id": "be4e1ade08dc",
+      "title": "Nvidia’s Plan to Rebuild Every Computer Around AI Agents — With the RTX Spark as Its Consumer Face",
+      "url": "https://me.pcmag.com/en/laptops/37395/nvidias-plan-to-rebuild-every-computer-around-ai-agents-with-the-rtx-spark-as-its-consumer-face",
+      "summary": "At Computex 2026, Jensen Huang reframed the PC, data center, car, and robot around one agentic computing pattern—with RTX Spark its face.",
+      "source": "PCMag.com",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "AI Identity"
+      ],
+      "published": "2026-06-02T04:19:15+00:00"
     },
     {
-      "id": "wp5research05", "title": "SANS 2026 IAM Survey: 61% Lack Visibility into Privileged Accounts Across Hybrid Environments",
-      "url": "https://www.sans.org/white-papers/iam-survey-2026/",
-      "summary": "The SANS Institute's annual IAM survey of 1,200 practitioners reveals 61% lack full visibility into privileged accounts across hybrid environments. Credential-based attacks remain the top initial access vector for the fourth consecutive year. Only 38% have implemented JIT access. AI agent identities are now cited as the top emerging blind spot.",
-      "source": "SANS Institute", "category": "Research", "section": "whitepaper",
-      "tags": ["PAM", "Threat", "Compliance", "AI Identity"], "published": "2026-05-22T08:00:00+00:00"
+      "id": "6359db933b55",
+      "title": "China adds data and AI to trade secret rules to block leaks",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/china-adds-data-and-ai-to-trade-secret-rules-to-block-leaks/articleshow/131454170.cms",
+      "summary": "Effective Monday, the Regulations on Trade Secret Protection mark the first time Chinese law protects such digital assets as proprietary secrets, according to state broadcaster China Central Television.",
+      "source": "The Times of India",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Vendor News",
+        "Compliance"
+      ],
+      "published": "2026-06-02T03:51:47+00:00"
     },
     {
-      "id": "n1newsfeed01", "title": "North Korean Lazarus Group Exploits SAML Assertion Forgery in Enterprise SSO Attack",
-      "url": "https://krebsonsecurity.com/2026/05/lazarus-group-saml-forgery/",
-      "summary": "Security researchers have attributed a sophisticated supply chain attack to Lazarus Group, leveraging SAML assertion forgery to pivot from a compromised IdP into downstream SaaS applications. The attack bypassed MFA by hijacking federated sessions post-authentication, affecting 40 enterprise customers of a major SSO provider.",
-      "source": "Krebs on Security", "category": "Security News", "section": "news",
-      "tags": ["Threat", "Standards & Protocols", "Vulnerability"], "published": "2026-05-31T20:00:00+00:00"
+      "id": "6e3ee71f295b",
+      "title": "Agentic AI triggers widespread computing crunch across global supply chain",
+      "url": "https://www.digitimes.com/news/a20260602PD222/ai-agent-computing-power-demand-supply-chain-2026.html",
+      "summary": "In 2026, a global compute shortage spanning chips, cloud services, servers, and data-center components is sweeping across the industry. The scarcity of compute and broad price hikes are running through the entire AI sector, pushing Nvidia's market value highe…",
+      "source": "Digitimes",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "AI Identity"
+      ],
+      "published": "2026-06-02T03:25:12+00:00"
     },
     {
-      "id": "n2newsfeed02", "title": "Scattered Spider Returns: AI Voice Deepfakes Used to Reset MFA at Fortune 500 Help Desks",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/scattered-spider-ai-deepfake-helpdesk",
-      "summary": "Scattered Spider has resumed targeting enterprise identity provider help desks using AI-generated voice deepfakes to bypass identity verification and trigger MFA resets. At least six Fortune 500 companies were targeted in May 2026. Security teams are advised to implement callback verification with out-of-band authentication for all identity resets.",
-      "source": "Dark Reading", "category": "Security News", "section": "news",
-      "tags": ["Threat", "Authentication", "PAM"], "published": "2026-05-30T08:30:00+00:00"
+      "id": "474f80966af6",
+      "title": "tooluniverse 1.2.3",
+      "url": "https://pypi.org/project/tooluniverse/1.2.3/",
+      "summary": "A comprehensive collection of scientific tools for Agentic AI, offering integration with the ToolUniverse SDK and MCP Server to support advanced scientific workflows.",
+      "source": "Pypi.org",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "AI Identity"
+      ],
+      "published": "2026-06-02T03:24:29+00:00"
     },
     {
-      "id": "n3newsfeed03", "title": "EU eIDAS 2.0 Digital Identity Wallet: Implementation Deadline Looms for Member States",
-      "url": "https://identityweek.net/eu-eidas-2-digital-identity-wallet-deadline/",
-      "summary": "European Union member states face a Q4 2026 deadline to begin rollout of eIDAS 2.0-compliant digital identity wallets. The regulation mandates citizens can use government-issued digital identities for online public and private sector services. Industry groups warn interoperability between national wallet implementations remains a significant unsolved challenge.",
-      "source": "Identity Week", "category": "Industry", "section": "news",
-      "tags": ["Compliance", "Standards & Protocols", "Authentication"], "published": "2026-05-30T10:00:00+00:00"
+      "id": "997164041698",
+      "title": "Building a secure auth code flow setup using AgentCore Gateway with MCP clients",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-a-secure-auth-code-flow-setup-using-agentcore-gateway-with-mcp-clients/",
+      "summary": "This post demonstrates how to implement Open Authorization (OAuth) Code flow as an inbound authorization mechanism for MCP servers hosted on Amazon Bedrock AgentCore Gateway. By the end of this guide, you will have a production-ready setup where each AI assis…",
+      "source": "Amazon.com",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Standards & Protocols"
+      ],
+      "published": "2026-06-02T03:23:35+00:00"
     },
     {
-      "id": "br1breach001", "title": "Healthcare Giant Medaura Confirms 2.1M Patient Records Exposed via Stolen VPN Credentials",
-      "url": "https://www.bleepingcomputer.com/news/security/medaura-health-2m-patient-records-breach/",
-      "summary": "Medaura Health confirmed a breach affecting 2.1 million patient records after attackers used stolen VPN credentials from a third-party contractor. The absence of MFA on the contractor portal enabled initial access. Attackers maintained persistence for 47 days before detection, exfiltrating names, SSNs, insurance records, and clinical notes.",
-      "source": "BleepingComputer", "category": "Security News", "section": "breach",
-      "vector": "Stolen Credentials", "severity": "critical",
-      "tags": ["Breach", "Threat", "Authentication"], "published": "2026-06-02T07:00:00+00:00"
+      "id": "55489279e444",
+      "title": "Foxconn and Nvidia scale agentic AI and nursing robots across Taiwan's hospitals",
+      "url": "https://www.digitimes.com/news/a20260602PD211/foxconn-nvidia-taiwan-robot-taipei.html",
+      "summary": "Foxconn and Nvidia announced at Nvidia GTC Taipei that they would expand agentic AI deployments across Taiwan's major medical centers this year to support the government-backed Healthy Taiwan initiative, aiming to move hospital AI from isolated pilots to coor…",
+      "source": "Digitimes",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "AI Identity"
+      ],
+      "published": "2026-06-02T03:23:00+00:00"
     },
     {
-      "id": "br2breach002", "title": "Financial Firm Loses $18M After Credential Stuffing Attack Bypasses SMS MFA via SIM Swap",
-      "url": "https://krebsonsecurity.com/2026/06/bank-credential-stuffing-sim-swap/",
-      "summary": "A regional US bank disclosed 34,000 customer accounts compromised through a credential stuffing attack using credentials from third-party breaches. Attackers bypassed SMS MFA by performing SIM swaps on high-value accounts, resulting in $18M in fraudulent transfers. The bank is migrating to hardware token and passkey authentication.",
-      "source": "Krebs on Security", "category": "Security News", "section": "breach",
-      "vector": "Credential Stuffing + SIM Swap", "severity": "critical",
-      "tags": ["Breach", "Threat", "Authentication"], "published": "2026-06-01T16:00:00+00:00"
+      "id": "9025b6d694a9",
+      "title": "Advantech and Nvidia roll out agentic AI factory brain to automate real-time operations",
+      "url": "https://www.digitimes.com/news/a20260602PD230/advantech-nvidia-production-partnership-manufacturing.html",
+      "summary": "Advantech on June 1 said it deepened its strategic partnership with Nvidia and launched an AI-native factory architecture centered on an agentic multi-agent system called AI Factory Brain, aimed at extending AI decision-making into real-time factory operation…",
+      "source": "Digitimes",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "AI Identity"
+      ],
+      "published": "2026-06-02T03:17:16+00:00"
     },
     {
-      "id": "br3breach003", "title": "Cloud Provider Breach: Over-Privileged Service Account Exposes Data of 60 Enterprise Tenants",
-      "url": "https://www.darkreading.com/cloud-security/cloud-provider-service-account-breach-60-tenants",
-      "summary": "A cloud infrastructure provider disclosed that a threat actor compromised an over-privileged service account with cross-tenant administrative rights, gaining access to data belonging to 60 enterprise customers. The service account lacked rotation policies and had not been audited in 18 months. CISA is investigating.",
-      "source": "Dark Reading", "category": "Security News", "section": "breach",
-      "vector": "Over-privileged Service Account", "severity": "critical",
-      "tags": ["Breach", "PAM", "Machine Identity", "Access Control"], "published": "2026-05-31T11:00:00+00:00"
+      "id": "27657923186d",
+      "title": "Solomon integrates Nvidia NemoClaw to enable more autonomous humanoid robots",
+      "url": "https://www.digitimes.com/news/a20260602PD226/solomon-3d-vision-2026.html",
+      "summary": "Solomon, an AI 3D vision company, announced at COMPUTEX 2026 that it had integrated Nvidia's NemoClaw architecture to coordinate multiple AI agents for humanoid robots, combining inference, perception, sensor fusion, mobility, and manipulation into a single w…",
+      "source": "Digitimes",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "AI Identity"
+      ],
+      "published": "2026-06-02T03:06:59+00:00"
     },
     {
-      "id": "br4breach004", "title": "Telecom Carrier Breach: 800K Identity Records Exposed After SSO Token Theft",
-      "url": "https://www.scmagazine.com/news/telecom-sso-token-breach-800k/",
-      "summary": "A major telecom carrier reported a breach of 800,000 employee and contractor identity records after attackers stole long-lived SSO session tokens from an unpatched identity provider instance. Tokens were used to access HR systems, payroll data, and internal wikis without triggering authentication alerts.",
-      "source": "SC Magazine", "category": "Security News", "section": "breach",
-      "vector": "SSO Token Theft", "severity": "high",
-      "tags": ["Breach", "Threat", "Standards & Protocols"], "published": "2026-05-30T14:00:00+00:00"
+      "id": "b6fa685fe749",
+      "title": "Rapid Nutrition Expands Agentic AI Integration Across Consumer Wellness Ecosystem",
+      "url": "https://www.globenewswire.com/news-release/2026/06/02/3304820/0/en/Rapid-Nutrition-Expands-Agentic-AI-Integration-Across-Consumer-Wellness-Ecosystem.html",
+      "summary": "LONDON, June 02, 2026 (GLOBE NEWSWIRE) -- Rapid Nutrition PLC (Euronext Growth: ALRPD), a global HealthTech company advancing wellness through evidence-based, personalized nutrition solutions, is pleased to provide investors with further insight into the prog…",
+      "source": "GlobeNewswire",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "AI Identity"
+      ],
+      "published": "2026-06-02T03:00:00+00:00"
     },
     {
-      "id": "br5breach005", "title": "Retailer Confirms 1.4M Card Records Stolen After Phishing Compromised AD Admin Account",
-      "url": "https://www.bleepingcomputer.com/news/security/retailer-breach-phished-helpdesk-active-directory/",
-      "summary": "A national retail chain confirmed a point-of-sale breach affecting 1.4 million payment card records, traced to a phishing attack on a help desk agent with broad Active Directory administrative rights. The attacker used the compromised account to deploy credential-harvesting malware across 300 store systems.",
-      "source": "BleepingComputer", "category": "Security News", "section": "breach",
-      "vector": "Phishing + Privilege Escalation", "severity": "high",
-      "tags": ["Breach", "Threat", "PAM"], "published": "2026-05-28T09:30:00+00:00"
+      "id": "892966b242d8",
+      "title": "mfa-servicenow-mcp 1.14.19",
+      "url": "https://pypi.org/project/mfa-servicenow-mcp/1.14.19/",
+      "summary": "A Model Context Protocol (MCP) server implementation for ServiceNow",
+      "source": "Pypi.org",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Authentication"
+      ],
+      "published": "2026-06-02T02:55:07+00:00"
+    },
+    {
+      "id": "240bc12ff6de",
+      "title": "mfa-servicenow-mcp 1.14.18",
+      "url": "https://pypi.org/project/mfa-servicenow-mcp/1.14.18/",
+      "summary": "A Model Context Protocol (MCP) server implementation for ServiceNow",
+      "source": "Pypi.org",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Authentication"
+      ],
+      "published": "2026-06-02T02:44:58+00:00"
+    },
+    {
+      "id": "17e967aeabda",
+      "title": "MemryX Appoints Ross Jatou as CEO and Joe Faris as VP of Sales and Marketing to Accelerate AI Infrastructure Expansion",
+      "url": "https://frontpagearabia.com/memryx-appoints-ross-jatou-as-ceo-and-joe-faris-as-vp-of-sales-and-marketing-to-accelerate-ai-infrastructure-expansion/",
+      "summary": "Industry veterans join as MemryX expands its production-proven AI architecture from edge deployments into the data center ANN ARBOR, Mich., June 2, 2026 /PRNewswire/ — MemryX Inc., a developer of AI inference acceleration solutions, today announced the appoin…",
+      "source": "Frontpagearabia.com",
+      "category": "Security News",
+      "section": "breach",
+      "tags": [
+        "Breach",
+        "Threat"
+      ],
+      "published": "2026-06-02T02:35:50+00:00",
+      "vector": null,
+      "severity": "medium"
+    },
+    {
+      "id": "eeef082e0c7a",
+      "title": "keycardai-oauth 0.13.1",
+      "url": "https://pypi.org/project/keycardai-oauth/0.13.1/",
+      "summary": "A Python SDK for OAuth 2.0 functionality implementing multiple OAuth 2.0 standards",
+      "source": "Pypi.org",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Standards & Protocols"
+      ],
+      "published": "2026-06-02T02:13:39+00:00"
+    },
+    {
+      "id": "a5db34741aa7",
+      "title": "Nvidia's Vera CPU is built for agents, not humans; Jensen Huang says it opens a market that never existed before",
+      "url": "https://www.digitimes.com/news/a20260601VL217/jensen-huang-nvidia-gtc-ai-agent-cpu-2026.html",
+      "summary": "Nvidia CEO Jensen Huang announced at GTC Taipei on June 1st that the company is launching Vera, a new CPU designed specifically for agentic AI workloads. The announcement reframes the CPU market around a simple but consequential argument: every CPU built unti…",
+      "source": "Digitimes",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "AI Identity"
+      ],
+      "published": "2026-06-02T02:10:46+00:00"
+    },
+    {
+      "id": "26363c6e4f21",
+      "title": "keycardai-oauth 0.13.0",
+      "url": "https://pypi.org/project/keycardai-oauth/0.13.0/",
+      "summary": "A Python SDK for OAuth 2.0 functionality implementing multiple OAuth 2.0 standards",
+      "source": "Pypi.org",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Standards & Protocols"
+      ],
+      "published": "2026-06-02T02:01:49+00:00"
+    },
+    {
+      "id": "d2d3f1a5f8a1",
+      "title": "NVIDIA Jetson Brings Agentic AI to the Physical World",
+      "url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
+      "summary": "Agentic AI is getting physical. At COMPUTEX on Tuesday, NVIDIA announced NVIDIA JetPack 7.2 and NVIDIA NemoClaw support on Jetson. JetPack 7.2 brings agentic AI skills, Yocto project support, NVIDIA CUDA 13 on NVIDIA Jetson Orin, a substantial performance ga…",
+      "source": "Nvidia.com",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "AI Identity"
+      ],
+      "published": "2026-06-02T02:00:40+00:00"
+    },
+    {
+      "id": "91d00c80f084",
+      "title": "ASUS Announces New Additions to the Zenbook and Vivobook Series at Computex 2026",
+      "url": "https://financialpost.com/globe-newswire/asus-announces-new-additions-to-the-zenbook-and-vivobook-series-at-computex-2026",
+      "summary": "These latest laptops combine premium design with everyday computing for an elevated user experience KEY POINTS Refined aesthetics and dependable performance: new Zenbook 14 and Vivobook S Series laptops feature the latest power-efficient processors and premiu…",
+      "source": "Financial Post",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "General IAM"
+      ],
+      "published": "2026-06-02T01:30:15+00:00"
+    },
+    {
+      "id": "30349c66abb6",
+      "title": "mfa-servicenow-mcp 1.14.17",
+      "url": "https://pypi.org/project/mfa-servicenow-mcp/1.14.17/",
+      "summary": "A Model Context Protocol (MCP) server implementation for ServiceNow",
+      "source": "Pypi.org",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Authentication"
+      ],
+      "published": "2026-06-02T01:29:27+00:00"
+    },
+    {
+      "id": "03368ed95bf7",
+      "title": "alter-runtime added to PyPI",
+      "url": "https://pypi.org/project/alter-runtime/",
+      "summary": "~Alter Identity Runtime - local sovereign daemon for the continuous identity field. Subscribes to per-~handle Cloudflare Durable Objects, exposes Unix socket + D-Bus + CLI surfaces, falls back gracefully to direct MCP polling.",
+      "source": "Pypi.org",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "General IAM"
+      ],
+      "published": "2026-06-02T00:10:17+00:00"
+    },
+    {
+      "id": "872f389c46c5",
+      "title": "CVE-2022-0492 — Linux Kernel Improper Authentication Vulnerability",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "summary": "Linux Kernel contains an improper authentication vulnerability which could allow for privilege escalation via the cgroups v1 release_agent feature.",
+      "source": "CISA Alerts",
+      "category": "Government",
+      "section": "news",
+      "tags": [
+        "Authentication",
+        "Vulnerability"
+      ],
+      "published": "2026-06-02T00:00:00+00:00"
+    },
+    {
+      "id": "ed37af53929c",
+      "title": "Reference your own AWS Secrets Manager secrets in Amazon Bedrock AgentCore Identity",
+      "url": "https://aws.amazon.com/blogs/machine-learning/reference-your-own-aws-secrets-manager-secrets-in-amazon-bedrock-agentcore-identity/",
+      "summary": "Today, we’re excited to announce the ability to reference a secret in AWS Secrets Manager for AgentCore Identity, so you can reference your own preconfigured secret from Secrets Manager and retain full control over how it is managed. With this ability, you ca…",
+      "source": "Amazon.com",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "General IAM"
+      ],
+      "published": "2026-06-01T22:16:28+00:00"
+    },
+    {
+      "id": "19ede6b43955",
+      "title": "Okta’s COO says companies are in denial about the hardest part of the AI revolution: redesigning work itself",
+      "url": "https://fortune.com/2026/06/01/oktas-coo-kelleher-companies-in-denial-about-redesigning-work-ai-agents/",
+      "summary": "The transition from workforce to work planning — budgeting for both \"human workers and digital workers,\" is breaking people's brains, Eric Kelleher said.",
+      "source": "Fortune",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "Vendor News"
+      ],
+      "published": "2026-06-01T20:55:53+00:00"
+    },
+    {
+      "id": "054d284f4ebf",
+      "title": "authID Announces its 2026 Annual Meeting to be Held on July 6, 2026",
+      "url": "https://www.globenewswire.com/news-release/2026/06/01/3304734/0/en/authID-Announces-its-2026-Annual-Meeting-to-be-Held-on-July-6-2026.html",
+      "summary": "DENVER, June 01, 2026 (GLOBE NEWSWIRE) -- authID® (Nasdaq: AUID)(“authID” or the “Company”), a leading provider of biometric identity verification and authentication solutions, today announces that the 2026 Annual Meeting will be held virtually on July 6, 202…",
+      "source": "GlobeNewswire",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Authentication"
+      ],
+      "published": "2026-06-01T20:30:00+00:00"
+    },
+    {
+      "id": "93d7f2b5be01",
+      "title": "araxys 0.13.0",
+      "url": "https://pypi.org/project/araxys/0.13.0/",
+      "summary": "Plug & play security for FastAPI — CORS (glob), CSRF, IP blocking (trusted proxies), rate limiting (fixed+sliding), honeypots (URL+passive), JWT (RS256/ES256, token binding, leeway), API keys (sk_/pk_), MFA (TOTP), OAuth2/OIDC (PKCE), RBAC (resource:action), …",
+      "source": "Pypi.org",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Authentication",
+        "Standards & Protocols",
+        "Access Control"
+      ],
+      "published": "2026-06-01T19:36:02+00:00"
+    },
+    {
+      "id": "3179cbd705cd",
+      "title": "Extending MCP support for Amazon Bedrock AgentCore Gateway",
+      "url": "https://aws.amazon.com/blogs/machine-learning/extending-mcp-support-for-amazon-bedrock-agentcore-gateway-2/",
+      "summary": "While deploying Model Context Protocol (MCP) servers in production, enterprises need fine-grained access control across servers, observability into which teams use which tools, security guarantees against data exfiltration, and centralized credential manageme…",
+      "source": "Amazon.com",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Vendor News",
+        "Access Control"
+      ],
+      "published": "2026-06-01T18:35:03+00:00"
+    },
+    {
+      "id": "0270540096c6",
+      "title": "Why did Meta fix Instagram email-change exploit? #tech",
+      "url": "https://alltoc.com/tech/why-did-meta-fix-instagram-email-change-exploit",
+      "summary": "Meta fixed a chatbot linked Instagram email issue Hackers claimed they used Meta’s AI support chatbot to change the email addresses attached to Instagram accounts, during a period when high profile account takeovers were widespread. Meta responded by addressi…",
+      "source": "Alltoc.com",
+      "category": "Security News",
+      "section": "breach",
+      "tags": [
+        "Vulnerability",
+        "Breach",
+        "Threat"
+      ],
+      "published": "2026-06-01T18:01:49+00:00",
+      "vector": null,
+      "severity": "critical"
+    },
+    {
+      "id": "73dc7a6da666",
+      "title": "Secure AI agents with Policy and Lambda interceptors in Amazon Bedrock AgentCore gateway",
+      "url": "https://aws.amazon.com/blogs/machine-learning/secure-ai-agents-with-policy-and-lambda-interceptors-in-amazon-bedrock-agentcore-gateway/",
+      "summary": "In this post, we use a lakehouse data agent to demonstrate how you can use Policy for deterministic access control and Lambda interceptors for dynamic validation. We then show how to combine Lambda interceptors and Policy to implement a geography-based access…",
+      "source": "Amazon.com",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "AI Identity",
+        "Compliance",
+        "Access Control"
+      ],
+      "published": "2026-06-01T17:54:22+00:00"
+    },
+    {
+      "id": "4f197ff556f9",
+      "title": "Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm",
+      "url": "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
+      "summary": "A new Mini Shai-Hulud supply chain attack campaign, codenamed Miasma, has compromised @redhat-cloud-services packages to steal credentials and secrets from developer machines and deliver a self-propagating worm. \"This is effectively a Mini Shai-Hulud campaig…",
+      "source": "Internet",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Threat"
+      ],
+      "published": "2026-06-01T17:40:28+00:00"
+    },
+    {
+      "id": "0c11c7041a29",
+      "title": "Amazon SageMaker adds permissions boundaries for SCP compliance",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-scp/",
+      "summary": "Amazon SageMaker Unified Studio now supports custom IAM permissions boundaries, so organizations that enforce Service Control Policies (SCPs) requiring permissions boundaries on all IAM roles can adopt SageMaker Unified Studio without modifying their security…",
+      "source": "Amazon.com",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Compliance"
+      ],
+      "published": "2026-06-01T17:00:00+00:00"
+    },
+    {
+      "id": "26b866f0ab0b",
+      "title": "The Newest Instagram \"Exploit\" Is the Goofiest I've Seen",
+      "url": "https://www.0xsid.com/blog/meta-account-takeover-fiasco",
+      "summary": "Article URL: https://www.0xsid.com/blog/meta-account-takeover-fiasco Comments URL: https://news.ycombinator.com/item?id=48359102 Points: 61 # Comments: 9",
+      "source": "0xsid.com",
+      "category": "Security News",
+      "section": "breach",
+      "tags": [
+        "Vulnerability",
+        "Breach",
+        "Threat"
+      ],
+      "published": "2026-06-01T16:31:42+00:00",
+      "vector": null,
+      "severity": "medium"
+    },
+    {
+      "id": "9a2c92b5cbb2",
+      "title": "QNAP QuTS hero h6.0 Beta Adds Dual-NAS HA, Immutable Snapshots, and On-Prem AI",
+      "url": "https://www.storagereview.com/news/qnap-quts-hero-h6-0-beta-adds-dual-nas-ha-immutable-snapshots-and-on-prem-ai",
+      "summary": "QNAP has released QuTS hero h6.0 Beta, the latest version of its ZFS-based NAS operating system. This update brings several additions for enterprise NAS users, including dual-NAS high availability, immutable snapshots, centralized encryption key management, s…",
+      "source": "Storagereview.com",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Vendor News"
+      ],
+      "published": "2026-06-01T16:23:31+00:00"
+    },
+    {
+      "id": "0e92480fbc35",
+      "title": "Microsoft resolves My Sign-Ins outage caused by cache configuration error",
+      "url": "https://4sysops.com/archives/microsoft-resolves-my-sign-ins-outage-caused-by-cache-configuration-error/",
+      "summary": "Microsoft has resolved a service disruption that prevented users from configuring multi-factor authentication or accessing the My Sign-Ins portal. The incident was tracked in the Microsoft 365 admin center under the identifier MO1329260. Affected users encoun…",
+      "source": "4sysops.com",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Authentication"
+      ],
+      "published": "2026-06-01T16:13:57+00:00"
+    },
+    {
+      "id": "fcf8661c83f7",
+      "title": "Microsoft investigates service outage affecting Office for the web and Teams",
+      "url": "https://4sysops.com/archives/microsoft-investigates-service-outage-affecting-office-for-the-web-and-teams/",
+      "summary": "Microsoft is currently investigating a widespread service incident that prevents users from accessing files through cloud-based productivity tools. The outage specifically impacts Microsoft Teams and several Office for the web applications, including Excel an…",
+      "source": "4sysops.com",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "IGA"
+      ],
+      "published": "2026-06-01T16:13:41+00:00"
+    },
+    {
+      "id": "3ab0ec61b416",
+      "title": "AgentOps: Operationalize agentic AI at scale with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/agentops-operationalize-agentic-ai-at-scale-with-amazon-bedrock-agentcore/",
+      "summary": "When you build agentic AI solutions, you face unique operational challenges. Agents make unpredictable decisions, costs spiral unexpectedly, and debugging non-deterministic failures seems impossible. Agentic AI applications don't just execute predetermined wo…",
+      "source": "Amazon.com",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "AI Identity",
+        "Compliance"
+      ],
+      "published": "2026-06-01T16:12:18+00:00"
+    },
+    {
+      "id": "841c362dfd5e",
+      "title": "(404media, 6/1)ェ莢⒧襖 i Tokenmaxxi ...",
+      "url": "http://www.st.ryukoku.ac.jp/~kjm/security/memo/2026/06.html#20260602__amazon",
+      "summary": "(404media, 6/1)ェ莢⒧襖 i Tokenmaxxing鐚I祚竊区音хｆ'謙PI (。 Ai, 5/24) Tokenmaxxing綽チI羇紫起荅＞醜⒢сぇ若ッ恰莢脂∝刈㍼宴㍽┝ ⒢с",
+      "source": "Ryukoku.ac.jp",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "General IAM"
+      ],
+      "published": "2026-06-01T15:00:00+00:00"
+    },
+    {
+      "id": "a4afa76857e1",
+      "title": "Microsoft investigates Office Apps, Teams file access issues",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-office-apps-teams-file-access-issues/",
+      "summary": "Microsoft says an ongoing incident is preventing users of its Teams collaboration platform and free Office for the web cloud-based productivity suite from opening files. [...]",
+      "source": "BleepingComputer",
+      "category": "Vendor",
+      "section": "vendor",
+      "tags": [
+        "IGA"
+      ],
+      "published": "2026-06-01T14:36:46+00:00"
+    },
+    {
+      "id": "711be162d073",
+      "title": "⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More",
+      "url": "https://thehackernews.com/2026/06/weekly-recap-new-linux-flaw-pan-os.html",
+      "summary": "Monday hit like a cron job with anger issues. A busted auth path here, a repo-side faceplant there, some \"patched-ish\" thing already getting chewed on in the wild, and then the usual bonus round: poisoned dev tools, sketchy forum chatter, phishing kits prete…",
+      "source": "Internet",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Threat",
+        "Standards & Protocols",
+        "Vulnerability"
+      ],
+      "published": "2026-06-01T13:59:54+00:00"
+    },
+    {
+      "id": "b769a5d7349e",
+      "title": "awsuser 0.1.0",
+      "url": "https://pypi.org/project/awsuser/0.1.0/",
+      "summary": "CLI tool to authenticate AWS IAM users with password + MFA via Console sign-in (no access keys needed)",
+      "source": "Pypi.org",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Authentication"
+      ],
+      "published": "2026-06-01T12:32:18+00:00"
+    },
+    {
+      "id": "c48608cbdb6e",
+      "title": "awsuser added to PyPI",
+      "url": "https://pypi.org/project/awsuser/",
+      "summary": "CLI tool to authenticate AWS IAM users with password + MFA via Console sign-in (no access keys needed)",
+      "source": "Pypi.org",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Authentication"
+      ],
+      "published": "2026-06-01T12:32:18+00:00"
+    },
+    {
+      "id": "43eae6a26c80",
+      "title": "Pathlock Reinforces Its Leadership in ERP Security and Controls for the AI Era",
+      "url": "https://www.prnewswire.com/news-releases/pathlock-reinforces-its-leadership-in-erp-security-and-controls-for-the-ai-era-302786498.html",
+      "summary": "As AI agents, automated processes, and continuous business change reshape enterprise risk, Pathlock leads ERP Security and Controls with a continuous, transaction-first approach that connects identity, governance, and assurance. DENVER, June 1, 2026 /PRNewswi…",
+      "source": "PRNewswire",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "AI Identity"
+      ],
+      "published": "2026-06-01T11:00:00+00:00"
+    },
+    {
+      "id": "94ba9aff9b21",
+      "title": "Party Down: Complete Series (Digital HD TV Show) for $7.99",
+      "url": "https://slickdeals.net/f/19581963-party-down-complete-series-digital-hd-tv-show-for-7-99",
+      "summary": "Apple TV [apple.com] has Party Down: Complete Series (Digital HD TV Show) on sale for $7.99 [INDENT]About this TV series: * While chasing dreams of stardom, six Hollywood wannabe actors and writers...",
+      "source": "Slickdeals.net",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "Next-Gen IAM"
+      ],
+      "published": "2026-06-01T10:56:38+00:00"
+    },
+    {
+      "id": "0ace1f8b00ac",
+      "title": "Critical WP Maps Pro Flaw Actively Exploited to Create Admin Accounts",
+      "url": "https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html",
+      "summary": "Threat actors are attempting to actively exploit a critical security flaw impacting WP Maps Pro, a WordPress plugin that has had over 15,000 sales on the Envato Market, to create malicious administrator accounts on susceptible sites. WP Maps Pro allows site …",
+      "source": "Internet",
+      "category": "Security News",
+      "section": "breach",
+      "tags": [
+        "Vulnerability",
+        "Breach",
+        "Threat",
+        "Compliance"
+      ],
+      "published": "2026-06-01T08:45:29+00:00",
+      "vector": null,
+      "severity": "critical"
+    },
+    {
+      "id": "5f5a7668456b",
+      "title": "owa-piggy 0.14.1",
+      "url": "https://pypi.org/project/owa-piggy/0.14.1/",
+      "summary": "Get an Outlook/Graph access token without registering an app in Azure AD",
+      "source": "Pypi.org",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "Vendor News"
+      ],
+      "published": "2026-06-01T06:14:18+00:00"
+    },
+    {
+      "id": "3d76a515077f",
+      "title": "Npm-scan: Modern supply chain security for the npm ecosystem",
+      "url": "https://github.com/lateos-ai/npm-scan",
+      "summary": "Modern supply chain security for the npm ecosystem. Static + behavioral analysis that catches what npm audit, Snyk, and Socket miss — obfuscated payloads, credential stealers, conditional triggers,...",
+      "source": "Github.com",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "General IAM"
+      ],
+      "published": "2026-06-01T02:19:07+00:00"
+    },
+    {
+      "id": "c727db7cfc22",
+      "title": "jawsome added to PyPI",
+      "url": "https://pypi.org/project/jawsome/",
+      "summary": "Discover token roles inside AWS environment",
+      "source": "Pypi.org",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "General IAM"
+      ],
+      "published": "2026-05-31T20:43:15+00:00"
+    },
+    {
+      "id": "ee4c1e036630",
+      "title": "Show HN: GEDD – Find what your AI agent gets wrong (before your users do)",
+      "url": "https://github.com/aws-samples/sample-GEDD",
+      "summary": "Article URL: https://github.com/aws-samples/sample-GEDD Comments URL: https://news.ycombinator.com/item?id=48349448 Points: 1 # Comments: 0",
+      "source": "Github.com",
+      "category": "Security News",
+      "section": "breach",
+      "tags": [
+        "AI Identity",
+        "Breach",
+        "Threat"
+      ],
+      "published": "2026-05-31T20:31:24+00:00",
+      "vector": null,
+      "severity": "medium"
+    },
+    {
+      "id": "0557eed134a0",
+      "title": "PEXA protects high-value property transactions with streamlined IAM",
+      "url": "https://www.itnews.com.au/news/pexa-protects-high-value-property-transactions-with-streamlined-iam-625474",
+      "summary": "Balancing security with user expectations.",
+      "source": "iTnews",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "General IAM"
+      ],
+      "published": "2026-05-31T20:00:00+00:00"
+    },
+    {
+      "id": "c0b1c3d13f80",
+      "title": "proveyouragent added to PyPI",
+      "url": "https://pypi.org/project/proveyouragent/",
+      "summary": "Cryptographic identity and trust for AI agents",
+      "source": "Pypi.org",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "AI Identity"
+      ],
+      "published": "2026-05-31T19:45:50+00:00"
+    },
+    {
+      "id": "11793c65d55c",
+      "title": "Microsoft mandates registered authentication for Entra ID password resets",
+      "url": "https://4sysops.com/archives/microsoft-mandates-registered-authentication-for-entra-id-password-resets/",
+      "summary": "Microsoft Entra ID, the identity management system formerly known as Azure Active Directory, is implementing stricter security for its Self-Service Password Reset (SSPR) portal. Currently, users can reset passwords using contact details like phone numbers or …",
+      "source": "4sysops.com",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "Authentication",
+        "Vendor News"
+      ],
+      "published": "2026-05-31T17:54:04+00:00"
+    },
+    {
+      "id": "5e656d1d847e",
+      "title": "Show HN: mcpguard – security scanner and firewall for MCP servers",
+      "url": "https://github.com/GT-Projects256/mcpguard",
+      "summary": "Open-source security firewall for MCP servers. Scan for OWASP MCP Top 10 vulnerabilities, enforce runtime policies on AI agent tool calls, and generate compliance audit logs. - GT-Projects256/mcpguard",
+      "source": "Github.com",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "AI Identity",
+        "Compliance"
+      ],
+      "published": "2026-05-31T15:04:22+00:00"
+    },
+    {
+      "id": "0ea111c358bd",
+      "title": "27,000-Download Codex UI Tool Secretly Stole OpenAI Refresh Tokens",
+      "url": "https://hackread.com/codex-ui-tool-secretly-stole-openai-refresh-tokens/",
+      "summary": "A malicious Codex UI npm package with 27,000 weekly downloads was caught exfiltrating OpenAI refresh tokens, exposing developers to account takeover risks.",
+      "source": "HackRead",
+      "category": "Security News",
+      "section": "breach",
+      "tags": [
+        "Breach",
+        "Threat"
+      ],
+      "published": "2026-05-31T14:54:04+00:00",
+      "vector": null,
+      "severity": "medium"
+    },
+    {
+      "id": "c61e30a80125",
+      "title": "agent-token-budget-mcp added to PyPI",
+      "url": "https://pypi.org/project/agent-token-budget-mcp/",
+      "summary": "Agent Token Budget MCP — per-session spend cap with signed budget-exhausted attestations. Twin of bft-progress-council-mcp (spend-axis vs stall-axis guardrail). By MEOK AI Labs.",
+      "source": "Pypi.org",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "General IAM"
+      ],
+      "published": "2026-05-31T14:31:18+00:00"
+    },
+    {
+      "id": "c85afe8b46c4",
+      "title": "owa-piggy 0.14.0",
+      "url": "https://pypi.org/project/owa-piggy/0.14.0/",
+      "summary": "Get an Outlook/Graph access token without registering an app in Azure AD",
+      "source": "Pypi.org",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "Vendor News"
+      ],
+      "published": "2026-05-31T12:27:30+00:00"
+    },
+    {
+      "id": "9a6082c385d9",
+      "title": "Show HN: Egress WAF to limit AI agents and NPM malware based on mitmproxy",
+      "url": "https://github.com/esamattis/mitmwall",
+      "summary": "Article URL: https://github.com/esamattis/mitmwall Comments URL: https://news.ycombinator.com/item?id=48344357 Points: 1 # Comments: 0",
+      "source": "Github.com",
+      "category": "Security News",
+      "section": "breach",
+      "tags": [
+        "AI Identity",
+        "Breach",
+        "Threat"
+      ],
+      "published": "2026-05-31T09:52:23+00:00",
+      "vector": null,
+      "severity": "medium"
+    },
+    {
+      "id": "6a133a657dfb",
+      "title": "iamdata 0.1.202605311",
+      "url": "https://pypi.org/project/iamdata/0.1.202605311/",
+      "summary": "IAM data for AWS actions, resources, and conditions based on IAM policy documents. Checked for updates daily.",
+      "source": "Pypi.org",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "General IAM"
+      ],
+      "published": "2026-05-31T06:05:08+00:00"
+    },
+    {
+      "id": "230f5c2c7214",
+      "title": "evidentia-collectors 0.10.7",
+      "url": "https://pypi.org/project/evidentia-collectors/0.10.7/",
+      "summary": "Evidence collection agents for AWS, Databricks, GitHub, Okta, Snowflake, SQL databases, and vendor-risk APIs (Vanta, Drata, BitSight, SecurityScorecard)",
+      "source": "Pypi.org",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "Vendor News"
+      ],
+      "published": "2026-05-31T02:04:16+00:00"
+    },
+    {
+      "id": "6423f03234c4",
+      "title": "Software Stocks Have Best Month Since 2001. Talk of 'SaaSpocalypse' Subsides",
+      "url": "https://slashdot.org/story/26/05/29/2126214/software-stocks-have-best-month-since-2001-talk-of-saaspocalypse-subsides",
+      "summary": "Security company Okta shot up 30% Friday, reported CNBC, while data platform provider Snowflake jumped 50% this week. They see it as part of a larger trend where software stocks \"soared this week,\" signaling \"some companies are navigating their way through…",
+      "source": "Slashdot.org",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "IGA",
+        "Vendor News"
+      ],
+      "published": "2026-05-30T15:34:00+00:00"
+    },
+    {
+      "id": "15cfe7e98431",
+      "title": "New CIFSwitch Linux flaw gives root on multiple distributions",
+      "url": "https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/",
+      "summary": "A newly discovered local privilege escalation vulnerability dubbed 'CIFSwitch' in the Linux kernel could allow attackers to forge CIFS authentication key descriptions, abuse the kernel's key request mechanism, and gain root privileges. [...]",
+      "source": "BleepingComputer",
+      "category": "Vendor",
+      "section": "vendor",
+      "tags": [
+        "Authentication",
+        "Threat",
+        "Vulnerability"
+      ],
+      "published": "2026-05-30T14:16:08+00:00"
+    },
+    {
+      "id": "cce4346d6686",
+      "title": "I've spent five decades researching UFOs and speaking to highly confidential sources. This is what I've discovered about the CIA, China and aliens, writes top barrister JONATHAN CAPLAN KC. You may scoff, but the evidence is undeniable",
+      "url": "https://www.dailymail.com/sciencetech/article-15859413/UFO-confidential-CIA-China-aliens-JONATHAN-CAPLAN.html",
+      "summary": "To most people, the idea that the US, China and other countries are in possession of crashed alien spacecraft is preposterous.",
+      "source": "Dailymail.com",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "General IAM"
+      ],
+      "published": "2026-05-30T08:59:26+00:00"
+    },
+    {
+      "id": "b0aad2fa2d2c",
+      "title": "pulumi-okta 6.8.0a1780124534",
+      "url": "https://pypi.org/project/pulumi-okta/6.8.0a1780124534/",
+      "summary": "A Pulumi package for creating and managing okta resources.",
+      "source": "Pypi.org",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "Vendor News"
+      ],
+      "published": "2026-05-30T07:13:38+00:00"
+    },
+    {
+      "id": "c4aaee2c1f80",
+      "title": "Show HN: Totpgate – Single-packet authorization via TOTP",
+      "url": "https://github.com/PepperDev/totpgate",
+      "summary": "I created a stand-alone SPA port knocking using TOTP algorithm. It also don't rely on any external binary. Comments URL: https://news.ycombinator.com/item?id=48333370 Points: 1 # Comments: 0",
+      "source": "Github.com",
+      "category": "Security News",
+      "section": "breach",
+      "tags": [
+        "Breach",
+        "Threat"
+      ],
+      "published": "2026-05-30T06:49:06+00:00",
+      "vector": null,
+      "severity": "medium"
+    },
+    {
+      "id": "804509001aac",
+      "title": "Okta (OKTA) Hits 4-Year High as Earnings Soar",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/okta-okta-hits-4-high-062312694.html",
+      "summary": "Okta Inc. (NASDAQ:OKTA) is one of the 10 Stocks With Explosive Returns. Okta saw its share prices climb to a fresh four-year high on Friday, as investor...",
+      "source": "Yahoo Entertainment",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "Vendor News"
+      ],
+      "published": "2026-05-30T06:23:12+00:00"
+    },
+    {
+      "id": "ea81363042bb",
+      "title": "Adding Optional Claims Using Token Configuration in Microsoft Entra ID",
+      "url": "https://www.c-sharpcorner.com/article/adding-optional-claims-using-token-configuration-in-microsoft-entra-id/",
+      "summary": "Simplify token customization in Azure AD! Learn how to use Optional Claims to easily add user attributes like first and last name to tokens without complex policies. Streamline your app development!",
+      "source": "C-sharpcorner.com",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "Vendor News"
+      ],
+      "published": "2026-05-30T04:37:42+00:00"
+    },
+    {
+      "id": "7fcb7bab4c36",
+      "title": "Okta writes its own license to kill rogue AI agents",
+      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=183449786",
+      "summary": "CEO Todd McKinnon says customers including ServiceNow want an off switch",
+      "source": "Slashdot.org",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "Vendor News",
+        "AI Identity"
+      ],
+      "published": "2026-05-29T23:13:15+00:00"
+    },
+    {
+      "id": "0b3c3a09bf3c",
+      "title": "Software stocks wrap up best month since 2001 as talk of 'SaaSpocalypse' subsides",
+      "url": "https://www.cnbc.com/2026/05/29/software-stocks-wrap-best-month-since-2001-as-talk-of-saaspocalypse-.html",
+      "summary": "Snowflake and Okta both saw record stock pops this week as investors found favor in their AI software strategies.",
+      "source": "CNBC",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "Vendor News"
+      ],
+      "published": "2026-05-29T21:14:04+00:00"
+    },
+    {
+      "id": "c6470a4d683b",
+      "title": "Hands-On With Gemini Spark: I Gave It Access to My Life and It Friend-Zoned My Boyfriend",
+      "url": "https://www.wired.com/story/google-gemini-spark-ai-agent-hands-on/",
+      "summary": "Google's new AI agent combed through my emails, documents, and calendar to plan a birthday party and still didn’t clock the person most important to me.",
+      "source": "Wired",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "AI Identity"
+      ],
+      "published": "2026-05-29T19:07:46+00:00"
+    },
+    {
+      "id": "6e1ab19b96c8",
+      "title": "A Microcap Just Staked a Claim in the AI Agent Security Land Grab",
+      "url": "https://apnews.com/press-release/pr-newswire/a-microcap-just-staked-a-claim-in-the-ai-agent-security-land-grab-efc94c1a3f78a3f2a6a5d8175f428a09",
+      "summary": "Issued on behalf of Integrated Cyber Solutions Inc. dba Integrated Quantum Technologies (CSE: ICS) (OTCQB: IGCRF) (FSE: Y4G)",
+      "source": "Associated Press",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "AI Identity"
+      ],
+      "published": "2026-05-29T14:55:57+00:00"
+    },
+    {
+      "id": "df7e1f189d23",
+      "title": "Dutch police disrupts botnet composed of 17 million devices",
+      "url": "https://www.helpnetsecurity.com/2026/05/29/dutch-police-disrupts-botnet-composed-of-17-million-devices/",
+      "summary": "The Dutch National Police and the country’s National Cyber Security Center (NCSC) have taken offline 200 servers controlling a botnet of 17 million devices, the law enforcement agency announced on Thursday. The investigation was launched after the NCSC receiv…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "IGA"
+      ],
+      "published": "2026-05-29T14:26:20+00:00"
+    },
+    {
+      "id": "576c79f6bb8e",
+      "title": "NordVPN redefines digital protection with a next-generation antivirus and advanced VPN in one app",
+      "url": "https://www.globenewswire.com/news-release/2026/05/29/3303644/0/en/NordVPN-redefines-digital-protection-with-a-next-generation-antivirus-and-advanced-VPN-in-one-app.html",
+      "summary": "The new direction reflects how online threats have evolved beyond malicious files to phishing, scams, identity theft, and account takeover The new direction reflects how online threats have evolved beyond malicious files to phishing, scams, identity theft, an…",
+      "source": "GlobeNewswire",
+      "category": "Security News",
+      "section": "breach",
+      "tags": [
+        "Breach",
+        "Threat"
+      ],
+      "published": "2026-05-29T13:30:00+00:00",
+      "vector": "Phishing",
+      "severity": "medium"
+    },
+    {
+      "id": "b0736fc3d831",
+      "title": "23andMe Sued by California Over Massive 2023 Data Breach",
+      "url": "https://www.cnet.com/tech/services-and-software/23andme-sued-by-california-over-massive-2023-data-breach/",
+      "summary": "Attorney general calls the company's security measures \"lax\" and says the company failed to adequately investigate warnings its systems had been compromised.",
+      "source": "CNET",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "IGA",
+        "Threat"
+      ],
+      "published": "2026-05-29T02:39:05+00:00"
+    },
+    {
+      "id": "0af4930635ad",
+      "title": "SailPoint、Claude Compliance APIとの統合を発表、AIプラットフォーム向けにエンタープライズ グレードのアイデンティティ セキュリティを提供",
+      "url": "https://prtimes.jp/main/html/rd/p/000000039.000096451.html",
+      "summary": "[SailPoint テクノロジーズジャパン 合同会社] *本プレスリリースは、2026年5月21日に米国で発表されたニュースリリース(https://www.sailpoint.com/press-releases/sailpoint-announces-claude-compliance-integration-anthropic)の抄訳版です。内容および解...",
+      "source": "Prtimes.jp",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "IGA",
+        "Compliance"
+      ],
+      "published": "2026-05-29T01:00:00+00:00"
+    },
+    {
+      "id": "4d3f7309b087",
+      "title": "California sues 23andMe, alleging it failed to protect user data in 2023 breach",
+      "url": "https://www.kpbs.org/news/science-technology/2026/05/28/california-sues-23andme-alleging-it-failed-to-protect-user-data-in-2023-breach",
+      "summary": "Attorney General Rob Bonta's office said the company failed to implement common security measures and to investigate red flags that, months before the breach, showed that malicious actors were trying to access its systems.",
+      "source": "KPBS",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "IGA",
+        "Threat"
+      ],
+      "published": "2026-05-28T23:36:31+00:00"
+    },
+    {
+      "id": "02a24f8b0f98",
+      "title": "Agentic AI and Banks: Who Signs Off on the Machine?",
+      "url": "https://www.pymnts.com/news/banking/2026/agentic-ai-and-banks-who-signs-off-on-the-machine/",
+      "summary": "Banks are becoming comfortable with automation. Software reviews transactions, flags suspicious activity, routes documents, generates reports and helps employees complete work more efficiently. Those systems support decision-making, but they rarely own it. Ag…",
+      "source": "pymnts.com",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "AI Identity"
+      ],
+      "published": "2026-05-28T23:28:17+00:00"
+    },
+    {
+      "id": "50b1ff1c9c77",
+      "title": "jupyterlab-git-oauth added to PyPI",
+      "url": "https://pypi.org/project/jupyterlab-git-oauth/",
+      "summary": "JupyterLab git extension with OAuth device flow for GitLab and GitHub",
+      "source": "Pypi.org",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Standards & Protocols"
+      ],
+      "published": "2026-05-28T22:14:00+00:00"
+    },
+    {
+      "id": "b45912da4ef8",
+      "title": "Show HN: Fort – one command to check if your Mac is secure",
+      "url": "https://github.com/djadmin/fort",
+      "summary": "Built a small tool that checks if your Mac is actually secure - one command, 15 checks, fixes the ones it can.No account, no agent, just a binary.Appreciate any feedback. what checks am I missing? Comments URL: https://news.ycombinator.com/item?id=48316241 P…",
+      "source": "Github.com",
+      "category": "Security News",
+      "section": "breach",
+      "tags": [
+        "Breach",
+        "Threat"
+      ],
+      "published": "2026-05-28T22:11:18+00:00",
+      "vector": null,
+      "severity": "medium"
+    },
+    {
+      "id": "2234060b5165",
+      "title": "Elcora Advanced Materials Corp. Executes Binding Agreement for Proposed Acquisition of the Eldorado Gold Mine in South Africa’s Barberton Greenstone Belt",
+      "url": "https://financialpost.com/globe-newswire/elcora-advanced-materials-corp-executes-binding-agreement-for-proposed-acquisition-of-the-eldorado-gold-mine-in-south-africas-barberton-greenstone-belt",
+      "summary": "HALIFAX, Nova Scotia, May 28, 2026 (GLOBE NEWSWIRE) — TRANSACTION HIGHLIGHTS Elcora has signed a binding range of terms (BROT) with Elmaic Trading CC to acquire 100% of the Eldorado Gold Mine and associated tailings operations on Portion 1 of the Farm Louie…",
+      "source": "Financial Post",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "General IAM"
+      ],
+      "published": "2026-05-28T20:51:17+00:00"
+    },
+    {
+      "id": "22e23afd2681",
+      "title": "Shadow Sciences Group: Trust Is No Longer a Control Surface -- It Is the Attack Surface",
+      "url": "https://www.prnewswire.com/news-releases/shadow-sciences-group-trust-is-no-longer-a-control-surface--it-is-the-attack-surface-302784808.html",
+      "summary": "Six-Chapter Series Examines Synthetic Identity, Deepfake Fraud, and What Verification Must Look Like When Familiar Signals Can No Longer Be Trusted MINNEAPOLIS, May 28, 2026 /PRNewswire/ -- Shadow Sciences Group LLC, a boutique exposure intelligence and risk …",
+      "source": "PRNewswire",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Threat"
+      ],
+      "published": "2026-05-28T17:21:00+00:00"
+    },
+    {
+      "id": "8e9f8da7d573",
+      "title": "stable-write added to PyPI",
+      "url": "https://pypi.org/project/stable-write/",
+      "summary": "Deterministic, atomic, save-only-if-modified file writing for Python data pipelines.",
+      "source": "Pypi.org",
+      "category": "Security News",
+      "section": "breach",
+      "tags": [
+        "Breach",
+        "Threat",
+        "Compliance"
+      ],
+      "published": "2026-05-28T17:12:31+00:00",
+      "vector": null,
+      "severity": "medium"
+    },
+    {
+      "id": "e5c644a3f63c",
+      "title": "VU#780781: Casdoor contains multiple authentication bypass and access management vulnerabilities",
+      "url": "https://kb.cert.org/vuls/id/780781",
+      "summary": "Overview Casdoor versions 2.362.0 and earlier contain several identity and access management vulnerabilities that enable broad authentication bypass and privilege escalation. These flaws relate to Casdoor’s Security Assertion Markup Language (SAML) processing…",
+      "source": "Cert.org",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Authentication",
+        "Standards & Protocols"
+      ],
+      "published": "2026-05-28T16:13:02+00:00"
+    },
+    {
+      "id": "1845a7d3643e",
+      "title": "Token Security Researcher to Present “Zapocalypse” Exploit Chain Targeting Zapier Users at fwd:cloudsec North America",
+      "url": "https://www.globenewswire.com/news-release/2026/05/28/3302942/0/en/Token-Security-Researcher-to-Present-Zapocalypse-Exploit-Chain-Targeting-Zapier-Users-at-fwd-cloudsec-North-America.html",
+      "summary": "Session will provide best practices for securing automation platforms and AI agent-driven workflows. ...",
+      "source": "GlobeNewswire",
+      "category": "Security News",
+      "section": "whitepaper",
+      "tags": [
+        "AI Identity",
+        "Vulnerability"
+      ],
+      "published": "2026-05-28T13:04:00+00:00"
+    },
+    {
+      "id": "e4724c23ee47",
+      "title": "Plume Security Labs Exposes Hidden Proxy Network Inside SuperBox Streaming Devices that Route Potentially Harmful Traffic over Home Networks",
+      "url": "https://www.prnewswire.com/news-releases/plume-security-labs-exposes-hidden-proxy-network-inside-superbox-streaming-devices-that-route-potentially-harmful-traffic-over-home-networks-302783968.html",
+      "summary": "Investigation reveals media streaming devices sold at major U.S. retailers silently tunnel third-party internet traffic, including potentially stolen credentials and enterprise security bypass operations through subscribers' home broadband connections PALO AL…",
+      "source": "PRNewswire",
+      "category": "Security News",
+      "section": "breach",
+      "tags": [
+        "IGA",
+        "Breach"
+      ],
+      "published": "2026-05-28T12:00:00+00:00",
+      "vector": "Stolen Credentials",
+      "severity": "medium"
+    },
+    {
+      "id": "ef959d3de5e7",
+      "title": "pysafeguard 8.0.3",
+      "url": "https://pypi.org/project/pysafeguard/8.0.3/",
+      "summary": "One Identity Safeguard Python Package",
+      "source": "Pypi.org",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "IGA"
+      ],
+      "published": "2026-05-28T03:18:14+00:00"
+    },
+    {
+      "id": "37f7b9a4e9d8",
+      "title": "SE Radio 722: Dwayne McDaniel on the Engineering Challenges of Secrets Management",
+      "url": "https://se-radio.net/2026/05/se-radio-722-dwayne-mcdaniel-on-the-engineering-challenges-of-secrets-management/",
+      "summary": "Dwayne McDaniel, developer advocate at GitGuardian.com, joins host Priyanka Raghavan to talk about the engineering challenges of secrets management. They explore what \"secrets\" really are in modern systems—far beyond passwords—including API keys, tokens, cert…",
+      "source": "Se-radio.net",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Machine Identity"
+      ],
+      "published": "2026-05-27T21:59:00+00:00"
+    },
+    {
+      "id": "89b22c519e84",
+      "title": "NordVPN's New App Acts as an All-in-One Digital Privacy and Security Hub",
+      "url": "https://www.cnet.com/tech/services-and-software/nordvpn-is-turning-its-vpn-app-into-an-all-in-one-security-hub/",
+      "summary": "A VPN is only one layer of privacy defense. Antivirus protection adds security from phishing, scams and account takeovers, too.",
+      "source": "CNET",
+      "category": "Security News",
+      "section": "breach",
+      "tags": [
+        "Breach",
+        "Threat"
+      ],
+      "published": "2026-05-27T21:02:24+00:00",
+      "vector": "Phishing",
+      "severity": "medium"
+    },
+    {
+      "id": "c91af8c08757",
+      "title": "Show HN: OAuth 2.0 framework for MCP servers",
+      "url": "https://github.com/brooksmcmillin/mcp-authflow",
+      "summary": "Article URL: https://github.com/brooksmcmillin/mcp-authflow Comments URL: https://news.ycombinator.com/item?id=48296739 Points: 2 # Comments: 0",
+      "source": "Github.com",
+      "category": "Security News",
+      "section": "breach",
+      "tags": [
+        "Breach",
+        "Threat",
+        "Standards & Protocols"
+      ],
+      "published": "2026-05-27T16:35:14+00:00",
+      "vector": null,
+      "severity": "medium"
+    },
+    {
+      "id": "d57d4f85419a",
+      "title": "Ping Identity advances agentic security with AI governance and trusted access",
+      "url": "https://www.helpnetsecurity.com/2026/05/27/ping-identity-advances-agentic-security-with-ai-governance-and-trusted-access/",
+      "summary": "Ping Identity announced new capabilities that extend the Ping Identity Platform for the agentic enterprise, where AI agents, automation, and developers increasingly shape how access is managed, governed, and secured across organizations. AI agents are changin…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "Vendor News",
+        "AI Identity"
+      ],
+      "published": "2026-05-27T13:25:16+00:00"
+    },
+    {
+      "id": "0d68a256d287",
+      "title": "Hoth Therapeutics Becomes Rocket One Inc. (Nasdaq: RKTO), Targeting the Space Economy with Next-Generation Nanomagnetic AI Chip Technology and Ultra-Low-Power, Radiation-Tolerant Computing for Space and Defense Applications",
+      "url": "https://www.prnewswire.com/news-releases/hoth-therapeutics-becomes-rocket-one-inc-nasdaq-rkto-targeting-the-space-economy-with-next-generation-nanomagnetic-ai-chip-technology-and-ultra-low-power-radiation-tolerant-computing-for-space-and-defense-applications-302782323.html",
+      "summary": "Company Adopts Space-Focused Identity, New Ticker \"RKTO,\" and Exclusive License of AI Chip Architecture Designed for Ultra-Low-Power, Radiation-Tolerant Computing in Space and Defense Applications HOBOKEN, N.J., May 27, 2026 /PRNewswire/ -- Hoth Therapeutics,…",
+      "source": "PRNewswire",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "General IAM"
+      ],
+      "published": "2026-05-27T12:11:00+00:00"
+    },
+    {
+      "id": "5f5ad708e803",
+      "title": "NordProtect opens a new chapter in product development and becomes Coveron",
+      "url": "https://www.globenewswire.com/news-release/2026/05/27/3301848/0/en/NordProtect-opens-a-new-chapter-in-product-development-and-becomes-Coveron.html",
+      "summary": "LONDON, May 27, 2026 (GLOBE NEWSWIRE) -- NordProtect, an all-in-one identity theft and scam protection service from leading cybersecurity company NordVPN, is rebranding as Coveron following significant product developments. Founded as a bundled NordVPN featur…",
+      "source": "GlobeNewswire",
+      "category": "Security News",
+      "section": "breach",
+      "tags": [
+        "IGA",
+        "Breach"
+      ],
+      "published": "2026-05-27T12:00:00+00:00",
+      "vector": null,
+      "severity": "high"
+    },
+    {
+      "id": "6fca0ad823c3",
+      "title": "The Credential Crisis: How Stolen Credentials Defeat Modern Security",
+      "url": "https://www.securityweek.com/the-credential-crisis-how-stolen-credentials-defeat-modern-security/",
+      "summary": "As AI accelerates phishing, session hijacking, and credential abuse, security teams are racing to close the gap between attacker speed and defensive response. The post The Credential Crisis: How Stolen Credentials Defeat Modern Security appeared first on Secu…",
+      "source": "Securityweek.com",
+      "category": "Security News",
+      "section": "breach",
+      "tags": [
+        "Breach",
+        "Threat"
+      ],
+      "published": "2026-05-27T10:30:00+00:00",
+      "vector": "Stolen Credentials",
+      "severity": "medium"
+    },
+    {
+      "id": "be54499b6a08",
+      "title": "When your biggest security risk has never signed a contract",
+      "url": "https://www.computerweekly.com/opinion/When-your-biggest-security-risk-has-never-signed-a-contract",
+      "summary": "The Computer Weekly Security Think Tank considers the intersection of AI and IAM. In this article we explore how the frontiers of identity are expanding in the agentic era, and why this requires new approaches to governance.",
+      "source": "ComputerWeekly.com",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "General IAM"
+      ],
+      "published": "2026-05-27T07:30:00+00:00"
+    },
+    {
+      "id": "5979d16a8e1d",
+      "title": "In Pictures: Securing NHIs - Saviynt and AUSCERT roundtable",
+      "url": "https://www.itnews.com.au/gallery/in-pictures-securing-nhis---saviynt-and-auscert-roundtable-626199",
+      "summary": "A selection of photos from a recent iTnews roundtable lunch at Kiyomi Japanese restaurant at the Star on the Gold Coast.",
+      "source": "iTnews",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "IGA",
+        "Machine Identity"
+      ],
+      "published": "2026-05-27T07:10:00+00:00"
     }
   ],
   "tag_index": {
-    "Authentication":        ["h1a2b3c4d5e6","h5e6f7a8b9c0","wp4research04","n3newsfeed03","br1breach001","br2breach002"],
-    "Zero Trust":            ["h1a2b3c4d5e6","wp4research04"],
-    "Vendor News":           ["h1a2b3c4d5e6","h2b3c4d5e6f7","h3c4d5e6f7a8","h4d5e6f7a8b9","v1nextgen001","v2nextgen002","v3nextgen003","v4nextgen004","v5vendor005","v6vendor006","wp2research02","wp3research03"],
-    "IGA":                   ["h2b3c4d5e6f7","v6vendor006","wp2research02"],
-    "Access Control":        ["h2b3c4d5e6f7","v1nextgen001","v2nextgen002","wp1research01","wp2research02","wp4research04","br3breach003"],
-    "PAM":                   ["h3c4d5e6f7a8","h4d5e6f7a8b9","v5vendor005","v6vendor006","wp3research03","wp5research05","n2newsfeed02","br3breach003","br5breach005"],
-    "AI Identity":           ["h3c4d5e6f7a8","v2nextgen002","v5vendor005","v6vendor006","wp1research01","wp2research02","wp5research05"],
-    "Machine Identity":      ["h3c4d5e6f7a8","v1nextgen001","v3nextgen003","v4nextgen004","v6vendor006","wp1research01","wp3research03","br3breach003"],
-    "Next-Gen IAM":          ["v1nextgen001","v2nextgen002","v3nextgen003","v4nextgen004"],
-    "Threat":                ["h4d5e6f7a8b9","v3nextgen003","wp1research01","wp5research05","n1newsfeed01","n2newsfeed02","br1breach001","br2breach002","br3breach003","br4breach004","br5breach005"],
-    "Vulnerability":         ["h4d5e6f7a8b9","n1newsfeed01"],
-    "Passwordless":          ["h5e6f7a8b9c0"],
-    "Standards & Protocols": ["h5e6f7a8b9c0","v4nextgen004","n1newsfeed01","n3newsfeed03","br4breach004"],
-    "Compliance":            ["wp4research04","wp5research05","n3newsfeed03"],
-    "Breach":                ["br1breach001","br2breach002","br3breach003","br4breach004","br5breach005"]
+    "IGA": [
+      "b54d676c44c4",
+      "aa9501c4201a",
+      "fcf8661c83f7",
+      "a4afa76857e1",
+      "6423f03234c4",
+      "df7e1f189d23",
+      "b0736fc3d831",
+      "0af4930635ad",
+      "4d3f7309b087",
+      "e4724c23ee47",
+      "ef959d3de5e7",
+      "5f5ad708e803",
+      "5979d16a8e1d"
+    ],
+    "General IAM": [
+      "a18994a0e8e0",
+      "b4518cf66236",
+      "cac27bebaf23",
+      "1e896a798ff6",
+      "cc9f7588321a",
+      "2a3c988175c9",
+      "91d00c80f084",
+      "03368ed95bf7",
+      "ed37af53929c",
+      "841c362dfd5e",
+      "3d76a515077f",
+      "c727db7cfc22",
+      "0557eed134a0",
+      "c61e30a80125",
+      "6a133a657dfb",
+      "cce4346d6686",
+      "2234060b5165",
+      "0d68a256d287",
+      "be54499b6a08"
+    ],
+    "Zero Trust": [
+      "7b13635a7f58"
+    ],
+    "Machine Identity": [
+      "c05cd33bf2b6",
+      "37f7b9a4e9d8",
+      "5979d16a8e1d"
+    ],
+    "AI Identity": [
+      "b8f43d55f44b",
+      "51ae7a591a82",
+      "aa9501c4201a",
+      "70620b42371f",
+      "bc844b57752a",
+      "be4e1ade08dc",
+      "6e3ee71f295b",
+      "474f80966af6",
+      "55489279e444",
+      "9025b6d694a9",
+      "27657923186d",
+      "b6fa685fe749",
+      "a5db34741aa7",
+      "d2d3f1a5f8a1",
+      "73dc7a6da666",
+      "3ab0ec61b416",
+      "43eae6a26c80",
+      "ee4c1e036630",
+      "c0b1c3d13f80",
+      "5e656d1d847e",
+      "9a6082c385d9",
+      "7fcb7bab4c36",
+      "c6470a4d683b",
+      "6e1ab19b96c8",
+      "02a24f8b0f98",
+      "1845a7d3643e",
+      "d57d4f85419a"
+    ],
+    "Breach": [
+      "51ae7a591a82",
+      "70620b42371f",
+      "17e967aeabda",
+      "0270540096c6",
+      "26b866f0ab0b",
+      "0ace1f8b00ac",
+      "ee4c1e036630",
+      "0ea111c358bd",
+      "9a6082c385d9",
+      "c4aaee2c1f80",
+      "576c79f6bb8e",
+      "b45912da4ef8",
+      "8e9f8da7d573",
+      "e4724c23ee47",
+      "89b22c519e84",
+      "c91af8c08757",
+      "5f5ad708e803",
+      "6fca0ad823c3"
+    ],
+    "Threat": [
+      "51ae7a591a82",
+      "70620b42371f",
+      "17e967aeabda",
+      "0270540096c6",
+      "4f197ff556f9",
+      "26b866f0ab0b",
+      "711be162d073",
+      "0ace1f8b00ac",
+      "ee4c1e036630",
+      "0ea111c358bd",
+      "9a6082c385d9",
+      "15cfe7e98431",
+      "c4aaee2c1f80",
+      "576c79f6bb8e",
+      "b0736fc3d831",
+      "4d3f7309b087",
+      "b45912da4ef8",
+      "22e23afd2681",
+      "8e9f8da7d573",
+      "89b22c519e84",
+      "c91af8c08757",
+      "6fca0ad823c3"
+    ],
+    "Vendor News": [
+      "70620b42371f",
+      "6359db933b55",
+      "19ede6b43955",
+      "3179cbd705cd",
+      "9a2c92b5cbb2",
+      "5f5a7668456b",
+      "11793c65d55c",
+      "c85afe8b46c4",
+      "230f5c2c7214",
+      "6423f03234c4",
+      "b0aad2fa2d2c",
+      "804509001aac",
+      "ea81363042bb",
+      "7fcb7bab4c36",
+      "0b3c3a09bf3c",
+      "d57d4f85419a"
+    ],
+    "Compliance": [
+      "6359db933b55",
+      "73dc7a6da666",
+      "0c11c7041a29",
+      "3ab0ec61b416",
+      "0ace1f8b00ac",
+      "5e656d1d847e",
+      "0af4930635ad",
+      "8e9f8da7d573"
+    ],
+    "Standards & Protocols": [
+      "997164041698",
+      "eeef082e0c7a",
+      "26363c6e4f21",
+      "93d7f2b5be01",
+      "711be162d073",
+      "50b1ff1c9c77",
+      "e5c644a3f63c",
+      "c91af8c08757"
+    ],
+    "Authentication": [
+      "892966b242d8",
+      "240bc12ff6de",
+      "30349c66abb6",
+      "872f389c46c5",
+      "054d284f4ebf",
+      "93d7f2b5be01",
+      "0e92480fbc35",
+      "b769a5d7349e",
+      "c48608cbdb6e",
+      "11793c65d55c",
+      "15cfe7e98431",
+      "e5c644a3f63c"
+    ],
+    "Vulnerability": [
+      "872f389c46c5",
+      "0270540096c6",
+      "26b866f0ab0b",
+      "711be162d073",
+      "0ace1f8b00ac",
+      "15cfe7e98431",
+      "1845a7d3643e"
+    ],
+    "Access Control": [
+      "93d7f2b5be01",
+      "3179cbd705cd",
+      "73dc7a6da666"
+    ],
+    "Next-Gen IAM": [
+      "94ba9aff9b21"
+    ]
   },
   "category_index": {
-    "Vendor":       ["h1a2b3c4d5e6","h2b3c4d5e6f7","h3c4d5e6f7a8","v1nextgen001","v2nextgen002","v3nextgen003","v4nextgen004","v5vendor005","v6vendor006"],
-    "Security News":["h4d5e6f7a8b9","n1newsfeed01","n2newsfeed02","br1breach001","br2breach002","br3breach003","br4breach004","br5breach005"],
-    "Industry":     ["h5e6f7a8b9c0","n3newsfeed03"],
-    "Research":     ["wp1research01","wp2research02","wp3research03","wp5research05"],
-    "Government":   ["wp4research04"]
+    "Security News": [
+      "b54d676c44c4",
+      "a18994a0e8e0",
+      "b4518cf66236",
+      "cac27bebaf23",
+      "7b13635a7f58",
+      "1e896a798ff6",
+      "c05cd33bf2b6",
+      "b8f43d55f44b",
+      "51ae7a591a82",
+      "aa9501c4201a",
+      "cc9f7588321a",
+      "70620b42371f",
+      "bc844b57752a",
+      "2a3c988175c9",
+      "be4e1ade08dc",
+      "6359db933b55",
+      "6e3ee71f295b",
+      "474f80966af6",
+      "997164041698",
+      "55489279e444",
+      "9025b6d694a9",
+      "27657923186d",
+      "b6fa685fe749",
+      "892966b242d8",
+      "240bc12ff6de",
+      "17e967aeabda",
+      "eeef082e0c7a",
+      "a5db34741aa7",
+      "26363c6e4f21",
+      "d2d3f1a5f8a1",
+      "91d00c80f084",
+      "30349c66abb6",
+      "03368ed95bf7",
+      "ed37af53929c",
+      "19ede6b43955",
+      "054d284f4ebf",
+      "93d7f2b5be01",
+      "3179cbd705cd",
+      "0270540096c6",
+      "73dc7a6da666",
+      "4f197ff556f9",
+      "0c11c7041a29",
+      "26b866f0ab0b",
+      "9a2c92b5cbb2",
+      "0e92480fbc35",
+      "fcf8661c83f7",
+      "3ab0ec61b416",
+      "841c362dfd5e",
+      "711be162d073",
+      "b769a5d7349e",
+      "c48608cbdb6e",
+      "43eae6a26c80",
+      "94ba9aff9b21",
+      "0ace1f8b00ac",
+      "5f5a7668456b",
+      "3d76a515077f",
+      "c727db7cfc22",
+      "ee4c1e036630",
+      "0557eed134a0",
+      "c0b1c3d13f80",
+      "11793c65d55c",
+      "5e656d1d847e",
+      "0ea111c358bd",
+      "c61e30a80125",
+      "c85afe8b46c4",
+      "9a6082c385d9",
+      "6a133a657dfb",
+      "230f5c2c7214",
+      "6423f03234c4",
+      "cce4346d6686",
+      "b0aad2fa2d2c",
+      "c4aaee2c1f80",
+      "804509001aac",
+      "ea81363042bb",
+      "7fcb7bab4c36",
+      "0b3c3a09bf3c",
+      "c6470a4d683b",
+      "6e1ab19b96c8",
+      "df7e1f189d23",
+      "576c79f6bb8e",
+      "b0736fc3d831",
+      "0af4930635ad",
+      "4d3f7309b087",
+      "02a24f8b0f98",
+      "50b1ff1c9c77",
+      "b45912da4ef8",
+      "2234060b5165",
+      "22e23afd2681",
+      "8e9f8da7d573",
+      "e5c644a3f63c",
+      "1845a7d3643e",
+      "e4724c23ee47",
+      "ef959d3de5e7",
+      "37f7b9a4e9d8",
+      "89b22c519e84",
+      "c91af8c08757",
+      "d57d4f85419a",
+      "0d68a256d287",
+      "5f5ad708e803",
+      "6fca0ad823c3",
+      "be54499b6a08",
+      "5979d16a8e1d"
+    ],
+    "Government": [
+      "872f389c46c5"
+    ],
+    "Vendor": [
+      "a4afa76857e1",
+      "15cfe7e98431"
+    ]
   }
 }
