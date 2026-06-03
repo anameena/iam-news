@@ -36,9 +36,10 @@ jobs:
           git config user.name "iam-news-bot"
           git config user.email "bot@noreply.github.com"
           git add news.json
-          git diff --cached --quiet && echo "No changes" || \
+          git diff --cached --quiet && echo "No changes to commit" || \
             git commit -m "chore: update IAM news [$(date -u +%Y-%m-%dT%H:%M)]"
-          git push
+          git pull --rebase origin master
+          git push origin master
 
       - name: Trigger Netlify deploy
         if: env.NETLIFY_DEPLOY_HOOK != ''
