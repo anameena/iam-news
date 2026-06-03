@@ -8,6 +8,8 @@ on:
 jobs:
   fetch-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to commit and push news.json
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
       NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
