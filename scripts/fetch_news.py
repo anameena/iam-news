@@ -24,29 +24,39 @@ HEADLINE_AGE_DAYS = 2    # priority headlines (fresher)
 
 # ── NewsAPI search queries (run each separately to maximise coverage) ──────
 NEWSAPI_QUERIES = [
-    # Core IAM
-    '"identity and access management" OR "IAM" OR "zero trust identity"',
-    # Authentication & MFA
-    '"multi-factor authentication" OR "MFA" OR "passkey" OR "passwordless" OR "FIDO2" OR "WebAuthn"',
-    # Established PAM vendors
+    # Core IAM discipline — exact phrases only, avoids generic "identity"
+    '"identity and access management"',
+    '"privileged access management" OR "privileged identity management"',
+    '"identity governance" OR "identity governance and administration"',
+    '"zero trust" AND ("identity" OR "access management")',
+    # Authentication technology
+    '"multi-factor authentication" OR "MFA" cybersecurity',
+    '"passkey" OR "FIDO2" OR "WebAuthn" security',
+    '"passwordless authentication" OR "passwordless security"',
+    '"single sign-on" security OR "SSO" cybersecurity',
+    # Specific PAM vendors (vendor name = strong IAM signal)
     '"CyberArk" OR "BeyondTrust" OR "Delinea" OR "Thycotic"',
-    # IGA vendors
-    '"SailPoint" OR "Saviynt" OR "Omada Identity" OR "One Identity"',
-    # CIAM / SSO vendors
-    '"Okta" OR "Ping Identity" OR "ForgeRock" OR "Microsoft Entra" OR "Azure AD"',
-    # Next-gen / cloud-native IAM
-    '"Opal Security" OR "Veza" OR "Permiso" OR "P0 Security" OR "Astrix Security"',
-    '"Entitle" OR "Indent" OR "Clutch Security" OR "Aembit" OR "Brainwave"',
-    # AI & non-human identity
-    '"non-human identity" OR "machine identity" OR "NHI" OR "AI agent access"',
-    '"agentic AI" identity OR "AI workload" identity OR "secrets management" AI',
-    '"SPIFFE" OR "SPIRE" OR "workload identity" OR "service mesh" identity',
-    # Breaches / threats
-    '"credential breach" OR "identity breach" OR "account takeover" OR "credential stuffing"',
-    '"privilege escalation" identity OR "stolen credentials" OR "MFA bypass" OR "SIM swap"',
-    # Standards & compliance
-    '"OAuth 2.0" security OR "SAML" breach OR "OIDC" vulnerability OR "identity governance"',
-    '"NIST identity" OR "eIDAS" OR "zero trust" architecture 2026',
+    # Specific IGA vendors
+    '"SailPoint" OR "Saviynt" OR "Omada Identity" OR "One Identity" identity',
+    # Specific CIAM / SSO vendors
+    '"Okta" cybersecurity OR "Ping Identity" OR "ForgeRock" OR "Microsoft Entra"',
+    '"Azure AD" OR "Azure Active Directory" security',
+    # Next-gen IAM vendors
+    '"Opal Security" OR "Veza" identity OR "Permiso" OR "Astrix Security"',
+    '"Aembit" OR "Clutch Security" OR "P0 Security" identity',
+    # Non-human & machine identity
+    '"non-human identity" OR "machine identity" OR "workload identity"',
+    '"SPIFFE" OR "SPIRE" OR "secrets management" security',
+    # AI and agentic identity
+    '"AI agent" AND ("identity" OR "access control" OR "authorization")',
+    '"agentic AI" AND ("identity" OR "access management")',
+    # Credential-based attacks (tech context, exact phrases)
+    '"credential stuffing" OR "credential breach" OR "stolen credentials"',
+    '"account takeover" cybersecurity OR "MFA bypass" OR "SIM swap" fraud',
+    '"privilege escalation" AND ("identity" OR "Active Directory" OR "IAM")',
+    # Standards & compliance (IAM-specific)
+    '"OAuth 2.0" vulnerability OR "SAML" security OR "OIDC" security',
+    '"identity governance" compliance OR "eIDAS" OR "NIST" identity',
 ]
 
 # ── Reliable RSS-only sources (verified feeds with clean URLs) ─────────────
@@ -59,21 +69,77 @@ RSS_SOURCES = [
                                                                                                                                   "category": "Government", "type": "cisa_kev"},
 ]
 
-# ── IAM relevance keywords (for RSS fallback filtering) ────────────────────
-IAM_KEYWORDS = [
-    "identity","access management","iam","sso","single sign-on",
-    "mfa","multi-factor","passkey","fido","webauthn","passwordless",
-    "authentication","authorization","zero trust","oauth","saml","oidc",
-    "ldap","active directory","azure ad","entra","privileged access",
-    "pam","identity governance","iga","okta","ping identity","forgerock",
-    "cyberark","sailpoint","saviynt","delinea","beyondtrust","thycotic",
-    "opal security","veza","permiso","p0 security","astrix","entitle",
-    "indent","aembit","clutch security","brainwave","one identity","omada",
-    "non-human identity","machine identity","nhi","workload identity",
-    "spiffe","spire","service account","secrets management",
-    "ai agent","agentic ai","ai access","ai workload",
-    "credential","token","jwt","session","rbac","abac","least privilege",
-    "identity breach","account takeover","ato","credential stuffing",
+# ── IAM filtering — two-tier system ───────────────────────────────────────
+#
+# STRONG terms: any ONE of these guarantees IAM relevance.
+# These are specific enough that false positives are extremely rare.
+STRONG_IAM_TERMS = [
+    # Core discipline
+    "access management", "identity management", "identity governance",
+    "identity and access", "identity provider", "identity platform",
+    "identity security", "identity fabric", "identity posture",
+    "privileged access", "privileged identity", "privileged account",
+    # Protocols & standards
+    "single sign-on", "sso ", " sso", "saml", "oauth", "oidc",
+    "ldap", "scim", "fido2", "webauthn", "passkey",
+    "active directory", "azure ad", "microsoft entra",
+    # Auth & access patterns
+    "multi-factor authentication", "two-factor authentication",
+    "mfa bypass", "mfa fatigue", "push bombing",
+    "passwordless", "zero trust network", "zero trust architecture",
+    "zero trust security", "least privilege", "role-based access",
+    "rbac", "abac", "just-in-time access", "jit access",
+    # PAM / secrets
+    "pam solution", "pam platform", "privileged access management",
+    "secrets management", "secret rotation", "vault", "cyberark",
+    "beyondtrust", "delinea", "thycotic",
+    # IGA
+    "identity governance", "access certification", "access review",
+    "sailpoint", "saviynt", "omada identity", "one identity",
+    # CIAM / SSO vendors
+    "okta", "ping identity", "forgerock", "auth0", "onelogin",
+    "ibm security verify", "rsa securid",
+    # Next-gen / cloud IAM
+    "opal security", "veza", "permiso", "p0 security", "astrix security",
+    "entitle", "aembit", "clutch security", "brainwave",
+    # Machine / non-human identity
+    "non-human identity", "machine identity", "workload identity",
+    "service account", "spiffe", "spire", "pod identity",
+    "managed identity", "federated identity credential",
+    # AI identity
+    "ai agent access", "agentic ai identity", "ai workload identity",
+    "llm access control", "ai identity",
+    # Credential attacks (tech context)
+    "credential stuffing", "credential breach", "credential theft",
+    "stolen credentials", "account takeover", "ato attack",
+    "identity breach", "identity theft technology",
+    "sim swap", "mfa bypass", "session hijack", "token hijack",
+    # Compliance / frameworks
+    "identity governance and administration", "iga",
+    "zero trust maturity", "nist identity", "eidas",
+    # JWT / tokens
+    "jwt ", " jwt", "access token", "refresh token", "bearer token",
+]
+
+# EXCLUSION terms: articles matching these (without a strong IAM term)
+# are almost certainly NOT about IAM technology.
+EXCLUSION_TERMS = [
+    "gender identity", "sexual identity", "lgbtq identity",
+    "racial identity", "ethnic identity", "cultural identity",
+    "national identity", "political identity", "religious identity",
+    "community identity", "group identity", "social identity",
+    "personal identity", "self-identity", "individual identity",
+    "indigenous identity", "tribal identity",
+    "identity politics", "identity crisis", "identity formation",
+    "identity development", "identity theory", "identity psychology",
+    "brand identity", "visual identity", "corporate identity design",
+    "brand strategy", "logo design",
+    "mental health", "psychology", "psychiatric", "psychologist",
+    "self-esteem", "self-concept", "narcissism",
+    "ancestry", "genealogy", "ancestral", "heritage",
+    "philosophy of identity", "personal essay",
+    "voter id", "election identity", "immigration identity",
+    "refugee identity", "asylum seeker",
 ]
 
 # ── Section classification ─────────────────────────────────────────────────
@@ -142,8 +208,30 @@ def clean_html(raw: str) -> str:
     return text[:600] + ("…" if len(text) > 600 else "")
 
 def is_iam_relevant(title: str, body: str) -> bool:
+    """
+    Two-tier check:
+    1. Reject immediately if the text contains exclusion terms
+       WITHOUT also containing a strong IAM term (avoids psychology,
+       politics, culture articles that mention "identity").
+    2. Require at least one STRONG IAM-specific term — generic words
+       like "identity", "authentication", "access" alone are not enough.
+    """
     text = (title + " " + body).lower()
-    return any(kw in text for kw in IAM_KEYWORDS)
+
+    # Must have at least one strong IAM-specific term
+    has_strong = any(term in text for term in STRONG_IAM_TERMS)
+    if not has_strong:
+        return False
+
+    # Reject if exclusion topic dominates (title carries more weight)
+    title_lower = title.lower()
+    for excl in EXCLUSION_TERMS:
+        if excl in title_lower:
+            return False   # exclusion in headline = almost certainly off-topic
+        if text.count(excl) >= 2:
+            return False   # repeated exclusion term in body = off-topic
+
+    return True
 
 def detect_tags(title: str, body: str) -> list[str]:
     text = (title + " " + body).lower()

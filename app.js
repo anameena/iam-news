@@ -186,8 +186,15 @@ function renderNewsFeed() {
   attachCardClicks(grid);
 }
 
+const SEV_ORDER = { critical: 0, high: 1, medium: 2, low: 3 };
+function sortBySeverity(items) {
+  return [...items].sort((a, b) =>
+    (SEV_ORDER[a.severity] ?? 4) - (SEV_ORDER[b.severity] ?? 4)
+  );
+}
+
 function renderBreachBand() {
-  const items = state.data.items.filter(isBreach);
+  const items = sortBySeverity(state.data.items.filter(isBreach));
   const list = document.getElementById('breach-list');
   if (!items.length) {
     list.innerHTML = '<div style="padding:24px 16px;font-size:12px;color:#5a3030;text-align:center">No breach reports in the last 7 days.</div>';
@@ -241,7 +248,7 @@ function renderSectionPage(route) {
         items = state.data.items.filter(isWhitepaper);
         title = 'Research & Whitepapers'; icon = '📄'; break;
       case 'breach':
-        items = state.data.items.filter(isBreach);
+        items = sortBySeverity(state.data.items.filter(isBreach));
         title = 'Breach Tracker'; icon = '🚨'; break;
       default:
         items = state.data.items;
