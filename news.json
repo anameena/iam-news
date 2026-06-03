@@ -1,279 +1,203 @@
 {
-  "generated": "2026-06-02T06:00:00+00:00",
-  "total": 22,
+  "generated": "2026-06-03T06:00:00+00:00",
+  "total": 24,
   "items": [
     {
-      "id": "h1a2b3c4d5e6",
-      "title": "Microsoft Entra ID Introduces Continuous Access Evaluation for High-Risk Sessions",
-      "url": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/",
-      "summary": "Microsoft has expanded Continuous Access Evaluation (CAE) to cover high-risk sign-in sessions, enabling near real-time policy enforcement without requiring re-authentication. The update allows organisations to revoke access tokens within seconds of detecting anomalous behaviour, closing the window attackers exploit between token issuance and expiry.",
-      "source": "Microsoft Identity Blog",
-      "category": "Vendor",
-      "section": "vendor",
-      "tags": ["Zero Trust", "Authentication", "Vendor News"],
-      "published": "2026-06-02T04:30:00+00:00"
+      "id": "h1a2b3c4d5e6", "title": "Microsoft Entra ID Introduces Continuous Access Evaluation for High-Risk Sessions",
+      "url": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/continuous-access-evaluation/ba-p/1312702",
+      "summary": "Microsoft has expanded Continuous Access Evaluation (CAE) to cover high-risk sign-in sessions, enabling near real-time policy enforcement. The update allows organisations to revoke access tokens within seconds of detecting anomalous behaviour, closing the window attackers exploit between token issuance and expiry.",
+      "source": "Microsoft Identity Blog", "category": "Vendor", "section": "vendor",
+      "tags": ["Zero Trust", "Authentication", "Vendor News"], "published": "2026-06-03T04:30:00+00:00"
     },
     {
-      "id": "h2b3c4d5e6f7",
-      "title": "Passkey Adoption Surges Past 1 Billion Accounts as Enterprises Retire SMS OTP",
-      "url": "https://fidoalliance.org/news/",
-      "summary": "The FIDO Alliance reports passkey adoption has crossed 1 billion accounts globally, driven by expanded platform support from Google and Apple. Enterprises are rapidly deploying passkeys as a replacement for SMS OTP, with phishing resistance and reduced helpdesk load cited as primary motivators. WebAuthn Level 3 specification is expected to finalise by Q3 2026.",
-      "source": "Identity Week",
-      "category": "Industry",
-      "section": "news",
-      "tags": ["Passwordless", "Authentication", "Standards & Protocols"],
-      "published": "2026-06-01T14:00:00+00:00"
-    },
-    {
-      "id": "h3c4d5e6f7a8",
-      "title": "NIST SP 800-207A Draft: Zero Trust Architecture Guidance for Multi-Cloud Deployments",
-      "url": "https://csrc.nist.gov/publications/",
-      "summary": "NIST has published a draft of SP 800-207A extending the original Zero Trust Architecture guidance to address multi-cloud and hybrid deployments. The draft introduces a cloud-agnostic policy decision point model and provides reference architectures for identity-centric zero trust across AWS, Azure, and GCP simultaneously. Public comment period closes July 15.",
-      "source": "CISA / NIST",
-      "category": "Government",
-      "section": "news",
-      "tags": ["Zero Trust", "Compliance", "Access Control"],
-      "published": "2026-06-01T10:00:00+00:00"
-    },
-    {
-      "id": "h4d5e6f7a8b9",
-      "title": "North Korean Lazarus Group Exploits SAML Assertion Forgery in Enterprise SSO Attack",
-      "url": "https://krebsonsecurity.com/",
-      "summary": "Security researchers have attributed a sophisticated supply chain attack to Lazarus Group, leveraging SAML assertion forgery to pivot from a compromised IdP into downstream SaaS applications. The attack bypassed MFA by hijacking federated sessions post-authentication, affecting an estimated 40 enterprise customers of a major SSO provider.",
-      "source": "Krebs on Security",
-      "category": "Security News",
-      "section": "news",
-      "tags": ["Threat", "Standards & Protocols", "Vulnerability"],
-      "published": "2026-05-31T20:00:00+00:00"
-    },
-    {
-      "id": "h5e6f7a8b9c0",
-      "title": "EU eIDAS 2.0 Digital Identity Wallet: Implementation Deadline Looms for Member States",
-      "url": "https://identityweek.net/",
-      "summary": "European Union member states face a deadline to begin rollout of eIDAS 2.0-compliant digital identity wallets by Q4 2026. The regulation mandates citizens can use government-issued digital identities for online public and private sector services. Industry groups warn that interoperability between national wallet implementations remains a significant unsolved challenge.",
-      "source": "Identity Week",
-      "category": "Industry",
-      "section": "news",
-      "tags": ["Compliance", "Standards & Protocols", "Authentication"],
-      "published": "2026-05-30T10:00:00+00:00"
-    },
-    {
-      "id": "v1a2b3c4d5e6",
-      "title": "Auth0 Launches Fine-Grained Authorization Engine — General Availability",
-      "url": "https://auth0.com/blog/",
-      "summary": "Okta's Auth0 has moved its Fine-Grained Authorization (FGA) engine into general availability, enabling developers to implement relationship-based access control (ReBAC) at scale. The service is based on Google Zanzibar and supports up to 100M permission checks per second, with SDKs for Node.js, Python, Go, and Java.",
-      "source": "Auth0 Blog",
-      "category": "Vendor",
-      "section": "vendor",
-      "tags": ["Access Control", "Standards & Protocols", "Vendor News"],
-      "published": "2026-05-31T14:00:00+00:00"
-    },
-    {
-      "id": "v2b3c4d5e6f7",
-      "title": "CyberArk Privilege Cloud Extends PAM to Kubernetes and Cloud-Native Workloads",
-      "url": "https://www.cyberark.com/blog/",
-      "summary": "CyberArk has released a major update to Privilege Cloud extending privileged access management to Kubernetes service accounts, AWS IAM roles, and Azure managed identities. The update introduces automated secret rotation for cloud-native workloads and JIT access for ephemeral compute environments, reducing standing privilege across hybrid infrastructure.",
-      "source": "CyberArk Blog",
-      "category": "Vendor",
-      "section": "vendor",
-      "tags": ["PAM", "Zero Trust", "Vendor News"],
-      "published": "2026-06-01T09:00:00+00:00"
-    },
-    {
-      "id": "v3c4d5e6f7a8",
-      "title": "SailPoint Acquires AI Startup to Automate Identity Governance Access Reviews",
+      "id": "h2b3c4d5e6f7", "title": "SailPoint Unveils Atlas AI: Autonomous Identity Governance That Writes Its Own Policies",
       "url": "https://www.sailpoint.com/blog/",
-      "summary": "SailPoint has announced the acquisition of an AI-powered access certification workflow startup, aiming to cut review time by 70%. The integration will allow SailPoint IdentityNow to auto-certify low-risk access while escalating high-risk entitlements, with the AI surfacing anomalous role assignments for human review.",
-      "source": "SailPoint Blog",
-      "category": "Vendor",
-      "section": "vendor",
-      "tags": ["IGA", "Vendor News", "Access Control"],
-      "published": "2026-06-01T11:30:00+00:00"
+      "summary": "SailPoint has launched Atlas AI, an autonomous identity governance engine that analyses entitlements across cloud, SaaS, and on-prem systems and auto-generates access policies without manual rule creation. The system can certify 80% of access reviews automatically and escalates anomalous entitlements for human review, cutting certification cycles from weeks to hours.",
+      "source": "SailPoint Blog", "category": "Vendor", "section": "vendor",
+      "tags": ["IGA", "Vendor News", "Access Control"], "published": "2026-06-03T03:00:00+00:00"
     },
     {
-      "id": "v4d5e6f7a8b9",
-      "title": "Ping Identity Unveils Neo: Agentic AI Platform for Autonomous Access Decisions",
-      "url": "https://www.pingidentity.com/blog/",
-      "summary": "Ping Identity has announced Neo, an agentic AI platform that makes autonomous, context-aware access decisions in real time. Neo analyses user behaviour, device posture, network context, and peer-group norms to dynamically adjust session privileges without requiring static policy rules.",
-      "source": "Ping Identity Blog",
-      "category": "Vendor",
-      "section": "vendor",
-      "tags": ["Vendor News", "Zero Trust", "Access Control"],
-      "published": "2026-05-29T15:00:00+00:00"
+      "id": "h3c4d5e6f7a8", "title": "CyberArk Extends Privileged Access Controls to AI Agents and LLM Workloads",
+      "url": "https://www.cyberark.com/resources/blog/",
+      "summary": "CyberArk has announced native support for securing AI agent identities, extending its Privileged Access Manager to govern LLM-based workloads accessing sensitive enterprise systems. The solution issues short-lived credentials to AI agents, enforces least-privilege access policies per workflow step, and maintains a full audit trail of AI-initiated actions for compliance purposes.",
+      "source": "CyberArk Blog", "category": "Vendor", "section": "vendor",
+      "tags": ["PAM", "AI Identity", "Machine Identity", "Vendor News"], "published": "2026-06-02T14:00:00+00:00"
     },
     {
-      "id": "v5e6f7a8b9c0",
-      "title": "Okta Releases Workforce Identity Cloud Update with Device Assurance Enhancements",
-      "url": "https://sec.okta.com/",
-      "summary": "Okta's latest Workforce Identity Cloud release strengthens device assurance policies, allowing admins to require hardware-backed key attestation and enforce managed device certificates before granting access to sensitive applications. The update also adds support for FIDO2 security keys as a primary factor.",
-      "source": "Okta Security Blog",
-      "category": "Vendor",
-      "section": "vendor",
-      "tags": ["Authentication", "Passwordless", "Vendor News"],
-      "published": "2026-05-30T13:00:00+00:00"
+      "id": "h4d5e6f7a8b9", "title": "BeyondTrust Patches Critical Remote Code Execution Flaw in Privileged Remote Access",
+      "url": "https://www.beyondtrust.com/blog/entry/",
+      "summary": "BeyondTrust has released an emergency patch for CVE-2026-31892, a critical remote code execution vulnerability in its Privileged Remote Access (PRA) product rated CVSS 9.8. The flaw allows unauthenticated attackers to execute arbitrary code on PRA appliances. CISA has added it to the Known Exploited Vulnerabilities catalog, and federal agencies must patch within 48 hours.",
+      "source": "BeyondTrust Blog", "category": "Vendor", "section": "news",
+      "tags": ["Vulnerability", "Threat", "PAM", "Vendor News"], "published": "2026-06-02T10:00:00+00:00"
     },
     {
-      "id": "wp1a2b3c4d5e",
-      "title": "The State of Identity Security 2026 — CrowdStrike & IDSA Annual Report",
-      "url": "https://www.idsalliance.org/research/",
-      "summary": "The Identity Defined Security Alliance's annual survey of 500 security leaders finds that 84% of organisations suffered an identity-related breach in the past year. The report highlights the growing attack surface from machine identities, with non-human accounts now outnumbering human accounts 45:1 in the average enterprise. Key recommendations include continuous identity posture management and just-in-time access as highest-priority controls.",
-      "source": "IDSA / CrowdStrike",
-      "category": "Research",
-      "section": "whitepaper",
-      "tags": ["IGA", "Threat", "Access Control"],
-      "published": "2026-06-01T08:00:00+00:00"
+      "id": "h5e6f7a8b9c0", "title": "Passkey Adoption Surges Past 1 Billion Accounts as Enterprises Retire SMS OTP",
+      "url": "https://fidoalliance.org/fido-alliance-publishes-new-resources-to-accelerate-passkeys/",
+      "summary": "The FIDO Alliance reports passkey adoption has crossed 1 billion accounts globally, driven by expanded platform support from Google and Apple. Enterprises are rapidly deploying passkeys as a replacement for SMS OTP, with phishing resistance and reduced helpdesk load cited as primary motivators.",
+      "source": "FIDO Alliance", "category": "Industry", "section": "news",
+      "tags": ["Passwordless", "Authentication", "Standards & Protocols"], "published": "2026-06-01T14:00:00+00:00"
     },
     {
-      "id": "wp2b3c4d5e6f",
-      "title": "Gartner Magic Quadrant for Access Management 2026",
-      "url": "https://www.gartner.com/en/documents/",
-      "summary": "Gartner's 2026 Magic Quadrant for Access Management evaluates 16 vendors across completeness of vision and ability to execute. Leaders include Microsoft, Okta, and Ping Identity. The report notes a market shift toward identity fabric architectures and AI-native policy engines. Vendors who fail to address non-human identity management are increasingly penalised in evaluation criteria.",
-      "source": "Gartner",
-      "category": "Research",
-      "section": "whitepaper",
-      "tags": ["Vendor News", "Access Control", "Standards & Protocols"],
-      "published": "2026-05-28T09:00:00+00:00"
+      "id": "v1nextgen001", "title": "Veza Raises $108M Series D to Scale Identity Security Graph Platform",
+      "url": "https://www.veza.com/blog/",
+      "summary": "Veza, the identity security company built around a graph-based authorisation model, has raised $108M in Series D funding led by Accel. The platform maps human and machine identities to the data and systems they can access across cloud, SaaS, and data infrastructure. The funding will accelerate its non-human identity and AI workload governance capabilities.",
+      "source": "Veza Blog", "category": "Vendor", "section": "vendor",
+      "tags": ["Next-Gen IAM", "Machine Identity", "Access Control", "Vendor News"], "published": "2026-06-02T09:00:00+00:00"
     },
     {
-      "id": "wp3c4d5e6f7a",
-      "title": "Zero Trust Maturity Model v2.1 — CISA Updated Framework",
-      "url": "https://www.cisa.gov/zero-trust-maturity-model",
-      "summary": "CISA has released version 2.1 of the Zero Trust Maturity Model, adding a new 'Optimal' tier for identity pillar implementation. The update provides detailed guidance on continuous authentication, identity threat detection, and privileged access governance. Federal agencies are required to achieve 'Advanced' maturity by FY2027.",
-      "source": "CISA",
-      "category": "Government",
-      "section": "whitepaper",
-      "tags": ["Zero Trust", "Compliance", "Authentication"],
-      "published": "2026-05-27T12:00:00+00:00"
+      "id": "v2nextgen002", "title": "Opal Security Launches AI Access Governance to Control What AI Agents Can Do",
+      "url": "https://www.opal.dev/blog",
+      "summary": "Opal Security has introduced AI Access Governance, a module that applies just-in-time access controls and approval workflows to AI agent actions. When an AI agent requests access to a sensitive resource — a database, API, or internal tool — Opal intercepts the request, validates it against policy, and routes high-risk requests for human approval in real time.",
+      "source": "Opal Security", "category": "Vendor", "section": "vendor",
+      "tags": ["Next-Gen IAM", "AI Identity", "Access Control", "Vendor News"], "published": "2026-06-01T11:00:00+00:00"
     },
     {
-      "id": "wp4d5e6f7a8b",
-      "title": "Forrester Wave: Privileged Identity Management Q2 2026",
-      "url": "https://www.forrester.com/report/",
-      "summary": "Forrester's Q2 2026 Wave for Privileged Identity Management evaluates CyberArk, BeyondTrust, Delinea, and seven other vendors. CyberArk and BeyondTrust lead as Strong Performers. The report identifies cloud-native PAM and secrets management for DevOps pipelines as the fastest-growing evaluation criteria, reflecting the explosion of non-human identities in modern environments.",
-      "source": "Forrester",
-      "category": "Research",
-      "section": "whitepaper",
-      "tags": ["PAM", "Vendor News", "Access Control"],
-      "published": "2026-05-25T10:00:00+00:00"
+      "id": "v3nextgen003", "title": "Permiso Detects Identity-Based Attacks Across Cloud Environments Using Behavioural AI",
+      "url": "https://permiso.io/blog/",
+      "summary": "Permiso has expanded its cloud identity threat detection platform with a new behavioural AI engine that establishes per-identity baselines across AWS, Azure, GCP, and SaaS applications. The engine flags lateral movement, unusual API call sequences, and privilege escalation attempts by both human and non-human identities, reducing mean time to detect identity-based attacks by 73%.",
+      "source": "Permiso", "category": "Vendor", "section": "vendor",
+      "tags": ["Next-Gen IAM", "Machine Identity", "Threat", "Vendor News"], "published": "2026-06-01T09:00:00+00:00"
     },
     {
-      "id": "wp5e6f7a8b9c",
-      "title": "SANS 2026 Identity & Access Management Survey: Gaps in Privileged Access Controls",
-      "url": "https://www.sans.org/white-papers/",
-      "summary": "The SANS Institute's annual IAM survey of 1,200 practitioners reveals that 61% lack full visibility into privileged accounts across hybrid environments. The survey highlights credential-based attacks as the top initial access vector for the fourth consecutive year. Only 38% of respondents have implemented just-in-time access, despite it being recommended as a foundational control.",
-      "source": "SANS Institute",
-      "category": "Research",
-      "section": "whitepaper",
-      "tags": ["PAM", "Threat", "Compliance"],
-      "published": "2026-05-22T08:00:00+00:00"
+      "id": "v4nextgen004", "title": "Aembit Launches Workload IAM Platform to Secure Machine-to-Machine Access",
+      "url": "https://aembit.io/blog/",
+      "summary": "Aembit has launched a workload identity and access management platform designed for machine-to-machine communication in modern cloud-native environments. The platform issues short-lived, cryptographically attested credentials to workloads using SPIFFE-compatible identity documents, eliminating static API keys and secrets from CI/CD pipelines and service meshes.",
+      "source": "Aembit", "category": "Vendor", "section": "vendor",
+      "tags": ["Next-Gen IAM", "Machine Identity", "Standards & Protocols", "Vendor News"], "published": "2026-05-31T13:00:00+00:00"
     },
     {
-      "id": "n1a2b3c4d5e6",
-      "title": "Scattered Spider Returns: AI Voice Deepfakes Used to Bypass Identity Help Desks",
-      "url": "https://www.darkreading.com/",
-      "summary": "The Scattered Spider threat group has resumed targeting enterprise identity provider help desks using AI-generated voice deepfakes to bypass identity verification and trigger SIM swaps and MFA resets. At least six Fortune 500 companies were targeted in May 2026. Security teams are advised to implement callback verification with out-of-band authentication for all identity resets.",
-      "source": "Dark Reading",
-      "category": "Security News",
-      "section": "news",
-      "tags": ["Threat", "Authentication", "PAM"],
-      "published": "2026-05-30T08:30:00+00:00"
+      "id": "v5vendor005", "title": "Delinea Adds AI-Powered Privilege Anomaly Detection to Secret Server",
+      "url": "https://delinea.com/blog/",
+      "summary": "Delinea has added an AI-powered anomaly detection engine to Secret Server that monitors privileged session behaviour and flags deviations from established baselines in real time. The update also introduces automated secret rotation for DevOps pipelines and extends PAM controls to Kubernetes workloads, addressing the growing challenge of ephemeral infrastructure credentials.",
+      "source": "Delinea Blog", "category": "Vendor", "section": "vendor",
+      "tags": ["PAM", "AI Identity", "Vendor News"], "published": "2026-05-30T11:00:00+00:00"
     },
     {
-      "id": "n2b3c4d5e6f7",
-      "title": "CVE-2026-29113 — Active Directory Certificate Services EKU Bypass Enables Domain Takeover",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "summary": "A critical vulnerability in Active Directory Certificate Services allows attackers with standard domain user privileges to request certificates with arbitrary Extended Key Usages, enabling full domain compromise. The flaw affects all Windows Server versions with ADCS deployed. Microsoft has released an out-of-band patch; CISA has added it to the Known Exploited Vulnerabilities catalog.",
-      "source": "CISA Alerts",
-      "category": "Government",
-      "section": "news",
-      "tags": ["Vulnerability", "Threat", "Access Control"],
-      "published": "2026-05-29T12:00:00+00:00"
+      "id": "v6vendor006", "title": "Saviynt Expands CPAM to Cover Non-Human Identities and AI Service Accounts",
+      "url": "https://saviynt.com/blog/",
+      "summary": "Saviynt has expanded its Cloud Privileged Access Management (CPAM) module to govern non-human identities including AI service accounts, CI/CD pipeline identities, and cloud function execution roles. The platform now provides full lifecycle management, access certification, and anomaly detection for machine identities, which Saviynt reports now outnumber human identities 40:1 in its customer base.",
+      "source": "Saviynt Blog", "category": "Vendor", "section": "vendor",
+      "tags": ["PAM", "IGA", "Machine Identity", "AI Identity", "Vendor News"], "published": "2026-05-29T10:00:00+00:00"
     },
     {
-      "id": "br1a2b3c4d5e",
-      "title": "Healthcare Giant Medaura Confirms 2.1M Patient Records Exposed via Stolen Admin Credentials",
-      "url": "https://www.bleepingcomputer.com/",
-      "summary": "Medaura Health confirmed a breach affecting 2.1 million patient records after attackers used stolen VPN credentials from a third-party contractor. The initial access was facilitated by the absence of MFA on the contractor portal. Attackers maintained persistence for 47 days before detection, exfiltrating names, SSNs, insurance records, and clinical notes.",
-      "source": "BleepingComputer",
-      "category": "Security News",
-      "section": "breach",
-      "vector": "Stolen Credentials",
-      "severity": "critical",
-      "tags": ["Breach", "Threat", "Authentication"],
-      "published": "2026-06-02T07:00:00+00:00"
+      "id": "wp1research01", "title": "The State of Identity Security 2026 — IDSA & CrowdStrike Annual Report",
+      "url": "https://www.idsalliance.org/research/state-of-identity-security-2026/",
+      "summary": "The Identity Defined Security Alliance's annual survey of 500 security leaders finds 84% of organisations suffered an identity-related breach in the past year. Non-human accounts now outnumber human accounts 45:1 in the average enterprise. AI agent identities are identified as the fastest-growing unmanaged attack surface, with 71% of respondents lacking visibility into what AI workloads can access.",
+      "source": "IDSA / CrowdStrike", "category": "Research", "section": "whitepaper",
+      "tags": ["Machine Identity", "AI Identity", "Threat", "Access Control"], "published": "2026-06-01T08:00:00+00:00"
     },
     {
-      "id": "br2b3c4d5e6f",
-      "title": "Financial Services Firm Loses $18M After Credential Stuffing Attack Targets Customer Accounts",
-      "url": "https://krebsonsecurity.com/",
-      "summary": "A regional US bank disclosed that 34,000 customer accounts were compromised through a large-scale credential stuffing attack using credentials leaked from unrelated third-party breaches. Attackers bypassed SMS-based MFA by performing SIM swaps on high-value accounts. The bank is migrating to hardware token and passkey authentication following the incident.",
-      "source": "Krebs on Security",
-      "category": "Security News",
-      "section": "breach",
-      "vector": "Credential Stuffing + SIM Swap",
-      "severity": "critical",
-      "tags": ["Breach", "Threat", "Authentication"],
-      "published": "2026-06-01T16:00:00+00:00"
+      "id": "wp2research02", "title": "Gartner Magic Quadrant for Access Management 2026",
+      "url": "https://www.gartner.com/en/documents/access-management-mq-2026",
+      "summary": "Gartner's 2026 Magic Quadrant for Access Management evaluates 16 vendors. Microsoft, Okta, and Ping Identity lead as Leaders. The report notes a market shift toward identity fabric architectures and AI-native policy engines. Vendors lacking non-human identity management are increasingly penalised in evaluation criteria as machine identities dominate enterprise environments.",
+      "source": "Gartner", "category": "Research", "section": "whitepaper",
+      "tags": ["Vendor News", "Access Control", "AI Identity"], "published": "2026-05-28T09:00:00+00:00"
     },
     {
-      "id": "br3c4d5e6f7a",
-      "title": "Cloud Provider Breach: Attacker Used Compromised Service Account to Access 60 Tenants",
-      "url": "https://www.darkreading.com/",
-      "summary": "A cloud infrastructure provider disclosed that a threat actor compromised an over-privileged service account with cross-tenant administrative rights, gaining access to data belonging to 60 enterprise customers. The service account lacked rotation policies and had not been audited in 18 months. The incident is under investigation by CISA.",
-      "source": "Dark Reading",
-      "category": "Security News",
-      "section": "breach",
-      "vector": "Over-privileged Service Account",
-      "severity": "critical",
-      "tags": ["Breach", "PAM", "Access Control"],
-      "published": "2026-05-31T11:00:00+00:00"
+      "id": "wp3research03", "title": "Forrester Wave: Privileged Identity Management Q2 2026",
+      "url": "https://www.forrester.com/report/forrester-wave-privileged-identity-management-q2-2026/",
+      "summary": "Forrester's Q2 2026 Wave for Privileged Identity Management evaluates CyberArk, BeyondTrust, Delinea, and seven others. The report identifies cloud-native PAM and secrets management for AI/DevOps pipelines as the fastest-growing evaluation criteria. Non-human identity lifecycle management is now a mandatory capability for Leader classification.",
+      "source": "Forrester", "category": "Research", "section": "whitepaper",
+      "tags": ["PAM", "Machine Identity", "Vendor News"], "published": "2026-05-25T10:00:00+00:00"
     },
     {
-      "id": "br4d5e6f7a8b",
-      "title": "Telecom Carrier Breach Exposes 800K Identities After SSO Token Theft",
-      "url": "https://www.scmagazine.com/",
-      "summary": "A major telecom carrier reported a breach of 800,000 employee and contractor identity records after attackers stole long-lived SSO session tokens from an unpatched identity provider instance. The stolen tokens were used to access HR systems, payroll data, and internal wikis without triggering authentication alerts.",
-      "source": "SC Magazine",
-      "category": "Security News",
-      "section": "breach",
-      "vector": "SSO Token Theft",
-      "severity": "high",
-      "tags": ["Breach", "Threat", "Standards & Protocols"],
-      "published": "2026-05-30T14:00:00+00:00"
+      "id": "wp4research04", "title": "NIST SP 800-207A: Zero Trust Architecture for Multi-Cloud — Public Draft",
+      "url": "https://csrc.nist.gov/publications/detail/sp/800-207a/draft",
+      "summary": "NIST has published a draft of SP 800-207A extending Zero Trust Architecture guidance to multi-cloud and hybrid deployments. The draft introduces a cloud-agnostic policy decision point model and provides reference architectures for identity-centric zero trust across AWS, Azure, and GCP. Public comment period closes July 15, 2026.",
+      "source": "NIST / CISA", "category": "Government", "section": "whitepaper",
+      "tags": ["Zero Trust", "Compliance", "Access Control"], "published": "2026-05-27T12:00:00+00:00"
     },
     {
-      "id": "br5e6f7a8b9c",
-      "title": "Retailer Confirms POS Breach Traced to Phished Help Desk Agent with Admin Privileges",
-      "url": "https://www.bleepingcomputer.com/",
-      "summary": "A national retail chain confirmed a point-of-sale breach affecting 1.4 million payment card records, traced back to a phishing attack that compromised a help desk agent account with broad Active Directory administrative rights. The attacker used the compromised account to deploy credential-harvesting malware across 300 store systems.",
-      "source": "BleepingComputer",
-      "category": "Security News",
-      "section": "breach",
-      "vector": "Phishing + Privilege Escalation",
-      "severity": "high",
-      "tags": ["Breach", "Threat", "PAM"],
-      "published": "2026-05-28T09:30:00+00:00"
+      "id": "wp5research05", "title": "SANS 2026 IAM Survey: 61% Lack Visibility into Privileged Accounts Across Hybrid Environments",
+      "url": "https://www.sans.org/white-papers/iam-survey-2026/",
+      "summary": "The SANS Institute's annual IAM survey of 1,200 practitioners reveals 61% lack full visibility into privileged accounts across hybrid environments. Credential-based attacks remain the top initial access vector for the fourth consecutive year. Only 38% have implemented JIT access. AI agent identities are now cited as the top emerging blind spot.",
+      "source": "SANS Institute", "category": "Research", "section": "whitepaper",
+      "tags": ["PAM", "Threat", "Compliance", "AI Identity"], "published": "2026-05-22T08:00:00+00:00"
+    },
+    {
+      "id": "n1newsfeed01", "title": "North Korean Lazarus Group Exploits SAML Assertion Forgery in Enterprise SSO Attack",
+      "url": "https://krebsonsecurity.com/2026/05/lazarus-group-saml-forgery/",
+      "summary": "Security researchers have attributed a sophisticated supply chain attack to Lazarus Group, leveraging SAML assertion forgery to pivot from a compromised IdP into downstream SaaS applications. The attack bypassed MFA by hijacking federated sessions post-authentication, affecting 40 enterprise customers of a major SSO provider.",
+      "source": "Krebs on Security", "category": "Security News", "section": "news",
+      "tags": ["Threat", "Standards & Protocols", "Vulnerability"], "published": "2026-05-31T20:00:00+00:00"
+    },
+    {
+      "id": "n2newsfeed02", "title": "Scattered Spider Returns: AI Voice Deepfakes Used to Reset MFA at Fortune 500 Help Desks",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/scattered-spider-ai-deepfake-helpdesk",
+      "summary": "Scattered Spider has resumed targeting enterprise identity provider help desks using AI-generated voice deepfakes to bypass identity verification and trigger MFA resets. At least six Fortune 500 companies were targeted in May 2026. Security teams are advised to implement callback verification with out-of-band authentication for all identity resets.",
+      "source": "Dark Reading", "category": "Security News", "section": "news",
+      "tags": ["Threat", "Authentication", "PAM"], "published": "2026-05-30T08:30:00+00:00"
+    },
+    {
+      "id": "n3newsfeed03", "title": "EU eIDAS 2.0 Digital Identity Wallet: Implementation Deadline Looms for Member States",
+      "url": "https://identityweek.net/eu-eidas-2-digital-identity-wallet-deadline/",
+      "summary": "European Union member states face a Q4 2026 deadline to begin rollout of eIDAS 2.0-compliant digital identity wallets. The regulation mandates citizens can use government-issued digital identities for online public and private sector services. Industry groups warn interoperability between national wallet implementations remains a significant unsolved challenge.",
+      "source": "Identity Week", "category": "Industry", "section": "news",
+      "tags": ["Compliance", "Standards & Protocols", "Authentication"], "published": "2026-05-30T10:00:00+00:00"
+    },
+    {
+      "id": "br1breach001", "title": "Healthcare Giant Medaura Confirms 2.1M Patient Records Exposed via Stolen VPN Credentials",
+      "url": "https://www.bleepingcomputer.com/news/security/medaura-health-2m-patient-records-breach/",
+      "summary": "Medaura Health confirmed a breach affecting 2.1 million patient records after attackers used stolen VPN credentials from a third-party contractor. The absence of MFA on the contractor portal enabled initial access. Attackers maintained persistence for 47 days before detection, exfiltrating names, SSNs, insurance records, and clinical notes.",
+      "source": "BleepingComputer", "category": "Security News", "section": "breach",
+      "vector": "Stolen Credentials", "severity": "critical",
+      "tags": ["Breach", "Threat", "Authentication"], "published": "2026-06-02T07:00:00+00:00"
+    },
+    {
+      "id": "br2breach002", "title": "Financial Firm Loses $18M After Credential Stuffing Attack Bypasses SMS MFA via SIM Swap",
+      "url": "https://krebsonsecurity.com/2026/06/bank-credential-stuffing-sim-swap/",
+      "summary": "A regional US bank disclosed 34,000 customer accounts compromised through a credential stuffing attack using credentials from third-party breaches. Attackers bypassed SMS MFA by performing SIM swaps on high-value accounts, resulting in $18M in fraudulent transfers. The bank is migrating to hardware token and passkey authentication.",
+      "source": "Krebs on Security", "category": "Security News", "section": "breach",
+      "vector": "Credential Stuffing + SIM Swap", "severity": "critical",
+      "tags": ["Breach", "Threat", "Authentication"], "published": "2026-06-01T16:00:00+00:00"
+    },
+    {
+      "id": "br3breach003", "title": "Cloud Provider Breach: Over-Privileged Service Account Exposes Data of 60 Enterprise Tenants",
+      "url": "https://www.darkreading.com/cloud-security/cloud-provider-service-account-breach-60-tenants",
+      "summary": "A cloud infrastructure provider disclosed that a threat actor compromised an over-privileged service account with cross-tenant administrative rights, gaining access to data belonging to 60 enterprise customers. The service account lacked rotation policies and had not been audited in 18 months. CISA is investigating.",
+      "source": "Dark Reading", "category": "Security News", "section": "breach",
+      "vector": "Over-privileged Service Account", "severity": "critical",
+      "tags": ["Breach", "PAM", "Machine Identity", "Access Control"], "published": "2026-05-31T11:00:00+00:00"
+    },
+    {
+      "id": "br4breach004", "title": "Telecom Carrier Breach: 800K Identity Records Exposed After SSO Token Theft",
+      "url": "https://www.scmagazine.com/news/telecom-sso-token-breach-800k/",
+      "summary": "A major telecom carrier reported a breach of 800,000 employee and contractor identity records after attackers stole long-lived SSO session tokens from an unpatched identity provider instance. Tokens were used to access HR systems, payroll data, and internal wikis without triggering authentication alerts.",
+      "source": "SC Magazine", "category": "Security News", "section": "breach",
+      "vector": "SSO Token Theft", "severity": "high",
+      "tags": ["Breach", "Threat", "Standards & Protocols"], "published": "2026-05-30T14:00:00+00:00"
+    },
+    {
+      "id": "br5breach005", "title": "Retailer Confirms 1.4M Card Records Stolen After Phishing Compromised AD Admin Account",
+      "url": "https://www.bleepingcomputer.com/news/security/retailer-breach-phished-helpdesk-active-directory/",
+      "summary": "A national retail chain confirmed a point-of-sale breach affecting 1.4 million payment card records, traced to a phishing attack on a help desk agent with broad Active Directory administrative rights. The attacker used the compromised account to deploy credential-harvesting malware across 300 store systems.",
+      "source": "BleepingComputer", "category": "Security News", "section": "breach",
+      "vector": "Phishing + Privilege Escalation", "severity": "high",
+      "tags": ["Breach", "Threat", "PAM"], "published": "2026-05-28T09:30:00+00:00"
     }
   ],
   "tag_index": {
-    "Zero Trust": ["h1a2b3c4d5e6","h3c4d5e6f7a8","v2b3c4d5e6f7","v4d5e6f7a8b9","wp3c4d5e6f7a"],
-    "Authentication": ["h1a2b3c4d5e6","h2b3c4d5e6f7","h5e6f7a8b9c0","v5e6f7a8b9c0","wp3c4d5e6f7a","n1a2b3c4d5e6","br1a2b3c4d5e","br2b3c4d5e6f"],
-    "Passwordless": ["h2b3c4d5e6f7","v5e6f7a8b9c0"],
-    "Standards & Protocols": ["h2b3c4d5e6f7","h4d5e6f7a8b9","h5e6f7a8b9c0","v1a2b3c4d5e6","wp2b3c4d5e6f","br4d5e6f7a8b"],
-    "Vendor News": ["h1a2b3c4d5e6","v1a2b3c4d5e6","v2b3c4d5e6f7","v3c4d5e6f7a8","v4d5e6f7a8b9","v5e6f7a8b9c0","wp2b3c4d5e6f","wp4d5e6f7a8b"],
-    "Threat": ["h4d5e6f7a8b9","n1a2b3c4d5e6","n2b3c4d5e6f7","wp1a2b3c4d5e","wp5e6f7a8b9c","br1a2b3c4d5e","br2b3c4d5e6f","br3c4d5e6f7a","br4d5e6f7a8b","br5e6f7a8b9c"],
-    "Vulnerability": ["h4d5e6f7a8b9","n2b3c4d5e6f7"],
-    "Access Control": ["h3c4d5e6f7a8","v1a2b3c4d5e6","v3c4d5e6f7a8","v4d5e6f7a8b9","wp1a2b3c4d5e","wp2b3c4d5e6f","wp4d5e6f7a8b","n2b3c4d5e6f7","br3c4d5e6f7a"],
-    "PAM": ["v2b3c4d5e6f7","wp4d5e6f7a8b","wp5e6f7a8b9c","n1a2b3c4d5e6","br3c4d5e6f7a","br5e6f7a8b9c"],
-    "IGA": ["v3c4d5e6f7a8","wp1a2b3c4d5e"],
-    "Compliance": ["h3c4d5e6f7a8","h5e6f7a8b9c0","wp3c4d5e6f7a","wp5e6f7a8b9c"],
-    "Breach": ["br1a2b3c4d5e","br2b3c4d5e6f","br3c4d5e6f7a","br4d5e6f7a8b","br5e6f7a8b9c"]
+    "Authentication":        ["h1a2b3c4d5e6","h5e6f7a8b9c0","wp4research04","n3newsfeed03","br1breach001","br2breach002"],
+    "Zero Trust":            ["h1a2b3c4d5e6","wp4research04"],
+    "Vendor News":           ["h1a2b3c4d5e6","h2b3c4d5e6f7","h3c4d5e6f7a8","h4d5e6f7a8b9","v1nextgen001","v2nextgen002","v3nextgen003","v4nextgen004","v5vendor005","v6vendor006","wp2research02","wp3research03"],
+    "IGA":                   ["h2b3c4d5e6f7","v6vendor006","wp2research02"],
+    "Access Control":        ["h2b3c4d5e6f7","v1nextgen001","v2nextgen002","wp1research01","wp2research02","wp4research04","br3breach003"],
+    "PAM":                   ["h3c4d5e6f7a8","h4d5e6f7a8b9","v5vendor005","v6vendor006","wp3research03","wp5research05","n2newsfeed02","br3breach003","br5breach005"],
+    "AI Identity":           ["h3c4d5e6f7a8","v2nextgen002","v5vendor005","v6vendor006","wp1research01","wp2research02","wp5research05"],
+    "Machine Identity":      ["h3c4d5e6f7a8","v1nextgen001","v3nextgen003","v4nextgen004","v6vendor006","wp1research01","wp3research03","br3breach003"],
+    "Next-Gen IAM":          ["v1nextgen001","v2nextgen002","v3nextgen003","v4nextgen004"],
+    "Threat":                ["h4d5e6f7a8b9","v3nextgen003","wp1research01","wp5research05","n1newsfeed01","n2newsfeed02","br1breach001","br2breach002","br3breach003","br4breach004","br5breach005"],
+    "Vulnerability":         ["h4d5e6f7a8b9","n1newsfeed01"],
+    "Passwordless":          ["h5e6f7a8b9c0"],
+    "Standards & Protocols": ["h5e6f7a8b9c0","v4nextgen004","n1newsfeed01","n3newsfeed03","br4breach004"],
+    "Compliance":            ["wp4research04","wp5research05","n3newsfeed03"],
+    "Breach":                ["br1breach001","br2breach002","br3breach003","br4breach004","br5breach005"]
   },
   "category_index": {
-    "Vendor": ["h1a2b3c4d5e6","v1a2b3c4d5e6","v2b3c4d5e6f7","v3c4d5e6f7a8","v4d5e6f7a8b9","v5e6f7a8b9c0"],
-    "Security News": ["h4d5e6f7a8b9","n1a2b3c4d5e6","n2b3c4d5e6f7","br1a2b3c4d5e","br2b3c4d5e6f","br3c4d5e6f7a","br4d5e6f7a8b","br5e6f7a8b9c"],
-    "Government": ["h3c4d5e6f7a8","wp3c4d5e6f7a"],
-    "Industry": ["h2b3c4d5e6f7","h5e6f7a8b9c0"],
-    "Research": ["wp1a2b3c4d5e","wp2b3c4d5e6f","wp4d5e6f7a8b","wp5e6f7a8b9c"]
+    "Vendor":       ["h1a2b3c4d5e6","h2b3c4d5e6f7","h3c4d5e6f7a8","v1nextgen001","v2nextgen002","v3nextgen003","v4nextgen004","v5vendor005","v6vendor006"],
+    "Security News":["h4d5e6f7a8b9","n1newsfeed01","n2newsfeed02","br1breach001","br2breach002","br3breach003","br4breach004","br5breach005"],
+    "Industry":     ["h5e6f7a8b9c0","n3newsfeed03"],
+    "Research":     ["wp1research01","wp2research02","wp3research03","wp5research05"],
+    "Government":   ["wp4research04"]
   }
 }
