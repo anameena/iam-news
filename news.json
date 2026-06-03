@@ -1,7 +1,21 @@
 {
-  "generated": "2026-06-03T10:32:03.654511+00:00",
+  "generated": "2026-06-03T20:00:16.810218+00:00",
   "total": 6,
   "items": [
+    {
+      "id": "d47c9916ce6b",
+      "title": "Password manager Dashlane says hackers stole some customers' password vaults | TechCrunch",
+      "url": "https://techcrunch.com/2026/06/02/password-manager-dashlane-says-hackers-stole-some-customers-password-vaults/",
+      "summary": "The password manager giant said hackers were able to 'brute-force' its two-factor system, allowing them to access customer accounts and download their password vaults.",
+      "source": "TechCrunch",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Authentication",
+        "Threat"
+      ],
+      "published": "2026-06-02T15:40:50+00:00"
+    },
     {
       "id": "6b4ece36a1b2",
       "title": "Microsoft Entra pushes passkeys, tightens identity security",
@@ -29,19 +43,6 @@
         "Authentication"
       ],
       "published": "2026-06-02T06:37:02+00:00"
-    },
-    {
-      "id": "93e4aa968942",
-      "title": "Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded",
-      "url": "https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html",
-      "summary": "Password manager Dashlane has disclosed that \"fewer than\" 20 users on the personal subscription plan had their encrypted vaults downloaded following a brute-force attack launched by an unknown party. On May 31, 2026, the company said an \"external\" threat act…",
-      "source": "Internet",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Threat"
-      ],
-      "published": "2026-06-02T03:55:25+00:00"
     },
     {
       "id": "4f64c3f90e74",
@@ -89,8 +90,14 @@
   ],
   "tag_index": {
     "Authentication": [
+      "d47c9916ce6b",
       "6b4ece36a1b2",
       "249f197dafd1"
+    ],
+    "Threat": [
+      "d47c9916ce6b",
+      "4f64c3f90e74",
+      "6fca0ad823c3"
     ],
     "Zero Trust": [
       "6b4ece36a1b2"
@@ -98,11 +105,6 @@
     "Vendor News": [
       "6b4ece36a1b2",
       "d57d4f85419a"
-    ],
-    "Threat": [
-      "93e4aa968942",
-      "4f64c3f90e74",
-      "6fca0ad823c3"
     ],
     "AI Identity": [
       "d57d4f85419a"
@@ -113,9 +115,9 @@
   },
   "category_index": {
     "Security News": [
+      "d47c9916ce6b",
       "6b4ece36a1b2",
       "249f197dafd1",
-      "93e4aa968942",
       "d57d4f85419a",
       "6fca0ad823c3"
     ],
