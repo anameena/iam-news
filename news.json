@@ -1,21 +1,7 @@
 {
-  "generated": "2026-06-03T20:00:16.810218+00:00",
-  "total": 6,
+  "generated": "2026-06-04T16:40:24.820464+00:00",
+  "total": 2,
   "items": [
-    {
-      "id": "d47c9916ce6b",
-      "title": "Password manager Dashlane says hackers stole some customers' password vaults | TechCrunch",
-      "url": "https://techcrunch.com/2026/06/02/password-manager-dashlane-says-hackers-stole-some-customers-password-vaults/",
-      "summary": "The password manager giant said hackers were able to 'brute-force' its two-factor system, allowing them to access customer accounts and download their password vaults.",
-      "source": "TechCrunch",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Authentication",
-        "Threat"
-      ],
-      "published": "2026-06-02T15:40:50+00:00"
-    },
     {
       "id": "6b4ece36a1b2",
       "title": "Microsoft Entra pushes passkeys, tightens identity security",
@@ -43,86 +29,24 @@
         "Authentication"
       ],
       "published": "2026-06-02T06:37:02+00:00"
-    },
-    {
-      "id": "4f64c3f90e74",
-      "title": "Can you enforce strong Active Directory password rules without frustrating users?",
-      "url": "https://www.bleepingcomputer.com/news/security/can-you-enforce-strong-active-directory-password-rules-without-frustrating-users/",
-      "summary": "Strong Active Directory passwords don't have to come at the expense of usability. Specops Software explains how passphrases, breached password protection, and self-service resets can improve security without frustrating users. [...]",
-      "source": "BleepingComputer",
-      "category": "Vendor",
-      "section": "vendor",
-      "tags": [
-        "Threat"
-      ],
-      "published": "2026-05-27T14:00:10+00:00"
-    },
-    {
-      "id": "d57d4f85419a",
-      "title": "Ping Identity advances agentic security with AI governance and trusted access",
-      "url": "https://www.helpnetsecurity.com/2026/05/27/ping-identity-advances-agentic-security-with-ai-governance-and-trusted-access/",
-      "summary": "Ping Identity announced new capabilities that extend the Ping Identity Platform for the agentic enterprise, where AI agents, automation, and developers increasingly shape how access is managed, governed, and secured across organizations. AI agents are changin…",
-      "source": "Help Net Security",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "Vendor News",
-        "AI Identity"
-      ],
-      "published": "2026-05-27T13:25:16+00:00"
-    },
-    {
-      "id": "6fca0ad823c3",
-      "title": "The Credential Crisis: How Stolen Credentials Defeat Modern Security",
-      "url": "https://www.securityweek.com/the-credential-crisis-how-stolen-credentials-defeat-modern-security/",
-      "summary": "As AI accelerates phishing, session hijacking, and credential abuse, security teams are racing to close the gap between attacker speed and defensive response. The post The Credential Crisis: How Stolen Credentials Defeat Modern Security appeared first on Secu…",
-      "source": "Securityweek.com",
-      "category": "Security News",
-      "section": "breach",
-      "tags": [
-        "Breach",
-        "Threat"
-      ],
-      "published": "2026-05-27T10:30:00+00:00",
-      "vector": "Stolen Credentials",
-      "severity": "medium"
     }
   ],
   "tag_index": {
     "Authentication": [
-      "d47c9916ce6b",
       "6b4ece36a1b2",
       "249f197dafd1"
-    ],
-    "Threat": [
-      "d47c9916ce6b",
-      "4f64c3f90e74",
-      "6fca0ad823c3"
     ],
     "Zero Trust": [
       "6b4ece36a1b2"
     ],
     "Vendor News": [
-      "6b4ece36a1b2",
-      "d57d4f85419a"
-    ],
-    "AI Identity": [
-      "d57d4f85419a"
-    ],
-    "Breach": [
-      "6fca0ad823c3"
+      "6b4ece36a1b2"
     ]
   },
   "category_index": {
     "Security News": [
-      "d47c9916ce6b",
       "6b4ece36a1b2",
-      "249f197dafd1",
-      "d57d4f85419a",
-      "6fca0ad823c3"
-    ],
-    "Vendor": [
-      "4f64c3f90e74"
+      "249f197dafd1"
     ]
   }
 }
