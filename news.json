@@ -1,7 +1,20 @@
 {
-  "generated": "2026-06-06T11:12:06.384258+00:00",
-  "total": 2,
+  "generated": "2026-06-07T12:07:49.641273+00:00",
+  "total": 3,
   "items": [
+    {
+      "id": "f5bd89081fa4",
+      "title": "Attackers obtained encrypted password vaults from some Dashlane user accounts",
+      "url": "https://www.helpnetsecurity.com/2026/06/05/dashlane-brute-force-attack-vaults-customer-accounts/",
+      "summary": "Dashlane has disclosed new details about a brute-force attack that let a threat actor access some customer accounts and copy encrypted vaults. Dashlane said it found no evidence that the attackers compromised its internal systems. The company first acknowledg…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Threat"
+      ],
+      "published": "2026-06-05T11:34:19+00:00"
+    },
     {
       "id": "6b4ece36a1b2",
       "title": "Microsoft Entra pushes passkeys, tightens identity security",
@@ -32,6 +45,9 @@
     }
   ],
   "tag_index": {
+    "Threat": [
+      "f5bd89081fa4"
+    ],
     "Authentication": [
       "6b4ece36a1b2",
       "249f197dafd1"
@@ -45,6 +61,7 @@
   },
   "category_index": {
     "Security News": [
+      "f5bd89081fa4",
       "6b4ece36a1b2",
       "249f197dafd1"
     ]
