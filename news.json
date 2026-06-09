@@ -1,7 +1,20 @@
 {
-  "generated": "2026-06-08T17:36:40.040389+00:00",
-  "total": 2,
+  "generated": "2026-06-09T16:20:04.473832+00:00",
+  "total": 3,
   "items": [
+    {
+      "id": "9855da8d5f2d",
+      "title": "RidgeBot 7.0 automates Active Directory attack simulations for security validation",
+      "url": "https://www.helpnetsecurity.com/2026/06/08/ridge-security-ridgebot-7-0/",
+      "summary": "Ridge Security has announced the release of RidgeBot 7.0, an update to its automated security validation platform that introduces automated Windows Active Directory penetration testing capabilities. The new version enables organizations to conduct end-to-end …",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Threat"
+      ],
+      "published": "2026-06-08T11:34:55+00:00"
+    },
     {
       "id": "6b4ece36a1b2",
       "title": "Microsoft Entra pushes passkeys, tightens identity security",
@@ -32,6 +45,9 @@
     }
   ],
   "tag_index": {
+    "Threat": [
+      "9855da8d5f2d"
+    ],
     "Authentication": [
       "6b4ece36a1b2",
       "249f197dafd1"
@@ -45,6 +61,7 @@
   },
   "category_index": {
     "Security News": [
+      "9855da8d5f2d",
       "6b4ece36a1b2",
       "249f197dafd1"
     ]
