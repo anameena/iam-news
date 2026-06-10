@@ -1,69 +1,7 @@
 {
-  "generated": "2026-06-09T16:20:04.473832+00:00",
-  "total": 3,
-  "items": [
-    {
-      "id": "9855da8d5f2d",
-      "title": "RidgeBot 7.0 automates Active Directory attack simulations for security validation",
-      "url": "https://www.helpnetsecurity.com/2026/06/08/ridge-security-ridgebot-7-0/",
-      "summary": "Ridge Security has announced the release of RidgeBot 7.0, an update to its automated security validation platform that introduces automated Windows Active Directory penetration testing capabilities. The new version enables organizations to conduct end-to-end …",
-      "source": "Help Net Security",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Threat"
-      ],
-      "published": "2026-06-08T11:34:55+00:00"
-    },
-    {
-      "id": "6b4ece36a1b2",
-      "title": "Microsoft Entra pushes passkeys, tightens identity security",
-      "url": "https://www.helpnetsecurity.com/2026/06/02/microsoft-entra-latest-security-updates/",
-      "summary": "Microsoft has released multiple identity and network access capabilities for Entra, its family of identity and network access products that help organizations implement a zero trust security strategy, over the last 30 days. Features reaching general availabil…",
-      "source": "Help Net Security",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "Authentication",
-        "Zero Trust",
-        "Vendor News"
-      ],
-      "published": "2026-06-02T10:27:54+00:00"
-    },
-    {
-      "id": "249f197dafd1",
-      "title": "RSA extends passwordless authentication to Linux environments",
-      "url": "https://www.helpnetsecurity.com/2026/06/02/rsa-linux-passwordless-authentication-support/",
-      "summary": "RSA has expanded its passwordless authentication capabilities to Linux environments, advancing its goal of delivering secure, password-free access for every user in every environment. Linux is ubiquitous in enterprise infrastructure, powering servers, develop…",
-      "source": "Help Net Security",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Authentication"
-      ],
-      "published": "2026-06-02T06:37:02+00:00"
-    }
-  ],
-  "tag_index": {
-    "Threat": [
-      "9855da8d5f2d"
-    ],
-    "Authentication": [
-      "6b4ece36a1b2",
-      "249f197dafd1"
-    ],
-    "Zero Trust": [
-      "6b4ece36a1b2"
-    ],
-    "Vendor News": [
-      "6b4ece36a1b2"
-    ]
-  },
-  "category_index": {
-    "Security News": [
-      "9855da8d5f2d",
-      "6b4ece36a1b2",
-      "249f197dafd1"
-    ]
-  }
+  "generated": "2026-06-10T17:44:29.861842+00:00",
+  "total": 0,
+  "items": [],
+  "tag_index": {},
+  "category_index": {}
 }
