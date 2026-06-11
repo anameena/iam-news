@@ -1,7 +1,54 @@
 {
-  "generated": "2026-06-10T17:44:29.861842+00:00",
-  "total": 0,
-  "items": [],
-  "tag_index": {},
-  "category_index": {}
+  "generated": "2026-06-11T17:58:21.167527+00:00",
+  "total": 2,
+  "items": [
+    {
+      "id": "bbcde9e19e6c",
+      "title": "Infostealers Turn Millions of Devices Into Credential Theft Machines",
+      "url": "https://www.securityweek.com/infostealers-turn-millions-of-devices-into-credential-theft-machines/",
+      "summary": "As attackers increasingly favor stolen credentials over exploits, infostealers have become a primary source of access for ransomware and other cybercrime operations. The post Infostealers Turn Millions of Devices Into Credential Theft Machines appeared first …",
+      "source": "Securityweek.com",
+      "category": "Security News",
+      "section": "breach",
+      "tags": [
+        "Vulnerability",
+        "Breach",
+        "Threat"
+      ],
+      "published": "2026-06-10T14:00:00+00:00",
+      "vector": "Stolen Credentials",
+      "severity": "critical"
+    },
+    {
+      "id": "9855da8d5f2d",
+      "title": "RidgeBot 7.0 automates Active Directory attack simulations for security validation",
+      "url": "https://www.helpnetsecurity.com/2026/06/08/ridge-security-ridgebot-7-0/",
+      "summary": "Ridge Security has announced the release of RidgeBot 7.0, an update to its automated security validation platform that introduces automated Windows Active Directory penetration testing capabilities. The new version enables organizations to conduct end-to-end …",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Threat"
+      ],
+      "published": "2026-06-08T11:34:55+00:00"
+    }
+  ],
+  "tag_index": {
+    "Vulnerability": [
+      "bbcde9e19e6c"
+    ],
+    "Breach": [
+      "bbcde9e19e6c"
+    ],
+    "Threat": [
+      "bbcde9e19e6c",
+      "9855da8d5f2d"
+    ]
+  },
+  "category_index": {
+    "Security News": [
+      "bbcde9e19e6c",
+      "9855da8d5f2d"
+    ]
+  }
 }
