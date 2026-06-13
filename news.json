@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-12T16:33:48.061192+00:00",
+  "generated": "2026-06-13T12:09:29.345093+00:00",
   "total": 2,
   "items": [
     {
@@ -11,9 +11,9 @@
       "category": "Security News",
       "section": "breach",
       "tags": [
-        "Breach",
+        "Threat",
         "Vulnerability",
-        "Threat"
+        "Breach"
       ],
       "published": "2026-06-10T14:00:00+00:00",
       "vector": "Stolen Credentials",
@@ -34,15 +34,15 @@
     }
   ],
   "tag_index": {
-    "Breach": [
-      "bbcde9e19e6c"
+    "Threat": [
+      "bbcde9e19e6c",
+      "9855da8d5f2d"
     ],
     "Vulnerability": [
       "bbcde9e19e6c"
     ],
-    "Threat": [
-      "bbcde9e19e6c",
-      "9855da8d5f2d"
+    "Breach": [
+      "bbcde9e19e6c"
     ]
   },
   "category_index": {
