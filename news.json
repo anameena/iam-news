@@ -1,7 +1,20 @@
 {
-  "generated": "2026-06-15T19:59:16.644468+00:00",
+  "generated": "2026-06-16T19:51:05.762317+00:00",
   "total": 2,
   "items": [
+    {
+      "id": "80dac8ffded6",
+      "title": "Delinea and Cyera integrate for data-aware identity security",
+      "url": "https://www.helpnetsecurity.com/2026/06/15/delinea-cyera-product-integration/",
+      "summary": "Delinea and Cyera announced a product integration that connects privileged access to sensitive data exposure, automatically correlating identities with the data they can access. Together, Delinea and Cyera help security teams identify, prioritize, and remedia…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "PAM"
+      ],
+      "published": "2026-06-15T15:06:22+00:00"
+    },
     {
       "id": "bbcde9e19e6c",
       "title": "Infostealers Turn Millions of Devices Into Credential Theft Machines",
@@ -11,44 +24,33 @@
       "category": "Security News",
       "section": "breach",
       "tags": [
-        "Threat",
         "Breach",
-        "Vulnerability"
+        "Vulnerability",
+        "Threat"
       ],
       "published": "2026-06-10T14:00:00+00:00",
       "vector": "Stolen Credentials",
       "severity": "critical"
-    },
-    {
-      "id": "9855da8d5f2d",
-      "title": "RidgeBot 7.0 automates Active Directory attack simulations for security validation",
-      "url": "https://www.helpnetsecurity.com/2026/06/08/ridge-security-ridgebot-7-0/",
-      "summary": "Ridge Security has announced the release of RidgeBot 7.0, an update to its automated security validation platform that introduces automated Windows Active Directory penetration testing capabilities. The new version enables organizations to conduct end-to-end …",
-      "source": "Help Net Security",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Threat"
-      ],
-      "published": "2026-06-08T11:34:55+00:00"
     }
   ],
   "tag_index": {
-    "Threat": [
-      "bbcde9e19e6c",
-      "9855da8d5f2d"
+    "PAM": [
+      "80dac8ffded6"
     ],
     "Breach": [
       "bbcde9e19e6c"
     ],
     "Vulnerability": [
       "bbcde9e19e6c"
+    ],
+    "Threat": [
+      "bbcde9e19e6c"
     ]
   },
   "category_index": {
     "Security News": [
-      "bbcde9e19e6c",
-      "9855da8d5f2d"
+      "80dac8ffded6",
+      "bbcde9e19e6c"
     ]
   }
 }
