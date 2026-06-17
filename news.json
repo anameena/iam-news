@@ -1,7 +1,21 @@
 {
-  "generated": "2026-06-16T19:51:05.762317+00:00",
-  "total": 2,
+  "generated": "2026-06-17T17:33:22.293757+00:00",
+  "total": 3,
   "items": [
+    {
+      "id": "32d2032b8f04",
+      "title": "AppViewX extends machine identity security to ai agents and post-quantum environments",
+      "url": "https://www.helpnetsecurity.com/2026/06/16/appviewx-agent-identity-security/",
+      "summary": "AppViewX has announced Agent Identity Security, a new product within the AppViewX platform that discovers, governs, secures, and monitors AI agents across the entire enterprise. Agent Identity Security extends AppViewX’s platform, built on a decade of machine…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Machine Identity",
+        "AI Identity"
+      ],
+      "published": "2026-06-16T13:00:22+00:00"
+    },
     {
       "id": "80dac8ffded6",
       "title": "Delinea and Cyera integrate for data-aware identity security",
@@ -24,9 +38,9 @@
       "category": "Security News",
       "section": "breach",
       "tags": [
-        "Breach",
+        "Threat",
         "Vulnerability",
-        "Threat"
+        "Breach"
       ],
       "published": "2026-06-10T14:00:00+00:00",
       "vector": "Stolen Credentials",
@@ -34,21 +48,28 @@
     }
   ],
   "tag_index": {
+    "Machine Identity": [
+      "32d2032b8f04"
+    ],
+    "AI Identity": [
+      "32d2032b8f04"
+    ],
     "PAM": [
       "80dac8ffded6"
     ],
-    "Breach": [
+    "Threat": [
       "bbcde9e19e6c"
     ],
     "Vulnerability": [
       "bbcde9e19e6c"
     ],
-    "Threat": [
+    "Breach": [
       "bbcde9e19e6c"
     ]
   },
   "category_index": {
     "Security News": [
+      "32d2032b8f04",
       "80dac8ffded6",
       "bbcde9e19e6c"
     ]
