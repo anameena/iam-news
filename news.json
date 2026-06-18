@@ -1,7 +1,24 @@
 {
-  "generated": "2026-06-17T17:33:22.293757+00:00",
+  "generated": "2026-06-18T17:49:07.735868+00:00",
   "total": 3,
   "items": [
+    {
+      "id": "b23a2a21fb13",
+      "title": "Why Account Takeovers Are Rising and How to Stop Them",
+      "url": "https://www.bleepingcomputer.com/news/security/why-account-takeovers-are-rising-and-how-to-stop-them/",
+      "summary": "Account takeovers are rising as attackers bypass traditional defenses through phishing, session hijacking, and MFA fatigue. Specops Software explores how device trust and continuous verification help reduce account takeover risk. [...]",
+      "source": "BleepingComputer",
+      "category": "Vendor",
+      "section": "breach",
+      "tags": [
+        "Authentication",
+        "Breach",
+        "Threat"
+      ],
+      "published": "2026-06-17T14:00:10+00:00",
+      "vector": "Phishing",
+      "severity": "medium"
+    },
     {
       "id": "32d2032b8f04",
       "title": "AppViewX extends machine identity security to ai agents and post-quantum environments",
@@ -28,26 +45,18 @@
         "PAM"
       ],
       "published": "2026-06-15T15:06:22+00:00"
-    },
-    {
-      "id": "bbcde9e19e6c",
-      "title": "Infostealers Turn Millions of Devices Into Credential Theft Machines",
-      "url": "https://www.securityweek.com/infostealers-turn-millions-of-devices-into-credential-theft-machines/",
-      "summary": "As attackers increasingly favor stolen credentials over exploits, infostealers have become a primary source of access for ransomware and other cybercrime operations. The post Infostealers Turn Millions of Devices Into Credential Theft Machines appeared first …",
-      "source": "Securityweek.com",
-      "category": "Security News",
-      "section": "breach",
-      "tags": [
-        "Threat",
-        "Vulnerability",
-        "Breach"
-      ],
-      "published": "2026-06-10T14:00:00+00:00",
-      "vector": "Stolen Credentials",
-      "severity": "critical"
     }
   ],
   "tag_index": {
+    "Authentication": [
+      "b23a2a21fb13"
+    ],
+    "Breach": [
+      "b23a2a21fb13"
+    ],
+    "Threat": [
+      "b23a2a21fb13"
+    ],
     "Machine Identity": [
       "32d2032b8f04"
     ],
@@ -56,22 +65,15 @@
     ],
     "PAM": [
       "80dac8ffded6"
-    ],
-    "Threat": [
-      "bbcde9e19e6c"
-    ],
-    "Vulnerability": [
-      "bbcde9e19e6c"
-    ],
-    "Breach": [
-      "bbcde9e19e6c"
     ]
   },
   "category_index": {
+    "Vendor": [
+      "b23a2a21fb13"
+    ],
     "Security News": [
       "32d2032b8f04",
-      "80dac8ffded6",
-      "bbcde9e19e6c"
+      "80dac8ffded6"
     ]
   }
 }
