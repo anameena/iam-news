@@ -1,7 +1,35 @@
 {
-  "generated": "2026-06-18T17:49:07.735868+00:00",
-  "total": 3,
+  "generated": "2026-06-19T16:19:06.414071+00:00",
+  "total": 5,
   "items": [
+    {
+      "id": "08da26aacf86",
+      "title": "Klue OAuth breach linked to 'Icarus' Salesforce data theft attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/",
+      "summary": "Market intelligence platform Klue suffered a OAuth breach that enabled the \"Icarus\" threat actors to steal Salesforce CRM data from multiple organizations in an ongoing extortion campaign. [...]",
+      "source": "BleepingComputer",
+      "category": "Vendor",
+      "section": "vendor",
+      "tags": [
+        "Threat",
+        "Standards & Protocols"
+      ],
+      "published": "2026-06-18T14:19:50+00:00"
+    },
+    {
+      "id": "9f2363f12a4b",
+      "title": "SailPoint to Acquire Entro in Reported $200 Million Deal",
+      "url": "https://www.securityweek.com/sailpoint-to-acquire-entro-in-reported-200-million-deal/",
+      "summary": "Israel-based Entro specializes in non-human identity and credential security solutions, and it will enable SailPoint to enhance its products. The post SailPoint to Acquire Entro in Reported $200 Million Deal appeared first on SecurityWeek.",
+      "source": "Securityweek.com",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "IGA",
+        "Machine Identity"
+      ],
+      "published": "2026-06-18T08:36:42+00:00"
+    },
     {
       "id": "b23a2a21fb13",
       "title": "Why Account Takeovers Are Rising and How to Stop Them",
@@ -11,9 +39,9 @@
       "category": "Vendor",
       "section": "breach",
       "tags": [
+        "Threat",
         "Authentication",
-        "Breach",
-        "Threat"
+        "Breach"
       ],
       "published": "2026-06-17T14:00:10+00:00",
       "vector": "Phishing",
@@ -48,17 +76,25 @@
     }
   ],
   "tag_index": {
+    "Threat": [
+      "08da26aacf86",
+      "b23a2a21fb13"
+    ],
+    "Standards & Protocols": [
+      "08da26aacf86"
+    ],
+    "IGA": [
+      "9f2363f12a4b"
+    ],
+    "Machine Identity": [
+      "9f2363f12a4b",
+      "32d2032b8f04"
+    ],
     "Authentication": [
       "b23a2a21fb13"
     ],
     "Breach": [
       "b23a2a21fb13"
-    ],
-    "Threat": [
-      "b23a2a21fb13"
-    ],
-    "Machine Identity": [
-      "32d2032b8f04"
     ],
     "AI Identity": [
       "32d2032b8f04"
@@ -69,9 +105,11 @@
   },
   "category_index": {
     "Vendor": [
+      "08da26aacf86",
       "b23a2a21fb13"
     ],
     "Security News": [
+      "9f2363f12a4b",
       "32d2032b8f04",
       "80dac8ffded6"
     ]
