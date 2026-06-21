@@ -1,7 +1,35 @@
 {
-  "generated": "2026-06-20T12:15:55.439389+00:00",
-  "total": 5,
+  "generated": "2026-06-21T12:31:08.987544+00:00",
+  "total": 7,
   "items": [
+    {
+      "id": "1b1fd40c34f8",
+      "title": "Klue OAuth breach victim list grows as Icarus hackers claim attack",
+      "url": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
+      "summary": "Market intelligence platform Klue has publicly confirmed a recent security incident that allowed threat actors to steal OAuth tokens used to connect to customers' Salesforce environments, as the new \"Icarus\" extortion group publicly claims the attack. [...]",
+      "source": "BleepingComputer",
+      "category": "Vendor",
+      "section": "vendor",
+      "tags": [
+        "Threat",
+        "Standards & Protocols"
+      ],
+      "published": "2026-06-19T22:31:04+00:00"
+    },
+    {
+      "id": "2e7e41d5c87e",
+      "title": "CISA Warns Fortinet Customers as FortiBleed Hits 86,644 FortiGate Devices",
+      "url": "https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday urged Fortinet customers with FortiGate appliances to take steps to secure against ongoing malicious activity aimed at thousands of internet-accessible devices. The sweeping campaig…",
+      "source": "Internet",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "IGA",
+        "Vulnerability"
+      ],
+      "published": "2026-06-19T14:00:21+00:00"
+    },
     {
       "id": "08da26aacf86",
       "title": "Klue OAuth breach linked to 'Icarus' Salesforce data theft attacks",
@@ -39,9 +67,9 @@
       "category": "Vendor",
       "section": "breach",
       "tags": [
-        "Threat",
+        "Breach",
         "Authentication",
-        "Breach"
+        "Threat"
       ],
       "published": "2026-06-17T14:00:10+00:00",
       "vector": "Phishing",
@@ -77,23 +105,29 @@
   ],
   "tag_index": {
     "Threat": [
+      "1b1fd40c34f8",
       "08da26aacf86",
       "b23a2a21fb13"
     ],
     "Standards & Protocols": [
+      "1b1fd40c34f8",
       "08da26aacf86"
     ],
     "IGA": [
+      "2e7e41d5c87e",
       "9f2363f12a4b"
+    ],
+    "Vulnerability": [
+      "2e7e41d5c87e"
     ],
     "Machine Identity": [
       "9f2363f12a4b",
       "32d2032b8f04"
     ],
-    "Authentication": [
+    "Breach": [
       "b23a2a21fb13"
     ],
-    "Breach": [
+    "Authentication": [
       "b23a2a21fb13"
     ],
     "AI Identity": [
@@ -105,10 +139,12 @@
   },
   "category_index": {
     "Vendor": [
+      "1b1fd40c34f8",
       "08da26aacf86",
       "b23a2a21fb13"
     ],
     "Security News": [
+      "2e7e41d5c87e",
       "9f2363f12a4b",
       "32d2032b8f04",
       "80dac8ffded6"
