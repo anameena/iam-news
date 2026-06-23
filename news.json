@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-22T18:58:30.158478+00:00",
-  "total": 7,
+  "generated": "2026-06-23T16:11:38.799893+00:00",
+  "total": 5,
   "items": [
     {
       "id": "1b1fd40c34f8",
@@ -31,20 +31,6 @@
       "published": "2026-06-19T14:00:21+00:00"
     },
     {
-      "id": "08da26aacf86",
-      "title": "Klue OAuth breach linked to 'Icarus' Salesforce data theft attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/",
-      "summary": "Market intelligence platform Klue suffered a OAuth breach that enabled the \"Icarus\" threat actors to steal Salesforce CRM data from multiple organizations in an ongoing extortion campaign. [...]",
-      "source": "BleepingComputer",
-      "category": "Vendor",
-      "section": "vendor",
-      "tags": [
-        "Threat",
-        "Standards & Protocols"
-      ],
-      "published": "2026-06-18T14:19:50+00:00"
-    },
-    {
       "id": "9f2363f12a4b",
       "title": "SailPoint to Acquire Entro in Reported $200 Million Deal",
       "url": "https://www.securityweek.com/sailpoint-to-acquire-entro-in-reported-200-million-deal/",
@@ -67,9 +53,9 @@
       "category": "Vendor",
       "section": "breach",
       "tags": [
+        "Breach",
         "Threat",
-        "Authentication",
-        "Breach"
+        "Authentication"
       ],
       "published": "2026-06-17T14:00:10+00:00",
       "vector": "Phishing",
@@ -88,30 +74,15 @@
         "AI Identity"
       ],
       "published": "2026-06-16T13:00:22+00:00"
-    },
-    {
-      "id": "80dac8ffded6",
-      "title": "Delinea and Cyera integrate for data-aware identity security",
-      "url": "https://www.helpnetsecurity.com/2026/06/15/delinea-cyera-product-integration/",
-      "summary": "Delinea and Cyera announced a product integration that connects privileged access to sensitive data exposure, automatically correlating identities with the data they can access. Together, Delinea and Cyera help security teams identify, prioritize, and remedia…",
-      "source": "Help Net Security",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "PAM"
-      ],
-      "published": "2026-06-15T15:06:22+00:00"
     }
   ],
   "tag_index": {
     "Threat": [
       "1b1fd40c34f8",
-      "08da26aacf86",
       "b23a2a21fb13"
     ],
     "Standards & Protocols": [
-      "1b1fd40c34f8",
-      "08da26aacf86"
+      "1b1fd40c34f8"
     ],
     "IGA": [
       "2e7e41d5c87e",
@@ -124,30 +95,25 @@
       "9f2363f12a4b",
       "32d2032b8f04"
     ],
-    "Authentication": [
+    "Breach": [
       "b23a2a21fb13"
     ],
-    "Breach": [
+    "Authentication": [
       "b23a2a21fb13"
     ],
     "AI Identity": [
       "32d2032b8f04"
-    ],
-    "PAM": [
-      "80dac8ffded6"
     ]
   },
   "category_index": {
     "Vendor": [
       "1b1fd40c34f8",
-      "08da26aacf86",
       "b23a2a21fb13"
     ],
     "Security News": [
       "2e7e41d5c87e",
       "9f2363f12a4b",
-      "32d2032b8f04",
-      "80dac8ffded6"
+      "32d2032b8f04"
     ]
   }
 }
