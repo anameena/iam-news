@@ -1,20 +1,48 @@
 {
-  "generated": "2026-06-23T16:11:38.799893+00:00",
-  "total": 5,
+  "generated": "2026-06-24T13:55:13.864394+00:00",
+  "total": 6,
   "items": [
     {
-      "id": "1b1fd40c34f8",
-      "title": "Klue OAuth breach victim list grows as Icarus hackers claim attack",
-      "url": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
-      "summary": "Market intelligence platform Klue has publicly confirmed a recent security incident that allowed threat actors to steal OAuth tokens used to connect to customers' Salesforce environments, as the new \"Icarus\" extortion group publicly claims the attack. [...]",
+      "id": "d0d8e37e0307",
+      "title": "Omada Identity Sovereign targets Europe’s growing digital sovereignty demands",
+      "url": "https://www.helpnetsecurity.com/2026/06/23/omada-identity-sovereign-targets-europes-growing-digital-sovereignty-demands/",
+      "summary": "Omada has introduced Omada Identity Sovereign, a new solution that enables organizations to take direct control over where and how their identity governance is deployed. The solution addresses the digital sovereignty requirements, including data, operational,…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "IGA"
+      ],
+      "published": "2026-06-23T09:25:19+00:00"
+    },
+    {
+      "id": "d6712ec7c684",
+      "title": "How World Cup Password Trends Can Increase Active Directory Risk",
+      "url": "https://www.infosecurity-magazine.com/blogs/how-world-cup-password-trends/",
+      "summary": "Football-themed passwords remain a predictable weakness in enterprise environments. Drawing on analysis of more than 6.4 billion compromised passwords, this article explores how attackers exploit familiar patterns, where native Active Directory policy falls s…",
+      "source": "Infosecurity Magazine",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Threat",
+        "Vulnerability"
+      ],
+      "published": "2026-06-23T08:30:00+00:00"
+    },
+    {
+      "id": "8a43567db397",
+      "title": "FortiBleed campaign used custom FortiGate sniffer to steal credentials",
+      "url": "https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/",
+      "summary": "Security firm SOCRadar says the large-scale FortiBleed campaign targeting Fortinet FortiGate devices used custom sniffers to harvest authentication secrets from compromised firewalls and steal credentials. [...]",
       "source": "BleepingComputer",
       "category": "Vendor",
       "section": "vendor",
       "tags": [
-        "Threat",
-        "Standards & Protocols"
+        "Authentication",
+        "IGA",
+        "Threat"
       ],
-      "published": "2026-06-19T22:31:04+00:00"
+      "published": "2026-06-22T20:01:02+00:00"
     },
     {
       "id": "2e7e41d5c87e",
@@ -54,66 +82,51 @@
       "section": "breach",
       "tags": [
         "Breach",
-        "Threat",
-        "Authentication"
+        "Authentication",
+        "Threat"
       ],
       "published": "2026-06-17T14:00:10+00:00",
       "vector": "Phishing",
       "severity": "medium"
-    },
-    {
-      "id": "32d2032b8f04",
-      "title": "AppViewX extends machine identity security to ai agents and post-quantum environments",
-      "url": "https://www.helpnetsecurity.com/2026/06/16/appviewx-agent-identity-security/",
-      "summary": "AppViewX has announced Agent Identity Security, a new product within the AppViewX platform that discovers, governs, secures, and monitors AI agents across the entire enterprise. Agent Identity Security extends AppViewX’s platform, built on a decade of machine…",
-      "source": "Help Net Security",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Machine Identity",
-        "AI Identity"
-      ],
-      "published": "2026-06-16T13:00:22+00:00"
     }
   ],
   "tag_index": {
-    "Threat": [
-      "1b1fd40c34f8",
-      "b23a2a21fb13"
-    ],
-    "Standards & Protocols": [
-      "1b1fd40c34f8"
-    ],
     "IGA": [
+      "d0d8e37e0307",
+      "8a43567db397",
       "2e7e41d5c87e",
       "9f2363f12a4b"
     ],
+    "Threat": [
+      "d6712ec7c684",
+      "8a43567db397",
+      "b23a2a21fb13"
+    ],
     "Vulnerability": [
+      "d6712ec7c684",
       "2e7e41d5c87e"
     ],
+    "Authentication": [
+      "8a43567db397",
+      "b23a2a21fb13"
+    ],
     "Machine Identity": [
-      "9f2363f12a4b",
-      "32d2032b8f04"
+      "9f2363f12a4b"
     ],
     "Breach": [
       "b23a2a21fb13"
-    ],
-    "Authentication": [
-      "b23a2a21fb13"
-    ],
-    "AI Identity": [
-      "32d2032b8f04"
     ]
   },
   "category_index": {
-    "Vendor": [
-      "1b1fd40c34f8",
-      "b23a2a21fb13"
-    ],
     "Security News": [
+      "d0d8e37e0307",
+      "d6712ec7c684",
       "2e7e41d5c87e",
-      "9f2363f12a4b",
-      "32d2032b8f04"
+      "9f2363f12a4b"
+    ],
+    "Vendor": [
+      "8a43567db397",
+      "b23a2a21fb13"
     ]
   }
 }
