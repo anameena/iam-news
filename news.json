@@ -1,7 +1,48 @@
 {
-  "generated": "2026-06-24T13:55:13.864394+00:00",
-  "total": 6,
+  "generated": "2026-06-25T13:38:15.085720+00:00",
+  "total": 8,
   "items": [
+    {
+      "id": "07293bc25f5f",
+      "title": "BeyondTrust, LastPass Impacted by Klue-Salesforce Incident",
+      "url": "https://www.securityweek.com/beyondtrust-lastpass-impacted-by-klue-salesforce-incident/",
+      "summary": "Over a dozen Klue customers have confirmed that hackers stole data from their Salesforce instances. The post BeyondTrust, LastPass Impacted by Klue-Salesforce Incident appeared first on SecurityWeek.",
+      "source": "Securityweek.com",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "PAM",
+        "Threat"
+      ],
+      "published": "2026-06-24T10:03:06+00:00"
+    },
+    {
+      "id": "c2c903553617",
+      "title": "FortiBleed Targeted FortiGate Firewalls in 110 Million-Credential Harvesting Operation",
+      "url": "https://thehackernews.com/2026/06/fortibleed-targeted-fortigate-firewalls.html",
+      "summary": "A Russian-speaking initial access broker (IAB) driven by financial gain is assessed to be behind a large-scale credential-harvesting operation known as FortiBleed that has targeted over 430,000 FortiGate firewalls globally. The campaign, active since Februar…",
+      "source": "Internet",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "IGA"
+      ],
+      "published": "2026-06-23T18:20:49+00:00"
+    },
+    {
+      "id": "a5a42ece532b",
+      "title": "What the Fortibleed campaign means for organizations running FortiGate firewalls",
+      "url": "https://www.helpnetsecurity.com/2026/06/23/fortibleed-investigation-remediation/",
+      "summary": "A massive credential-harvesting campaign targeting FortiGate firewalls has exposed thousands of organizations to potential network compromise, and a trove of attacker tools, scripts, and credentials left inadvertently exposed on a server has given researchers…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "IGA",
+        "Threat"
+      ],
+      "published": "2026-06-23T14:46:57+00:00"
+    },
     {
       "id": "d0d8e37e0307",
       "title": "Omada Identity Sovereign targets Europe’s growing digital sovereignty demands",
@@ -71,62 +112,49 @@
         "Machine Identity"
       ],
       "published": "2026-06-18T08:36:42+00:00"
-    },
-    {
-      "id": "b23a2a21fb13",
-      "title": "Why Account Takeovers Are Rising and How to Stop Them",
-      "url": "https://www.bleepingcomputer.com/news/security/why-account-takeovers-are-rising-and-how-to-stop-them/",
-      "summary": "Account takeovers are rising as attackers bypass traditional defenses through phishing, session hijacking, and MFA fatigue. Specops Software explores how device trust and continuous verification help reduce account takeover risk. [...]",
-      "source": "BleepingComputer",
-      "category": "Vendor",
-      "section": "breach",
-      "tags": [
-        "Breach",
-        "Authentication",
-        "Threat"
-      ],
-      "published": "2026-06-17T14:00:10+00:00",
-      "vector": "Phishing",
-      "severity": "medium"
     }
   ],
   "tag_index": {
+    "PAM": [
+      "07293bc25f5f"
+    ],
+    "Threat": [
+      "07293bc25f5f",
+      "a5a42ece532b",
+      "d6712ec7c684",
+      "8a43567db397"
+    ],
     "IGA": [
+      "c2c903553617",
+      "a5a42ece532b",
       "d0d8e37e0307",
       "8a43567db397",
       "2e7e41d5c87e",
       "9f2363f12a4b"
-    ],
-    "Threat": [
-      "d6712ec7c684",
-      "8a43567db397",
-      "b23a2a21fb13"
     ],
     "Vulnerability": [
       "d6712ec7c684",
       "2e7e41d5c87e"
     ],
     "Authentication": [
-      "8a43567db397",
-      "b23a2a21fb13"
+      "8a43567db397"
     ],
     "Machine Identity": [
       "9f2363f12a4b"
-    ],
-    "Breach": [
-      "b23a2a21fb13"
     ]
   },
   "category_index": {
     "Security News": [
+      "07293bc25f5f",
+      "c2c903553617",
+      "a5a42ece532b",
       "d0d8e37e0307",
       "d6712ec7c684",
       "2e7e41d5c87e",
       "9f2363f12a4b"
     ],
     "Vendor": [
-      "8a43567db397",
-      "b23a2a21fb13"
+      "8a43567db397"
     ]
   }
 }
