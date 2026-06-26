@@ -1,7 +1,49 @@
 {
-  "generated": "2026-06-25T13:38:15.085720+00:00",
-  "total": 8,
+  "generated": "2026-06-26T13:34:17.590408+00:00",
+  "total": 10,
   "items": [
+    {
+      "id": "f349a31f0943",
+      "title": "Webinar: Why account takeovers remain one of the hardest threats to stop",
+      "url": "https://www.bleepingcomputer.com/news/security/webinar-why-account-takeovers-remain-one-of-the-hardest-threats-to-stop/",
+      "summary": "Account takeover attacks continue to challenge security teams because attackers often operate through legitimate accounts and trusted services. This webinar explores how behavioral AI can help organizations identify compromised accounts faster and automate re…",
+      "source": "BleepingComputer",
+      "category": "Vendor",
+      "section": "breach",
+      "tags": [
+        "Threat",
+        "Breach"
+      ],
+      "published": "2026-06-25T12:12:20+00:00",
+      "vector": null,
+      "severity": "medium"
+    },
+    {
+      "id": "05e2457c7442",
+      "title": "SpyCloud automates threat investigations with new Research Agent",
+      "url": "https://www.helpnetsecurity.com/2026/06/25/spycloud-automates-threat-investigations-with-new-research-agent/",
+      "summary": "SpyCloud has announced the launch of SpyCloud Research Agent, a conversational AI investigation agent now available in its Cybercrime Investigations console. Cybercrime investigations have a tax: hours of manual pivot work that experienced analysts run by ins…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "IGA"
+      ],
+      "published": "2026-06-25T09:45:40+00:00"
+    },
+    {
+      "id": "801d1e2e50a3",
+      "title": "Flare unveils new CTI capabilities and Okta support",
+      "url": "https://www.helpnetsecurity.com/2026/06/25/flare-cti-okta/",
+      "summary": "Flare has announced the expanded capabilities for Flare CTI, and an Okta integration within its Identity Exposure Management (IEM) offering. These updates extend Flare’s identity expertise into tactical threat intelligence use cases and agentic workflows to r…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "Vendor News"
+      ],
+      "published": "2026-06-25T09:35:37+00:00"
+    },
     {
       "id": "07293bc25f5f",
       "title": "BeyondTrust, LastPass Impacted by Klue-Salesforce Incident",
@@ -98,39 +140,32 @@
         "Vulnerability"
       ],
       "published": "2026-06-19T14:00:21+00:00"
-    },
-    {
-      "id": "9f2363f12a4b",
-      "title": "SailPoint to Acquire Entro in Reported $200 Million Deal",
-      "url": "https://www.securityweek.com/sailpoint-to-acquire-entro-in-reported-200-million-deal/",
-      "summary": "Israel-based Entro specializes in non-human identity and credential security solutions, and it will enable SailPoint to enhance its products. The post SailPoint to Acquire Entro in Reported $200 Million Deal appeared first on SecurityWeek.",
-      "source": "Securityweek.com",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "IGA",
-        "Machine Identity"
-      ],
-      "published": "2026-06-18T08:36:42+00:00"
     }
   ],
   "tag_index": {
-    "PAM": [
-      "07293bc25f5f"
-    ],
     "Threat": [
+      "f349a31f0943",
       "07293bc25f5f",
       "a5a42ece532b",
       "d6712ec7c684",
       "8a43567db397"
     ],
+    "Breach": [
+      "f349a31f0943"
+    ],
     "IGA": [
+      "05e2457c7442",
       "c2c903553617",
       "a5a42ece532b",
       "d0d8e37e0307",
       "8a43567db397",
-      "2e7e41d5c87e",
-      "9f2363f12a4b"
+      "2e7e41d5c87e"
+    ],
+    "Vendor News": [
+      "801d1e2e50a3"
+    ],
+    "PAM": [
+      "07293bc25f5f"
     ],
     "Vulnerability": [
       "d6712ec7c684",
@@ -138,23 +173,22 @@
     ],
     "Authentication": [
       "8a43567db397"
-    ],
-    "Machine Identity": [
-      "9f2363f12a4b"
     ]
   },
   "category_index": {
+    "Vendor": [
+      "f349a31f0943",
+      "8a43567db397"
+    ],
     "Security News": [
+      "05e2457c7442",
+      "801d1e2e50a3",
       "07293bc25f5f",
       "c2c903553617",
       "a5a42ece532b",
       "d0d8e37e0307",
       "d6712ec7c684",
-      "2e7e41d5c87e",
-      "9f2363f12a4b"
-    ],
-    "Vendor": [
-      "8a43567db397"
+      "2e7e41d5c87e"
     ]
   }
 }
