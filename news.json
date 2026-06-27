@@ -1,7 +1,21 @@
 {
-  "generated": "2026-06-26T13:34:17.590408+00:00",
+  "generated": "2026-06-27T11:16:10.697895+00:00",
   "total": 10,
   "items": [
+    {
+      "id": "54f090d37371",
+      "title": "Mitiga unveils Agentic Runtime Security for cloud, SaaS, identity, and AI protection",
+      "url": "https://www.helpnetsecurity.com/2026/06/25/mitiga-agentic-runtime-security/",
+      "summary": "Mitiga has announced Agentic Runtime Security, a new approach to runtime detection and response across cloud, SaaS, identity, AI, and third-party services that anticipates, detects, interrupts, and stops active attacks before they impact the business. For two…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "IGA",
+        "Threat"
+      ],
+      "published": "2026-06-25T13:36:12+00:00"
+    },
     {
       "id": "f349a31f0943",
       "title": "Webinar: Why account takeovers remain one of the hardest threats to stop",
@@ -126,24 +140,19 @@
         "Threat"
       ],
       "published": "2026-06-22T20:01:02+00:00"
-    },
-    {
-      "id": "2e7e41d5c87e",
-      "title": "CISA Warns Fortinet Customers as FortiBleed Hits 86,644 FortiGate Devices",
-      "url": "https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday urged Fortinet customers with FortiGate appliances to take steps to secure against ongoing malicious activity aimed at thousands of internet-accessible devices. The sweeping campaig…",
-      "source": "Internet",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "IGA",
-        "Vulnerability"
-      ],
-      "published": "2026-06-19T14:00:21+00:00"
     }
   ],
   "tag_index": {
+    "IGA": [
+      "54f090d37371",
+      "05e2457c7442",
+      "c2c903553617",
+      "a5a42ece532b",
+      "d0d8e37e0307",
+      "8a43567db397"
+    ],
     "Threat": [
+      "54f090d37371",
       "f349a31f0943",
       "07293bc25f5f",
       "a5a42ece532b",
@@ -153,14 +162,6 @@
     "Breach": [
       "f349a31f0943"
     ],
-    "IGA": [
-      "05e2457c7442",
-      "c2c903553617",
-      "a5a42ece532b",
-      "d0d8e37e0307",
-      "8a43567db397",
-      "2e7e41d5c87e"
-    ],
     "Vendor News": [
       "801d1e2e50a3"
     ],
@@ -168,27 +169,26 @@
       "07293bc25f5f"
     ],
     "Vulnerability": [
-      "d6712ec7c684",
-      "2e7e41d5c87e"
+      "d6712ec7c684"
     ],
     "Authentication": [
       "8a43567db397"
     ]
   },
   "category_index": {
-    "Vendor": [
-      "f349a31f0943",
-      "8a43567db397"
-    ],
     "Security News": [
+      "54f090d37371",
       "05e2457c7442",
       "801d1e2e50a3",
       "07293bc25f5f",
       "c2c903553617",
       "a5a42ece532b",
       "d0d8e37e0307",
-      "d6712ec7c684",
-      "2e7e41d5c87e"
+      "d6712ec7c684"
+    ],
+    "Vendor": [
+      "f349a31f0943",
+      "8a43567db397"
     ]
   }
 }
