@@ -1,7 +1,23 @@
 {
-  "generated": "2026-06-27T11:16:10.697895+00:00",
-  "total": 10,
+  "generated": "2026-06-28T12:00:03.509705+00:00",
+  "total": 11,
   "items": [
+    {
+      "id": "1e9045700b7e",
+      "title": "Amazon Q Flaw Enabled Cloud Credential Theft via Malicious Repositories",
+      "url": "https://www.securityweek.com/amazon-q-flaw-enabled-cloud-credential-theft-via-malicious-repositories/",
+      "summary": "AWS has patched the vulnerability and published its own advisory to inform customers about the potential impact. The post Amazon Q Flaw Enabled Cloud Credential Theft via Malicious Repositories appeared first on SecurityWeek.",
+      "source": "Securityweek.com",
+      "category": "Security News",
+      "section": "breach",
+      "tags": [
+        "Breach",
+        "Vulnerability"
+      ],
+      "published": "2026-06-26T15:23:46+00:00",
+      "vector": "Stolen Credentials",
+      "severity": "medium"
+    },
     {
       "id": "54f090d37371",
       "title": "Mitiga unveils Agentic Runtime Security for cloud, SaaS, identity, and AI protection",
@@ -25,8 +41,8 @@
       "category": "Vendor",
       "section": "breach",
       "tags": [
-        "Threat",
-        "Breach"
+        "Breach",
+        "Threat"
       ],
       "published": "2026-06-25T12:12:20+00:00",
       "vector": null,
@@ -143,6 +159,14 @@
     }
   ],
   "tag_index": {
+    "Breach": [
+      "1e9045700b7e",
+      "f349a31f0943"
+    ],
+    "Vulnerability": [
+      "1e9045700b7e",
+      "d6712ec7c684"
+    ],
     "IGA": [
       "54f090d37371",
       "05e2457c7442",
@@ -159,17 +183,11 @@
       "d6712ec7c684",
       "8a43567db397"
     ],
-    "Breach": [
-      "f349a31f0943"
-    ],
     "Vendor News": [
       "801d1e2e50a3"
     ],
     "PAM": [
       "07293bc25f5f"
-    ],
-    "Vulnerability": [
-      "d6712ec7c684"
     ],
     "Authentication": [
       "8a43567db397"
@@ -177,6 +195,7 @@
   },
   "category_index": {
     "Security News": [
+      "1e9045700b7e",
       "54f090d37371",
       "05e2457c7442",
       "801d1e2e50a3",
