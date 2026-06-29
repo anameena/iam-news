@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-28T12:00:03.509705+00:00",
+  "generated": "2026-06-29T17:13:39.899716+00:00",
   "total": 11,
   "items": [
     {
@@ -11,8 +11,8 @@
       "category": "Security News",
       "section": "breach",
       "tags": [
-        "Breach",
-        "Vulnerability"
+        "Vulnerability",
+        "Breach"
       ],
       "published": "2026-06-26T15:23:46+00:00",
       "vector": "Stolen Credentials",
@@ -41,8 +41,8 @@
       "category": "Vendor",
       "section": "breach",
       "tags": [
-        "Breach",
-        "Threat"
+        "Threat",
+        "Breach"
       ],
       "published": "2026-06-25T12:12:20+00:00",
       "vector": null,
@@ -159,13 +159,13 @@
     }
   ],
   "tag_index": {
-    "Breach": [
-      "1e9045700b7e",
-      "f349a31f0943"
-    ],
     "Vulnerability": [
       "1e9045700b7e",
       "d6712ec7c684"
+    ],
+    "Breach": [
+      "1e9045700b7e",
+      "f349a31f0943"
     ],
     "IGA": [
       "54f090d37371",
