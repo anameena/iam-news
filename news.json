@@ -1,23 +1,7 @@
 {
-  "generated": "2026-06-29T17:13:39.899716+00:00",
-  "total": 11,
+  "generated": "2026-06-30T12:32:15.052363+00:00",
+  "total": 9,
   "items": [
-    {
-      "id": "1e9045700b7e",
-      "title": "Amazon Q Flaw Enabled Cloud Credential Theft via Malicious Repositories",
-      "url": "https://www.securityweek.com/amazon-q-flaw-enabled-cloud-credential-theft-via-malicious-repositories/",
-      "summary": "AWS has patched the vulnerability and published its own advisory to inform customers about the potential impact. The post Amazon Q Flaw Enabled Cloud Credential Theft via Malicious Repositories appeared first on SecurityWeek.",
-      "source": "Securityweek.com",
-      "category": "Security News",
-      "section": "breach",
-      "tags": [
-        "Vulnerability",
-        "Breach"
-      ],
-      "published": "2026-06-26T15:23:46+00:00",
-      "vector": "Stolen Credentials",
-      "severity": "medium"
-    },
     {
       "id": "54f090d37371",
       "title": "Mitiga unveils Agentic Runtime Security for cloud, SaaS, identity, and AI protection",
@@ -141,47 +125,25 @@
         "Vulnerability"
       ],
       "published": "2026-06-23T08:30:00+00:00"
-    },
-    {
-      "id": "8a43567db397",
-      "title": "FortiBleed campaign used custom FortiGate sniffer to steal credentials",
-      "url": "https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/",
-      "summary": "Security firm SOCRadar says the large-scale FortiBleed campaign targeting Fortinet FortiGate devices used custom sniffers to harvest authentication secrets from compromised firewalls and steal credentials. [...]",
-      "source": "BleepingComputer",
-      "category": "Vendor",
-      "section": "vendor",
-      "tags": [
-        "Authentication",
-        "IGA",
-        "Threat"
-      ],
-      "published": "2026-06-22T20:01:02+00:00"
     }
   ],
   "tag_index": {
-    "Vulnerability": [
-      "1e9045700b7e",
-      "d6712ec7c684"
-    ],
-    "Breach": [
-      "1e9045700b7e",
-      "f349a31f0943"
-    ],
     "IGA": [
       "54f090d37371",
       "05e2457c7442",
       "c2c903553617",
       "a5a42ece532b",
-      "d0d8e37e0307",
-      "8a43567db397"
+      "d0d8e37e0307"
     ],
     "Threat": [
       "54f090d37371",
       "f349a31f0943",
       "07293bc25f5f",
       "a5a42ece532b",
-      "d6712ec7c684",
-      "8a43567db397"
+      "d6712ec7c684"
+    ],
+    "Breach": [
+      "f349a31f0943"
     ],
     "Vendor News": [
       "801d1e2e50a3"
@@ -189,13 +151,12 @@
     "PAM": [
       "07293bc25f5f"
     ],
-    "Authentication": [
-      "8a43567db397"
+    "Vulnerability": [
+      "d6712ec7c684"
     ]
   },
   "category_index": {
     "Security News": [
-      "1e9045700b7e",
       "54f090d37371",
       "05e2457c7442",
       "801d1e2e50a3",
@@ -206,8 +167,7 @@
       "d6712ec7c684"
     ],
     "Vendor": [
-      "f349a31f0943",
-      "8a43567db397"
+      "f349a31f0943"
     ]
   }
 }
