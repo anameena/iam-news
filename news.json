@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-30T12:32:15.052363+00:00",
-  "total": 9,
+  "generated": "2026-07-01T13:57:10.325138+00:00",
+  "total": 3,
   "items": [
     {
       "id": "54f090d37371",
@@ -15,35 +15,6 @@
         "Threat"
       ],
       "published": "2026-06-25T13:36:12+00:00"
-    },
-    {
-      "id": "f349a31f0943",
-      "title": "Webinar: Why account takeovers remain one of the hardest threats to stop",
-      "url": "https://www.bleepingcomputer.com/news/security/webinar-why-account-takeovers-remain-one-of-the-hardest-threats-to-stop/",
-      "summary": "Account takeover attacks continue to challenge security teams because attackers often operate through legitimate accounts and trusted services. This webinar explores how behavioral AI can help organizations identify compromised accounts faster and automate re…",
-      "source": "BleepingComputer",
-      "category": "Vendor",
-      "section": "breach",
-      "tags": [
-        "Threat",
-        "Breach"
-      ],
-      "published": "2026-06-25T12:12:20+00:00",
-      "vector": null,
-      "severity": "medium"
-    },
-    {
-      "id": "05e2457c7442",
-      "title": "SpyCloud automates threat investigations with new Research Agent",
-      "url": "https://www.helpnetsecurity.com/2026/06/25/spycloud-automates-threat-investigations-with-new-research-agent/",
-      "summary": "SpyCloud has announced the launch of SpyCloud Research Agent, a conversational AI investigation agent now available in its Cybercrime Investigations console. Cybercrime investigations have a tax: hours of manual pivot work that experienced analysts run by ins…",
-      "source": "Help Net Security",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "IGA"
-      ],
-      "published": "2026-06-25T09:45:40+00:00"
     },
     {
       "id": "801d1e2e50a3",
@@ -71,103 +42,28 @@
         "Threat"
       ],
       "published": "2026-06-24T10:03:06+00:00"
-    },
-    {
-      "id": "c2c903553617",
-      "title": "FortiBleed Targeted FortiGate Firewalls in 110 Million-Credential Harvesting Operation",
-      "url": "https://thehackernews.com/2026/06/fortibleed-targeted-fortigate-firewalls.html",
-      "summary": "A Russian-speaking initial access broker (IAB) driven by financial gain is assessed to be behind a large-scale credential-harvesting operation known as FortiBleed that has targeted over 430,000 FortiGate firewalls globally. The campaign, active since Februar…",
-      "source": "Internet",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "IGA"
-      ],
-      "published": "2026-06-23T18:20:49+00:00"
-    },
-    {
-      "id": "a5a42ece532b",
-      "title": "What the Fortibleed campaign means for organizations running FortiGate firewalls",
-      "url": "https://www.helpnetsecurity.com/2026/06/23/fortibleed-investigation-remediation/",
-      "summary": "A massive credential-harvesting campaign targeting FortiGate firewalls has exposed thousands of organizations to potential network compromise, and a trove of attacker tools, scripts, and credentials left inadvertently exposed on a server has given researchers…",
-      "source": "Help Net Security",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "IGA",
-        "Threat"
-      ],
-      "published": "2026-06-23T14:46:57+00:00"
-    },
-    {
-      "id": "d0d8e37e0307",
-      "title": "Omada Identity Sovereign targets Europe’s growing digital sovereignty demands",
-      "url": "https://www.helpnetsecurity.com/2026/06/23/omada-identity-sovereign-targets-europes-growing-digital-sovereignty-demands/",
-      "summary": "Omada has introduced Omada Identity Sovereign, a new solution that enables organizations to take direct control over where and how their identity governance is deployed. The solution addresses the digital sovereignty requirements, including data, operational,…",
-      "source": "Help Net Security",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "IGA"
-      ],
-      "published": "2026-06-23T09:25:19+00:00"
-    },
-    {
-      "id": "d6712ec7c684",
-      "title": "How World Cup Password Trends Can Increase Active Directory Risk",
-      "url": "https://www.infosecurity-magazine.com/blogs/how-world-cup-password-trends/",
-      "summary": "Football-themed passwords remain a predictable weakness in enterprise environments. Drawing on analysis of more than 6.4 billion compromised passwords, this article explores how attackers exploit familiar patterns, where native Active Directory policy falls s…",
-      "source": "Infosecurity Magazine",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Threat",
-        "Vulnerability"
-      ],
-      "published": "2026-06-23T08:30:00+00:00"
     }
   ],
   "tag_index": {
     "IGA": [
-      "54f090d37371",
-      "05e2457c7442",
-      "c2c903553617",
-      "a5a42ece532b",
-      "d0d8e37e0307"
+      "54f090d37371"
     ],
     "Threat": [
       "54f090d37371",
-      "f349a31f0943",
-      "07293bc25f5f",
-      "a5a42ece532b",
-      "d6712ec7c684"
-    ],
-    "Breach": [
-      "f349a31f0943"
+      "07293bc25f5f"
     ],
     "Vendor News": [
       "801d1e2e50a3"
     ],
     "PAM": [
       "07293bc25f5f"
-    ],
-    "Vulnerability": [
-      "d6712ec7c684"
     ]
   },
   "category_index": {
     "Security News": [
       "54f090d37371",
-      "05e2457c7442",
       "801d1e2e50a3",
-      "07293bc25f5f",
-      "c2c903553617",
-      "a5a42ece532b",
-      "d0d8e37e0307",
-      "d6712ec7c684"
-    ],
-    "Vendor": [
-      "f349a31f0943"
+      "07293bc25f5f"
     ]
   }
 }
