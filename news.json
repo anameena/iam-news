@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-01T13:57:10.325138+00:00",
-  "total": 3,
+  "generated": "2026-07-02T12:32:22.112042+00:00",
+  "total": 2,
   "items": [
     {
       "id": "54f090d37371",
@@ -28,20 +28,6 @@
         "Vendor News"
       ],
       "published": "2026-06-25T09:35:37+00:00"
-    },
-    {
-      "id": "07293bc25f5f",
-      "title": "BeyondTrust, LastPass Impacted by Klue-Salesforce Incident",
-      "url": "https://www.securityweek.com/beyondtrust-lastpass-impacted-by-klue-salesforce-incident/",
-      "summary": "Over a dozen Klue customers have confirmed that hackers stole data from their Salesforce instances. The post BeyondTrust, LastPass Impacted by Klue-Salesforce Incident appeared first on SecurityWeek.",
-      "source": "Securityweek.com",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "PAM",
-        "Threat"
-      ],
-      "published": "2026-06-24T10:03:06+00:00"
     }
   ],
   "tag_index": {
@@ -49,21 +35,16 @@
       "54f090d37371"
     ],
     "Threat": [
-      "54f090d37371",
-      "07293bc25f5f"
+      "54f090d37371"
     ],
     "Vendor News": [
       "801d1e2e50a3"
-    ],
-    "PAM": [
-      "07293bc25f5f"
     ]
   },
   "category_index": {
     "Security News": [
       "54f090d37371",
-      "801d1e2e50a3",
-      "07293bc25f5f"
+      "801d1e2e50a3"
     ]
   }
 }
