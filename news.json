@@ -1,50 +1,35 @@
 {
-  "generated": "2026-07-02T12:32:22.112042+00:00",
-  "total": 2,
+  "generated": "2026-07-03T08:49:57.720145+00:00",
+  "total": 1,
   "items": [
     {
-      "id": "54f090d37371",
-      "title": "Mitiga unveils Agentic Runtime Security for cloud, SaaS, identity, and AI protection",
-      "url": "https://www.helpnetsecurity.com/2026/06/25/mitiga-agentic-runtime-security/",
-      "summary": "Mitiga has announced Agentic Runtime Security, a new approach to runtime detection and response across cloud, SaaS, identity, AI, and third-party services that anticipates, detects, interrupts, and stops active attacks before they impact the business. For two…",
-      "source": "Help Net Security",
+      "id": "84197ede93c2",
+      "title": "FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations",
+      "url": "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html",
+      "summary": "The recently discovered financially-motivated FortiBleed campaign has been attributed to INC and Lynx ransomware operations, indicating that the verified, stolen credentials were intended for follow-on intrusions. \"An operator tied to FortiBleed's infrastruc…",
+      "source": "Internet",
       "category": "Security News",
-      "section": "news",
+      "section": "breach",
       "tags": [
-        "IGA",
-        "Threat"
+        "Threat",
+        "Breach"
       ],
-      "published": "2026-06-25T13:36:12+00:00"
-    },
-    {
-      "id": "801d1e2e50a3",
-      "title": "Flare unveils new CTI capabilities and Okta support",
-      "url": "https://www.helpnetsecurity.com/2026/06/25/flare-cti-okta/",
-      "summary": "Flare has announced the expanded capabilities for Flare CTI, and an Okta integration within its Identity Exposure Management (IEM) offering. These updates extend Flare’s identity expertise into tactical threat intelligence use cases and agentic workflows to r…",
-      "source": "Help Net Security",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "Vendor News"
-      ],
-      "published": "2026-06-25T09:35:37+00:00"
+      "published": "2026-07-02T08:00:49+00:00",
+      "vector": "Stolen Credentials",
+      "severity": "medium"
     }
   ],
   "tag_index": {
-    "IGA": [
-      "54f090d37371"
-    ],
     "Threat": [
-      "54f090d37371"
+      "84197ede93c2"
     ],
-    "Vendor News": [
-      "801d1e2e50a3"
+    "Breach": [
+      "84197ede93c2"
     ]
   },
   "category_index": {
     "Security News": [
-      "54f090d37371",
-      "801d1e2e50a3"
+      "84197ede93c2"
     ]
   }
 }
