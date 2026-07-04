@@ -1,7 +1,34 @@
 {
-  "generated": "2026-07-03T08:49:57.720145+00:00",
-  "total": 1,
+  "generated": "2026-07-04T08:24:50.054037+00:00",
+  "total": 3,
   "items": [
+    {
+      "id": "4c731e703923",
+      "title": "Politician who investigated spyware abuses had his phone hacked with Pegasus spyware | TechCrunch",
+      "url": "https://techcrunch.com/2026/07/02/politician-who-investigated-spyware-abuses-had-his-phone-hacked-with-pegasus-spyware/",
+      "summary": "A government customer of NSO Group used the company's Pegasus spyware to hack into the phone of a European politician, who at the time was serving on an EU committee tasked with investigating the spyware industry.",
+      "source": "TechCrunch",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "IGA",
+        "Threat"
+      ],
+      "published": "2026-07-03T05:05:00+00:00"
+    },
+    {
+      "id": "395beafbb8a0",
+      "title": "ExpressVPN's password manager just got a big upgrade with secure sharing, passkey support, and more",
+      "url": "https://www.zdnet.com/article/expressvpn-password-manager-big-upgrade-secure-sharing-passkey-support-more/",
+      "summary": "Available today, ExpressKeys now delivers more secure sharing, passkey support, and improved cross-device management.",
+      "source": "ZDNet",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Authentication"
+      ],
+      "published": "2026-07-02T13:01:01+00:00"
+    },
     {
       "id": "84197ede93c2",
       "title": "FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations",
@@ -20,8 +47,15 @@
     }
   ],
   "tag_index": {
+    "IGA": [
+      "4c731e703923"
+    ],
     "Threat": [
+      "4c731e703923",
       "84197ede93c2"
+    ],
+    "Authentication": [
+      "395beafbb8a0"
     ],
     "Breach": [
       "84197ede93c2"
@@ -29,6 +63,8 @@
   },
   "category_index": {
     "Security News": [
+      "4c731e703923",
+      "395beafbb8a0",
       "84197ede93c2"
     ]
   }
