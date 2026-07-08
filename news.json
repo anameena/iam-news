@@ -1,7 +1,23 @@
 {
-  "generated": "2026-07-07T09:24:33.998171+00:00",
-  "total": 3,
+  "generated": "2026-07-08T08:08:48.547714+00:00",
+  "total": 4,
   "items": [
+    {
+      "id": "eb63274753a8",
+      "title": "BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA",
+      "url": "https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html",
+      "summary": "BeyondTrust has released updates to address two critical security flaws affecting Remote Support (RS) and Privileged Remote Access (PRA) products that, if successfully exploited, could allow unauthenticated attackers to take control of susceptible devices. T…",
+      "source": "Internet",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "Authentication",
+        "PAM",
+        "Threat",
+        "Vulnerability"
+      ],
+      "published": "2026-07-07T05:16:51+00:00"
+    },
     {
       "id": "4c731e703923",
       "title": "Politician who investigated spyware abuses had his phone hacked with Pegasus spyware | TechCrunch",
@@ -38,8 +54,8 @@
       "category": "Security News",
       "section": "breach",
       "tags": [
-        "Breach",
-        "Threat"
+        "Threat",
+        "Breach"
       ],
       "published": "2026-07-02T08:00:49+00:00",
       "vector": "Stolen Credentials",
@@ -47,15 +63,23 @@
     }
   ],
   "tag_index": {
-    "IGA": [
-      "4c731e703923"
+    "Authentication": [
+      "eb63274753a8",
+      "395beafbb8a0"
+    ],
+    "PAM": [
+      "eb63274753a8"
     ],
     "Threat": [
+      "eb63274753a8",
       "4c731e703923",
       "84197ede93c2"
     ],
-    "Authentication": [
-      "395beafbb8a0"
+    "Vulnerability": [
+      "eb63274753a8"
+    ],
+    "IGA": [
+      "4c731e703923"
     ],
     "Breach": [
       "84197ede93c2"
@@ -63,6 +87,7 @@
   },
   "category_index": {
     "Security News": [
+      "eb63274753a8",
       "4c731e703923",
       "395beafbb8a0",
       "84197ede93c2"
