@@ -1,7 +1,23 @@
 {
-  "generated": "2026-07-08T08:08:48.547714+00:00",
+  "generated": "2026-07-09T09:22:03.577484+00:00",
   "total": 4,
   "items": [
+    {
+      "id": "a751616b1806",
+      "title": "BeyondTrust warns of critical flaws in remote access software",
+      "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-flaws-in-remote-access-software/",
+      "summary": "BeyondTrust warned customers to patch two critical security flaws in its Remote Support (RS) and Privileged Remote Access (PRA) software that could allow attackers to bypass authentication. [...]",
+      "source": "BleepingComputer",
+      "category": "Vendor",
+      "section": "vendor",
+      "tags": [
+        "Authentication",
+        "PAM",
+        "Threat",
+        "Vulnerability"
+      ],
+      "published": "2026-07-07T08:12:10+00:00"
+    },
     {
       "id": "eb63274753a8",
       "title": "BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA",
@@ -17,20 +33,6 @@
         "Vulnerability"
       ],
       "published": "2026-07-07T05:16:51+00:00"
-    },
-    {
-      "id": "4c731e703923",
-      "title": "Politician who investigated spyware abuses had his phone hacked with Pegasus spyware | TechCrunch",
-      "url": "https://techcrunch.com/2026/07/02/politician-who-investigated-spyware-abuses-had-his-phone-hacked-with-pegasus-spyware/",
-      "summary": "A government customer of NSO Group used the company's Pegasus spyware to hack into the phone of a European politician, who at the time was serving on an EU committee tasked with investigating the spyware industry.",
-      "source": "TechCrunch",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "IGA",
-        "Threat"
-      ],
-      "published": "2026-07-03T05:05:00+00:00"
     },
     {
       "id": "395beafbb8a0",
@@ -64,31 +66,33 @@
   ],
   "tag_index": {
     "Authentication": [
+      "a751616b1806",
       "eb63274753a8",
       "395beafbb8a0"
     ],
     "PAM": [
+      "a751616b1806",
       "eb63274753a8"
     ],
     "Threat": [
+      "a751616b1806",
       "eb63274753a8",
-      "4c731e703923",
       "84197ede93c2"
     ],
     "Vulnerability": [
+      "a751616b1806",
       "eb63274753a8"
-    ],
-    "IGA": [
-      "4c731e703923"
     ],
     "Breach": [
       "84197ede93c2"
     ]
   },
   "category_index": {
+    "Vendor": [
+      "a751616b1806"
+    ],
     "Security News": [
       "eb63274753a8",
-      "4c731e703923",
       "395beafbb8a0",
       "84197ede93c2"
     ]
