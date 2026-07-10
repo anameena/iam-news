@@ -1,7 +1,21 @@
 {
-  "generated": "2026-07-09T09:22:03.577484+00:00",
-  "total": 4,
+  "generated": "2026-07-10T09:19:24.432774+00:00",
+  "total": 3,
   "items": [
+    {
+      "id": "740c860a4417",
+      "title": "Entra passkey enrollment vishing targets Microsoft 365 users",
+      "url": "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/",
+      "summary": "A threat actor has been targeting organizations across multiple sectors with voice-based fake security requests that ask Microsoft 365 users to enroll a new Entra passkey. [...]",
+      "source": "BleepingComputer",
+      "category": "Vendor",
+      "section": "vendor",
+      "tags": [
+        "Authentication",
+        "Vendor News"
+      ],
+      "published": "2026-07-08T16:47:25+00:00"
+    },
     {
       "id": "a751616b1806",
       "title": "BeyondTrust warns of critical flaws in remote access software",
@@ -33,42 +47,16 @@
         "Vulnerability"
       ],
       "published": "2026-07-07T05:16:51+00:00"
-    },
-    {
-      "id": "395beafbb8a0",
-      "title": "ExpressVPN's password manager just got a big upgrade with secure sharing, passkey support, and more",
-      "url": "https://www.zdnet.com/article/expressvpn-password-manager-big-upgrade-secure-sharing-passkey-support-more/",
-      "summary": "Available today, ExpressKeys now delivers more secure sharing, passkey support, and improved cross-device management.",
-      "source": "ZDNet",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Authentication"
-      ],
-      "published": "2026-07-02T13:01:01+00:00"
-    },
-    {
-      "id": "84197ede93c2",
-      "title": "FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations",
-      "url": "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html",
-      "summary": "The recently discovered financially-motivated FortiBleed campaign has been attributed to INC and Lynx ransomware operations, indicating that the verified, stolen credentials were intended for follow-on intrusions. \"An operator tied to FortiBleed's infrastruc…",
-      "source": "Internet",
-      "category": "Security News",
-      "section": "breach",
-      "tags": [
-        "Threat",
-        "Breach"
-      ],
-      "published": "2026-07-02T08:00:49+00:00",
-      "vector": "Stolen Credentials",
-      "severity": "medium"
     }
   ],
   "tag_index": {
     "Authentication": [
+      "740c860a4417",
       "a751616b1806",
-      "eb63274753a8",
-      "395beafbb8a0"
+      "eb63274753a8"
+    ],
+    "Vendor News": [
+      "740c860a4417"
     ],
     "PAM": [
       "a751616b1806",
@@ -76,25 +64,20 @@
     ],
     "Threat": [
       "a751616b1806",
-      "eb63274753a8",
-      "84197ede93c2"
+      "eb63274753a8"
     ],
     "Vulnerability": [
       "a751616b1806",
       "eb63274753a8"
-    ],
-    "Breach": [
-      "84197ede93c2"
     ]
   },
   "category_index": {
     "Vendor": [
+      "740c860a4417",
       "a751616b1806"
     ],
     "Security News": [
-      "eb63274753a8",
-      "395beafbb8a0",
-      "84197ede93c2"
+      "eb63274753a8"
     ]
   }
 }
