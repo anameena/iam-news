@@ -1,7 +1,35 @@
 {
-  "generated": "2026-07-10T09:19:24.432774+00:00",
-  "total": 3,
+  "generated": "2026-07-11T07:41:01.079540+00:00",
+  "total": 5,
   "items": [
+    {
+      "id": "57999e80dad1",
+      "title": "Extortion crew hijacks Microsoft 365 accounts via fake passkey setup",
+      "url": "https://www.helpnetsecurity.com/2026/07/09/microsoft-365-fake-passkey-setup-enrollment/",
+      "summary": "The Pink cyber extortion crew is tricking employees into giving them access to their Microsoft 365 accounts by faking Entra passkey enrollment requests. The attack The attack starts with a vishing call to an employee. The caller poses as IT and says it’s time…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Authentication",
+        "Threat",
+        "Vendor News"
+      ],
+      "published": "2026-07-09T14:22:35+00:00"
+    },
+    {
+      "id": "a7e312699f88",
+      "title": "Vibe-Coded Malware Caught in Active Directory Attack",
+      "url": "https://www.infosecurity-magazine.com/news/vibe-coded-malware-ai-powershell/",
+      "summary": "Huntress found a threat actor using vibe-coded PowerShell to map an Active Directory network",
+      "source": "Infosecurity Magazine",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Threat"
+      ],
+      "published": "2026-07-09T14:00:00+00:00"
+    },
     {
       "id": "740c860a4417",
       "title": "Entra passkey enrollment vishing targets Microsoft 365 users",
@@ -51,18 +79,22 @@
   ],
   "tag_index": {
     "Authentication": [
+      "57999e80dad1",
       "740c860a4417",
       "a751616b1806",
       "eb63274753a8"
     ],
-    "Vendor News": [
-      "740c860a4417"
-    ],
-    "PAM": [
+    "Threat": [
+      "57999e80dad1",
+      "a7e312699f88",
       "a751616b1806",
       "eb63274753a8"
     ],
-    "Threat": [
+    "Vendor News": [
+      "57999e80dad1",
+      "740c860a4417"
+    ],
+    "PAM": [
       "a751616b1806",
       "eb63274753a8"
     ],
@@ -72,12 +104,14 @@
     ]
   },
   "category_index": {
+    "Security News": [
+      "57999e80dad1",
+      "a7e312699f88",
+      "eb63274753a8"
+    ],
     "Vendor": [
       "740c860a4417",
       "a751616b1806"
-    ],
-    "Security News": [
-      "eb63274753a8"
     ]
   }
 }
