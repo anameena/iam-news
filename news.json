@@ -1,7 +1,37 @@
 {
-  "generated": "2026-07-11T07:41:01.079540+00:00",
-  "total": 5,
+  "generated": "2026-07-12T08:00:38.552466+00:00",
+  "total": 7,
   "items": [
+    {
+      "id": "c1b4d4c12c5a",
+      "title": "The Replicant in Your Directory: AI Agents and the Identity Security Gap",
+      "url": "https://www.bleepingcomputer.com/news/security/the-replicant-in-your-directory-ai-agents-and-the-identity-security-gap/",
+      "summary": "AI agents are accelerating the growth of non-human identities, making it harder for organizations to understand what exists, who owns it, and what it can access. Netwrix explains why stronger visibility and identity governance are essential as AI expands the …",
+      "source": "BleepingComputer",
+      "category": "Vendor",
+      "section": "vendor",
+      "tags": [
+        "IGA",
+        "AI Identity"
+      ],
+      "published": "2026-07-10T14:00:10+00:00"
+    },
+    {
+      "id": "989a2177f3e8",
+      "title": "Hackers Use Fake Microsoft Entra Passkey Enrollment to Gain Microsoft 365 Access",
+      "url": "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html",
+      "summary": "A threat actor has been targeting organizations spanning multiple sectors with voice-based fake security requests that prompt Microsoft 365 users to enroll a new Entra passkey with an aim to carry out data extortion attacks. The threat actor, tracked by Okta…",
+      "source": "Internet",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "Authentication",
+        "Threat",
+        "Vendor News",
+        "AI Identity"
+      ],
+      "published": "2026-07-10T10:30:20+00:00"
+    },
     {
       "id": "57999e80dad1",
       "title": "Extortion crew hijacks Microsoft 365 accounts via fake passkey setup",
@@ -78,19 +108,29 @@
     }
   ],
   "tag_index": {
+    "IGA": [
+      "c1b4d4c12c5a"
+    ],
+    "AI Identity": [
+      "c1b4d4c12c5a",
+      "989a2177f3e8"
+    ],
     "Authentication": [
+      "989a2177f3e8",
       "57999e80dad1",
       "740c860a4417",
       "a751616b1806",
       "eb63274753a8"
     ],
     "Threat": [
+      "989a2177f3e8",
       "57999e80dad1",
       "a7e312699f88",
       "a751616b1806",
       "eb63274753a8"
     ],
     "Vendor News": [
+      "989a2177f3e8",
       "57999e80dad1",
       "740c860a4417"
     ],
@@ -104,14 +144,16 @@
     ]
   },
   "category_index": {
+    "Vendor": [
+      "c1b4d4c12c5a",
+      "740c860a4417",
+      "a751616b1806"
+    ],
     "Security News": [
+      "989a2177f3e8",
       "57999e80dad1",
       "a7e312699f88",
       "eb63274753a8"
-    ],
-    "Vendor": [
-      "740c860a4417",
-      "a751616b1806"
     ]
   }
 }
