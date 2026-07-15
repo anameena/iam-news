@@ -1,7 +1,49 @@
 {
-  "generated": "2026-07-14T07:47:56.942238+00:00",
-  "total": 7,
+  "generated": "2026-07-15T07:51:19.368248+00:00",
+  "total": 8,
   "items": [
+    {
+      "id": "cc10113bb63b",
+      "title": "Novel OAuth Client ID Spoofing Technique Targets Cloud Environments",
+      "url": "https://www.infosecurity-magazine.com/news/novel-spoofing-technique-targets/",
+      "summary": "New research reveals cyber-attackers can spoof OAuth Client IDs in Microsoft Entra ID, creating a stealthy path into cloud environments",
+      "source": "Infosecurity Magazine",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "Threat",
+        "Vendor News",
+        "Standards & Protocols"
+      ],
+      "published": "2026-07-13T13:00:00+00:00"
+    },
+    {
+      "id": "c3f59789b17d",
+      "title": "Fake OAuth client IDs are helping attackers slip past sign-in logs",
+      "url": "https://www.helpnetsecurity.com/2026/07/13/entra-id-oauth-client-id-spoofing/",
+      "summary": "Attackers running account enumeration against Microsoft cloud tenants have added a step that keeps their probing out of the usual telemetry. They spoof the OAuth client ID, the globally unique identifier assigned to an application and passed as client_id in a…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Threat",
+        "Standards & Protocols"
+      ],
+      "published": "2026-07-13T12:10:50+00:00"
+    },
+    {
+      "id": "d007806d85b4",
+      "title": "Attacker Uses Suspected AI-Generated PowerShell Script to Map Active Directory",
+      "url": "https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html",
+      "summary": "Cybersecurity researchers have flagged an intrusion in which an unknown threat actor leveraged a vibe-coded PowerShell script for Active Directory (AD) enumeration. \"The script looked for the Domain Controller (DC) and mapped users, computers, and domains, b…",
+      "source": "Internet",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Threat"
+      ],
+      "published": "2026-07-13T11:02:33+00:00"
+    },
     {
       "id": "c1b4d4c12c5a",
       "title": "The Replicant in Your Directory: AI Agents and the Identity Security Gap",
@@ -73,41 +115,27 @@
         "Vendor News"
       ],
       "published": "2026-07-08T16:47:25+00:00"
-    },
-    {
-      "id": "a751616b1806",
-      "title": "BeyondTrust warns of critical flaws in remote access software",
-      "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-flaws-in-remote-access-software/",
-      "summary": "BeyondTrust warned customers to patch two critical security flaws in its Remote Support (RS) and Privileged Remote Access (PRA) software that could allow attackers to bypass authentication. [...]",
-      "source": "BleepingComputer",
-      "category": "Vendor",
-      "section": "vendor",
-      "tags": [
-        "Authentication",
-        "PAM",
-        "Threat",
-        "Vulnerability"
-      ],
-      "published": "2026-07-07T08:12:10+00:00"
-    },
-    {
-      "id": "eb63274753a8",
-      "title": "BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA",
-      "url": "https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html",
-      "summary": "BeyondTrust has released updates to address two critical security flaws affecting Remote Support (RS) and Privileged Remote Access (PRA) products that, if successfully exploited, could allow unauthenticated attackers to take control of susceptible devices. T…",
-      "source": "Internet",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "Authentication",
-        "PAM",
-        "Threat",
-        "Vulnerability"
-      ],
-      "published": "2026-07-07T05:16:51+00:00"
     }
   ],
   "tag_index": {
+    "Threat": [
+      "cc10113bb63b",
+      "c3f59789b17d",
+      "d007806d85b4",
+      "989a2177f3e8",
+      "57999e80dad1",
+      "a7e312699f88"
+    ],
+    "Vendor News": [
+      "cc10113bb63b",
+      "989a2177f3e8",
+      "57999e80dad1",
+      "740c860a4417"
+    ],
+    "Standards & Protocols": [
+      "cc10113bb63b",
+      "c3f59789b17d"
+    ],
     "IGA": [
       "c1b4d4c12c5a"
     ],
@@ -118,42 +146,21 @@
     "Authentication": [
       "989a2177f3e8",
       "57999e80dad1",
-      "740c860a4417",
-      "a751616b1806",
-      "eb63274753a8"
-    ],
-    "Threat": [
-      "989a2177f3e8",
-      "57999e80dad1",
-      "a7e312699f88",
-      "a751616b1806",
-      "eb63274753a8"
-    ],
-    "Vendor News": [
-      "989a2177f3e8",
-      "57999e80dad1",
       "740c860a4417"
-    ],
-    "PAM": [
-      "a751616b1806",
-      "eb63274753a8"
-    ],
-    "Vulnerability": [
-      "a751616b1806",
-      "eb63274753a8"
     ]
   },
   "category_index": {
-    "Vendor": [
-      "c1b4d4c12c5a",
-      "740c860a4417",
-      "a751616b1806"
-    ],
     "Security News": [
+      "cc10113bb63b",
+      "c3f59789b17d",
+      "d007806d85b4",
       "989a2177f3e8",
       "57999e80dad1",
-      "a7e312699f88",
-      "eb63274753a8"
+      "a7e312699f88"
+    ],
+    "Vendor": [
+      "c1b4d4c12c5a",
+      "740c860a4417"
     ]
   }
 }
