@@ -1,7 +1,83 @@
 {
-  "generated": "2026-07-15T07:51:19.368248+00:00",
-  "total": 8,
+  "generated": "2026-07-16T07:57:14.681309+00:00",
+  "total": 11,
   "items": [
+    {
+      "id": "3a02539edc7b",
+      "title": "Microsoft is forcing an enterprise transition to passkeys",
+      "url": "https://www.computerworld.com/article/4197029/microsoft-is-forcing-an-enterprise-transition-to-passkeys.html",
+      "summary": "Beginning in September, Microsoft Entra ID will replace SMS and voice authentication with passkeys, signaling that traditional credentials are too risky to remain the standard amidst AI-powered attacks.",
+      "source": "Computerworld",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "Authentication",
+        "Threat",
+        "Vendor News"
+      ],
+      "published": "2026-07-15T02:13:07+00:00"
+    },
+    {
+      "id": "95344d028fab",
+      "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
+      "url": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
+      "summary": "Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypas…",
+      "source": "Internet",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Threat",
+        "Standards & Protocols",
+        "Access Control"
+      ],
+      "published": "2026-07-14T13:48:07+00:00"
+    },
+    {
+      "id": "d13c551dd056",
+      "title": "Microsoft Entra ID gets passkeys default authentication starting September",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-id-gets-passkeys-default-authentication-starting-september/",
+      "summary": "Microsoft has announced that passkeys will become the default authentication method for the Entra ID enterprise identity service starting September 2026. [...]",
+      "source": "BleepingComputer",
+      "category": "Vendor",
+      "section": "vendor",
+      "tags": [
+        "Authentication",
+        "Vendor News"
+      ],
+      "published": "2026-07-14T12:49:56+00:00"
+    },
+    {
+      "id": "b3a79e11e650",
+      "title": "OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials",
+      "url": "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
+      "summary": "At least two distinct threat actors are weaponizing a novel evasion technique called OAuth client ID spoofing in cloud campaigns, while slipping past telemetry. The activity allows users to enumerate user accounts and validate stolen credentials in Microsoft…",
+      "source": "Internet",
+      "category": "Security News",
+      "section": "breach",
+      "tags": [
+        "Breach",
+        "Vendor News",
+        "Standards & Protocols",
+        "Threat"
+      ],
+      "published": "2026-07-14T11:21:35+00:00",
+      "vector": "Stolen Credentials",
+      "severity": "medium"
+    },
+    {
+      "id": "2189ce630608",
+      "title": "Microsoft Entra ID authentication overhaul to start in September 2026",
+      "url": "https://www.helpnetsecurity.com/2026/07/14/microsoft-entra-passkey-authentication/",
+      "summary": "Microsoft will begin rolling out passkeys as the default authentication experience for Microsoft Entra ID in the public cloud on September 1, 2026. Organizations with SMS or voice authentication enabled will automatically be enabled for passkeys. The next tim…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "Authentication",
+        "Vendor News"
+      ],
+      "published": "2026-07-14T08:49:16+00:00"
+    },
     {
       "id": "cc10113bb63b",
       "title": "Novel OAuth Client ID Spoofing Technique Targets Cloud Environments",
@@ -30,19 +106,6 @@
         "Standards & Protocols"
       ],
       "published": "2026-07-13T12:10:50+00:00"
-    },
-    {
-      "id": "d007806d85b4",
-      "title": "Attacker Uses Suspected AI-Generated PowerShell Script to Map Active Directory",
-      "url": "https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html",
-      "summary": "Cybersecurity researchers have flagged an intrusion in which an unknown threat actor leveraged a vibe-coded PowerShell script for Active Directory (AD) enumeration. \"The script looked for the Domain Controller (DC) and mapped users, computers, and domains, b…",
-      "source": "Internet",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Threat"
-      ],
-      "published": "2026-07-13T11:02:33+00:00"
     },
     {
       "id": "c1b4d4c12c5a",
@@ -101,40 +164,46 @@
         "Threat"
       ],
       "published": "2026-07-09T14:00:00+00:00"
-    },
-    {
-      "id": "740c860a4417",
-      "title": "Entra passkey enrollment vishing targets Microsoft 365 users",
-      "url": "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/",
-      "summary": "A threat actor has been targeting organizations across multiple sectors with voice-based fake security requests that ask Microsoft 365 users to enroll a new Entra passkey. [...]",
-      "source": "BleepingComputer",
-      "category": "Vendor",
-      "section": "vendor",
-      "tags": [
-        "Authentication",
-        "Vendor News"
-      ],
-      "published": "2026-07-08T16:47:25+00:00"
     }
   ],
   "tag_index": {
+    "Authentication": [
+      "3a02539edc7b",
+      "d13c551dd056",
+      "2189ce630608",
+      "989a2177f3e8",
+      "57999e80dad1"
+    ],
     "Threat": [
+      "3a02539edc7b",
+      "95344d028fab",
+      "b3a79e11e650",
       "cc10113bb63b",
       "c3f59789b17d",
-      "d007806d85b4",
       "989a2177f3e8",
       "57999e80dad1",
       "a7e312699f88"
     ],
     "Vendor News": [
+      "3a02539edc7b",
+      "d13c551dd056",
+      "b3a79e11e650",
+      "2189ce630608",
       "cc10113bb63b",
       "989a2177f3e8",
-      "57999e80dad1",
-      "740c860a4417"
+      "57999e80dad1"
     ],
     "Standards & Protocols": [
+      "95344d028fab",
+      "b3a79e11e650",
       "cc10113bb63b",
       "c3f59789b17d"
+    ],
+    "Access Control": [
+      "95344d028fab"
+    ],
+    "Breach": [
+      "b3a79e11e650"
     ],
     "IGA": [
       "c1b4d4c12c5a"
@@ -142,25 +211,23 @@
     "AI Identity": [
       "c1b4d4c12c5a",
       "989a2177f3e8"
-    ],
-    "Authentication": [
-      "989a2177f3e8",
-      "57999e80dad1",
-      "740c860a4417"
     ]
   },
   "category_index": {
     "Security News": [
+      "3a02539edc7b",
+      "95344d028fab",
+      "b3a79e11e650",
+      "2189ce630608",
       "cc10113bb63b",
       "c3f59789b17d",
-      "d007806d85b4",
       "989a2177f3e8",
       "57999e80dad1",
       "a7e312699f88"
     ],
     "Vendor": [
-      "c1b4d4c12c5a",
-      "740c860a4417"
+      "d13c551dd056",
+      "c1b4d4c12c5a"
     ]
   }
 }
