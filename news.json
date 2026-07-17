@@ -1,7 +1,21 @@
 {
-  "generated": "2026-07-16T07:57:14.681309+00:00",
-  "total": 11,
+  "generated": "2026-07-17T07:52:46.623322+00:00",
+  "total": 7,
   "items": [
+    {
+      "id": "fb6f6a5ba740",
+      "title": "Nudge Security automates detection of risky OAuth grants and browser extensions",
+      "url": "https://www.helpnetsecurity.com/2026/07/15/nudge-security-agentic-capabilities/",
+      "summary": "Nudge Security has announced new agentic capabilities to help security and IT teams find and remediate malicious and high-risk OAuth grants and browser extensions, two of the fastest-growing and hardest to manage attack surfaces in the enterprise. The new age…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Threat",
+        "Standards & Protocols"
+      ],
+      "published": "2026-07-15T11:51:27+00:00"
+    },
     {
       "id": "3a02539edc7b",
       "title": "Microsoft is forcing an enterprise transition to passkeys",
@@ -18,21 +32,6 @@
       "published": "2026-07-15T02:13:07+00:00"
     },
     {
-      "id": "95344d028fab",
-      "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
-      "url": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
-      "summary": "Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypas…",
-      "source": "Internet",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Threat",
-        "Standards & Protocols",
-        "Access Control"
-      ],
-      "published": "2026-07-14T13:48:07+00:00"
-    },
-    {
       "id": "d13c551dd056",
       "title": "Microsoft Entra ID gets passkeys default authentication starting September",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-id-gets-passkeys-default-authentication-starting-september/",
@@ -45,24 +44,6 @@
         "Vendor News"
       ],
       "published": "2026-07-14T12:49:56+00:00"
-    },
-    {
-      "id": "b3a79e11e650",
-      "title": "OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials",
-      "url": "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
-      "summary": "At least two distinct threat actors are weaponizing a novel evasion technique called OAuth client ID spoofing in cloud campaigns, while slipping past telemetry. The activity allows users to enumerate user accounts and validate stolen credentials in Microsoft…",
-      "source": "Internet",
-      "category": "Security News",
-      "section": "breach",
-      "tags": [
-        "Breach",
-        "Vendor News",
-        "Standards & Protocols",
-        "Threat"
-      ],
-      "published": "2026-07-14T11:21:35+00:00",
-      "vector": "Stolen Credentials",
-      "severity": "medium"
     },
     {
       "id": "2189ce630608",
@@ -120,110 +101,45 @@
         "AI Identity"
       ],
       "published": "2026-07-10T14:00:10+00:00"
-    },
-    {
-      "id": "989a2177f3e8",
-      "title": "Hackers Use Fake Microsoft Entra Passkey Enrollment to Gain Microsoft 365 Access",
-      "url": "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html",
-      "summary": "A threat actor has been targeting organizations spanning multiple sectors with voice-based fake security requests that prompt Microsoft 365 users to enroll a new Entra passkey with an aim to carry out data extortion attacks. The threat actor, tracked by Okta…",
-      "source": "Internet",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "Authentication",
-        "Threat",
-        "Vendor News",
-        "AI Identity"
-      ],
-      "published": "2026-07-10T10:30:20+00:00"
-    },
-    {
-      "id": "57999e80dad1",
-      "title": "Extortion crew hijacks Microsoft 365 accounts via fake passkey setup",
-      "url": "https://www.helpnetsecurity.com/2026/07/09/microsoft-365-fake-passkey-setup-enrollment/",
-      "summary": "The Pink cyber extortion crew is tricking employees into giving them access to their Microsoft 365 accounts by faking Entra passkey enrollment requests. The attack The attack starts with a vishing call to an employee. The caller poses as IT and says it’s time…",
-      "source": "Help Net Security",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Authentication",
-        "Threat",
-        "Vendor News"
-      ],
-      "published": "2026-07-09T14:22:35+00:00"
-    },
-    {
-      "id": "a7e312699f88",
-      "title": "Vibe-Coded Malware Caught in Active Directory Attack",
-      "url": "https://www.infosecurity-magazine.com/news/vibe-coded-malware-ai-powershell/",
-      "summary": "Huntress found a threat actor using vibe-coded PowerShell to map an Active Directory network",
-      "source": "Infosecurity Magazine",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Threat"
-      ],
-      "published": "2026-07-09T14:00:00+00:00"
     }
   ],
   "tag_index": {
+    "Threat": [
+      "fb6f6a5ba740",
+      "3a02539edc7b",
+      "cc10113bb63b",
+      "c3f59789b17d"
+    ],
+    "Standards & Protocols": [
+      "fb6f6a5ba740",
+      "cc10113bb63b",
+      "c3f59789b17d"
+    ],
     "Authentication": [
       "3a02539edc7b",
       "d13c551dd056",
-      "2189ce630608",
-      "989a2177f3e8",
-      "57999e80dad1"
-    ],
-    "Threat": [
-      "3a02539edc7b",
-      "95344d028fab",
-      "b3a79e11e650",
-      "cc10113bb63b",
-      "c3f59789b17d",
-      "989a2177f3e8",
-      "57999e80dad1",
-      "a7e312699f88"
+      "2189ce630608"
     ],
     "Vendor News": [
       "3a02539edc7b",
       "d13c551dd056",
-      "b3a79e11e650",
       "2189ce630608",
-      "cc10113bb63b",
-      "989a2177f3e8",
-      "57999e80dad1"
-    ],
-    "Standards & Protocols": [
-      "95344d028fab",
-      "b3a79e11e650",
-      "cc10113bb63b",
-      "c3f59789b17d"
-    ],
-    "Access Control": [
-      "95344d028fab"
-    ],
-    "Breach": [
-      "b3a79e11e650"
+      "cc10113bb63b"
     ],
     "IGA": [
       "c1b4d4c12c5a"
     ],
     "AI Identity": [
-      "c1b4d4c12c5a",
-      "989a2177f3e8"
+      "c1b4d4c12c5a"
     ]
   },
   "category_index": {
     "Security News": [
+      "fb6f6a5ba740",
       "3a02539edc7b",
-      "95344d028fab",
-      "b3a79e11e650",
       "2189ce630608",
       "cc10113bb63b",
-      "c3f59789b17d",
-      "989a2177f3e8",
-      "57999e80dad1",
-      "a7e312699f88"
+      "c3f59789b17d"
     ],
     "Vendor": [
       "d13c551dd056",
