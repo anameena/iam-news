@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-17T07:52:46.623322+00:00",
-  "total": 7,
+  "generated": "2026-07-18T07:27:53.484767+00:00",
+  "total": 6,
   "items": [
     {
       "id": "fb6f6a5ba740",
@@ -46,18 +46,22 @@
       "published": "2026-07-14T12:49:56+00:00"
     },
     {
-      "id": "2189ce630608",
-      "title": "Microsoft Entra ID authentication overhaul to start in September 2026",
-      "url": "https://www.helpnetsecurity.com/2026/07/14/microsoft-entra-passkey-authentication/",
-      "summary": "Microsoft will begin rolling out passkeys as the default authentication experience for Microsoft Entra ID in the public cloud on September 1, 2026. Organizations with SMS or voice authentication enabled will automatically be enabled for passkeys. The next tim…",
-      "source": "Help Net Security",
+      "id": "b3a79e11e650",
+      "title": "OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials",
+      "url": "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
+      "summary": "At least two distinct threat actors are weaponizing a novel evasion technique called OAuth client ID spoofing in cloud campaigns, while slipping past telemetry. The activity allows users to enumerate user accounts and validate stolen credentials in Microsoft…",
+      "source": "Internet",
       "category": "Security News",
-      "section": "vendor",
+      "section": "breach",
       "tags": [
-        "Authentication",
+        "Threat",
+        "Breach",
+        "Standards & Protocols",
         "Vendor News"
       ],
-      "published": "2026-07-14T08:49:16+00:00"
+      "published": "2026-07-14T11:21:35+00:00",
+      "vector": "Stolen Credentials",
+      "severity": "medium"
     },
     {
       "id": "cc10113bb63b",
@@ -87,63 +91,46 @@
         "Standards & Protocols"
       ],
       "published": "2026-07-13T12:10:50+00:00"
-    },
-    {
-      "id": "c1b4d4c12c5a",
-      "title": "The Replicant in Your Directory: AI Agents and the Identity Security Gap",
-      "url": "https://www.bleepingcomputer.com/news/security/the-replicant-in-your-directory-ai-agents-and-the-identity-security-gap/",
-      "summary": "AI agents are accelerating the growth of non-human identities, making it harder for organizations to understand what exists, who owns it, and what it can access. Netwrix explains why stronger visibility and identity governance are essential as AI expands the …",
-      "source": "BleepingComputer",
-      "category": "Vendor",
-      "section": "vendor",
-      "tags": [
-        "IGA",
-        "AI Identity"
-      ],
-      "published": "2026-07-10T14:00:10+00:00"
     }
   ],
   "tag_index": {
     "Threat": [
       "fb6f6a5ba740",
       "3a02539edc7b",
+      "b3a79e11e650",
       "cc10113bb63b",
       "c3f59789b17d"
     ],
     "Standards & Protocols": [
       "fb6f6a5ba740",
+      "b3a79e11e650",
       "cc10113bb63b",
       "c3f59789b17d"
     ],
     "Authentication": [
       "3a02539edc7b",
-      "d13c551dd056",
-      "2189ce630608"
+      "d13c551dd056"
     ],
     "Vendor News": [
       "3a02539edc7b",
       "d13c551dd056",
-      "2189ce630608",
+      "b3a79e11e650",
       "cc10113bb63b"
     ],
-    "IGA": [
-      "c1b4d4c12c5a"
-    ],
-    "AI Identity": [
-      "c1b4d4c12c5a"
+    "Breach": [
+      "b3a79e11e650"
     ]
   },
   "category_index": {
     "Security News": [
       "fb6f6a5ba740",
       "3a02539edc7b",
-      "2189ce630608",
+      "b3a79e11e650",
       "cc10113bb63b",
       "c3f59789b17d"
     ],
     "Vendor": [
-      "d13c551dd056",
-      "c1b4d4c12c5a"
+      "d13c551dd056"
     ]
   }
 }
