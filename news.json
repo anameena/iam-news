@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-19T08:00:20.233346+00:00",
+  "generated": "2026-07-20T08:41:30.574987+00:00",
   "total": 6,
   "items": [
     {
@@ -54,10 +54,10 @@
       "category": "Security News",
       "section": "breach",
       "tags": [
+        "Threat",
         "Breach",
-        "Standards & Protocols",
         "Vendor News",
-        "Threat"
+        "Standards & Protocols"
       ],
       "published": "2026-07-14T11:21:35+00:00",
       "vector": "Stolen Credentials",
