@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-20T08:41:30.574987+00:00",
-  "total": 6,
+  "generated": "2026-07-21T08:08:28.768054+00:00",
+  "total": 3,
   "items": [
     {
       "id": "fb6f6a5ba740",
@@ -15,21 +15,6 @@
         "Standards & Protocols"
       ],
       "published": "2026-07-15T11:51:27+00:00"
-    },
-    {
-      "id": "3a02539edc7b",
-      "title": "Microsoft is forcing an enterprise transition to passkeys",
-      "url": "https://www.computerworld.com/article/4197029/microsoft-is-forcing-an-enterprise-transition-to-passkeys.html",
-      "summary": "Beginning in September, Microsoft Entra ID will replace SMS and voice authentication with passkeys, signaling that traditional credentials are too risky to remain the standard amidst AI-powered attacks.",
-      "source": "Computerworld",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "Authentication",
-        "Threat",
-        "Vendor News"
-      ],
-      "published": "2026-07-15T02:13:07+00:00"
     },
     {
       "id": "d13c551dd056",
@@ -54,68 +39,31 @@
       "category": "Security News",
       "section": "breach",
       "tags": [
-        "Threat",
-        "Breach",
         "Vendor News",
-        "Standards & Protocols"
+        "Breach",
+        "Standards & Protocols",
+        "Threat"
       ],
       "published": "2026-07-14T11:21:35+00:00",
       "vector": "Stolen Credentials",
       "severity": "medium"
-    },
-    {
-      "id": "cc10113bb63b",
-      "title": "Novel OAuth Client ID Spoofing Technique Targets Cloud Environments",
-      "url": "https://www.infosecurity-magazine.com/news/novel-spoofing-technique-targets/",
-      "summary": "New research reveals cyber-attackers can spoof OAuth Client IDs in Microsoft Entra ID, creating a stealthy path into cloud environments",
-      "source": "Infosecurity Magazine",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "Threat",
-        "Vendor News",
-        "Standards & Protocols"
-      ],
-      "published": "2026-07-13T13:00:00+00:00"
-    },
-    {
-      "id": "c3f59789b17d",
-      "title": "Fake OAuth client IDs are helping attackers slip past sign-in logs",
-      "url": "https://www.helpnetsecurity.com/2026/07/13/entra-id-oauth-client-id-spoofing/",
-      "summary": "Attackers running account enumeration against Microsoft cloud tenants have added a step that keeps their probing out of the usual telemetry. They spoof the OAuth client ID, the globally unique identifier assigned to an application and passed as client_id in a…",
-      "source": "Help Net Security",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Threat",
-        "Standards & Protocols"
-      ],
-      "published": "2026-07-13T12:10:50+00:00"
     }
   ],
   "tag_index": {
     "Threat": [
       "fb6f6a5ba740",
-      "3a02539edc7b",
-      "b3a79e11e650",
-      "cc10113bb63b",
-      "c3f59789b17d"
+      "b3a79e11e650"
     ],
     "Standards & Protocols": [
       "fb6f6a5ba740",
-      "b3a79e11e650",
-      "cc10113bb63b",
-      "c3f59789b17d"
+      "b3a79e11e650"
     ],
     "Authentication": [
-      "3a02539edc7b",
       "d13c551dd056"
     ],
     "Vendor News": [
-      "3a02539edc7b",
       "d13c551dd056",
-      "b3a79e11e650",
-      "cc10113bb63b"
+      "b3a79e11e650"
     ],
     "Breach": [
       "b3a79e11e650"
@@ -124,10 +72,7 @@
   "category_index": {
     "Security News": [
       "fb6f6a5ba740",
-      "3a02539edc7b",
-      "b3a79e11e650",
-      "cc10113bb63b",
-      "c3f59789b17d"
+      "b3a79e11e650"
     ],
     "Vendor": [
       "d13c551dd056"
