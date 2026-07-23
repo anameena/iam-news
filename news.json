@@ -1,7 +1,54 @@
 {
-  "generated": "2026-07-22T08:09:01.428106+00:00",
-  "total": 0,
-  "items": [],
-  "tag_index": {},
-  "category_index": {}
+  "generated": "2026-07-23T08:12:42.765743+00:00",
+  "total": 2,
+  "items": [
+    {
+      "id": "6befefea023c",
+      "title": "Chick-fil-A discloses data breach after credential stuffing attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/",
+      "summary": "American fast food restaurant chain Chick-fil-A is notifying customers of a data breach after their accounts were hacked in a wave of recent credential stuffing attacks. [...]",
+      "source": "BleepingComputer",
+      "category": "Vendor",
+      "section": "breach",
+      "tags": [
+        "Breach",
+        "Threat"
+      ],
+      "published": "2026-07-22T06:40:29+00:00",
+      "vector": "Credential Stuffing",
+      "severity": "medium"
+    },
+    {
+      "id": "246b7628f9d8",
+      "title": "Teleport enhances Identity Security platform with new AI agent behavior controls",
+      "url": "https://www.helpnetsecurity.com/2026/07/21/teleport-identity-security-platform-expanded/",
+      "summary": "Teleport has expanded its Identity Security platform with three new capabilities designed to ensure that agent behavior remains within defined boundaries: Beams Session Summaries, Agentic Classifiers, and Risk Scoring. They give enterprises a foundational har…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "AI Identity"
+      ],
+      "published": "2026-07-21T14:05:50+00:00"
+    }
+  ],
+  "tag_index": {
+    "Breach": [
+      "6befefea023c"
+    ],
+    "Threat": [
+      "6befefea023c"
+    ],
+    "AI Identity": [
+      "246b7628f9d8"
+    ]
+  },
+  "category_index": {
+    "Vendor": [
+      "6befefea023c"
+    ],
+    "Security News": [
+      "246b7628f9d8"
+    ]
+  }
 }
