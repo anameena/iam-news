@@ -1,7 +1,20 @@
 {
-  "generated": "2026-07-23T08:12:42.765743+00:00",
-  "total": 2,
+  "generated": "2026-07-24T08:08:21.571545+00:00",
+  "total": 3,
   "items": [
+    {
+      "id": "08d7d4d62e5f",
+      "title": "Product Showcase: AppViewX Agent Identity Security",
+      "url": "https://www.helpnetsecurity.com/2026/07/23/product-showcase-appviewx-agent-identity-security/",
+      "summary": "AI is multiplying enterprise identities as quantum computing reshapes the cryptographic trust that secures them, and enterprises need to solve both together. Traditional identity security was built for people with predictable, auditable access, not autonomous…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "General IAM"
+      ],
+      "published": "2026-07-23T05:30:01+00:00"
+    },
     {
       "id": "6befefea023c",
       "title": "Chick-fil-A discloses data breach after credential stuffing attacks",
@@ -11,8 +24,8 @@
       "category": "Vendor",
       "section": "breach",
       "tags": [
-        "Breach",
-        "Threat"
+        "Threat",
+        "Breach"
       ],
       "published": "2026-07-22T06:40:29+00:00",
       "vector": "Credential Stuffing",
@@ -33,10 +46,13 @@
     }
   ],
   "tag_index": {
-    "Breach": [
-      "6befefea023c"
+    "General IAM": [
+      "08d7d4d62e5f"
     ],
     "Threat": [
+      "6befefea023c"
+    ],
+    "Breach": [
       "6befefea023c"
     ],
     "AI Identity": [
@@ -44,11 +60,12 @@
     ]
   },
   "category_index": {
+    "Security News": [
+      "08d7d4d62e5f",
+      "246b7628f9d8"
+    ],
     "Vendor": [
       "6befefea023c"
-    ],
-    "Security News": [
-      "246b7628f9d8"
     ]
   }
 }
