@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-24T08:08:21.571545+00:00",
+  "generated": "2026-07-25T07:51:04.866259+00:00",
   "total": 3,
   "items": [
     {
@@ -24,8 +24,8 @@
       "category": "Vendor",
       "section": "breach",
       "tags": [
-        "Threat",
-        "Breach"
+        "Breach",
+        "Threat"
       ],
       "published": "2026-07-22T06:40:29+00:00",
       "vector": "Credential Stuffing",
@@ -49,10 +49,10 @@
     "General IAM": [
       "08d7d4d62e5f"
     ],
-    "Threat": [
+    "Breach": [
       "6befefea023c"
     ],
-    "Breach": [
+    "Threat": [
       "6befefea023c"
     ],
     "AI Identity": [
