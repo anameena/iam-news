@@ -1,7 +1,21 @@
 {
-  "generated": "2026-07-25T07:51:04.866259+00:00",
-  "total": 3,
+  "generated": "2026-07-26T08:09:08.524711+00:00",
+  "total": 4,
   "items": [
+    {
+      "id": "a4ca864988d7",
+      "title": "Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller",
+      "url": "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html",
+      "summary": "Researchers H0j3n and Aniq Fakhrul published a working exploit on July 24 that lets a low-privileged Active Directory user obtain a certificate for a Domain Controller and authenticate as that machine. They codenamed the flaw Certighost. Because Domain Contr…",
+      "source": "Internet",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Authentication",
+        "Vulnerability"
+      ],
+      "published": "2026-07-24T14:15:21+00:00"
+    },
     {
       "id": "08d7d4d62e5f",
       "title": "Product Showcase: AppViewX Agent Identity Security",
@@ -46,6 +60,12 @@
     }
   ],
   "tag_index": {
+    "Authentication": [
+      "a4ca864988d7"
+    ],
+    "Vulnerability": [
+      "a4ca864988d7"
+    ],
     "General IAM": [
       "08d7d4d62e5f"
     ],
@@ -61,6 +81,7 @@
   },
   "category_index": {
     "Security News": [
+      "a4ca864988d7",
       "08d7d4d62e5f",
       "246b7628f9d8"
     ],
