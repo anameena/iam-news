@@ -1,7 +1,21 @@
 {
-  "generated": "2026-07-28T08:14:59.677933+00:00",
+  "generated": "2026-07-29T08:21:37.017492+00:00",
   "total": 4,
   "items": [
+    {
+      "id": "bce93e1380dc",
+      "title": "C1 adds shadow AI discovery to its identity governance platform",
+      "url": "https://www.helpnetsecurity.com/2026/07/27/c1-adds-shadow-ai-discovery-to-its-identity-governance-platform/",
+      "summary": "C1 has launched shadow AI discovery to eliminate the massive security blind spots created by unauthorized AI agents, tools, and credentials. By automatically discovering and folding every AI-adjacent identity into C1’s existing identity governance platform, o…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "IGA",
+        "AI Identity"
+      ],
+      "published": "2026-07-27T13:19:35+00:00"
+    },
     {
       "id": "a4ca864988d7",
       "title": "Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller",
@@ -44,22 +58,15 @@
       "published": "2026-07-22T06:40:29+00:00",
       "vector": "Credential Stuffing",
       "severity": "medium"
-    },
-    {
-      "id": "246b7628f9d8",
-      "title": "Teleport enhances Identity Security platform with new AI agent behavior controls",
-      "url": "https://www.helpnetsecurity.com/2026/07/21/teleport-identity-security-platform-expanded/",
-      "summary": "Teleport has expanded its Identity Security platform with three new capabilities designed to ensure that agent behavior remains within defined boundaries: Beams Session Summaries, Agentic Classifiers, and Risk Scoring. They give enterprises a foundational har…",
-      "source": "Help Net Security",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "AI Identity"
-      ],
-      "published": "2026-07-21T14:05:50+00:00"
     }
   ],
   "tag_index": {
+    "IGA": [
+      "bce93e1380dc"
+    ],
+    "AI Identity": [
+      "bce93e1380dc"
+    ],
     "Authentication": [
       "a4ca864988d7"
     ],
@@ -74,16 +81,13 @@
     ],
     "Threat": [
       "6befefea023c"
-    ],
-    "AI Identity": [
-      "246b7628f9d8"
     ]
   },
   "category_index": {
     "Security News": [
+      "bce93e1380dc",
       "a4ca864988d7",
-      "08d7d4d62e5f",
-      "246b7628f9d8"
+      "08d7d4d62e5f"
     ],
     "Vendor": [
       "6befefea023c"
