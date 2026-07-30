@@ -1,7 +1,21 @@
 {
-  "generated": "2026-07-29T08:21:37.017492+00:00",
-  "total": 4,
+  "generated": "2026-07-30T08:08:21.512441+00:00",
+  "total": 3,
   "items": [
+    {
+      "id": "3502858f824f",
+      "title": "Is Your SSO Protected Against Modern Credential Attacks?",
+      "url": "https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks/",
+      "summary": "A compromised SSO login can provide attackers with access to multiple enterprise applications and services. Specops Software explains how stronger passwords, phishing-resistant MFA, and identity hardening help secure modern SSO environments and the applicatio…",
+      "source": "BleepingComputer",
+      "category": "Vendor",
+      "section": "vendor",
+      "tags": [
+        "Authentication",
+        "Threat"
+      ],
+      "published": "2026-07-28T14:00:10+00:00"
+    },
     {
       "id": "bce93e1380dc",
       "title": "C1 adds shadow AI discovery to its identity governance platform",
@@ -17,20 +31,6 @@
       "published": "2026-07-27T13:19:35+00:00"
     },
     {
-      "id": "a4ca864988d7",
-      "title": "Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller",
-      "url": "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html",
-      "summary": "Researchers H0j3n and Aniq Fakhrul published a working exploit on July 24 that lets a low-privileged Active Directory user obtain a certificate for a Domain Controller and authenticate as that machine. They codenamed the flaw Certighost. Because Domain Contr…",
-      "source": "Internet",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Authentication",
-        "Vulnerability"
-      ],
-      "published": "2026-07-24T14:15:21+00:00"
-    },
-    {
       "id": "08d7d4d62e5f",
       "title": "Product Showcase: AppViewX Agent Identity Security",
       "url": "https://www.helpnetsecurity.com/2026/07/23/product-showcase-appviewx-agent-identity-security/",
@@ -42,55 +42,32 @@
         "General IAM"
       ],
       "published": "2026-07-23T05:30:01+00:00"
-    },
-    {
-      "id": "6befefea023c",
-      "title": "Chick-fil-A discloses data breach after credential stuffing attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/",
-      "summary": "American fast food restaurant chain Chick-fil-A is notifying customers of a data breach after their accounts were hacked in a wave of recent credential stuffing attacks. [...]",
-      "source": "BleepingComputer",
-      "category": "Vendor",
-      "section": "breach",
-      "tags": [
-        "Breach",
-        "Threat"
-      ],
-      "published": "2026-07-22T06:40:29+00:00",
-      "vector": "Credential Stuffing",
-      "severity": "medium"
     }
   ],
   "tag_index": {
+    "Authentication": [
+      "3502858f824f"
+    ],
+    "Threat": [
+      "3502858f824f"
+    ],
     "IGA": [
       "bce93e1380dc"
     ],
     "AI Identity": [
       "bce93e1380dc"
     ],
-    "Authentication": [
-      "a4ca864988d7"
-    ],
-    "Vulnerability": [
-      "a4ca864988d7"
-    ],
     "General IAM": [
       "08d7d4d62e5f"
-    ],
-    "Breach": [
-      "6befefea023c"
-    ],
-    "Threat": [
-      "6befefea023c"
     ]
   },
   "category_index": {
+    "Vendor": [
+      "3502858f824f"
+    ],
     "Security News": [
       "bce93e1380dc",
-      "a4ca864988d7",
       "08d7d4d62e5f"
-    ],
-    "Vendor": [
-      "6befefea023c"
     ]
   }
 }
