@@ -1,7 +1,50 @@
 {
-  "generated": "2026-07-30T08:08:21.512441+00:00",
-  "total": 3,
+  "generated": "2026-07-31T08:35:03.741052+00:00",
+  "total": 5,
   "items": [
+    {
+      "id": "ac0ae5c73c84",
+      "title": "Product showcase: Dashlane Password Manager is more security toolkit than password vault",
+      "url": "https://www.helpnetsecurity.com/2026/07/30/product-showcase-dashlane-password-manager/",
+      "summary": "Dashlane is a password manager for individuals and families that stores passwords, passkeys, payment cards, personal information and secure notes in an encrypted vault. It also includes a password generator, password health reports, an authenticator, credenti…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "breach",
+      "tags": [
+        "Breach",
+        "Threat",
+        "Authentication"
+      ],
+      "published": "2026-07-30T04:30:39+00:00",
+      "vector": null,
+      "severity": "medium"
+    },
+    {
+      "id": "8350dd70345c",
+      "title": "1Password targets standing privileges with new access management capabilities",
+      "url": "https://www.helpnetsecurity.com/2026/07/29/1password-privileged-access/",
+      "summary": "1Password has launched 1Password Privileged Access, extending the 1Password Unified Access platform with privileged access management (PAM). It enables just-in-time, least-privilege access to critical infrastructure and is accompanied by the public preview of…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "PAM"
+      ],
+      "published": "2026-07-29T08:25:53+00:00"
+    },
+    {
+      "id": "55065da4c9a7",
+      "title": "Torq makes AI SOC investigations continuously self-learning",
+      "url": "https://www.helpnetsecurity.com/2026/07/29/torq-soc-brain/",
+      "summary": "Torq has introduced Torq SOC Brain, a new layer of the Torq AI SOC Platform that continuously learns from historical investigations, analyst decisions, and organization-specific security operations to create a unified, self-learning AI SOC. While most autonom…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "IGA"
+      ],
+      "published": "2026-07-29T08:17:42+00:00"
+    },
     {
       "id": "3502858f824f",
       "title": "Is Your SSO Protected Against Modern Credential Attacks?",
@@ -29,45 +72,40 @@
         "AI Identity"
       ],
       "published": "2026-07-27T13:19:35+00:00"
-    },
-    {
-      "id": "08d7d4d62e5f",
-      "title": "Product Showcase: AppViewX Agent Identity Security",
-      "url": "https://www.helpnetsecurity.com/2026/07/23/product-showcase-appviewx-agent-identity-security/",
-      "summary": "AI is multiplying enterprise identities as quantum computing reshapes the cryptographic trust that secures them, and enterprises need to solve both together. Traditional identity security was built for people with predictable, auditable access, not autonomous…",
-      "source": "Help Net Security",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "General IAM"
-      ],
-      "published": "2026-07-23T05:30:01+00:00"
     }
   ],
   "tag_index": {
-    "Authentication": [
-      "3502858f824f"
+    "Breach": [
+      "ac0ae5c73c84"
     ],
     "Threat": [
+      "ac0ae5c73c84",
       "3502858f824f"
     ],
+    "Authentication": [
+      "ac0ae5c73c84",
+      "3502858f824f"
+    ],
+    "PAM": [
+      "8350dd70345c"
+    ],
     "IGA": [
+      "55065da4c9a7",
       "bce93e1380dc"
     ],
     "AI Identity": [
       "bce93e1380dc"
-    ],
-    "General IAM": [
-      "08d7d4d62e5f"
     ]
   },
   "category_index": {
+    "Security News": [
+      "ac0ae5c73c84",
+      "8350dd70345c",
+      "55065da4c9a7",
+      "bce93e1380dc"
+    ],
     "Vendor": [
       "3502858f824f"
-    ],
-    "Security News": [
-      "bce93e1380dc",
-      "08d7d4d62e5f"
     ]
   }
 }
