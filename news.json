@@ -1,23 +1,35 @@
 {
-  "generated": "2026-07-31T08:35:03.741052+00:00",
+  "generated": "2026-08-01T08:04:14.592471+00:00",
   "total": 5,
   "items": [
     {
-      "id": "ac0ae5c73c84",
-      "title": "Product showcase: Dashlane Password Manager is more security toolkit than password vault",
-      "url": "https://www.helpnetsecurity.com/2026/07/30/product-showcase-dashlane-password-manager/",
-      "summary": "Dashlane is a password manager for individuals and families that stores passwords, passkeys, payment cards, personal information and secure notes in an encrypted vault. It also includes a password generator, password health reports, an authenticator, credenti…",
-      "source": "Help Net Security",
+      "id": "b5fdb9c98ab2",
+      "title": "Okta to Acquire Identity Threat Detection Firm Permiso",
+      "url": "https://www.securityweek.com/okta-to-acquire-identity-threat-detection-firm-permiso/",
+      "summary": "The deal extends Okta's reach beyond identity management and into the realm of security operations, positioning the company to compete more directly on identity threat detection and response. The post Okta to Acquire Identity Threat Detection Firm Permiso app…",
+      "source": "Securityweek.com",
       "category": "Security News",
-      "section": "breach",
+      "section": "vendor",
       "tags": [
-        "Breach",
-        "Threat",
-        "Authentication"
+        "Vendor News",
+        "Next-Gen IAM"
       ],
-      "published": "2026-07-30T04:30:39+00:00",
-      "vector": null,
-      "severity": "medium"
+      "published": "2026-07-30T19:10:26+00:00"
+    },
+    {
+      "id": "9327b8297589",
+      "title": "Okta buys AI security startup Permiso; source says for about $200M | TechCrunch",
+      "url": "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m/",
+      "summary": "The deal gives Okta identity threat detection capabilities as enterprises seek to secure AI agents and other non-human identities across cloud environments.",
+      "source": "TechCrunch",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "Vendor News",
+        "Next-Gen IAM",
+        "AI Identity"
+      ],
+      "published": "2026-07-30T16:10:54+00:00"
     },
     {
       "id": "8350dd70345c",
@@ -31,19 +43,6 @@
         "PAM"
       ],
       "published": "2026-07-29T08:25:53+00:00"
-    },
-    {
-      "id": "55065da4c9a7",
-      "title": "Torq makes AI SOC investigations continuously self-learning",
-      "url": "https://www.helpnetsecurity.com/2026/07/29/torq-soc-brain/",
-      "summary": "Torq has introduced Torq SOC Brain, a new layer of the Torq AI SOC Platform that continuously learns from historical investigations, analyst decisions, and organization-specific security operations to create a unified, self-learning AI SOC. While most autonom…",
-      "source": "Help Net Security",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "IGA"
-      ],
-      "published": "2026-07-29T08:17:42+00:00"
     },
     {
       "id": "3502858f824f",
@@ -75,33 +74,36 @@
     }
   ],
   "tag_index": {
-    "Breach": [
-      "ac0ae5c73c84"
+    "Vendor News": [
+      "b5fdb9c98ab2",
+      "9327b8297589"
     ],
-    "Threat": [
-      "ac0ae5c73c84",
-      "3502858f824f"
+    "Next-Gen IAM": [
+      "b5fdb9c98ab2",
+      "9327b8297589"
     ],
-    "Authentication": [
-      "ac0ae5c73c84",
-      "3502858f824f"
+    "AI Identity": [
+      "9327b8297589",
+      "bce93e1380dc"
     ],
     "PAM": [
       "8350dd70345c"
     ],
-    "IGA": [
-      "55065da4c9a7",
-      "bce93e1380dc"
+    "Authentication": [
+      "3502858f824f"
     ],
-    "AI Identity": [
+    "Threat": [
+      "3502858f824f"
+    ],
+    "IGA": [
       "bce93e1380dc"
     ]
   },
   "category_index": {
     "Security News": [
-      "ac0ae5c73c84",
+      "b5fdb9c98ab2",
+      "9327b8297589",
       "8350dd70345c",
-      "55065da4c9a7",
       "bce93e1380dc"
     ],
     "Vendor": [
