@@ -1,7 +1,35 @@
 {
-  "generated": "2026-08-01T08:04:14.592471+00:00",
-  "total": 5,
+  "generated": "2026-08-02T08:06:06.594712+00:00",
+  "total": 7,
   "items": [
+    {
+      "id": "40fa50b8bc25",
+      "title": "Cyberattacks on Minnesota Water Systems Investigated as Officials Warn About Iranian Hackers",
+      "url": "https://www.securityweek.com/cyberattacks-on-minnesota-water-systems-investigated-as-officials-warn-about-iranian-hackers/",
+      "summary": "Iran has the “geopolitical motivations” and a recent history of targeting water systems, experts pointed out. The post Cyberattacks on Minnesota Water Systems Investigated as Officials Warn About Iranian Hackers appeared first on SecurityWeek.",
+      "source": "Securityweek.com",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "IGA",
+        "Threat"
+      ],
+      "published": "2026-07-31T15:17:41+00:00"
+    },
+    {
+      "id": "2cdd71c4541c",
+      "title": "Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw",
+      "url": "https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html",
+      "summary": "An academic study has disclosed a \"widespread class\" of security vulnerabilities impacting 4G and 5G core networks that, if successfully exploited, could trigger denial-of-service (DoS) attacks and even session hijacking, allowing an attacker to seize control…",
+      "source": "Internet",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Threat",
+        "Vulnerability"
+      ],
+      "published": "2026-07-31T11:55:00+00:00"
+    },
     {
       "id": "b5fdb9c98ab2",
       "title": "Okta to Acquire Identity Threat Detection Firm Permiso",
@@ -74,6 +102,18 @@
     }
   ],
   "tag_index": {
+    "IGA": [
+      "40fa50b8bc25",
+      "bce93e1380dc"
+    ],
+    "Threat": [
+      "40fa50b8bc25",
+      "2cdd71c4541c",
+      "3502858f824f"
+    ],
+    "Vulnerability": [
+      "2cdd71c4541c"
+    ],
     "Vendor News": [
       "b5fdb9c98ab2",
       "9327b8297589"
@@ -91,16 +131,12 @@
     ],
     "Authentication": [
       "3502858f824f"
-    ],
-    "Threat": [
-      "3502858f824f"
-    ],
-    "IGA": [
-      "bce93e1380dc"
     ]
   },
   "category_index": {
     "Security News": [
+      "40fa50b8bc25",
+      "2cdd71c4541c",
       "b5fdb9c98ab2",
       "9327b8297589",
       "8350dd70345c",
