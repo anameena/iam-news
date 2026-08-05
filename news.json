@@ -1,20 +1,34 @@
 {
-  "generated": "2026-08-04T08:21:33.265056+00:00",
+  "generated": "2026-08-05T08:18:15.602800+00:00",
   "total": 5,
   "items": [
     {
-      "id": "40fa50b8bc25",
-      "title": "Cyberattacks on Minnesota Water Systems Investigated as Officials Warn About Iranian Hackers",
-      "url": "https://www.securityweek.com/cyberattacks-on-minnesota-water-systems-investigated-as-officials-warn-about-iranian-hackers/",
-      "summary": "Iran has the “geopolitical motivations” and a recent history of targeting water systems, experts pointed out. The post Cyberattacks on Minnesota Water Systems Investigated as Officials Warn About Iranian Hackers appeared first on SecurityWeek.",
-      "source": "Securityweek.com",
+      "id": "0cae64f87b98",
+      "title": "New Pass-ta-key attacks let malware hijack Google-synced passkeys",
+      "url": "https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/",
+      "summary": "Security researchers have discovered three attacks that allow malware on already-compromised Windows devices to abuse Google Password Manager's synced passkeys to take over accounts, bypass user verification, and extract passkey private keys. [...]",
+      "source": "BleepingComputer",
+      "category": "Vendor",
+      "section": "vendor",
+      "tags": [
+        "Authentication",
+        "Threat"
+      ],
+      "published": "2026-08-03T23:58:01+00:00"
+    },
+    {
+      "id": "0e432ce8d1dd",
+      "title": "Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts",
+      "url": "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html",
+      "summary": "Malware running as an ordinary user on a Windows machine can sign into a victim's passkey-protected accounts without a fingerprint, a PIN, or anything at all appearing on the victim's screen. Unit 42 detailed three attack paths against Chrome's Google Passwo…",
+      "source": "Internet",
       "category": "Security News",
       "section": "news",
       "tags": [
-        "IGA",
+        "Authentication",
         "Threat"
       ],
-      "published": "2026-07-31T15:17:41+00:00"
+      "published": "2026-08-03T16:24:47+00:00"
     },
     {
       "id": "b5fdb9c98ab2",
@@ -57,29 +71,16 @@
         "PAM"
       ],
       "published": "2026-07-29T08:25:53+00:00"
-    },
-    {
-      "id": "3502858f824f",
-      "title": "Is Your SSO Protected Against Modern Credential Attacks?",
-      "url": "https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks/",
-      "summary": "A compromised SSO login can provide attackers with access to multiple enterprise applications and services. Specops Software explains how stronger passwords, phishing-resistant MFA, and identity hardening help secure modern SSO environments and the applicatio…",
-      "source": "BleepingComputer",
-      "category": "Vendor",
-      "section": "vendor",
-      "tags": [
-        "Authentication",
-        "Threat"
-      ],
-      "published": "2026-07-28T14:00:10+00:00"
     }
   ],
   "tag_index": {
-    "IGA": [
-      "40fa50b8bc25"
+    "Authentication": [
+      "0cae64f87b98",
+      "0e432ce8d1dd"
     ],
     "Threat": [
-      "40fa50b8bc25",
-      "3502858f824f"
+      "0cae64f87b98",
+      "0e432ce8d1dd"
     ],
     "Vendor News": [
       "b5fdb9c98ab2",
@@ -94,20 +95,17 @@
     ],
     "PAM": [
       "8350dd70345c"
-    ],
-    "Authentication": [
-      "3502858f824f"
     ]
   },
   "category_index": {
+    "Vendor": [
+      "0cae64f87b98"
+    ],
     "Security News": [
-      "40fa50b8bc25",
+      "0e432ce8d1dd",
       "b5fdb9c98ab2",
       "9327b8297589",
       "8350dd70345c"
-    ],
-    "Vendor": [
-      "3502858f824f"
     ]
   }
 }
