@@ -1,7 +1,52 @@
 {
-  "generated": "2026-08-06T08:15:48.798066+00:00",
+  "generated": "2026-08-07T07:00:12.471509+00:00",
   "total": 5,
   "items": [
+    {
+      "id": "4744d37f0e5d",
+      "title": "Report: Passkey security issues could allow account takeover",
+      "url": "https://www.computerworld.com/article/4205809/report-passkey-security-issues-could-allow-account-takeover-2.html",
+      "summary": "Given the widespread enterprise adoption of passkeys to replace passwords, a Palo Alto Networks Unit 42 report disclosing ways attackers are getting around passkey protections is concerning, analysts say, but they stress that the demonstrated attacks can only…",
+      "source": "Computerworld",
+      "category": "Security News",
+      "section": "breach",
+      "tags": [
+        "Authentication",
+        "Threat",
+        "Breach"
+      ],
+      "published": "2026-08-06T00:06:50+00:00",
+      "vector": null,
+      "severity": "critical"
+    },
+    {
+      "id": "62daca2aa1c6",
+      "title": "Enterprise passkey security under threat from malware",
+      "url": "https://www.computerworld.com/article/4205809/enterprise-passkey-security-under-threat-from-malware.html",
+      "summary": "Given the widespread enterprise adoption of passkeys to replace passwords, a Palo Alto Networks Unit 42 report disclosing ways attackers are getting around passkey protections is concerning, analysts say, but they stress that the demonstrated attacks can only…",
+      "source": "Computerworld",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Authentication",
+        "Threat"
+      ],
+      "published": "2026-08-06T00:06:50+00:00"
+    },
+    {
+      "id": "ae1bd7c45535",
+      "title": "New Attack Methods Enable Malware to Hijack Passkey-Protected Accounts",
+      "url": "https://www.securityweek.com/new-attack-methods-enable-malware-to-hijack-passkey-protected-accounts/",
+      "summary": "Palo Alto Networks researchers have demonstrated attacks against Google’s synced passkey implementation. The post New Attack Methods Enable Malware to Hijack Passkey-Protected Accounts appeared first on SecurityWeek.",
+      "source": "Securityweek.com",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Authentication",
+        "Threat"
+      ],
+      "published": "2026-08-05T12:48:49+00:00"
+    },
     {
       "id": "d8513ec6713b",
       "title": "Product showcase: Material unifies Google Workspace email, file & OAuth defense",
@@ -29,82 +74,35 @@
         "Threat"
       ],
       "published": "2026-08-03T23:58:01+00:00"
-    },
-    {
-      "id": "0e432ce8d1dd",
-      "title": "Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts",
-      "url": "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html",
-      "summary": "Malware running as an ordinary user on a Windows machine can sign into a victim's passkey-protected accounts without a fingerprint, a PIN, or anything at all appearing on the victim's screen. Unit 42 detailed three attack paths against Chrome's Google Passwo…",
-      "source": "Internet",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Authentication",
-        "Threat"
-      ],
-      "published": "2026-08-03T16:24:47+00:00"
-    },
-    {
-      "id": "b5fdb9c98ab2",
-      "title": "Okta to Acquire Identity Threat Detection Firm Permiso",
-      "url": "https://www.securityweek.com/okta-to-acquire-identity-threat-detection-firm-permiso/",
-      "summary": "The deal extends Okta's reach beyond identity management and into the realm of security operations, positioning the company to compete more directly on identity threat detection and response. The post Okta to Acquire Identity Threat Detection Firm Permiso app…",
-      "source": "Securityweek.com",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "Vendor News",
-        "Next-Gen IAM"
-      ],
-      "published": "2026-07-30T19:10:26+00:00"
-    },
-    {
-      "id": "9327b8297589",
-      "title": "Okta buys AI security startup Permiso; source says for about $200M | TechCrunch",
-      "url": "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m/",
-      "summary": "The deal gives Okta identity threat detection capabilities as enterprises seek to secure AI agents and other non-human identities across cloud environments.",
-      "source": "TechCrunch",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "Vendor News",
-        "Next-Gen IAM",
-        "AI Identity"
-      ],
-      "published": "2026-07-30T16:10:54+00:00"
     }
   ],
   "tag_index": {
+    "Authentication": [
+      "4744d37f0e5d",
+      "62daca2aa1c6",
+      "ae1bd7c45535",
+      "0cae64f87b98"
+    ],
     "Threat": [
+      "4744d37f0e5d",
+      "62daca2aa1c6",
+      "ae1bd7c45535",
       "d8513ec6713b",
-      "0cae64f87b98",
-      "0e432ce8d1dd"
+      "0cae64f87b98"
+    ],
+    "Breach": [
+      "4744d37f0e5d"
     ],
     "Standards & Protocols": [
       "d8513ec6713b"
-    ],
-    "Authentication": [
-      "0cae64f87b98",
-      "0e432ce8d1dd"
-    ],
-    "Vendor News": [
-      "b5fdb9c98ab2",
-      "9327b8297589"
-    ],
-    "Next-Gen IAM": [
-      "b5fdb9c98ab2",
-      "9327b8297589"
-    ],
-    "AI Identity": [
-      "9327b8297589"
     ]
   },
   "category_index": {
     "Security News": [
-      "d8513ec6713b",
-      "0e432ce8d1dd",
-      "b5fdb9c98ab2",
-      "9327b8297589"
+      "4744d37f0e5d",
+      "62daca2aa1c6",
+      "ae1bd7c45535",
+      "d8513ec6713b"
     ],
     "Vendor": [
       "0cae64f87b98"
