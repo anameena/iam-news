@@ -1,38 +1,7 @@
 {
-  "generated": "2026-08-07T07:00:12.471509+00:00",
-  "total": 5,
+  "generated": "2026-08-08T06:35:04.174410+00:00",
+  "total": 2,
   "items": [
-    {
-      "id": "4744d37f0e5d",
-      "title": "Report: Passkey security issues could allow account takeover",
-      "url": "https://www.computerworld.com/article/4205809/report-passkey-security-issues-could-allow-account-takeover-2.html",
-      "summary": "Given the widespread enterprise adoption of passkeys to replace passwords, a Palo Alto Networks Unit 42 report disclosing ways attackers are getting around passkey protections is concerning, analysts say, but they stress that the demonstrated attacks can only…",
-      "source": "Computerworld",
-      "category": "Security News",
-      "section": "breach",
-      "tags": [
-        "Authentication",
-        "Threat",
-        "Breach"
-      ],
-      "published": "2026-08-06T00:06:50+00:00",
-      "vector": null,
-      "severity": "critical"
-    },
-    {
-      "id": "62daca2aa1c6",
-      "title": "Enterprise passkey security under threat from malware",
-      "url": "https://www.computerworld.com/article/4205809/enterprise-passkey-security-under-threat-from-malware.html",
-      "summary": "Given the widespread enterprise adoption of passkeys to replace passwords, a Palo Alto Networks Unit 42 report disclosing ways attackers are getting around passkey protections is concerning, analysts say, but they stress that the demonstrated attacks can only…",
-      "source": "Computerworld",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Authentication",
-        "Threat"
-      ],
-      "published": "2026-08-06T00:06:50+00:00"
-    },
     {
       "id": "ae1bd7c45535",
       "title": "New Attack Methods Enable Malware to Hijack Passkey-Protected Accounts",
@@ -46,20 +15,6 @@
         "Threat"
       ],
       "published": "2026-08-05T12:48:49+00:00"
-    },
-    {
-      "id": "d8513ec6713b",
-      "title": "Product showcase: Material unifies Google Workspace email, file & OAuth defense",
-      "url": "https://www.helpnetsecurity.com/2026/08/05/product-showcase-material-security-platform/",
-      "summary": "Here’s an uncomfortable truth: the attack that gets you won’t look like an attack. It’ll look like a normal login, a normal file share, a normal permission request you clicked past without reading. You don’t have a phishing problem, a DLP problem, or an OAuth…",
-      "source": "Help Net Security",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Threat",
-        "Standards & Protocols"
-      ],
-      "published": "2026-08-05T05:00:48+00:00"
     },
     {
       "id": "0cae64f87b98",
@@ -78,31 +33,17 @@
   ],
   "tag_index": {
     "Authentication": [
-      "4744d37f0e5d",
-      "62daca2aa1c6",
       "ae1bd7c45535",
       "0cae64f87b98"
     ],
     "Threat": [
-      "4744d37f0e5d",
-      "62daca2aa1c6",
       "ae1bd7c45535",
-      "d8513ec6713b",
       "0cae64f87b98"
-    ],
-    "Breach": [
-      "4744d37f0e5d"
-    ],
-    "Standards & Protocols": [
-      "d8513ec6713b"
     ]
   },
   "category_index": {
     "Security News": [
-      "4744d37f0e5d",
-      "62daca2aa1c6",
-      "ae1bd7c45535",
-      "d8513ec6713b"
+      "ae1bd7c45535"
     ],
     "Vendor": [
       "0cae64f87b98"
