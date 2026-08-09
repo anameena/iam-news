@@ -1,7 +1,23 @@
 {
-  "generated": "2026-08-08T06:35:04.174410+00:00",
-  "total": 2,
+  "generated": "2026-08-09T06:38:45.936230+00:00",
+  "total": 3,
   "items": [
+    {
+      "id": "636f9226101d",
+      "title": "Your phone doesn't block SIM swapping attacks by default: Turn on these carrier settings now",
+      "url": "https://www.zdnet.com/home-and-office/networking/your-phone-doesnt-block-sim-swapping-attacks-turn-on-carrier-settings/",
+      "summary": "A SIM swapping attack could compromise your phone, your personal accounts, and even your identity. Here's how to thwart them.",
+      "source": "ZDNet",
+      "category": "Security News",
+      "section": "breach",
+      "tags": [
+        "Breach",
+        "Threat"
+      ],
+      "published": "2026-08-07T15:36:59+00:00",
+      "vector": "SIM Swap",
+      "severity": "medium"
+    },
     {
       "id": "ae1bd7c45535",
       "title": "New Attack Methods Enable Malware to Hijack Passkey-Protected Accounts",
@@ -32,17 +48,22 @@
     }
   ],
   "tag_index": {
-    "Authentication": [
+    "Breach": [
+      "636f9226101d"
+    ],
+    "Threat": [
+      "636f9226101d",
       "ae1bd7c45535",
       "0cae64f87b98"
     ],
-    "Threat": [
+    "Authentication": [
       "ae1bd7c45535",
       "0cae64f87b98"
     ]
   },
   "category_index": {
     "Security News": [
+      "636f9226101d",
       "ae1bd7c45535"
     ],
     "Vendor": [
