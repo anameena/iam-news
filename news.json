@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-09T06:38:45.936230+00:00",
+  "generated": "2026-08-10T07:11:10.640701+00:00",
   "total": 3,
   "items": [
     {
@@ -11,8 +11,8 @@
       "category": "Security News",
       "section": "breach",
       "tags": [
-        "Breach",
-        "Threat"
+        "Threat",
+        "Breach"
       ],
       "published": "2026-08-07T15:36:59+00:00",
       "vector": "SIM Swap",
@@ -48,13 +48,13 @@
     }
   ],
   "tag_index": {
-    "Breach": [
-      "636f9226101d"
-    ],
     "Threat": [
       "636f9226101d",
       "ae1bd7c45535",
       "0cae64f87b98"
+    ],
+    "Breach": [
+      "636f9226101d"
     ],
     "Authentication": [
       "ae1bd7c45535",
