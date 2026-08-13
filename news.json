@@ -1,7 +1,20 @@
 {
-  "generated": "2026-08-12T07:08:47.535253+00:00",
+  "generated": "2026-08-13T07:13:08.341657+00:00",
   "total": 3,
   "items": [
+    {
+      "id": "0d97975a3a6c",
+      "title": "password for device and passkey for online account?",
+      "url": "https://www.bleepingcomputer.com/forums/t/817865/password-for-device-and-passkey-for-online-account/",
+      "summary": "password for device and passkey for online account? - posted in General Security: I tried a search online and nothing is clear. Right now, I make no use of any PIN for computers or mobile devices. Search listings seem to miss what I want to know. A.I. secti…",
+      "source": "BleepingComputer",
+      "category": "Vendor",
+      "section": "vendor",
+      "tags": [
+        "Authentication"
+      ],
+      "published": "2026-08-12T01:06:48+00:00"
+    },
     {
       "id": "1681e7af1e51",
       "title": "New Passkey Attacks Can Recover Synced Private Keys or Bypass Phishing-Resistant MFA",
@@ -25,47 +38,34 @@
       "category": "Security News",
       "section": "breach",
       "tags": [
-        "Threat",
-        "Breach"
+        "Breach",
+        "Threat"
       ],
       "published": "2026-08-07T15:36:59+00:00",
       "vector": "SIM Swap",
       "severity": "medium"
-    },
-    {
-      "id": "ae1bd7c45535",
-      "title": "New Attack Methods Enable Malware to Hijack Passkey-Protected Accounts",
-      "url": "https://www.securityweek.com/new-attack-methods-enable-malware-to-hijack-passkey-protected-accounts/",
-      "summary": "Palo Alto Networks researchers have demonstrated attacks against Google’s synced passkey implementation. The post New Attack Methods Enable Malware to Hijack Passkey-Protected Accounts appeared first on SecurityWeek.",
-      "source": "Securityweek.com",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Authentication",
-        "Threat"
-      ],
-      "published": "2026-08-05T12:48:49+00:00"
     }
   ],
   "tag_index": {
     "Authentication": [
-      "1681e7af1e51",
-      "ae1bd7c45535"
+      "0d97975a3a6c",
+      "1681e7af1e51"
     ],
     "Threat": [
       "1681e7af1e51",
-      "636f9226101d",
-      "ae1bd7c45535"
+      "636f9226101d"
     ],
     "Breach": [
       "636f9226101d"
     ]
   },
   "category_index": {
+    "Vendor": [
+      "0d97975a3a6c"
+    ],
     "Security News": [
       "1681e7af1e51",
-      "636f9226101d",
-      "ae1bd7c45535"
+      "636f9226101d"
     ]
   }
 }
