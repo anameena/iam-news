@@ -1,20 +1,7 @@
 {
-  "generated": "2026-08-13T07:13:08.341657+00:00",
-  "total": 3,
+  "generated": "2026-08-14T07:09:58.816374+00:00",
+  "total": 1,
   "items": [
-    {
-      "id": "0d97975a3a6c",
-      "title": "password for device and passkey for online account?",
-      "url": "https://www.bleepingcomputer.com/forums/t/817865/password-for-device-and-passkey-for-online-account/",
-      "summary": "password for device and passkey for online account? - posted in General Security: I tried a search online and nothing is clear. Right now, I make no use of any PIN for computers or mobile devices. Search listings seem to miss what I want to know. A.I. secti…",
-      "source": "BleepingComputer",
-      "category": "Vendor",
-      "section": "vendor",
-      "tags": [
-        "Authentication"
-      ],
-      "published": "2026-08-12T01:06:48+00:00"
-    },
     {
       "id": "1681e7af1e51",
       "title": "New Passkey Attacks Can Recover Synced Private Keys or Bypass Phishing-Resistant MFA",
@@ -28,44 +15,19 @@
         "Threat"
       ],
       "published": "2026-08-10T12:25:04+00:00"
-    },
-    {
-      "id": "636f9226101d",
-      "title": "Your phone doesn't block SIM swapping attacks by default: Turn on these carrier settings now",
-      "url": "https://www.zdnet.com/home-and-office/networking/your-phone-doesnt-block-sim-swapping-attacks-turn-on-carrier-settings/",
-      "summary": "A SIM swapping attack could compromise your phone, your personal accounts, and even your identity. Here's how to thwart them.",
-      "source": "ZDNet",
-      "category": "Security News",
-      "section": "breach",
-      "tags": [
-        "Breach",
-        "Threat"
-      ],
-      "published": "2026-08-07T15:36:59+00:00",
-      "vector": "SIM Swap",
-      "severity": "medium"
     }
   ],
   "tag_index": {
     "Authentication": [
-      "0d97975a3a6c",
       "1681e7af1e51"
     ],
     "Threat": [
-      "1681e7af1e51",
-      "636f9226101d"
-    ],
-    "Breach": [
-      "636f9226101d"
+      "1681e7af1e51"
     ]
   },
   "category_index": {
-    "Vendor": [
-      "0d97975a3a6c"
-    ],
     "Security News": [
-      "1681e7af1e51",
-      "636f9226101d"
+      "1681e7af1e51"
     ]
   }
 }
