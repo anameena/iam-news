@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-17T06:33:56.475240+00:00",
-  "total": 3,
+  "generated": "2026-08-18T06:26:03.576626+00:00",
+  "total": 2,
   "items": [
     {
       "id": "8b920d1b3f61",
@@ -27,32 +27,12 @@
         "IGA"
       ],
       "published": "2026-08-14T09:00:00+00:00"
-    },
-    {
-      "id": "1681e7af1e51",
-      "title": "New Passkey Attacks Can Recover Synced Private Keys or Bypass Phishing-Resistant MFA",
-      "url": "https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html",
-      "summary": "Three separate research efforts last week demonstrated ways to defeat passkey protections without breaking the cryptography they rest on. Passkeys are designed to replace reusable passwords and resist phishing. The attacks instead reused signed authenticatio…",
-      "source": "Internet",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Authentication",
-        "Threat"
-      ],
-      "published": "2026-08-10T12:25:04+00:00"
     }
   ],
   "tag_index": {
     "IGA": [
       "8b920d1b3f61",
       "bda5a6b9b215"
-    ],
-    "Authentication": [
-      "1681e7af1e51"
-    ],
-    "Threat": [
-      "1681e7af1e51"
     ]
   },
   "category_index": {
@@ -60,8 +40,7 @@
       "8b920d1b3f61"
     ],
     "Security News": [
-      "bda5a6b9b215",
-      "1681e7af1e51"
+      "bda5a6b9b215"
     ]
   }
 }
