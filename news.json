@@ -1,19 +1,37 @@
 {
-  "generated": "2026-08-18T06:26:03.576626+00:00",
-  "total": 2,
+  "generated": "2026-08-19T06:26:24.188130+00:00",
+  "total": 3,
   "items": [
     {
-      "id": "8b920d1b3f61",
-      "title": "Shell investigates 'potential incident' after Clop data theft claims",
-      "url": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/",
-      "summary": "Oil giant Shell has confirmed it is investigating a potential security incident after the Clop ransomware gang claimed it stole 89GB of data. [...]",
+      "id": "fb1787496b51",
+      "title": "‘Unprecedented’ number of Apple users received recent spyware alert, say investigators",
+      "url": "https://techcrunch.com/2026/08/17/unprecedented-number-of-apple-users-received-recent-spyware-alert-say-investigators/",
+      "summary": "Cybersecurity experts who investigate spyware attacks say the number of people who received a recent threat notification from Apple is unusually high.",
+      "source": "TechCrunch",
+      "category": "Security News",
+      "section": "breach",
+      "tags": [
+        "Threat",
+        "IGA",
+        "Breach"
+      ],
+      "published": "2026-08-17T20:18:35+00:00",
+      "vector": null,
+      "severity": "high"
+    },
+    {
+      "id": "26d7db41bc0a",
+      "title": "Philips and GE investigating Clop ransomware data theft claims",
+      "url": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
+      "summary": "Tech giants General Electric (GE) and Philips have also confirmed they're investigating claims that the Clop ransomware gang breached their systems and stole data. [...]",
       "source": "BleepingComputer",
       "category": "Vendor",
       "section": "vendor",
       "tags": [
-        "IGA"
+        "IGA",
+        "Threat"
       ],
-      "published": "2026-08-14T11:55:45+00:00"
+      "published": "2026-08-17T11:25:02+00:00"
     },
     {
       "id": "bda5a6b9b215",
@@ -30,17 +48,26 @@
     }
   ],
   "tag_index": {
+    "Threat": [
+      "fb1787496b51",
+      "26d7db41bc0a"
+    ],
     "IGA": [
-      "8b920d1b3f61",
+      "fb1787496b51",
+      "26d7db41bc0a",
       "bda5a6b9b215"
+    ],
+    "Breach": [
+      "fb1787496b51"
     ]
   },
   "category_index": {
-    "Vendor": [
-      "8b920d1b3f61"
-    ],
     "Security News": [
+      "fb1787496b51",
       "bda5a6b9b215"
+    ],
+    "Vendor": [
+      "26d7db41bc0a"
     ]
   }
 }
