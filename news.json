@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-19T06:26:24.188130+00:00",
+  "generated": "2026-08-20T06:28:04.364240+00:00",
   "total": 3,
   "items": [
     {
@@ -12,8 +12,8 @@
       "section": "breach",
       "tags": [
         "Threat",
-        "IGA",
-        "Breach"
+        "Breach",
+        "IGA"
       ],
       "published": "2026-08-17T20:18:35+00:00",
       "vector": null,
@@ -52,13 +52,13 @@
       "fb1787496b51",
       "26d7db41bc0a"
     ],
+    "Breach": [
+      "fb1787496b51"
+    ],
     "IGA": [
       "fb1787496b51",
       "26d7db41bc0a",
       "bda5a6b9b215"
-    ],
-    "Breach": [
-      "fb1787496b51"
     ]
   },
   "category_index": {
