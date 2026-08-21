@@ -1,38 +1,7 @@
 {
-  "generated": "2026-08-20T06:28:04.364240+00:00",
-  "total": 3,
+  "generated": "2026-08-21T06:29:28.767024+00:00",
+  "total": 1,
   "items": [
-    {
-      "id": "fb1787496b51",
-      "title": "‘Unprecedented’ number of Apple users received recent spyware alert, say investigators",
-      "url": "https://techcrunch.com/2026/08/17/unprecedented-number-of-apple-users-received-recent-spyware-alert-say-investigators/",
-      "summary": "Cybersecurity experts who investigate spyware attacks say the number of people who received a recent threat notification from Apple is unusually high.",
-      "source": "TechCrunch",
-      "category": "Security News",
-      "section": "breach",
-      "tags": [
-        "Threat",
-        "Breach",
-        "IGA"
-      ],
-      "published": "2026-08-17T20:18:35+00:00",
-      "vector": null,
-      "severity": "high"
-    },
-    {
-      "id": "26d7db41bc0a",
-      "title": "Philips and GE investigating Clop ransomware data theft claims",
-      "url": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
-      "summary": "Tech giants General Electric (GE) and Philips have also confirmed they're investigating claims that the Clop ransomware gang breached their systems and stole data. [...]",
-      "source": "BleepingComputer",
-      "category": "Vendor",
-      "section": "vendor",
-      "tags": [
-        "IGA",
-        "Threat"
-      ],
-      "published": "2026-08-17T11:25:02+00:00"
-    },
     {
       "id": "bda5a6b9b215",
       "title": "RISE with SAP and the SAP IDM Sunset: Two Deadlines, One Identity Strategy",
@@ -48,26 +17,13 @@
     }
   ],
   "tag_index": {
-    "Threat": [
-      "fb1787496b51",
-      "26d7db41bc0a"
-    ],
-    "Breach": [
-      "fb1787496b51"
-    ],
     "IGA": [
-      "fb1787496b51",
-      "26d7db41bc0a",
       "bda5a6b9b215"
     ]
   },
   "category_index": {
     "Security News": [
-      "fb1787496b51",
       "bda5a6b9b215"
-    ],
-    "Vendor": [
-      "26d7db41bc0a"
     ]
   }
 }
