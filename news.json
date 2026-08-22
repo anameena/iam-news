@@ -1,29 +1,7 @@
 {
-  "generated": "2026-08-21T06:29:28.767024+00:00",
-  "total": 1,
-  "items": [
-    {
-      "id": "bda5a6b9b215",
-      "title": "RISE with SAP and the SAP IDM Sunset: Two Deadlines, One Identity Strategy",
-      "url": "https://www.infosecurity-magazine.com/blogs/rise-with-sap-idm-sunset-identity/",
-      "summary": "As SAP Identity Management approaches end of life and organizations transition to RISE with SAP, identity governance becomes a critical parallel initiative. This article explores key risks, migration strategies, and planning considerations, helping organizati…",
-      "source": "Infosecurity Magazine",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "IGA"
-      ],
-      "published": "2026-08-14T09:00:00+00:00"
-    }
-  ],
-  "tag_index": {
-    "IGA": [
-      "bda5a6b9b215"
-    ]
-  },
-  "category_index": {
-    "Security News": [
-      "bda5a6b9b215"
-    ]
-  }
+  "generated": "2026-08-22T06:22:24.213210+00:00",
+  "total": 0,
+  "items": [],
+  "tag_index": {},
+  "category_index": {}
 }
