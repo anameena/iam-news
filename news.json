@@ -1,7 +1,33 @@
 {
-  "generated": "2026-08-22T06:22:24.213210+00:00",
-  "total": 0,
-  "items": [],
-  "tag_index": {},
-  "category_index": {}
+  "generated": "2026-08-23T06:24:07.134952+00:00",
+  "total": 1,
+  "items": [
+    {
+      "id": "130033d2af99",
+      "title": "Critical Microsoft Entra ID vulnerability exploited in the wild (CVE-2026-69836)",
+      "url": "https://www.helpnetsecurity.com/2026/08/21/microsoft-entra-id-vulnerability-cve-2026-69836/",
+      "summary": "Microsoft has patched a critical remote code execution vulnerability (CVE-2026-69836) in Entra ID, reportedly exploited in the wild. Entra ID is Microsoft’s cloud identity service, formerly Azure Active Directory, that verifies logins and controls access to M…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "Vendor News",
+        "Vulnerability"
+      ],
+      "published": "2026-08-21T12:20:33+00:00"
+    }
+  ],
+  "tag_index": {
+    "Vendor News": [
+      "130033d2af99"
+    ],
+    "Vulnerability": [
+      "130033d2af99"
+    ]
+  },
+  "category_index": {
+    "Security News": [
+      "130033d2af99"
+    ]
+  }
 }
