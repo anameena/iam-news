@@ -1,54 +1,7 @@
 {
-  "generated": "2026-08-26T06:31:12.610816+00:00",
-  "total": 2,
-  "items": [
-    {
-      "id": "86efb41a86ac",
-      "title": "Alabama launches investigation into OpenAI's hack of Hugging Face | TechCrunch",
-      "url": "https://techcrunch.com/2026/08/24/alabama-launches-investigation-into-openais-hack-of-hugging-face/",
-      "summary": "Weeks after OpenAI disclosed that one of its cybersecurity models had gone rogue and hacked AI dataset company Hugging Face, Alabama’s Attorney General announced an investigation into the incident.",
-      "source": "TechCrunch",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "IGA",
-        "Threat"
-      ],
-      "published": "2026-08-24T19:59:10+00:00"
-    },
-    {
-      "id": "130033d2af99",
-      "title": "Critical Microsoft Entra ID vulnerability exploited in the wild (CVE-2026-69836)",
-      "url": "https://www.helpnetsecurity.com/2026/08/21/microsoft-entra-id-vulnerability-cve-2026-69836/",
-      "summary": "Microsoft has patched a critical remote code execution vulnerability (CVE-2026-69836) in Entra ID, reportedly exploited in the wild. Entra ID is Microsoft’s cloud identity service, formerly Azure Active Directory, that verifies logins and controls access to M…",
-      "source": "Help Net Security",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "Vendor News",
-        "Vulnerability"
-      ],
-      "published": "2026-08-21T12:20:33+00:00"
-    }
-  ],
-  "tag_index": {
-    "IGA": [
-      "86efb41a86ac"
-    ],
-    "Threat": [
-      "86efb41a86ac"
-    ],
-    "Vendor News": [
-      "130033d2af99"
-    ],
-    "Vulnerability": [
-      "130033d2af99"
-    ]
-  },
-  "category_index": {
-    "Security News": [
-      "86efb41a86ac",
-      "130033d2af99"
-    ]
-  }
+  "generated": "2026-08-27T17:06:39.891203+00:00",
+  "total": 0,
+  "items": [],
+  "tag_index": {},
+  "category_index": {}
 }
