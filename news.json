@@ -1,29 +1,7 @@
 {
-  "generated": "2026-09-04T10:10:47.327421+00:00",
-  "total": 1,
-  "items": [
-    {
-      "id": "d8feb3e608ee",
-      "title": "Key Reasons Why Identity Fabric Matters in 2026",
-      "url": "https://thehackernews.com/2026/08/key-reasons-why-identity-fabric-matters.html",
-      "summary": "An Identity Fabric knits fragmented identity systems into a coherent layer that observes how identities behave across applications, APIs, and infrastructure. As enterprise access spans more cloud services and automated workloads, identity security depends les…",
-      "source": "Internet",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "General IAM"
-      ],
-      "published": "2026-08-28T11:30:00+00:00"
-    }
-  ],
-  "tag_index": {
-    "General IAM": [
-      "d8feb3e608ee"
-    ]
-  },
-  "category_index": {
-    "Security News": [
-      "d8feb3e608ee"
-    ]
-  }
+  "generated": "2026-09-05T09:39:55.539344+00:00",
+  "total": 0,
+  "items": [],
+  "tag_index": {},
+  "category_index": {}
 }
