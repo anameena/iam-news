@@ -1,33 +1,7 @@
 {
-  "generated": "2026-09-10T10:16:16.131583+00:00",
-  "total": 1,
-  "items": [
-    {
-      "id": "853587f8485b",
-      "title": "39 New Methods That Compromise Passkey Authentication",
-      "url": "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/",
-      "summary": "Passkeys eliminate many password-based attacks, but researchers have documented 39 methods for compromising authentication built around them. Token explains how attackers can abuse authentication prompts, synced credentials, enrollment, recovery, and other tr…",
-      "source": "BleepingComputer",
-      "category": "Vendor",
-      "section": "vendor",
-      "tags": [
-        "Authentication",
-        "Threat"
-      ],
-      "published": "2026-09-04T14:01:11+00:00"
-    }
-  ],
-  "tag_index": {
-    "Authentication": [
-      "853587f8485b"
-    ],
-    "Threat": [
-      "853587f8485b"
-    ]
-  },
-  "category_index": {
-    "Vendor": [
-      "853587f8485b"
-    ]
-  }
+  "generated": "2026-09-11T10:14:39.880431+00:00",
+  "total": 0,
+  "items": [],
+  "tag_index": {},
+  "category_index": {}
 }
