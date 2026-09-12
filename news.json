@@ -1,7 +1,33 @@
 {
-  "generated": "2026-09-11T10:14:39.880431+00:00",
-  "total": 0,
-  "items": [],
-  "tag_index": {},
-  "category_index": {}
+  "generated": "2026-09-12T09:48:38.027068+00:00",
+  "total": 1,
+  "items": [
+    {
+      "id": "e469254c92d4",
+      "title": "Automox Mitigation Worklets cut endpoint exposure to unpatchable flaws",
+      "url": "https://www.helpnetsecurity.com/2026/09/11/automox-mitigation-worklet-pipeline/",
+      "summary": "Automox has announced its AI-speed Mitigation Worklet Pipeline, which automates mitigation to reduce risk from the increased volume and velocity of frontier-model AI vulnerabilities. Now the time from vulnerability disclosure to exposure mitigation is shorten…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "IGA",
+        "Vulnerability"
+      ],
+      "published": "2026-09-11T07:48:56+00:00"
+    }
+  ],
+  "tag_index": {
+    "IGA": [
+      "e469254c92d4"
+    ],
+    "Vulnerability": [
+      "e469254c92d4"
+    ]
+  },
+  "category_index": {
+    "Security News": [
+      "e469254c92d4"
+    ]
+  }
 }
