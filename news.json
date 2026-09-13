@@ -1,7 +1,21 @@
 {
-  "generated": "2026-09-12T09:48:38.027068+00:00",
-  "total": 1,
+  "generated": "2026-09-13T10:48:43.649643+00:00",
+  "total": 2,
   "items": [
+    {
+      "id": "f841ed74cfcb",
+      "title": "Passkey-themed phishing attacks lead to Microsoft 365 data theft",
+      "url": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
+      "summary": "Microsoft says threat actors linked to ShinyHunters, Helix, and other extortion gangs are using passkey and single sign-on-themed social engineering attacks to compromise corporate Microsoft accounts and steal data from Microsoft 365 services. [...]",
+      "source": "BleepingComputer",
+      "category": "Vendor",
+      "section": "vendor",
+      "tags": [
+        "Authentication",
+        "Threat"
+      ],
+      "published": "2026-09-11T17:26:50+00:00"
+    },
     {
       "id": "e469254c92d4",
       "title": "Automox Mitigation Worklets cut endpoint exposure to unpatchable flaws",
@@ -18,6 +32,12 @@
     }
   ],
   "tag_index": {
+    "Authentication": [
+      "f841ed74cfcb"
+    ],
+    "Threat": [
+      "f841ed74cfcb"
+    ],
     "IGA": [
       "e469254c92d4"
     ],
@@ -26,6 +46,9 @@
     ]
   },
   "category_index": {
+    "Vendor": [
+      "f841ed74cfcb"
+    ],
     "Security News": [
       "e469254c92d4"
     ]
