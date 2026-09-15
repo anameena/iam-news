@@ -1,7 +1,20 @@
 {
-  "generated": "2026-09-14T11:16:03.266840+00:00",
-  "total": 3,
+  "generated": "2026-09-15T10:42:05.278641+00:00",
+  "total": 4,
   "items": [
+    {
+      "id": "be64f82f443b",
+      "title": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users",
+      "url": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html",
+      "summary": "A malicious cross-store Twitch browser extension has leaked OAuth tokens associated with nearly 31,000 users to proxy servers operated by a Russian commercial bot service. The extension, named \"Twitch Enhanced Viewer | JeetBot,\" lists HISHIMIRO/jeetbot.cc as…",
+      "source": "Internet",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Standards & Protocols"
+      ],
+      "published": "2026-09-14T07:24:39+00:00"
+    },
     {
       "id": "a0ee3c4be7d4",
       "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
@@ -46,6 +59,9 @@
     }
   ],
   "tag_index": {
+    "Standards & Protocols": [
+      "be64f82f443b"
+    ],
     "Authentication": [
       "a0ee3c4be7d4",
       "f841ed74cfcb"
@@ -63,6 +79,7 @@
   },
   "category_index": {
     "Security News": [
+      "be64f82f443b",
       "a0ee3c4be7d4",
       "e469254c92d4"
     ],
