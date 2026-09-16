@@ -1,19 +1,32 @@
 {
-  "generated": "2026-09-15T10:42:05.278641+00:00",
+  "generated": "2026-09-16T10:30:51.766614+00:00",
   "total": 4,
   "items": [
     {
-      "id": "be64f82f443b",
-      "title": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users",
-      "url": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html",
-      "summary": "A malicious cross-store Twitch browser extension has leaked OAuth tokens associated with nearly 31,000 users to proxy servers operated by a Russian commercial bot service. The extension, named \"Twitch Enhanced Viewer | JeetBot,\" lists HISHIMIRO/jeetbot.cc as…",
-      "source": "Internet",
+      "id": "f2774472f49b",
+      "title": "Product showcase: mSecure makes one vault do more than remember passwords",
+      "url": "https://www.helpnetsecurity.com/2026/09/15/product-showcase-msecure-password-manager/",
+      "summary": "mSecure is a password manager and data vault for storing credentials and other sensitive information. It is available for iOS, Android, macOS, and Windows, with data synchronization across supported devices. The app uses AES-256 encryption and a zero-knowledg…",
+      "source": "Help Net Security",
       "category": "Security News",
       "section": "news",
       "tags": [
+        "General IAM"
+      ],
+      "published": "2026-09-15T05:30:02+00:00"
+    },
+    {
+      "id": "8da846b0f874",
+      "title": "Twitch extension with 30K installs exposes users’ OAuth tokens",
+      "url": "https://www.bleepingcomputer.com/news/security/twitch-extension-with-30k-installs-exposes-users-oauth-tokens/",
+      "summary": "A browser extension called Twitch Enhanced Viewer | JeetBot, available in the official Chrome and Firefox stores, sends users' Twitch OAuth session tokens to a commercial bot service. [...]",
+      "source": "BleepingComputer",
+      "category": "Vendor",
+      "section": "vendor",
+      "tags": [
         "Standards & Protocols"
       ],
-      "published": "2026-09-14T07:24:39+00:00"
+      "published": "2026-09-14T19:03:51+00:00"
     },
     {
       "id": "a0ee3c4be7d4",
@@ -42,25 +55,14 @@
         "Threat"
       ],
       "published": "2026-09-11T17:26:50+00:00"
-    },
-    {
-      "id": "e469254c92d4",
-      "title": "Automox Mitigation Worklets cut endpoint exposure to unpatchable flaws",
-      "url": "https://www.helpnetsecurity.com/2026/09/11/automox-mitigation-worklet-pipeline/",
-      "summary": "Automox has announced its AI-speed Mitigation Worklet Pipeline, which automates mitigation to reduce risk from the increased volume and velocity of frontier-model AI vulnerabilities. Now the time from vulnerability disclosure to exposure mitigation is shorten…",
-      "source": "Help Net Security",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "IGA",
-        "Vulnerability"
-      ],
-      "published": "2026-09-11T07:48:56+00:00"
     }
   ],
   "tag_index": {
+    "General IAM": [
+      "f2774472f49b"
+    ],
     "Standards & Protocols": [
-      "be64f82f443b"
+      "8da846b0f874"
     ],
     "Authentication": [
       "a0ee3c4be7d4",
@@ -69,21 +71,15 @@
     "Threat": [
       "a0ee3c4be7d4",
       "f841ed74cfcb"
-    ],
-    "IGA": [
-      "e469254c92d4"
-    ],
-    "Vulnerability": [
-      "e469254c92d4"
     ]
   },
   "category_index": {
     "Security News": [
-      "be64f82f443b",
-      "a0ee3c4be7d4",
-      "e469254c92d4"
+      "f2774472f49b",
+      "a0ee3c4be7d4"
     ],
     "Vendor": [
+      "8da846b0f874",
       "f841ed74cfcb"
     ]
   }
