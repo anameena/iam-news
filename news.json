@@ -1,7 +1,23 @@
 {
-  "generated": "2026-09-16T10:30:51.766614+00:00",
-  "total": 4,
+  "generated": "2026-09-17T10:40:13.297226+00:00",
+  "total": 3,
   "items": [
+    {
+      "id": "05fc53f07140",
+      "title": "Siemens Mendix SAML",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-06",
+      "summary": "View CSAF Summary Mendix SAML module contains a vulnerability that could allow unauthenticated remote attackers to hijack an account in specific SSO configurations. Mendix has provided fix releases for the Mendix SAML module and recommends to update to the la…",
+      "source": "Cisa.gov",
+      "category": "Government",
+      "section": "news",
+      "tags": [
+        "Authentication",
+        "Threat",
+        "Standards & Protocols",
+        "Vulnerability"
+      ],
+      "published": "2026-09-15T12:00:00+00:00"
+    },
     {
       "id": "f2774472f49b",
       "title": "Product showcase: mSecure makes one vault do more than remember passwords",
@@ -16,19 +32,6 @@
       "published": "2026-09-15T05:30:02+00:00"
     },
     {
-      "id": "8da846b0f874",
-      "title": "Twitch extension with 30K installs exposes users’ OAuth tokens",
-      "url": "https://www.bleepingcomputer.com/news/security/twitch-extension-with-30k-installs-exposes-users-oauth-tokens/",
-      "summary": "A browser extension called Twitch Enhanced Viewer | JeetBot, available in the official Chrome and Firefox stores, sends users' Twitch OAuth session tokens to a commercial bot service. [...]",
-      "source": "BleepingComputer",
-      "category": "Vendor",
-      "section": "vendor",
-      "tags": [
-        "Standards & Protocols"
-      ],
-      "published": "2026-09-14T19:03:51+00:00"
-    },
-    {
       "id": "a0ee3c4be7d4",
       "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
       "url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
@@ -41,46 +44,34 @@
         "Threat"
       ],
       "published": "2026-09-13T10:11:48+00:00"
-    },
-    {
-      "id": "f841ed74cfcb",
-      "title": "Passkey-themed phishing attacks lead to Microsoft 365 data theft",
-      "url": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
-      "summary": "Microsoft says threat actors linked to ShinyHunters, Helix, and other extortion gangs are using passkey and single sign-on-themed social engineering attacks to compromise corporate Microsoft accounts and steal data from Microsoft 365 services. [...]",
-      "source": "BleepingComputer",
-      "category": "Vendor",
-      "section": "vendor",
-      "tags": [
-        "Authentication",
-        "Threat"
-      ],
-      "published": "2026-09-11T17:26:50+00:00"
     }
   ],
   "tag_index": {
-    "General IAM": [
-      "f2774472f49b"
-    ],
-    "Standards & Protocols": [
-      "8da846b0f874"
-    ],
     "Authentication": [
-      "a0ee3c4be7d4",
-      "f841ed74cfcb"
+      "05fc53f07140",
+      "a0ee3c4be7d4"
     ],
     "Threat": [
-      "a0ee3c4be7d4",
-      "f841ed74cfcb"
+      "05fc53f07140",
+      "a0ee3c4be7d4"
+    ],
+    "Standards & Protocols": [
+      "05fc53f07140"
+    ],
+    "Vulnerability": [
+      "05fc53f07140"
+    ],
+    "General IAM": [
+      "f2774472f49b"
     ]
   },
   "category_index": {
+    "Government": [
+      "05fc53f07140"
+    ],
     "Security News": [
       "f2774472f49b",
       "a0ee3c4be7d4"
-    ],
-    "Vendor": [
-      "8da846b0f874",
-      "f841ed74cfcb"
     ]
   }
 }
