@@ -1,23 +1,7 @@
 {
-  "generated": "2026-09-17T10:40:13.297226+00:00",
-  "total": 3,
+  "generated": "2026-09-18T10:15:46.014045+00:00",
+  "total": 2,
   "items": [
-    {
-      "id": "05fc53f07140",
-      "title": "Siemens Mendix SAML",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-06",
-      "summary": "View CSAF Summary Mendix SAML module contains a vulnerability that could allow unauthenticated remote attackers to hijack an account in specific SSO configurations. Mendix has provided fix releases for the Mendix SAML module and recommends to update to the la…",
-      "source": "Cisa.gov",
-      "category": "Government",
-      "section": "news",
-      "tags": [
-        "Authentication",
-        "Threat",
-        "Standards & Protocols",
-        "Vulnerability"
-      ],
-      "published": "2026-09-15T12:00:00+00:00"
-    },
     {
       "id": "f2774472f49b",
       "title": "Product showcase: mSecure makes one vault do more than remember passwords",
@@ -47,28 +31,17 @@
     }
   ],
   "tag_index": {
+    "General IAM": [
+      "f2774472f49b"
+    ],
     "Authentication": [
-      "05fc53f07140",
       "a0ee3c4be7d4"
     ],
     "Threat": [
-      "05fc53f07140",
       "a0ee3c4be7d4"
-    ],
-    "Standards & Protocols": [
-      "05fc53f07140"
-    ],
-    "Vulnerability": [
-      "05fc53f07140"
-    ],
-    "General IAM": [
-      "f2774472f49b"
     ]
   },
   "category_index": {
-    "Government": [
-      "05fc53f07140"
-    ],
     "Security News": [
       "f2774472f49b",
       "a0ee3c4be7d4"
