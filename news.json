@@ -1,7 +1,24 @@
 {
-  "generated": "2026-09-18T10:15:46.014045+00:00",
-  "total": 2,
+  "generated": "2026-09-19T09:58:02.951823+00:00",
+  "total": 3,
   "items": [
+    {
+      "id": "5a1c0a13c5fa",
+      "title": "What Recent AI-Powered Attacks Mean for Your Identity Security",
+      "url": "https://www.bleepingcomputer.com/news/security/what-recent-ai-powered-attacks-mean-for-your-identity-security/",
+      "summary": "AI is making credential theft faster and easier to scale, giving attackers more opportunities to abuse valid identities. Specops explains why identity security must go beyond successful authentication by verifying that both the user and the device requesting …",
+      "source": "BleepingComputer",
+      "category": "Vendor",
+      "section": "breach",
+      "tags": [
+        "Threat",
+        "Authentication",
+        "Breach"
+      ],
+      "published": "2026-09-17T14:01:11+00:00",
+      "vector": "Stolen Credentials",
+      "severity": "medium"
+    },
     {
       "id": "f2774472f49b",
       "title": "Product showcase: mSecure makes one vault do more than remember passwords",
@@ -31,17 +48,25 @@
     }
   ],
   "tag_index": {
-    "General IAM": [
-      "f2774472f49b"
+    "Threat": [
+      "5a1c0a13c5fa",
+      "a0ee3c4be7d4"
     ],
     "Authentication": [
+      "5a1c0a13c5fa",
       "a0ee3c4be7d4"
     ],
-    "Threat": [
-      "a0ee3c4be7d4"
+    "Breach": [
+      "5a1c0a13c5fa"
+    ],
+    "General IAM": [
+      "f2774472f49b"
     ]
   },
   "category_index": {
+    "Vendor": [
+      "5a1c0a13c5fa"
+    ],
     "Security News": [
       "f2774472f49b",
       "a0ee3c4be7d4"
