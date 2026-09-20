@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-19T09:58:02.951823+00:00",
+  "generated": "2026-09-20T10:18:28.858936+00:00",
   "total": 3,
   "items": [
     {
@@ -11,8 +11,8 @@
       "category": "Vendor",
       "section": "breach",
       "tags": [
-        "Threat",
         "Authentication",
+        "Threat",
         "Breach"
       ],
       "published": "2026-09-17T14:01:11+00:00",
@@ -48,11 +48,11 @@
     }
   ],
   "tag_index": {
-    "Threat": [
+    "Authentication": [
       "5a1c0a13c5fa",
       "a0ee3c4be7d4"
     ],
-    "Authentication": [
+    "Threat": [
       "5a1c0a13c5fa",
       "a0ee3c4be7d4"
     ],
