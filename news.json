@@ -1,7 +1,21 @@
 {
-  "generated": "2026-09-20T10:18:28.858936+00:00",
+  "generated": "2026-09-21T11:28:15.844061+00:00",
   "total": 3,
   "items": [
+    {
+      "id": "e581b7491109",
+      "title": "Identity Visibility in 2026: The Foundation of Identity Security",
+      "url": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
+      "summary": "Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research, including Verizon's annual Data Breach Investigations Report. This a…",
+      "source": "Internet",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "IGA",
+        "Threat"
+      ],
+      "published": "2026-09-19T13:28:41+00:00"
+    },
     {
       "id": "5a1c0a13c5fa",
       "title": "What Recent AI-Powered Attacks Mean for Your Identity Security",
@@ -11,9 +25,9 @@
       "category": "Vendor",
       "section": "breach",
       "tags": [
-        "Authentication",
         "Threat",
-        "Breach"
+        "Breach",
+        "Authentication"
       ],
       "published": "2026-09-17T14:01:11+00:00",
       "vector": "Stolen Credentials",
@@ -31,32 +45,20 @@
         "General IAM"
       ],
       "published": "2026-09-15T05:30:02+00:00"
-    },
-    {
-      "id": "a0ee3c4be7d4",
-      "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
-      "url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
-      "summary": "Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using passkey-themed social engineering to breach cloud environments. The first campaign,…",
-      "source": "Internet",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Authentication",
-        "Threat"
-      ],
-      "published": "2026-09-13T10:11:48+00:00"
     }
   ],
   "tag_index": {
-    "Authentication": [
-      "5a1c0a13c5fa",
-      "a0ee3c4be7d4"
+    "IGA": [
+      "e581b7491109"
     ],
     "Threat": [
-      "5a1c0a13c5fa",
-      "a0ee3c4be7d4"
+      "e581b7491109",
+      "5a1c0a13c5fa"
     ],
     "Breach": [
+      "5a1c0a13c5fa"
+    ],
+    "Authentication": [
       "5a1c0a13c5fa"
     ],
     "General IAM": [
@@ -64,12 +66,12 @@
     ]
   },
   "category_index": {
+    "Security News": [
+      "e581b7491109",
+      "f2774472f49b"
+    ],
     "Vendor": [
       "5a1c0a13c5fa"
-    ],
-    "Security News": [
-      "f2774472f49b",
-      "a0ee3c4be7d4"
     ]
   }
 }
