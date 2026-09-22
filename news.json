@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21T11:28:15.844061+00:00",
+  "generated": "2026-09-22T10:35:57.996299+00:00",
   "total": 3,
   "items": [
     {
@@ -26,8 +26,8 @@
       "section": "breach",
       "tags": [
         "Threat",
-        "Breach",
-        "Authentication"
+        "Authentication",
+        "Breach"
       ],
       "published": "2026-09-17T14:01:11+00:00",
       "vector": "Stolen Credentials",
@@ -55,10 +55,10 @@
       "e581b7491109",
       "5a1c0a13c5fa"
     ],
-    "Breach": [
+    "Authentication": [
       "5a1c0a13c5fa"
     ],
-    "Authentication": [
+    "Breach": [
       "5a1c0a13c5fa"
     ],
     "General IAM": [
