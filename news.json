@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-24T10:45:48.373789+00:00",
-  "total": 3,
+  "generated": "2026-09-25T10:50:36.814146+00:00",
+  "total": 2,
   "items": [
     {
       "id": "3ac08a37252e",
@@ -31,34 +31,15 @@
         "Threat"
       ],
       "published": "2026-09-19T13:28:41+00:00"
-    },
-    {
-      "id": "5a1c0a13c5fa",
-      "title": "What Recent AI-Powered Attacks Mean for Your Identity Security",
-      "url": "https://www.bleepingcomputer.com/news/security/what-recent-ai-powered-attacks-mean-for-your-identity-security/",
-      "summary": "AI is making credential theft faster and easier to scale, giving attackers more opportunities to abuse valid identities. Specops explains why identity security must go beyond successful authentication by verifying that both the user and the device requesting …",
-      "source": "BleepingComputer",
-      "category": "Vendor",
-      "section": "breach",
-      "tags": [
-        "Breach",
-        "Authentication",
-        "Threat"
-      ],
-      "published": "2026-09-17T14:01:11+00:00",
-      "vector": "Stolen Credentials",
-      "severity": "medium"
     }
   ],
   "tag_index": {
     "Authentication": [
-      "3ac08a37252e",
-      "5a1c0a13c5fa"
+      "3ac08a37252e"
     ],
     "Threat": [
       "3ac08a37252e",
-      "e581b7491109",
-      "5a1c0a13c5fa"
+      "e581b7491109"
     ],
     "Standards & Protocols": [
       "3ac08a37252e"
@@ -68,18 +49,12 @@
     ],
     "IGA": [
       "e581b7491109"
-    ],
-    "Breach": [
-      "5a1c0a13c5fa"
     ]
   },
   "category_index": {
     "Security News": [
       "3ac08a37252e",
       "e581b7491109"
-    ],
-    "Vendor": [
-      "5a1c0a13c5fa"
     ]
   }
 }
