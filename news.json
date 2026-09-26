@@ -1,23 +1,7 @@
 {
-  "generated": "2026-09-25T10:50:36.814146+00:00",
-  "total": 2,
+  "generated": "2026-09-26T10:31:24.293301+00:00",
+  "total": 1,
   "items": [
-    {
-      "id": "3ac08a37252e",
-      "title": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers",
-      "url": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
-      "summary": "Attackers are exploiting a critical flaw in F5 BIG-IP Access Policy Manager (APM) that lets them run code on a BIG-IP system without logging in, F5 says. The flaw, CVE-2026-94127, affects only systems in which APM serves as an OAuth authorization server, iss…",
-      "source": "Internet",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Authentication",
-        "Threat",
-        "Standards & Protocols",
-        "Vulnerability"
-      ],
-      "published": "2026-09-23T08:29:48+00:00"
-    },
     {
       "id": "e581b7491109",
       "title": "Identity Visibility in 2026: The Foundation of Identity Security",
@@ -34,26 +18,15 @@
     }
   ],
   "tag_index": {
-    "Authentication": [
-      "3ac08a37252e"
-    ],
-    "Threat": [
-      "3ac08a37252e",
+    "IGA": [
       "e581b7491109"
     ],
-    "Standards & Protocols": [
-      "3ac08a37252e"
-    ],
-    "Vulnerability": [
-      "3ac08a37252e"
-    ],
-    "IGA": [
+    "Threat": [
       "e581b7491109"
     ]
   },
   "category_index": {
     "Security News": [
-      "3ac08a37252e",
       "e581b7491109"
     ]
   }
