@@ -1,21 +1,7 @@
 {
-  "generated": "2026-09-30T11:35:46.039820+00:00",
-  "total": 3,
+  "generated": "2026-10-01T12:04:49.463470+00:00",
+  "total": 2,
   "items": [
-    {
-      "id": "3b17e336a567",
-      "title": "Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation",
-      "url": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
-      "summary": "Dutch authorities have confirmed that they arrested a 24-year-old man from Amsterdam in connection with the ShinyHunters group. \"It is true that this month a 24-year-old man from Amsterdam was arrested in an investigation into the hacker group ShinyHunters,\"…",
-      "source": "Internet",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "IGA",
-        "Threat"
-      ],
-      "published": "2026-09-29T08:35:10+00:00"
-    },
     {
       "id": "7a8f58b5339c",
       "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
@@ -45,21 +31,18 @@
     }
   ],
   "tag_index": {
+    "Standards & Protocols": [
+      "7a8f58b5339c"
+    ],
     "IGA": [
-      "3b17e336a567",
       "8f80729c18e8"
     ],
     "Threat": [
-      "3b17e336a567",
       "8f80729c18e8"
-    ],
-    "Standards & Protocols": [
-      "7a8f58b5339c"
     ]
   },
   "category_index": {
     "Security News": [
-      "3b17e336a567",
       "7a8f58b5339c"
     ],
     "Vendor": [
