@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-01T12:04:49.463470+00:00",
-  "total": 2,
+  "generated": "2026-10-02T11:35:44.088058+00:00",
+  "total": 1,
   "items": [
     {
       "id": "7a8f58b5339c",
@@ -14,39 +14,16 @@
         "Standards & Protocols"
       ],
       "published": "2026-09-29T06:08:25+00:00"
-    },
-    {
-      "id": "8f80729c18e8",
-      "title": "Dutch police confirm arrest in ShinyHunters hacking investigation",
-      "url": "https://www.bleepingcomputer.com/news/security/dutch-police-confirm-arrest-in-shinyhunters-hacking-investigation/",
-      "summary": "Dutch police have confirmed that a 24-year-old Amsterdam man arrested earlier this month was detained as part of an investigation into the ShinyHunters hacking group. [...]",
-      "source": "BleepingComputer",
-      "category": "Vendor",
-      "section": "vendor",
-      "tags": [
-        "IGA",
-        "Threat"
-      ],
-      "published": "2026-09-28T19:49:10+00:00"
     }
   ],
   "tag_index": {
     "Standards & Protocols": [
       "7a8f58b5339c"
-    ],
-    "IGA": [
-      "8f80729c18e8"
-    ],
-    "Threat": [
-      "8f80729c18e8"
     ]
   },
   "category_index": {
     "Security News": [
       "7a8f58b5339c"
-    ],
-    "Vendor": [
-      "8f80729c18e8"
     ]
   }
 }
