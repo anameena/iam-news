@@ -1,7 +1,23 @@
 {
-  "generated": "2026-10-05T13:03:17.133852+00:00",
-  "total": 1,
+  "generated": "2026-10-06T12:26:28.867124+00:00",
+  "total": 2,
   "items": [
+    {
+      "id": "62bc590f7ad7",
+      "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
+      "summary": "Citrix has released emergency updates for a new NetScaler denial-of-service vulnerability tracked as CVE-2026-88779 that has been exploited in zero-day attacks, with researchers investigating whether it can also be exploited for remote code execution. [...]",
+      "source": "BleepingComputer",
+      "category": "Vendor",
+      "section": "vendor",
+      "tags": [
+        "IGA",
+        "Threat",
+        "Standards & Protocols",
+        "Vulnerability"
+      ],
+      "published": "2026-10-04T21:58:01+00:00"
+    },
     {
       "id": "7a8f58b5339c",
       "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
@@ -17,11 +33,24 @@
     }
   ],
   "tag_index": {
+    "IGA": [
+      "62bc590f7ad7"
+    ],
+    "Threat": [
+      "62bc590f7ad7"
+    ],
     "Standards & Protocols": [
+      "62bc590f7ad7",
       "7a8f58b5339c"
+    ],
+    "Vulnerability": [
+      "62bc590f7ad7"
     ]
   },
   "category_index": {
+    "Vendor": [
+      "62bc590f7ad7"
+    ],
     "Security News": [
       "7a8f58b5339c"
     ]
