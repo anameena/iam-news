@@ -1,58 +1,58 @@
 {
-  "generated": "2026-10-06T12:26:28.867124+00:00",
+  "generated": "2026-10-07T12:19:41.125084+00:00",
   "total": 2,
   "items": [
     {
-      "id": "62bc590f7ad7",
-      "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
-      "summary": "Citrix has released emergency updates for a new NetScaler denial-of-service vulnerability tracked as CVE-2026-88779 that has been exploited in zero-day attacks, with researchers investigating whether it can also be exploited for remote code execution. [...]",
+      "id": "ae9376e923bb",
+      "title": "Police Urge Passkey Use After Surge in Cybercrime Profits",
+      "url": "https://www.infosecurity-magazine.com/news/police-urge-passkey-surge/",
+      "summary": "Report Fraud says cybercrime revenue stemming from account takeover increased 417% annually",
+      "source": "Infosecurity Magazine",
+      "category": "Security News",
+      "section": "breach",
+      "tags": [
+        "Breach",
+        "Threat",
+        "Authentication"
+      ],
+      "published": "2026-10-06T09:15:00+00:00",
+      "vector": null,
+      "severity": "medium"
+    },
+    {
+      "id": "d11904f869d2",
+      "title": "tenfold CE: Our free Identity Governance tool just got 2 new features",
+      "url": "https://www.bleepingcomputer.com/news/security/tenfold-ce-our-free-identity-governance-tool-just-got-2-new-features/",
+      "summary": "tenfold has added shared content governance and real-time event auditing to its free Community Edition for organizations with under 150 users. The new features help teams manage Microsoft 365 sharing and investigate suspicious identity activity. [...]",
       "source": "BleepingComputer",
       "category": "Vendor",
       "section": "vendor",
       "tags": [
-        "IGA",
-        "Threat",
-        "Standards & Protocols",
-        "Vulnerability"
+        "IGA"
       ],
-      "published": "2026-10-04T21:58:01+00:00"
-    },
-    {
-      "id": "7a8f58b5339c",
-      "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
-      "url": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
-      "summary": "A malicious MCP server could trick an application built on the official MCP Python SDK into handing over the OAuth credentials it uses to log in to a real service, the SDK's maintainers said in a security advisory. Affected versions sent the client secret, t…",
-      "source": "Internet",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Standards & Protocols"
-      ],
-      "published": "2026-09-29T06:08:25+00:00"
+      "published": "2026-10-05T13:33:42+00:00"
     }
   ],
   "tag_index": {
-    "IGA": [
-      "62bc590f7ad7"
+    "Breach": [
+      "ae9376e923bb"
     ],
     "Threat": [
-      "62bc590f7ad7"
+      "ae9376e923bb"
     ],
-    "Standards & Protocols": [
-      "62bc590f7ad7",
-      "7a8f58b5339c"
+    "Authentication": [
+      "ae9376e923bb"
     ],
-    "Vulnerability": [
-      "62bc590f7ad7"
+    "IGA": [
+      "d11904f869d2"
     ]
   },
   "category_index": {
-    "Vendor": [
-      "62bc590f7ad7"
-    ],
     "Security News": [
-      "7a8f58b5339c"
+      "ae9376e923bb"
+    ],
+    "Vendor": [
+      "d11904f869d2"
     ]
   }
 }
