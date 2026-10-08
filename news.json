@@ -1,7 +1,22 @@
 {
-  "generated": "2026-10-07T12:19:41.125084+00:00",
-  "total": 2,
+  "generated": "2026-10-08T12:29:04.799125+00:00",
+  "total": 3,
   "items": [
+    {
+      "id": "e2ebb20fea2e",
+      "title": "SailPoint adds AI agent discovery, temporary access and compliance automation",
+      "url": "https://www.helpnetsecurity.com/2026/10/06/sailpoint-agentic-fabric-innovation/",
+      "summary": "SailPoint has announced significant new capabilities across SailPoint Agentic Fabric (SAF) and SailPoint Human Fabric (SHF), the two purpose-built products of its Identity Security solution, built on SailPoint Atlas. These innovations give enterprises visibil…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "IGA",
+        "AI Identity",
+        "Compliance"
+      ],
+      "published": "2026-10-06T13:16:49+00:00"
+    },
     {
       "id": "ae9376e923bb",
       "title": "Police Urge Passkey Use After Surge in Cybercrime Profits",
@@ -11,9 +26,9 @@
       "category": "Security News",
       "section": "breach",
       "tags": [
-        "Breach",
         "Threat",
-        "Authentication"
+        "Authentication",
+        "Breach"
       ],
       "published": "2026-10-06T09:15:00+00:00",
       "vector": null,
@@ -34,8 +49,15 @@
     }
   ],
   "tag_index": {
-    "Breach": [
-      "ae9376e923bb"
+    "IGA": [
+      "e2ebb20fea2e",
+      "d11904f869d2"
+    ],
+    "AI Identity": [
+      "e2ebb20fea2e"
+    ],
+    "Compliance": [
+      "e2ebb20fea2e"
     ],
     "Threat": [
       "ae9376e923bb"
@@ -43,12 +65,13 @@
     "Authentication": [
       "ae9376e923bb"
     ],
-    "IGA": [
-      "d11904f869d2"
+    "Breach": [
+      "ae9376e923bb"
     ]
   },
   "category_index": {
     "Security News": [
+      "e2ebb20fea2e",
       "ae9376e923bb"
     ],
     "Vendor": [
