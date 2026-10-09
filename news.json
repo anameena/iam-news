@@ -1,7 +1,39 @@
 {
-  "generated": "2026-10-08T12:29:04.799125+00:00",
-  "total": 3,
+  "generated": "2026-10-09T12:18:06.851294+00:00",
+  "total": 5,
   "items": [
+    {
+      "id": "df6cdac68dff",
+      "title": "The people who know passkeys best are still typing passwords",
+      "url": "https://www.helpnetsecurity.com/2026/10/08/passkey-adoption-typing-passwords/",
+      "summary": "Yubico and Okta asked 1,890 technology and security professionals across nine countries how they sign in to work accounts. The most common answer was a username and password, at 43%, from a group in which 87% said they were familiar with passkeys. High famili…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "Authentication",
+        "Vendor News"
+      ],
+      "published": "2026-10-08T04:30:20+00:00"
+    },
+    {
+      "id": "cee1a6735906",
+      "title": "FBI: Ongoing FortiBleed attacks lock out FortiGate VPN admins",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/",
+      "summary": "The FBI is warning that FortiBleed attacks are still ongoing, targeting exposed Fortinet FortiGate firewalls and SSL VPN gateways and locking out legitimate administrators. [...]",
+      "source": "BleepingComputer",
+      "category": "Vendor",
+      "section": "breach",
+      "tags": [
+        "Compliance",
+        "IGA",
+        "Breach",
+        "Threat"
+      ],
+      "published": "2026-10-07T21:28:54+00:00",
+      "vector": null,
+      "severity": "medium"
+    },
     {
       "id": "e2ebb20fea2e",
       "title": "SailPoint adds AI agent discovery, temporary access and compliance automation",
@@ -26,9 +58,9 @@
       "category": "Security News",
       "section": "breach",
       "tags": [
-        "Threat",
         "Authentication",
-        "Breach"
+        "Breach",
+        "Threat"
       ],
       "published": "2026-10-06T09:15:00+00:00",
       "vector": null,
@@ -49,32 +81,42 @@
     }
   ],
   "tag_index": {
+    "Authentication": [
+      "df6cdac68dff",
+      "ae9376e923bb"
+    ],
+    "Vendor News": [
+      "df6cdac68dff"
+    ],
+    "Compliance": [
+      "cee1a6735906",
+      "e2ebb20fea2e"
+    ],
     "IGA": [
+      "cee1a6735906",
       "e2ebb20fea2e",
       "d11904f869d2"
     ],
-    "AI Identity": [
-      "e2ebb20fea2e"
-    ],
-    "Compliance": [
-      "e2ebb20fea2e"
+    "Breach": [
+      "cee1a6735906",
+      "ae9376e923bb"
     ],
     "Threat": [
+      "cee1a6735906",
       "ae9376e923bb"
     ],
-    "Authentication": [
-      "ae9376e923bb"
-    ],
-    "Breach": [
-      "ae9376e923bb"
+    "AI Identity": [
+      "e2ebb20fea2e"
     ]
   },
   "category_index": {
     "Security News": [
+      "df6cdac68dff",
       "e2ebb20fea2e",
       "ae9376e923bb"
     ],
     "Vendor": [
+      "cee1a6735906",
       "d11904f869d2"
     ]
   }
