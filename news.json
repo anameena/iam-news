@@ -1,7 +1,23 @@
 {
-  "generated": "2026-10-09T12:18:06.851294+00:00",
-  "total": 5,
+  "generated": "2026-10-10T11:36:00.820957+00:00",
+  "total": 6,
   "items": [
+    {
+      "id": "60b3df4815c4",
+      "title": "OAuth grants pile up faster than you can review them. Here's how to keep up.",
+      "url": "https://www.bleepingcomputer.com/news/security/oauth-grants-pile-up-faster-than-you-can-review-them-heres-how-to-keep-up/",
+      "summary": "OAuth grants create data highways between SaaS apps, AI agents, and other tools. And, they are multiplying faster than any security team can review them. As the recent Klue breach showed, attackers are taking notice and exploiting forgotten OAuth grants to ga…",
+      "source": "BleepingComputer",
+      "category": "Vendor",
+      "section": "vendor",
+      "tags": [
+        "Threat",
+        "AI Identity",
+        "Standards & Protocols",
+        "Vulnerability"
+      ],
+      "published": "2026-10-08T14:00:10+00:00"
+    },
     {
       "id": "df6cdac68dff",
       "title": "The people who know passkeys best are still typing passwords",
@@ -25,10 +41,10 @@
       "category": "Vendor",
       "section": "breach",
       "tags": [
-        "Compliance",
+        "Threat",
         "IGA",
-        "Breach",
-        "Threat"
+        "Compliance",
+        "Breach"
       ],
       "published": "2026-10-07T21:28:54+00:00",
       "vector": null,
@@ -59,8 +75,8 @@
       "section": "breach",
       "tags": [
         "Authentication",
-        "Breach",
-        "Threat"
+        "Threat",
+        "Breach"
       ],
       "published": "2026-10-06T09:15:00+00:00",
       "vector": null,
@@ -81,6 +97,21 @@
     }
   ],
   "tag_index": {
+    "Threat": [
+      "60b3df4815c4",
+      "cee1a6735906",
+      "ae9376e923bb"
+    ],
+    "AI Identity": [
+      "60b3df4815c4",
+      "e2ebb20fea2e"
+    ],
+    "Standards & Protocols": [
+      "60b3df4815c4"
+    ],
+    "Vulnerability": [
+      "60b3df4815c4"
+    ],
     "Authentication": [
       "df6cdac68dff",
       "ae9376e923bb"
@@ -88,36 +119,30 @@
     "Vendor News": [
       "df6cdac68dff"
     ],
-    "Compliance": [
-      "cee1a6735906",
-      "e2ebb20fea2e"
-    ],
     "IGA": [
       "cee1a6735906",
       "e2ebb20fea2e",
       "d11904f869d2"
     ],
+    "Compliance": [
+      "cee1a6735906",
+      "e2ebb20fea2e"
+    ],
     "Breach": [
       "cee1a6735906",
       "ae9376e923bb"
-    ],
-    "Threat": [
-      "cee1a6735906",
-      "ae9376e923bb"
-    ],
-    "AI Identity": [
-      "e2ebb20fea2e"
     ]
   },
   "category_index": {
+    "Vendor": [
+      "60b3df4815c4",
+      "cee1a6735906",
+      "d11904f869d2"
+    ],
     "Security News": [
       "df6cdac68dff",
       "e2ebb20fea2e",
       "ae9376e923bb"
-    ],
-    "Vendor": [
-      "cee1a6735906",
-      "d11904f869d2"
     ]
   }
 }
