@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-10T11:36:00.820957+00:00",
+  "generated": "2026-10-11T11:49:24.001394+00:00",
   "total": 6,
   "items": [
     {
@@ -41,10 +41,10 @@
       "category": "Vendor",
       "section": "breach",
       "tags": [
-        "Threat",
         "IGA",
-        "Compliance",
-        "Breach"
+        "Threat",
+        "Breach",
+        "Compliance"
       ],
       "published": "2026-10-07T21:28:54+00:00",
       "vector": null,
@@ -124,13 +124,13 @@
       "e2ebb20fea2e",
       "d11904f869d2"
     ],
-    "Compliance": [
-      "cee1a6735906",
-      "e2ebb20fea2e"
-    ],
     "Breach": [
       "cee1a6735906",
       "ae9376e923bb"
+    ],
+    "Compliance": [
+      "cee1a6735906",
+      "e2ebb20fea2e"
     ]
   },
   "category_index": {
