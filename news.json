@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-11T11:49:24.001394+00:00",
+  "generated": "2026-10-12T13:54:52.035957+00:00",
   "total": 6,
   "items": [
     {
@@ -41,9 +41,9 @@
       "category": "Vendor",
       "section": "breach",
       "tags": [
-        "IGA",
         "Threat",
         "Breach",
+        "IGA",
         "Compliance"
       ],
       "published": "2026-10-07T21:28:54+00:00",
@@ -74,8 +74,8 @@
       "category": "Security News",
       "section": "breach",
       "tags": [
-        "Authentication",
         "Threat",
+        "Authentication",
         "Breach"
       ],
       "published": "2026-10-06T09:15:00+00:00",
@@ -119,14 +119,14 @@
     "Vendor News": [
       "df6cdac68dff"
     ],
+    "Breach": [
+      "cee1a6735906",
+      "ae9376e923bb"
+    ],
     "IGA": [
       "cee1a6735906",
       "e2ebb20fea2e",
       "d11904f869d2"
-    ],
-    "Breach": [
-      "cee1a6735906",
-      "ae9376e923bb"
     ],
     "Compliance": [
       "cee1a6735906",
