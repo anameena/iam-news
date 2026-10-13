@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-12T13:54:52.035957+00:00",
-  "total": 6,
+  "generated": "2026-10-13T13:11:50.254086+00:00",
+  "total": 5,
   "items": [
     {
       "id": "60b3df4815c4",
@@ -41,10 +41,10 @@
       "category": "Vendor",
       "section": "breach",
       "tags": [
-        "Threat",
-        "Breach",
         "IGA",
-        "Compliance"
+        "Breach",
+        "Compliance",
+        "Threat"
       ],
       "published": "2026-10-07T21:28:54+00:00",
       "vector": null,
@@ -74,26 +74,13 @@
       "category": "Security News",
       "section": "breach",
       "tags": [
+        "Breach",
         "Threat",
-        "Authentication",
-        "Breach"
+        "Authentication"
       ],
       "published": "2026-10-06T09:15:00+00:00",
       "vector": null,
       "severity": "medium"
-    },
-    {
-      "id": "d11904f869d2",
-      "title": "tenfold CE: Our free Identity Governance tool just got 2 new features",
-      "url": "https://www.bleepingcomputer.com/news/security/tenfold-ce-our-free-identity-governance-tool-just-got-2-new-features/",
-      "summary": "tenfold has added shared content governance and real-time event auditing to its free Community Edition for organizations with under 150 users. The new features help teams manage Microsoft 365 sharing and investigate suspicious identity activity. [...]",
-      "source": "BleepingComputer",
-      "category": "Vendor",
-      "section": "vendor",
-      "tags": [
-        "IGA"
-      ],
-      "published": "2026-10-05T13:33:42+00:00"
     }
   ],
   "tag_index": {
@@ -119,14 +106,13 @@
     "Vendor News": [
       "df6cdac68dff"
     ],
+    "IGA": [
+      "cee1a6735906",
+      "e2ebb20fea2e"
+    ],
     "Breach": [
       "cee1a6735906",
       "ae9376e923bb"
-    ],
-    "IGA": [
-      "cee1a6735906",
-      "e2ebb20fea2e",
-      "d11904f869d2"
     ],
     "Compliance": [
       "cee1a6735906",
@@ -136,8 +122,7 @@
   "category_index": {
     "Vendor": [
       "60b3df4815c4",
-      "cee1a6735906",
-      "d11904f869d2"
+      "cee1a6735906"
     ],
     "Security News": [
       "df6cdac68dff",
