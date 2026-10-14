@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-13T13:11:50.254086+00:00",
-  "total": 5,
+  "generated": "2026-10-14T10:52:21.157129+00:00",
+  "total": 3,
   "items": [
     {
       "id": "60b3df4815c4",
@@ -41,44 +41,12 @@
       "category": "Vendor",
       "section": "breach",
       "tags": [
-        "IGA",
-        "Breach",
         "Compliance",
+        "Breach",
+        "IGA",
         "Threat"
       ],
       "published": "2026-10-07T21:28:54+00:00",
-      "vector": null,
-      "severity": "medium"
-    },
-    {
-      "id": "e2ebb20fea2e",
-      "title": "SailPoint adds AI agent discovery, temporary access and compliance automation",
-      "url": "https://www.helpnetsecurity.com/2026/10/06/sailpoint-agentic-fabric-innovation/",
-      "summary": "SailPoint has announced significant new capabilities across SailPoint Agentic Fabric (SAF) and SailPoint Human Fabric (SHF), the two purpose-built products of its Identity Security solution, built on SailPoint Atlas. These innovations give enterprises visibil…",
-      "source": "Help Net Security",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "IGA",
-        "AI Identity",
-        "Compliance"
-      ],
-      "published": "2026-10-06T13:16:49+00:00"
-    },
-    {
-      "id": "ae9376e923bb",
-      "title": "Police Urge Passkey Use After Surge in Cybercrime Profits",
-      "url": "https://www.infosecurity-magazine.com/news/police-urge-passkey-surge/",
-      "summary": "Report Fraud says cybercrime revenue stemming from account takeover increased 417% annually",
-      "source": "Infosecurity Magazine",
-      "category": "Security News",
-      "section": "breach",
-      "tags": [
-        "Breach",
-        "Threat",
-        "Authentication"
-      ],
-      "published": "2026-10-06T09:15:00+00:00",
       "vector": null,
       "severity": "medium"
     }
@@ -86,12 +54,10 @@
   "tag_index": {
     "Threat": [
       "60b3df4815c4",
-      "cee1a6735906",
-      "ae9376e923bb"
+      "cee1a6735906"
     ],
     "AI Identity": [
-      "60b3df4815c4",
-      "e2ebb20fea2e"
+      "60b3df4815c4"
     ],
     "Standards & Protocols": [
       "60b3df4815c4"
@@ -100,23 +66,19 @@
       "60b3df4815c4"
     ],
     "Authentication": [
-      "df6cdac68dff",
-      "ae9376e923bb"
+      "df6cdac68dff"
     ],
     "Vendor News": [
       "df6cdac68dff"
     ],
-    "IGA": [
-      "cee1a6735906",
-      "e2ebb20fea2e"
+    "Compliance": [
+      "cee1a6735906"
     ],
     "Breach": [
-      "cee1a6735906",
-      "ae9376e923bb"
+      "cee1a6735906"
     ],
-    "Compliance": [
-      "cee1a6735906",
-      "e2ebb20fea2e"
+    "IGA": [
+      "cee1a6735906"
     ]
   },
   "category_index": {
@@ -125,9 +87,7 @@
       "cee1a6735906"
     ],
     "Security News": [
-      "df6cdac68dff",
-      "e2ebb20fea2e",
-      "ae9376e923bb"
+      "df6cdac68dff"
     ]
   }
 }
