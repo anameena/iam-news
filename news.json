@@ -1,7 +1,22 @@
 {
-  "generated": "2026-10-15T10:34:16.368188+00:00",
-  "total": 4,
+  "generated": "2026-10-16T10:21:19.941450+00:00",
+  "total": 3,
   "items": [
+    {
+      "id": "d066527c67ed",
+      "title": "AI Agents Navigate Unfamiliar OT Systems and Move Equipment in Minutes, Booz Allen Finds",
+      "url": "https://www.securityweek.com/ai-agents-navigate-unfamiliar-ot-systems-and-move-equipment-in-minutes-booz-allen-finds/",
+      "summary": "In Booz Allen’s isolated OT lab, AI models met every objective across eight scenarios and reached an industrial control network from a perimeter compromise in just over 16 minutes. The post AI Agents Navigate Unfamiliar OT Systems and Move Equipment in Minute…",
+      "source": "Securityweek.com",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "IGA",
+        "Threat",
+        "AI Identity"
+      ],
+      "published": "2026-10-14T16:00:00+00:00"
+    },
     {
       "id": "1749f4a58120",
       "title": "Passkey Authentications Double but Adoption Remains Slow",
@@ -27,70 +42,30 @@
         "IGA"
       ],
       "published": "2026-10-13T18:19:44+00:00"
-    },
-    {
-      "id": "60b3df4815c4",
-      "title": "OAuth grants pile up faster than you can review them. Here's how to keep up.",
-      "url": "https://www.bleepingcomputer.com/news/security/oauth-grants-pile-up-faster-than-you-can-review-them-heres-how-to-keep-up/",
-      "summary": "OAuth grants create data highways between SaaS apps, AI agents, and other tools. And, they are multiplying faster than any security team can review them. As the recent Klue breach showed, attackers are taking notice and exploiting forgotten OAuth grants to ga…",
-      "source": "BleepingComputer",
-      "category": "Vendor",
-      "section": "vendor",
-      "tags": [
-        "Threat",
-        "AI Identity",
-        "Standards & Protocols",
-        "Vulnerability"
-      ],
-      "published": "2026-10-08T14:00:10+00:00"
-    },
-    {
-      "id": "df6cdac68dff",
-      "title": "The people who know passkeys best are still typing passwords",
-      "url": "https://www.helpnetsecurity.com/2026/10/08/passkey-adoption-typing-passwords/",
-      "summary": "Yubico and Okta asked 1,890 technology and security professionals across nine countries how they sign in to work accounts. The most common answer was a username and password, at 43%, from a group in which 87% said they were familiar with passkeys. High famili…",
-      "source": "Help Net Security",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "Authentication",
-        "Vendor News"
-      ],
-      "published": "2026-10-08T04:30:20+00:00"
     }
   ],
   "tag_index": {
-    "Authentication": [
-      "1749f4a58120",
-      "df6cdac68dff"
-    ],
     "IGA": [
+      "d066527c67ed",
       "b2afb5d6c06e"
     ],
     "Threat": [
-      "60b3df4815c4"
+      "d066527c67ed"
     ],
     "AI Identity": [
-      "60b3df4815c4"
+      "d066527c67ed"
     ],
-    "Standards & Protocols": [
-      "60b3df4815c4"
-    ],
-    "Vulnerability": [
-      "60b3df4815c4"
-    ],
-    "Vendor News": [
-      "df6cdac68dff"
+    "Authentication": [
+      "1749f4a58120"
     ]
   },
   "category_index": {
     "Security News": [
-      "1749f4a58120",
-      "df6cdac68dff"
+      "d066527c67ed",
+      "1749f4a58120"
     ],
     "Vendor": [
-      "b2afb5d6c06e",
-      "60b3df4815c4"
+      "b2afb5d6c06e"
     ]
   }
 }
