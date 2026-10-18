@@ -1,7 +1,22 @@
 {
-  "generated": "2026-10-17T09:53:56.109657+00:00",
-  "total": 6,
+  "generated": "2026-10-18T10:06:36.576772+00:00",
+  "total": 5,
   "items": [
+    {
+      "id": "0ec9ee48a033",
+      "title": "CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support",
+      "summary": "CISA is aware of critical authentication bypass vulnerability CVE-2026-102764, affecting BeyondTrust Remote Support (formerly Bomgar) versions 26.2.3 and earlier. Patches are available for supported versions (24.3.1 and later); organizations using older versi…",
+      "source": "Cisa.gov",
+      "category": "Government",
+      "section": "vendor",
+      "tags": [
+        "Authentication",
+        "PAM",
+        "Vulnerability"
+      ],
+      "published": "2026-10-16T12:00:00+00:00"
+    },
     {
       "id": "ba17ea9097f4",
       "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
@@ -33,34 +48,6 @@
       "published": "2026-10-16T06:18:08+00:00"
     },
     {
-      "id": "cd9231af5905",
-      "title": "Why Active Directory weaknesses stay open for years in teams with one or two admins",
-      "url": "https://www.helpnetsecurity.com/2026/10/16/david-fuhr-intcube-active-directory-security/",
-      "summary": "David Fuhr, CTO at intcube, talks about a security cohort for public administration, where 27 municipalities hardened Windows Server and Active Directory together over 12 weeks. This Help Net Security interview covers how a cohort works, with weekly sessions,…",
-      "source": "Help Net Security",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Compliance"
-      ],
-      "published": "2026-10-16T06:00:12+00:00"
-    },
-    {
-      "id": "d066527c67ed",
-      "title": "AI Agents Navigate Unfamiliar OT Systems and Move Equipment in Minutes, Booz Allen Finds",
-      "url": "https://www.securityweek.com/ai-agents-navigate-unfamiliar-ot-systems-and-move-equipment-in-minutes-booz-allen-finds/",
-      "summary": "In Booz Allen’s isolated OT lab, AI models met every objective across eight scenarios and reached an industrial control network from a perimeter compromise in just over 16 minutes. The post AI Agents Navigate Unfamiliar OT Systems and Move Equipment in Minute…",
-      "source": "Securityweek.com",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "IGA",
-        "Threat",
-        "AI Identity"
-      ],
-      "published": "2026-10-14T16:00:00+00:00"
-    },
-    {
       "id": "1749f4a58120",
       "title": "Passkey Authentications Double but Adoption Remains Slow",
       "url": "https://www.infosecurity-magazine.com/news/passkey-authentications-double/",
@@ -88,38 +75,34 @@
     }
   ],
   "tag_index": {
+    "Authentication": [
+      "0ec9ee48a033",
+      "1749f4a58120"
+    ],
     "PAM": [
+      "0ec9ee48a033",
+      "ba17ea9097f4",
+      "3711cd5eae7a"
+    ],
+    "Vulnerability": [
+      "0ec9ee48a033",
       "ba17ea9097f4",
       "3711cd5eae7a"
     ],
     "Threat": [
       "ba17ea9097f4",
-      "3711cd5eae7a",
-      "d066527c67ed"
-    ],
-    "Vulnerability": [
-      "ba17ea9097f4",
       "3711cd5eae7a"
     ],
-    "Compliance": [
-      "cd9231af5905"
-    ],
     "IGA": [
-      "d066527c67ed",
       "b2afb5d6c06e"
-    ],
-    "AI Identity": [
-      "d066527c67ed"
-    ],
-    "Authentication": [
-      "1749f4a58120"
     ]
   },
   "category_index": {
+    "Government": [
+      "0ec9ee48a033"
+    ],
     "Security News": [
       "ba17ea9097f4",
-      "cd9231af5905",
-      "d066527c67ed",
       "1749f4a58120"
     ],
     "Vendor": [
