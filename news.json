@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-20T10:40:11.908867+00:00",
-  "total": 5,
+  "generated": "2026-10-21T10:50:35.400062+00:00",
+  "total": 4,
   "items": [
     {
       "id": "0ec9ee48a033",
@@ -59,19 +59,6 @@
         "Authentication"
       ],
       "published": "2026-10-14T10:15:00+00:00"
-    },
-    {
-      "id": "b2afb5d6c06e",
-      "title": "UK Housing Ombudsman Service investigates 'security incident'",
-      "url": "https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/",
-      "summary": "The U.K. Housing Ombudsman Service is investigating a third-party IT security incident that impacted its case management system on Tuesday. [...]",
-      "source": "BleepingComputer",
-      "category": "Vendor",
-      "section": "vendor",
-      "tags": [
-        "IGA"
-      ],
-      "published": "2026-10-13T18:19:44+00:00"
     }
   ],
   "tag_index": {
@@ -92,9 +79,6 @@
     "Threat": [
       "ba17ea9097f4",
       "3711cd5eae7a"
-    ],
-    "IGA": [
-      "b2afb5d6c06e"
     ]
   },
   "category_index": {
@@ -106,8 +90,7 @@
       "1749f4a58120"
     ],
     "Vendor": [
-      "3711cd5eae7a",
-      "b2afb5d6c06e"
+      "3711cd5eae7a"
     ]
   }
 }
