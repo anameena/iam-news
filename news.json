@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-21T10:50:35.400062+00:00",
-  "total": 4,
+  "generated": "2026-10-22T10:52:09.325394+00:00",
+  "total": 3,
   "items": [
     {
       "id": "0ec9ee48a033",
@@ -46,25 +46,11 @@
         "Vulnerability"
       ],
       "published": "2026-10-16T06:18:08+00:00"
-    },
-    {
-      "id": "1749f4a58120",
-      "title": "Passkey Authentications Double but Adoption Remains Slow",
-      "url": "https://www.infosecurity-magazine.com/news/passkey-authentications-double/",
-      "summary": "Dashlane data finds that passkey adoption is growing but not quickly enough",
-      "source": "Infosecurity Magazine",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Authentication"
-      ],
-      "published": "2026-10-14T10:15:00+00:00"
     }
   ],
   "tag_index": {
     "Authentication": [
-      "0ec9ee48a033",
-      "1749f4a58120"
+      "0ec9ee48a033"
     ],
     "PAM": [
       "0ec9ee48a033",
@@ -86,8 +72,7 @@
       "0ec9ee48a033"
     ],
     "Security News": [
-      "ba17ea9097f4",
-      "1749f4a58120"
+      "ba17ea9097f4"
     ],
     "Vendor": [
       "3711cd5eae7a"
