@@ -1,7 +1,21 @@
 {
-  "generated": "2026-10-22T10:52:09.325394+00:00",
-  "total": 3,
+  "generated": "2026-10-23T10:43:11.542128+00:00",
+  "total": 4,
   "items": [
+    {
+      "id": "f7fc5263ea75",
+      "title": "Delinea gives AI assistants read-only access to governance data",
+      "url": "https://www.helpnetsecurity.com/2026/10/22/delinea-fastpath-mcp-server/",
+      "summary": "Delinea has announced Delinea Fastpath MCP Server, a new capability that connects access governance data to the AI assistants teams already use. Using the Model Context Protocol (MCP), finance, IT, audit, and compliance teams can ask natural-language question…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "vendor",
+      "tags": [
+        "PAM",
+        "Compliance"
+      ],
+      "published": "2026-10-22T07:17:59+00:00"
+    },
     {
       "id": "0ec9ee48a033",
       "title": "CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support",
@@ -49,13 +63,17 @@
     }
   ],
   "tag_index": {
-    "Authentication": [
-      "0ec9ee48a033"
-    ],
     "PAM": [
+      "f7fc5263ea75",
       "0ec9ee48a033",
       "ba17ea9097f4",
       "3711cd5eae7a"
+    ],
+    "Compliance": [
+      "f7fc5263ea75"
+    ],
+    "Authentication": [
+      "0ec9ee48a033"
     ],
     "Vulnerability": [
       "0ec9ee48a033",
@@ -68,11 +86,12 @@
     ]
   },
   "category_index": {
+    "Security News": [
+      "f7fc5263ea75",
+      "ba17ea9097f4"
+    ],
     "Government": [
       "0ec9ee48a033"
-    ],
-    "Security News": [
-      "ba17ea9097f4"
     ],
     "Vendor": [
       "3711cd5eae7a"
