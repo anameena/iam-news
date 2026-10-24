@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-23T10:43:11.542128+00:00",
-  "total": 4,
+  "generated": "2026-10-24T10:00:05.610711+00:00",
+  "total": 1,
   "items": [
     {
       "id": "f7fc5263ea75",
@@ -15,86 +15,19 @@
         "Compliance"
       ],
       "published": "2026-10-22T07:17:59+00:00"
-    },
-    {
-      "id": "0ec9ee48a033",
-      "title": "CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support",
-      "summary": "CISA is aware of critical authentication bypass vulnerability CVE-2026-102764, affecting BeyondTrust Remote Support (formerly Bomgar) versions 26.2.3 and earlier. Patches are available for supported versions (24.3.1 and later); organizations using older versi…",
-      "source": "Cisa.gov",
-      "category": "Government",
-      "section": "vendor",
-      "tags": [
-        "Authentication",
-        "PAM",
-        "Vulnerability"
-      ],
-      "published": "2026-10-16T12:00:00+00:00"
-    },
-    {
-      "id": "ba17ea9097f4",
-      "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
-      "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
-      "summary": "The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late August 2026. The vulnerability, tracked as CVE-2…",
-      "source": "Internet",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "PAM",
-        "Threat",
-        "Vulnerability"
-      ],
-      "published": "2026-10-16T06:55:55+00:00"
-    },
-    {
-      "id": "3711cd5eae7a",
-      "title": "BeyondTrust patches zero-day exploited in attacks since August",
-      "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
-      "summary": "BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]",
-      "source": "BleepingComputer",
-      "category": "Vendor",
-      "section": "vendor",
-      "tags": [
-        "PAM",
-        "Threat",
-        "Vulnerability"
-      ],
-      "published": "2026-10-16T06:18:08+00:00"
     }
   ],
   "tag_index": {
     "PAM": [
-      "f7fc5263ea75",
-      "0ec9ee48a033",
-      "ba17ea9097f4",
-      "3711cd5eae7a"
+      "f7fc5263ea75"
     ],
     "Compliance": [
       "f7fc5263ea75"
-    ],
-    "Authentication": [
-      "0ec9ee48a033"
-    ],
-    "Vulnerability": [
-      "0ec9ee48a033",
-      "ba17ea9097f4",
-      "3711cd5eae7a"
-    ],
-    "Threat": [
-      "ba17ea9097f4",
-      "3711cd5eae7a"
     ]
   },
   "category_index": {
     "Security News": [
-      "f7fc5263ea75",
-      "ba17ea9097f4"
-    ],
-    "Government": [
-      "0ec9ee48a033"
-    ],
-    "Vendor": [
-      "3711cd5eae7a"
+      "f7fc5263ea75"
     ]
   }
 }
