@@ -1,33 +1,7 @@
 {
-  "generated": "2026-10-29T11:58:29.436834+00:00",
-  "total": 1,
-  "items": [
-    {
-      "id": "f7fc5263ea75",
-      "title": "Delinea gives AI assistants read-only access to governance data",
-      "url": "https://www.helpnetsecurity.com/2026/10/22/delinea-fastpath-mcp-server/",
-      "summary": "Delinea has announced Delinea Fastpath MCP Server, a new capability that connects access governance data to the AI assistants teams already use. Using the Model Context Protocol (MCP), finance, IT, audit, and compliance teams can ask natural-language question…",
-      "source": "Help Net Security",
-      "category": "Security News",
-      "section": "vendor",
-      "tags": [
-        "PAM",
-        "Compliance"
-      ],
-      "published": "2026-10-22T07:17:59+00:00"
-    }
-  ],
-  "tag_index": {
-    "PAM": [
-      "f7fc5263ea75"
-    ],
-    "Compliance": [
-      "f7fc5263ea75"
-    ]
-  },
-  "category_index": {
-    "Security News": [
-      "f7fc5263ea75"
-    ]
-  }
+  "generated": "2026-10-30T11:52:31.822772+00:00",
+  "total": 0,
+  "items": [],
+  "tag_index": {},
+  "category_index": {}
 }
