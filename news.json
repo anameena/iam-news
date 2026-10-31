@@ -1,7 +1,41 @@
 {
-  "generated": "2026-10-30T11:52:31.822772+00:00",
-  "total": 0,
-  "items": [],
-  "tag_index": {},
-  "category_index": {}
+  "generated": "2026-10-31T11:25:52.479401+00:00",
+  "total": 1,
+  "items": [
+    {
+      "id": "8131f910ab08",
+      "title": "Siemens Mendix SAML Module",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01",
+      "summary": "View CSAF Summary Mendix SAML module contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to gain unauthorized access by replaying a valid SAML assertion in IdP-initiated authentication flows. Siemens has release…",
+      "source": "Cisa.gov",
+      "category": "Government",
+      "section": "news",
+      "tags": [
+        "Authentication",
+        "Threat",
+        "Standards & Protocols",
+        "Vulnerability"
+      ],
+      "published": "2026-10-29T12:00:00+00:00"
+    }
+  ],
+  "tag_index": {
+    "Authentication": [
+      "8131f910ab08"
+    ],
+    "Threat": [
+      "8131f910ab08"
+    ],
+    "Standards & Protocols": [
+      "8131f910ab08"
+    ],
+    "Vulnerability": [
+      "8131f910ab08"
+    ]
+  },
+  "category_index": {
+    "Government": [
+      "8131f910ab08"
+    ]
+  }
 }
