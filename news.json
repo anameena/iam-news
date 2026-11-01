@@ -1,7 +1,24 @@
 {
-  "generated": "2026-10-31T11:25:52.479401+00:00",
-  "total": 1,
+  "generated": "2026-11-01T12:20:12.383128+00:00",
+  "total": 2,
   "items": [
+    {
+      "id": "472a599e4fdb",
+      "title": "Passkeys Are Better Than Passwords. But They Are Not Enough.",
+      "url": "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough/",
+      "summary": "As organizations eliminate passwords, attackers will adapt. Instead of attacking the authenticator directly, they will look for opportunities around it. The post Passkeys Are Better Than Passwords. But They Are Not Enough. appeared first on SecurityWeek.",
+      "source": "Securityweek.com",
+      "category": "Security News",
+      "section": "breach",
+      "tags": [
+        "Threat",
+        "Breach",
+        "Authentication"
+      ],
+      "published": "2026-10-30T14:00:00+00:00",
+      "vector": null,
+      "severity": "medium"
+    },
     {
       "id": "8131f910ab08",
       "title": "Siemens Mendix SAML Module",
@@ -20,10 +37,15 @@
     }
   ],
   "tag_index": {
-    "Authentication": [
+    "Threat": [
+      "472a599e4fdb",
       "8131f910ab08"
     ],
-    "Threat": [
+    "Breach": [
+      "472a599e4fdb"
+    ],
+    "Authentication": [
+      "472a599e4fdb",
       "8131f910ab08"
     ],
     "Standards & Protocols": [
@@ -34,6 +56,9 @@
     ]
   },
   "category_index": {
+    "Security News": [
+      "472a599e4fdb"
+    ],
     "Government": [
       "8131f910ab08"
     ]
