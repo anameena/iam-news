@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01T12:20:12.383128+00:00",
+  "generated": "2026-11-02T14:14:21.013428+00:00",
   "total": 2,
   "items": [
     {
@@ -12,8 +12,8 @@
       "section": "breach",
       "tags": [
         "Threat",
-        "Breach",
-        "Authentication"
+        "Authentication",
+        "Breach"
       ],
       "published": "2026-10-30T14:00:00+00:00",
       "vector": null,
@@ -41,12 +41,12 @@
       "472a599e4fdb",
       "8131f910ab08"
     ],
-    "Breach": [
-      "472a599e4fdb"
-    ],
     "Authentication": [
       "472a599e4fdb",
       "8131f910ab08"
+    ],
+    "Breach": [
+      "472a599e4fdb"
     ],
     "Standards & Protocols": [
       "8131f910ab08"
