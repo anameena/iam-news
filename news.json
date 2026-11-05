@@ -1,7 +1,20 @@
 {
-  "generated": "2026-11-04T13:29:13.696695+00:00",
-  "total": 1,
+  "generated": "2026-11-05T13:43:46.111404+00:00",
+  "total": 2,
   "items": [
+    {
+      "id": "a20c924b8926",
+      "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
+      "url": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
+      "summary": "Customers of the mSecure password manager are being urged to act now to protect the confidential information they store in it, possibly by changing passwords, resetting two-factor authentication (2FA), and removing passkeys. The warning came in an email sent…",
+      "source": "Internet",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Authentication"
+      ],
+      "published": "2026-11-03T18:46:38+00:00"
+    },
     {
       "id": "472a599e4fdb",
       "title": "Passkeys Are Better Than Passwords. But They Are Not Enough.",
@@ -11,9 +24,9 @@
       "category": "Security News",
       "section": "breach",
       "tags": [
-        "Threat",
         "Authentication",
-        "Breach"
+        "Breach",
+        "Threat"
       ],
       "published": "2026-10-30T14:00:00+00:00",
       "vector": null,
@@ -21,18 +34,20 @@
     }
   ],
   "tag_index": {
-    "Threat": [
-      "472a599e4fdb"
-    ],
     "Authentication": [
+      "a20c924b8926",
       "472a599e4fdb"
     ],
     "Breach": [
+      "472a599e4fdb"
+    ],
+    "Threat": [
       "472a599e4fdb"
     ]
   },
   "category_index": {
     "Security News": [
+      "a20c924b8926",
       "472a599e4fdb"
     ]
   }
