@@ -1,39 +1,29 @@
 {
-  "generated": "2026-11-06T13:27:41.953915+00:00",
+  "generated": "2026-11-07T12:07:00.821716+00:00",
   "total": 1,
   "items": [
     {
-      "id": "472a599e4fdb",
-      "title": "Passkeys Are Better Than Passwords. But They Are Not Enough.",
-      "url": "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough/",
-      "summary": "As organizations eliminate passwords, attackers will adapt. Instead of attacking the authenticator directly, they will look for opportunities around it. The post Passkeys Are Better Than Passwords. But They Are Not Enough. appeared first on SecurityWeek.",
-      "source": "Securityweek.com",
+      "id": "7031de3559cd",
+      "title": "99% of repository access tokens never expire",
+      "url": "https://www.helpnetsecurity.com/2026/11/06/blueflag-ai-agents-access-risks-report/",
+      "summary": "Developers, automated tools and AI coding agents hold permissions that can outlast the work they were granted for. Without access reviews, organizations can leave accounts able to copy or change company code after the work ends, according to BlueFlag Security…",
+      "source": "Help Net Security",
       "category": "Security News",
-      "section": "breach",
+      "section": "news",
       "tags": [
-        "Breach",
-        "Threat",
-        "Authentication"
+        "General IAM"
       ],
-      "published": "2026-10-30T14:00:00+00:00",
-      "vector": null,
-      "severity": "medium"
+      "published": "2026-11-06T05:30:23+00:00"
     }
   ],
   "tag_index": {
-    "Breach": [
-      "472a599e4fdb"
-    ],
-    "Threat": [
-      "472a599e4fdb"
-    ],
-    "Authentication": [
-      "472a599e4fdb"
+    "General IAM": [
+      "7031de3559cd"
     ]
   },
   "category_index": {
     "Security News": [
-      "472a599e4fdb"
+      "7031de3559cd"
     ]
   }
 }
