@@ -1,7 +1,66 @@
 {
-  "generated": "2026-11-09T14:42:59.224745+00:00",
-  "total": 1,
+  "generated": "2026-11-10T13:58:08.063051+00:00",
+  "total": 5,
   "items": [
+    {
+      "id": "fcd83e39d44b",
+      "title": "Exploited SonicWall SSL-VPN flaw lets attackers bypass SAML-enforced MFA (CVE-2026-19868)",
+      "url": "https://www.helpnetsecurity.com/2026/11/09/exploited-sonicwall-ssl-vpn-flaw-lets-attackers-bypass-saml-enforced-mfa-cve-2026-19868/",
+      "summary": "SonicWall has fixed an exploited SonicOS SSL-VPN vulnerability (CVE-2026-19868) that may allow attackers with valid credentials to bypass SAML-enforced multi-factor authentication. With no workarounds listed, the company has urged admins to patch quickly. Abo…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Authentication",
+        "Threat",
+        "Standards & Protocols",
+        "Vulnerability"
+      ],
+      "published": "2026-11-09T10:30:25+00:00"
+    },
+    {
+      "id": "a24a947ad254",
+      "title": "DHS Has Used This Controversial Investigative Tool 185,000 Times Since Trump Took Office",
+      "url": "https://www.wired.com/story/dhs-has-used-this-controversial-investigative-tool-185000-times-since-trump-took-office/",
+      "summary": "Homeland Security Investigations estimates that it has sent out more administrative subpoenas since January 2025 than it did in more than six and a half years between 2016 and mid-August 2022.",
+      "source": "Wired",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "IGA",
+        "Compliance"
+      ],
+      "published": "2026-11-09T10:00:00+00:00"
+    },
+    {
+      "id": "3e5110287728",
+      "title": "An average of 8 minutes is all hackers need to log in with stolen credentials",
+      "url": "https://www.helpnetsecurity.com/2026/11/09/elastic-businesses-remote-access-attacks-report/",
+      "summary": "Attackers used stolen credentials to log in an average of eight minutes after infection across 27 confirmed infostealer cases, according to a report from Elastic Security Threat Command. Researchers also documented misuse of AI applications to execute command…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "breach",
+      "tags": [
+        "Breach",
+        "Threat"
+      ],
+      "published": "2026-11-09T05:00:39+00:00",
+      "vector": "Stolen Credentials",
+      "severity": "medium"
+    },
+    {
+      "id": "d417e4f21505",
+      "title": "Nvidia says it’s investigating CEO Jensen Huang’s relationship with possible Chinese spy | TechCrunch",
+      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+      "summary": "Nvidia says it’s investigating CEO Jensen Huang’s relationship with possible Chinese spy | TechCrunchtechcrunch.com",
+      "source": "TechCrunch",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "IGA"
+      ],
+      "published": "2026-11-08T21:02:16+00:00"
+    },
     {
       "id": "7031de3559cd",
       "title": "99% of repository access tokens never expire",
@@ -17,12 +76,39 @@
     }
   ],
   "tag_index": {
+    "Authentication": [
+      "fcd83e39d44b"
+    ],
+    "Threat": [
+      "fcd83e39d44b",
+      "3e5110287728"
+    ],
+    "Standards & Protocols": [
+      "fcd83e39d44b"
+    ],
+    "Vulnerability": [
+      "fcd83e39d44b"
+    ],
+    "IGA": [
+      "a24a947ad254",
+      "d417e4f21505"
+    ],
+    "Compliance": [
+      "a24a947ad254"
+    ],
+    "Breach": [
+      "3e5110287728"
+    ],
     "General IAM": [
       "7031de3559cd"
     ]
   },
   "category_index": {
     "Security News": [
+      "fcd83e39d44b",
+      "a24a947ad254",
+      "3e5110287728",
+      "d417e4f21505",
       "7031de3559cd"
     ]
   }
