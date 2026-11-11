@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-10T13:58:08.063051+00:00",
-  "total": 5,
+  "generated": "2026-11-11T13:13:43.682435+00:00",
+  "total": 3,
   "items": [
     {
       "id": "fcd83e39d44b",
@@ -19,20 +19,6 @@
       "published": "2026-11-09T10:30:25+00:00"
     },
     {
-      "id": "a24a947ad254",
-      "title": "DHS Has Used This Controversial Investigative Tool 185,000 Times Since Trump Took Office",
-      "url": "https://www.wired.com/story/dhs-has-used-this-controversial-investigative-tool-185000-times-since-trump-took-office/",
-      "summary": "Homeland Security Investigations estimates that it has sent out more administrative subpoenas since January 2025 than it did in more than six and a half years between 2016 and mid-August 2022.",
-      "source": "Wired",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "IGA",
-        "Compliance"
-      ],
-      "published": "2026-11-09T10:00:00+00:00"
-    },
-    {
       "id": "3e5110287728",
       "title": "An average of 8 minutes is all hackers need to log in with stolen credentials",
       "url": "https://www.helpnetsecurity.com/2026/11/09/elastic-businesses-remote-access-attacks-report/",
@@ -41,25 +27,12 @@
       "category": "Security News",
       "section": "breach",
       "tags": [
-        "Breach",
-        "Threat"
+        "Threat",
+        "Breach"
       ],
       "published": "2026-11-09T05:00:39+00:00",
       "vector": "Stolen Credentials",
       "severity": "medium"
-    },
-    {
-      "id": "d417e4f21505",
-      "title": "Nvidia says it’s investigating CEO Jensen Huang’s relationship with possible Chinese spy | TechCrunch",
-      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
-      "summary": "Nvidia says it’s investigating CEO Jensen Huang’s relationship with possible Chinese spy | TechCrunchtechcrunch.com",
-      "source": "TechCrunch",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "IGA"
-      ],
-      "published": "2026-11-08T21:02:16+00:00"
     },
     {
       "id": "7031de3559cd",
@@ -89,13 +62,6 @@
     "Vulnerability": [
       "fcd83e39d44b"
     ],
-    "IGA": [
-      "a24a947ad254",
-      "d417e4f21505"
-    ],
-    "Compliance": [
-      "a24a947ad254"
-    ],
     "Breach": [
       "3e5110287728"
     ],
@@ -106,9 +72,7 @@
   "category_index": {
     "Security News": [
       "fcd83e39d44b",
-      "a24a947ad254",
       "3e5110287728",
-      "d417e4f21505",
       "7031de3559cd"
     ]
   }
