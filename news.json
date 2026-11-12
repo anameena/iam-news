@@ -1,7 +1,20 @@
 {
-  "generated": "2026-11-11T13:13:43.682435+00:00",
+  "generated": "2026-11-12T14:16:48.097559+00:00",
   "total": 3,
   "items": [
+    {
+      "id": "feff6affd4b6",
+      "title": "Embed Security lets analysts teach its AI SOC Platform how to investigate",
+      "url": "https://www.helpnetsecurity.com/2026/11/11/embed-security-expands-ai-soc-platform/",
+      "summary": "Embed Security announced new capabilities that let security teams teach Embed how they investigate, what matters in their environment, and how to improve their detections. With customer-built iSteps, expanded NoiseIQ Memories, and Detection Engineering, organ…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "IGA"
+      ],
+      "published": "2026-11-11T13:54:12+00:00"
+    },
     {
       "id": "fcd83e39d44b",
       "title": "Exploited SonicWall SSL-VPN flaw lets attackers bypass SAML-enforced MFA (CVE-2026-19868)",
@@ -33,22 +46,12 @@
       "published": "2026-11-09T05:00:39+00:00",
       "vector": "Stolen Credentials",
       "severity": "medium"
-    },
-    {
-      "id": "7031de3559cd",
-      "title": "99% of repository access tokens never expire",
-      "url": "https://www.helpnetsecurity.com/2026/11/06/blueflag-ai-agents-access-risks-report/",
-      "summary": "Developers, automated tools and AI coding agents hold permissions that can outlast the work they were granted for. Without access reviews, organizations can leave accounts able to copy or change company code after the work ends, according to BlueFlag Security…",
-      "source": "Help Net Security",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "General IAM"
-      ],
-      "published": "2026-11-06T05:30:23+00:00"
     }
   ],
   "tag_index": {
+    "IGA": [
+      "feff6affd4b6"
+    ],
     "Authentication": [
       "fcd83e39d44b"
     ],
@@ -64,16 +67,13 @@
     ],
     "Breach": [
       "3e5110287728"
-    ],
-    "General IAM": [
-      "7031de3559cd"
     ]
   },
   "category_index": {
     "Security News": [
+      "feff6affd4b6",
       "fcd83e39d44b",
-      "3e5110287728",
-      "7031de3559cd"
+      "3e5110287728"
     ]
   }
 }
