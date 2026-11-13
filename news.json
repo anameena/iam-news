@@ -1,7 +1,25 @@
 {
-  "generated": "2026-11-12T14:16:48.097559+00:00",
-  "total": 3,
+  "generated": "2026-11-13T13:38:59.255319+00:00",
+  "total": 4,
   "items": [
+    {
+      "id": "8e6df4dd3353",
+      "title": "Microsoft Entra adds a seven-day safeguard against irreversible identity deletion",
+      "url": "https://www.helpnetsecurity.com/2026/11/12/microsoft-entra-hard-deletion-protection/",
+      "summary": "Microsoft Entra’s Hard Deletion Protection, now in preview, gives administrators a seven-day window to recover selected identities before they can be permanently erased. The feature is designed to help organizations respond to accidental or malicious deletion…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "breach",
+      "tags": [
+        "Breach",
+        "Threat",
+        "Compliance",
+        "Vendor News"
+      ],
+      "published": "2026-11-12T11:04:24+00:00",
+      "vector": null,
+      "severity": "medium"
+    },
     {
       "id": "feff6affd4b6",
       "title": "Embed Security lets analysts teach its AI SOC Platform how to investigate",
@@ -40,8 +58,8 @@
       "category": "Security News",
       "section": "breach",
       "tags": [
-        "Threat",
-        "Breach"
+        "Breach",
+        "Threat"
       ],
       "published": "2026-11-09T05:00:39+00:00",
       "vector": "Stolen Credentials",
@@ -49,28 +67,37 @@
     }
   ],
   "tag_index": {
+    "Breach": [
+      "8e6df4dd3353",
+      "3e5110287728"
+    ],
+    "Threat": [
+      "8e6df4dd3353",
+      "fcd83e39d44b",
+      "3e5110287728"
+    ],
+    "Compliance": [
+      "8e6df4dd3353"
+    ],
+    "Vendor News": [
+      "8e6df4dd3353"
+    ],
     "IGA": [
       "feff6affd4b6"
     ],
     "Authentication": [
       "fcd83e39d44b"
     ],
-    "Threat": [
-      "fcd83e39d44b",
-      "3e5110287728"
-    ],
     "Standards & Protocols": [
       "fcd83e39d44b"
     ],
     "Vulnerability": [
       "fcd83e39d44b"
-    ],
-    "Breach": [
-      "3e5110287728"
     ]
   },
   "category_index": {
     "Security News": [
+      "8e6df4dd3353",
       "feff6affd4b6",
       "fcd83e39d44b",
       "3e5110287728"
