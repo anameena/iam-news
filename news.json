@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-13T13:38:59.255319+00:00",
+  "generated": "2026-11-14T12:43:45.029790+00:00",
   "total": 4,
   "items": [
     {
@@ -13,8 +13,8 @@
       "tags": [
         "Breach",
         "Threat",
-        "Compliance",
-        "Vendor News"
+        "Vendor News",
+        "Compliance"
       ],
       "published": "2026-11-12T11:04:24+00:00",
       "vector": null,
@@ -76,10 +76,10 @@
       "fcd83e39d44b",
       "3e5110287728"
     ],
-    "Compliance": [
+    "Vendor News": [
       "8e6df4dd3353"
     ],
-    "Vendor News": [
+    "Compliance": [
       "8e6df4dd3353"
     ],
     "IGA": [
