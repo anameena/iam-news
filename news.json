@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-14T12:43:45.029790+00:00",
-  "total": 4,
+  "generated": "2026-11-15T13:10:45.650381+00:00",
+  "total": 3,
   "items": [
     {
       "id": "8e6df4dd3353",
@@ -11,27 +11,14 @@
       "category": "Security News",
       "section": "breach",
       "tags": [
+        "Compliance",
         "Breach",
         "Threat",
-        "Vendor News",
-        "Compliance"
+        "Vendor News"
       ],
       "published": "2026-11-12T11:04:24+00:00",
       "vector": null,
       "severity": "medium"
-    },
-    {
-      "id": "feff6affd4b6",
-      "title": "Embed Security lets analysts teach its AI SOC Platform how to investigate",
-      "url": "https://www.helpnetsecurity.com/2026/11/11/embed-security-expands-ai-soc-platform/",
-      "summary": "Embed Security announced new capabilities that let security teams teach Embed how they investigate, what matters in their environment, and how to improve their detections. With customer-built iSteps, expanded NoiseIQ Memories, and Detection Engineering, organ…",
-      "source": "Help Net Security",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "IGA"
-      ],
-      "published": "2026-11-11T13:54:12+00:00"
     },
     {
       "id": "fcd83e39d44b",
@@ -67,6 +54,9 @@
     }
   ],
   "tag_index": {
+    "Compliance": [
+      "8e6df4dd3353"
+    ],
     "Breach": [
       "8e6df4dd3353",
       "3e5110287728"
@@ -78,12 +68,6 @@
     ],
     "Vendor News": [
       "8e6df4dd3353"
-    ],
-    "Compliance": [
-      "8e6df4dd3353"
-    ],
-    "IGA": [
-      "feff6affd4b6"
     ],
     "Authentication": [
       "fcd83e39d44b"
@@ -98,7 +82,6 @@
   "category_index": {
     "Security News": [
       "8e6df4dd3353",
-      "feff6affd4b6",
       "fcd83e39d44b",
       "3e5110287728"
     ]
