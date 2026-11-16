@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-15T13:10:45.650381+00:00",
+  "generated": "2026-11-16T14:18:52.934251+00:00",
   "total": 3,
   "items": [
     {
@@ -11,10 +11,10 @@
       "category": "Security News",
       "section": "breach",
       "tags": [
-        "Compliance",
-        "Breach",
         "Threat",
-        "Vendor News"
+        "Vendor News",
+        "Breach",
+        "Compliance"
       ],
       "published": "2026-11-12T11:04:24+00:00",
       "vector": null,
@@ -45,8 +45,8 @@
       "category": "Security News",
       "section": "breach",
       "tags": [
-        "Breach",
-        "Threat"
+        "Threat",
+        "Breach"
       ],
       "published": "2026-11-09T05:00:39+00:00",
       "vector": "Stolen Credentials",
@@ -54,19 +54,19 @@
     }
   ],
   "tag_index": {
-    "Compliance": [
-      "8e6df4dd3353"
-    ],
-    "Breach": [
-      "8e6df4dd3353",
-      "3e5110287728"
-    ],
     "Threat": [
       "8e6df4dd3353",
       "fcd83e39d44b",
       "3e5110287728"
     ],
     "Vendor News": [
+      "8e6df4dd3353"
+    ],
+    "Breach": [
+      "8e6df4dd3353",
+      "3e5110287728"
+    ],
+    "Compliance": [
       "8e6df4dd3353"
     ],
     "Authentication": [
