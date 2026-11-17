@@ -1,7 +1,33 @@
 {
-  "generated": "2026-11-16T14:18:52.934251+00:00",
+  "generated": "2026-11-17T15:11:03.868533+00:00",
   "total": 3,
   "items": [
+    {
+      "id": "b3bf9607d4fc",
+      "title": "Australian retail giant Coles investigates cybersecurity incident",
+      "url": "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/",
+      "summary": "Coles Group Limited, Australia's second-largest retailer, is investigating what it described as a \"cyber security incident\" that has not impacted the company's stores. [...]",
+      "source": "BleepingComputer",
+      "category": "Vendor",
+      "section": "vendor",
+      "tags": [
+        "IGA"
+      ],
+      "published": "2026-11-16T11:18:09+00:00"
+    },
+    {
+      "id": "93e0f66500f5",
+      "title": "Ory Hydra: Open-source OAuth 2.0 server and OpenID Connect provider",
+      "url": "https://www.helpnetsecurity.com/2026/11/16/ory-hydra-oauth-server-open-source/",
+      "summary": "Ory Hydra is an open-source OAuth 2.0 server and OpenID Connect provider. Ory built it to issue and validate tokens, register client applications, and manage the keys that sign those tokens. Hydra stores no usernames or passwords, so logins stay with whatever…",
+      "source": "Help Net Security",
+      "category": "Security News",
+      "section": "news",
+      "tags": [
+        "Standards & Protocols"
+      ],
+      "published": "2026-11-16T06:00:29+00:00"
+    },
     {
       "id": "8e6df4dd3353",
       "title": "Microsoft Entra adds a seven-day safeguard against irreversible identity deletion",
@@ -19,71 +45,35 @@
       "published": "2026-11-12T11:04:24+00:00",
       "vector": null,
       "severity": "medium"
-    },
-    {
-      "id": "fcd83e39d44b",
-      "title": "Exploited SonicWall SSL-VPN flaw lets attackers bypass SAML-enforced MFA (CVE-2026-19868)",
-      "url": "https://www.helpnetsecurity.com/2026/11/09/exploited-sonicwall-ssl-vpn-flaw-lets-attackers-bypass-saml-enforced-mfa-cve-2026-19868/",
-      "summary": "SonicWall has fixed an exploited SonicOS SSL-VPN vulnerability (CVE-2026-19868) that may allow attackers with valid credentials to bypass SAML-enforced multi-factor authentication. With no workarounds listed, the company has urged admins to patch quickly. Abo…",
-      "source": "Help Net Security",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Authentication",
-        "Threat",
-        "Standards & Protocols",
-        "Vulnerability"
-      ],
-      "published": "2026-11-09T10:30:25+00:00"
-    },
-    {
-      "id": "3e5110287728",
-      "title": "An average of 8 minutes is all hackers need to log in with stolen credentials",
-      "url": "https://www.helpnetsecurity.com/2026/11/09/elastic-businesses-remote-access-attacks-report/",
-      "summary": "Attackers used stolen credentials to log in an average of eight minutes after infection across 27 confirmed infostealer cases, according to a report from Elastic Security Threat Command. Researchers also documented misuse of AI applications to execute command…",
-      "source": "Help Net Security",
-      "category": "Security News",
-      "section": "breach",
-      "tags": [
-        "Threat",
-        "Breach"
-      ],
-      "published": "2026-11-09T05:00:39+00:00",
-      "vector": "Stolen Credentials",
-      "severity": "medium"
     }
   ],
   "tag_index": {
+    "IGA": [
+      "b3bf9607d4fc"
+    ],
+    "Standards & Protocols": [
+      "93e0f66500f5"
+    ],
     "Threat": [
-      "8e6df4dd3353",
-      "fcd83e39d44b",
-      "3e5110287728"
+      "8e6df4dd3353"
     ],
     "Vendor News": [
       "8e6df4dd3353"
     ],
     "Breach": [
-      "8e6df4dd3353",
-      "3e5110287728"
+      "8e6df4dd3353"
     ],
     "Compliance": [
       "8e6df4dd3353"
-    ],
-    "Authentication": [
-      "fcd83e39d44b"
-    ],
-    "Standards & Protocols": [
-      "fcd83e39d44b"
-    ],
-    "Vulnerability": [
-      "fcd83e39d44b"
     ]
   },
   "category_index": {
+    "Vendor": [
+      "b3bf9607d4fc"
+    ],
     "Security News": [
-      "8e6df4dd3353",
-      "fcd83e39d44b",
-      "3e5110287728"
+      "93e0f66500f5",
+      "8e6df4dd3353"
     ]
   }
 }
