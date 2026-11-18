@@ -1,19 +1,23 @@
 {
-  "generated": "2026-11-17T15:11:03.868533+00:00",
-  "total": 3,
+  "generated": "2026-11-18T14:48:48.953981+00:00",
+  "total": 2,
   "items": [
     {
-      "id": "b3bf9607d4fc",
-      "title": "Australian retail giant Coles investigates cybersecurity incident",
-      "url": "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/",
-      "summary": "Coles Group Limited, Australia's second-largest retailer, is investigating what it described as a \"cyber security incident\" that has not impacted the company's stores. [...]",
-      "source": "BleepingComputer",
-      "category": "Vendor",
-      "section": "vendor",
+      "id": "f2c3c92b0ac1",
+      "title": "OpenAI will embed Apollo researchers to investigate AI subversion | TechCrunch",
+      "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+      "summary": "OpenAI will embed six Apollo Research evaluators to investigate whether its AI models engage in subversive behavior, but restrictions on access and disclosure raise questions about their independence.",
+      "source": "TechCrunch",
+      "category": "Security News",
+      "section": "breach",
       "tags": [
-        "IGA"
+        "IGA",
+        "Threat",
+        "Breach"
       ],
-      "published": "2026-11-16T11:18:09+00:00"
+      "published": "2026-11-16T17:03:28+00:00",
+      "vector": null,
+      "severity": "medium"
     },
     {
       "id": "93e0f66500f5",
@@ -27,53 +31,26 @@
         "Standards & Protocols"
       ],
       "published": "2026-11-16T06:00:29+00:00"
-    },
-    {
-      "id": "8e6df4dd3353",
-      "title": "Microsoft Entra adds a seven-day safeguard against irreversible identity deletion",
-      "url": "https://www.helpnetsecurity.com/2026/11/12/microsoft-entra-hard-deletion-protection/",
-      "summary": "Microsoft Entra’s Hard Deletion Protection, now in preview, gives administrators a seven-day window to recover selected identities before they can be permanently erased. The feature is designed to help organizations respond to accidental or malicious deletion…",
-      "source": "Help Net Security",
-      "category": "Security News",
-      "section": "breach",
-      "tags": [
-        "Threat",
-        "Vendor News",
-        "Breach",
-        "Compliance"
-      ],
-      "published": "2026-11-12T11:04:24+00:00",
-      "vector": null,
-      "severity": "medium"
     }
   ],
   "tag_index": {
     "IGA": [
-      "b3bf9607d4fc"
+      "f2c3c92b0ac1"
+    ],
+    "Threat": [
+      "f2c3c92b0ac1"
+    ],
+    "Breach": [
+      "f2c3c92b0ac1"
     ],
     "Standards & Protocols": [
       "93e0f66500f5"
-    ],
-    "Threat": [
-      "8e6df4dd3353"
-    ],
-    "Vendor News": [
-      "8e6df4dd3353"
-    ],
-    "Breach": [
-      "8e6df4dd3353"
-    ],
-    "Compliance": [
-      "8e6df4dd3353"
     ]
   },
   "category_index": {
-    "Vendor": [
-      "b3bf9607d4fc"
-    ],
     "Security News": [
-      "93e0f66500f5",
-      "8e6df4dd3353"
+      "f2c3c92b0ac1",
+      "93e0f66500f5"
     ]
   }
 }
