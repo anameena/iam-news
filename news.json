@@ -1,24 +1,7 @@
 {
-  "generated": "2026-11-18T14:48:48.953981+00:00",
-  "total": 2,
+  "generated": "2026-11-19T14:55:39.885783+00:00",
+  "total": 1,
   "items": [
-    {
-      "id": "f2c3c92b0ac1",
-      "title": "OpenAI will embed Apollo researchers to investigate AI subversion | TechCrunch",
-      "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
-      "summary": "OpenAI will embed six Apollo Research evaluators to investigate whether its AI models engage in subversive behavior, but restrictions on access and disclosure raise questions about their independence.",
-      "source": "TechCrunch",
-      "category": "Security News",
-      "section": "breach",
-      "tags": [
-        "IGA",
-        "Threat",
-        "Breach"
-      ],
-      "published": "2026-11-16T17:03:28+00:00",
-      "vector": null,
-      "severity": "medium"
-    },
     {
       "id": "93e0f66500f5",
       "title": "Ory Hydra: Open-source OAuth 2.0 server and OpenID Connect provider",
@@ -34,22 +17,12 @@
     }
   ],
   "tag_index": {
-    "IGA": [
-      "f2c3c92b0ac1"
-    ],
-    "Threat": [
-      "f2c3c92b0ac1"
-    ],
-    "Breach": [
-      "f2c3c92b0ac1"
-    ],
     "Standards & Protocols": [
       "93e0f66500f5"
     ]
   },
   "category_index": {
     "Security News": [
-      "f2c3c92b0ac1",
       "93e0f66500f5"
     ]
   }
