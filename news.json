@@ -1,34 +1,7 @@
 {
-  "generated": "2026-11-20T14:37:12.305328+00:00",
-  "total": 3,
+  "generated": "2026-11-21T13:54:45.291000+00:00",
+  "total": 1,
   "items": [
-    {
-      "id": "c25e5fbd908e",
-      "title": "Bitwarden expands passkey support with new Windows and macOS integrations",
-      "url": "https://www.helpnetsecurity.com/2026/11/19/bitwarden-windows-macos-passkeys-integration/",
-      "summary": "Bitwarden announced expanded passkey integrations across Windows and macOS, making it easier to access Bitwarden and use passkeys through native operating system authentication. Users can log in to Bitwarden and unlock their vaults using passkeys verified thr…",
-      "source": "Help Net Security",
-      "category": "Security News",
-      "section": "news",
-      "tags": [
-        "Authentication"
-      ],
-      "published": "2026-11-19T10:39:33+00:00"
-    },
-    {
-      "id": "4c94531686dd",
-      "title": "NVIDIA investigating Gentlemen ransomware breach claims",
-      "url": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
-      "summary": "NVIDIA is investigating claims of a security breach after the Gentlemen ransomware group has added the company to its dark web data leak site. [...]",
-      "source": "BleepingComputer",
-      "category": "Vendor",
-      "section": "vendor",
-      "tags": [
-        "IGA",
-        "Threat"
-      ],
-      "published": "2026-11-19T09:23:21+00:00"
-    },
     {
       "id": "93e0f66500f5",
       "title": "Ory Hydra: Open-source OAuth 2.0 server and OpenID Connect provider",
@@ -44,26 +17,13 @@
     }
   ],
   "tag_index": {
-    "Authentication": [
-      "c25e5fbd908e"
-    ],
-    "IGA": [
-      "4c94531686dd"
-    ],
-    "Threat": [
-      "4c94531686dd"
-    ],
     "Standards & Protocols": [
       "93e0f66500f5"
     ]
   },
   "category_index": {
     "Security News": [
-      "c25e5fbd908e",
       "93e0f66500f5"
-    ],
-    "Vendor": [
-      "4c94531686dd"
     ]
   }
 }
