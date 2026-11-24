@@ -1,29 +1,37 @@
 {
-  "generated": "2026-11-23T16:52:12.951682+00:00",
+  "generated": "2026-11-24T16:43:12.938078+00:00",
   "total": 1,
   "items": [
     {
-      "id": "93e0f66500f5",
-      "title": "Ory Hydra: Open-source OAuth 2.0 server and OpenID Connect provider",
-      "url": "https://www.helpnetsecurity.com/2026/11/16/ory-hydra-oauth-server-open-source/",
-      "summary": "Ory Hydra is an open-source OAuth 2.0 server and OpenID Connect provider. Ory built it to issue and validate tokens, register client applications, and manage the keys that sign those tokens. Hydra stores no usernames or passwords, so logins stay with whatever…",
+      "id": "8348ca5d56b5",
+      "title": "Attackers exploited Microsoft Entra Connect Health flaw to access tenant data",
+      "url": "https://www.helpnetsecurity.com/2026/11/23/microsoft-entra-connect-health-vulnerability-tenant-data/",
+      "summary": "Attackers exploited a vulnerability in the Microsoft Entra Connect Health API to read the technical contact email addresses and configuration details of Entra tenants, the company warned affected organizations. Microsoft Entra Connect Health is a cloud-based …",
       "source": "Help Net Security",
       "category": "Security News",
-      "section": "news",
+      "section": "vendor",
       "tags": [
-        "Standards & Protocols"
+        "Threat",
+        "Vendor News",
+        "Vulnerability"
       ],
-      "published": "2026-11-16T06:00:29+00:00"
+      "published": "2026-11-23T10:34:01+00:00"
     }
   ],
   "tag_index": {
-    "Standards & Protocols": [
-      "93e0f66500f5"
+    "Threat": [
+      "8348ca5d56b5"
+    ],
+    "Vendor News": [
+      "8348ca5d56b5"
+    ],
+    "Vulnerability": [
+      "8348ca5d56b5"
     ]
   },
   "category_index": {
     "Security News": [
-      "93e0f66500f5"
+      "8348ca5d56b5"
     ]
   }
 }
